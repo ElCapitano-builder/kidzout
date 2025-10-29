@@ -3,5 +3,10 @@
   <body>
     <h1>kidzout</h1>
     <p><a href="data.json">data.json</a></p>
+    <p>Letztes Update: <script>
+      fetch('data.json').then(r=>r.json()).then(j=>{
+        document.write(new Date(j.lastCrawled).toLocaleString());
+      });
+    </script></p>
   </body>
 </html>
