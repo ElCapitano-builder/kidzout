@@ -143,4 +143,5 @@
   "lastCrawled": "2024-11-15T12:00:00Z"
 }
 
+
 const EVENTS_URL = `https://elcapitano-builder.github.io/kidzout/data.json?t=${Date.now()}`;
