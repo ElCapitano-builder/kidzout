@@ -1,147 +1,24 @@
 {
+  "locations": [],
+  "events": [],
+  "lastCrawled": "2025-10-30T08:44:31.957386+00:00",
   "metadata": {
     "version": "1.0",
-    "lastCrawled": "2024-11-15T12:00:00Z",
+    "lastCrawled": "2025-10-30T08:44:31.957408+00:00",
     "totalLocations": 0,
-    "totalEvents": 5,
-    "sources": ["manual"]
-  },
-  "locations": [],
-  "events": [
-    {
-      "id": "ev-tollwood-2024",
-      "name": "Tollwood Winterfestival - Kinderprogramm",
-      "nameKids": "Basteln & Karussell beim Tollwood!",
-      "date": "2024-11-26",
-      "endDate": "2024-12-31",
-      "category": "event",
-      "ageGroups": ["3-6", "6-9", "9-12"],
-      "description": "Das Tollwood Winterfestival bietet ein buntes Kinderprogramm mit Bastelwerkstatt, Kindertheater und Karussells.",
-      "city": "München",
-      "location": "Theresienwiese",
-      "weatherDependent": "indoor",
-      "energyLevel": "moderat",
-      "parentTips": [
-        "Wochenends sehr voll - besser unter der Woche",
-        "Viele Workshops kosten extra (3-8€)",
-        "U-Bahn Theresienwiese direkt vor Ort"
+    "totalEvents": 0,
+    "sources": {
+      "rss": [],
+      "html": [
+        {
+          "url": "https://www.muenchen.de/veranstaltungen/event/kinder",
+          "selector": "article, .event-item, .teaser",
+          "date_selector": "time, .date",
+          "title_selector": "h2, h3, .title",
+          "desc_selector": "p, .description"
+        }
       ],
-      "price": {
-        "kids": 0,
-        "note": "Eintritt frei, Aktivitäten kostenpflichtig"
-      },
-      "link": "https://www.tollwood.de",
-      "source": "manual"
-    },
-    {
-      "id": "ev-deutsches-museum-kinderreich",
-      "name": "Kinderreich im Deutschen Museum",
-      "nameKids": "Experimentier-Spaß im Museum!",
-      "date": "2024-11-15",
-      "endDate": "2024-12-31",
-      "category": "museum",
-      "ageGroups": ["3-6", "6-9"],
-      "description": "Das Kinderreich bietet Experimentier-Stationen speziell für Kinder von 3-8 Jahren.",
-      "city": "München",
-      "location": "Museumsinsel",
-      "weatherDependent": "indoor",
-      "energyLevel": "moderat",
-      "parentTips": [
-        "Vormittags weniger voll",
-        "Kinderreich kostet 3€ extra zum Museumseintritt",
-        "Mindestens 2 Stunden einplanen"
-      ],
-      "price": {
-        "kids": 8,
-        "adults": 15,
-        "note": "Kinderreich +3€"
-      },
-      "link": "https://www.deutsches-museum.de",
-      "source": "manual"
-    },
-    {
-      "id": "ev-kasperle-nov",
-      "name": "Kasperletheater im Kleinen Theater",
-      "nameKids": "Kasperle-Abenteuer! 🎭",
-      "date": "2024-11-16",
-      "time": "15:00",
-      "category": "theater",
-      "ageGroups": ["3-6", "6-9"],
-      "description": "Der Kasperle und seine Freunde erleben spannende Abenteuer. Mitmachen erwünscht!",
-      "city": "München",
-      "location": "Kleines Theater Haar",
-      "weatherDependent": "indoor",
-      "energyLevel": "ruhig",
-      "parentTips": [
-        "Rechtzeitig da sein für gute Plätze",
-        "Dauer ca. 45 Minuten",
-        "Parkplätze direkt am Theater"
-      ],
-      "price": {
-        "kids": 8,
-        "adults": 10
-      },
-      "bookingRequired": true,
-      "link": "https://www.kleinestheaterhaar.de",
-      "source": "manual"
-    },
-    {
-      "id": "ev-christkindlmarkt-2024",
-      "name": "Christkindlmarkt am Marienplatz",
-      "nameKids": "Weihnachtsmarkt mit Karussell!",
-      "date": "2024-11-27",
-      "endDate": "2024-12-24",
-      "category": "event",
-      "ageGroups": ["3-6", "6-9", "9-12"],
-      "description": "Der traditionelle Christkindlmarkt mit Kinderkarussell, Lebkuchen und Bastelständen.",
-      "city": "München",
-      "location": "Marienplatz",
-      "weatherDependent": "any",
-      "energyLevel": "ruhig",
-      "parentTips": [
-        "Nachmittags unter der Woche weniger voll",
-        "Warme Kleidung nicht vergessen",
-        "Kinderpunsch am Stand neben dem Rathaus"
-      ],
-      "price": {
-        "kids": 0,
-        "note": "Eintritt frei, Karussell 2-3€"
-      },
-      "link": "https://www.muenchen.de/christkindlmarkt",
-      "source": "manual"
-    },
-    {
-      "id": "ev-kinderkonzert-gasteig",
-      "name": "Kinderkonzert: Peter und der Wolf",
-      "nameKids": "Musik-Abenteuer! 🎵",
-      "date": "2024-11-17",
-      "time": "11:00",
-      "category": "musik",
-      "ageGroups": ["6-9", "9-12"],
-      "description": "Die Münchner Philharmoniker spielen Prokofjews 'Peter und der Wolf' - kindgerecht moderiert.",
-      "city": "München",
-      "location": "Gasteig HP8",
-      "weatherDependent": "indoor",
-      "energyLevel": "ruhig",
-      "parentTips": [
-        "Dauer ca. 60 Minuten mit Pause",
-        "Instrumente werden vorgestellt",
-        "Café im Gasteig für danach"
-      ],
-      "price": {
-        "kids": 8,
-        "adults": 15,
-        "family": 35
-      },
-      "bookingRequired": true,
-      "bookingUrl": "https://www.gasteig.de",
-      "link": "https://www.gasteig.de",
-      "source": "manual"
+      "ical": []
     }
-  ],
-  "totalEvents": 5,
-  "lastCrawled": "2024-11-15T12:00:00Z"
+  }
 }
-
-
-const EVENTS_URL = `https://elcapitano-builder.github.io/kidzout/data.json?t=${Date.now()}`;
