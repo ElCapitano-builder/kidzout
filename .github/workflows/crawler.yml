@@ -2,20 +2,25 @@ name: Event Crawler
 
 on:
   schedule:
-    - cron: '0 6,18 * * *'
+    - cron: '0 6,18 * * *'   # 06:00 & 18:00 UTC
   workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: kidzout-crawler
+  cancel-in-progress: true
+
 jobs:
   crawl:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout (full history)
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0          # wichtig fürs Pull/Rebase
+          fetch-depth: 0
           ref: main
 
       - name: Setup Python
@@ -29,15 +34,19 @@ jobs:
       - name: Run crawler
         run: python crawler.py
 
-      # ➜ NEU: Rebase auf aktuellen Remote-Stand, damit der Push nicht scheitert
-      - name: Pull latest (rebase)
+      # WICHTIG: erst committen, dann rebasen, dann pushen
+      - name: Commit & push changes (with rebase)
         run: |
+          set -e
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin main
 
-      - name: Commit changes (if any)
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: 'Update events data'
-          skip_dirty_check: false   # nur committen, wenn sich was geändert hat
+          # Dateien zum Commit vormerken; wenn nichts geändert, macht commit keinen Fehler
+          git add data.json || true
+          git commit -m "Update events data" || echo "No changes to commit"
+
+          # Rebase auf aktuellem Remote-Stand (verhindert non-fast-forward)
+          git pull --rebase origin main || true
+
+          # Pushen (funktioniert auch, wenn es nichts Neues gab)
+          git push origin HEAD:main
