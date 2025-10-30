@@ -1,24 +1,20 @@
 {
-  "rss": [
-    "https://www.muenchen.de/rss/veranstaltungen.html"
-  ],
+  "rss": [],
   "html": [
     {
-      "url": "https://www.kindaling.de/veranstaltungen/muenchen",
-      "selector": "article.event-card, .event-item",
-      "date_selector": ".date, time",
-      "title_selector": "h3, .title",
-      "desc_selector": ".description, .teaser"
+      "url": "https://www.muenchen.de/veranstaltungen/event/kinder",
+      "selector": "article.m-teaser, .m-event-teaser, .teaser",
+      "date_selector": ".m-teaser__date, time, .date",
+      "title_selector": ".m-teaser__headline, h2, h3",
+      "desc_selector": ".m-teaser__text, .description, p"
     },
     {
-      "url": "https://www.muenchenmitkind.de/veranstaltungskalender/",
-      "selector": ".event, article",
-      "date_selector": ".event-date, time",
-      "title_selector": "h2, h3",
-      "desc_selector": "p"
+      "url": "https://www.muenchen.de/freizeit/veranstaltungen/kinderveranstaltungen",
+      "selector": ".event-item, article, .list-item",
+      "date_selector": "time, .event-date",
+      "title_selector": "h3, .title",
+      "desc_selector": ".teaser-text, p"
     }
   ],
-  "ical": [
-    "https://www.google.com/calendar/ical/muenchen.de_veranstaltungen@group.calendar.google.com/public/basic.ics"
-  ]
+  "ical": []
 }
