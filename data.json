@@ -485,6 +485,25 @@
       "lastUpdated": "2025-10-30T08:07:02.817291+00:00"
     }
   ],
-  "lastCrawled": "2025-10-30T08:27:49.693674+00:00",
-  "totalEvents": 21
+  "lastCrawled": "2025-10-30T08:34:14.215011+00:00",
+  "totalEvents": 21,
+  "metadata": {
+    "version": "1.0",
+    "lastCrawled": "2025-10-30T08:34:14.215034+00:00",
+    "totalLocations": 0,
+    "totalEvents": 0,
+    "sources": {
+      "rss": [],
+      "html": [
+        {
+          "url": "https://www.muenchen.de/veranstaltungen/event/kinder",
+          "selector": "article, .event-item, .teaser",
+          "date_selector": "time, .date",
+          "title_selector": "h2, h3, .title",
+          "desc_selector": "p, .description"
+        }
+      ],
+      "ical": []
+    }
+  }
 }
