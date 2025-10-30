@@ -2,7 +2,7 @@ name: Event Crawler
 
 on:
   schedule:
-    - cron: '0 6,18 * * *'  # 2x täglich
+    - cron: '0 7,19 * * *'  # 2x täglich
   workflow_dispatch:  # Manueller Start möglich
 
 permissions:
@@ -18,7 +18,7 @@ jobs:
         with:
           python-version: '3.11'
 
-      - run: pip install requests beautifulsoup4
+      - run: pip install requests beautifulsoup4 feedparser python-dateutil icalendar
       - run: python crawler.py
 
       - uses: stefanzweifel/git-auto-commit-action@v4
