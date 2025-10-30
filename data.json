@@ -2,15 +2,15 @@
   "locations": [],
   "events": [
     {
-      "id": "auto-20251029",
+      "id": "auto-20251030",
       "name": "Kindertheater im Gasteig",
-      "date": "2025-10-29",
+      "date": "2025-10-30",
       "category": "theater",
       "description": "Automatisch gefunden!",
       "source": "crawler",
-      "lastUpdated": "2025-10-29T18:52:33.716419"
+      "lastUpdated": "2025-10-30T06:53:42.087710"
     }
   ],
-  "lastCrawled": "2025-10-29T18:52:33.716475",
+  "lastCrawled": "2025-10-30T06:53:42.087773",
   "totalEvents": 1
 }
