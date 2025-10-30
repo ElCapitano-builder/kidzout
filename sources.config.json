@@ -1,16 +1,49 @@
 {
   "rss": [
-    "https://hnrss.org/frontpage"
+    "https://www.muenchen.de/rss/veranstaltungen.html"
   ],
   "html": [
     {
-      "url": "https://www.muenchen.de/veranstaltungen/event/kinder",
-      "selector": "article, .teaser, .event, .list-item",
-      "date_selector": "time[datetime]",
-      "title_selector": null,
-      "link_selector": null,
-      "desc_selector": null
+      "url": "https://www.kindaling.de/veranstaltungen/muenchen",
+      "selector": "article.event-card, .event-item",
+      "date_selector": ".date, time",
+      "title_selector": "h3, .title",
+      "desc_selector": ".description, .teaser"
+    },
+    {
+      "url": "https://www.muenchenmitkind.de/veranstaltungskalender/",
+      "selector": ".event, article",
+      "date_selector": ".event-date, time",
+      "title_selector": "h2, h3",
+      "desc_selector": "p"
     }
   ],
-  "ical": []
+  "ical": [
+    "https://www.google.com/calendar/ical/muenchen.de_veranstaltungen@group.calendar.google.com/public/basic.ics"
+  ]
 }
+```
+
+### **Step 2: Prompt für lovable.dev - Events anzeigen**
+```
+Die Crawler-Daten sind jetzt unter https://elcapitano-builder.github.io/kidzout/data.json verfügbar.
+
+1. Lade beim App-Start die externen Daten:
+   - Fetch von https://elcapitano-builder.github.io/kidzout/data.json
+   - Speichere events Array aus der JSON
+   - Zeige die Events in einem neuen Bereich "🎉 Aktuelle Events"
+
+2. Event-Karten sollen zeigen:
+   - Name
+   - Datum (formatiert: "Sa, 16.11.")
+   - Beschreibung (erste 100 Zeichen)
+   - Link "Mehr erfahren →" öffnet source URL
+
+3. Fehlerbehandlung:
+   - Falls Laden fehlschlägt, zeige lokale Test-Events
+   - Zeige "Daten werden geladen..." während Fetch
+   - "Letzte Aktualisierung: [timestamp]" anzeigen
+
+4. In Settings:
+   - Zeige "Events geladen: [Anzahl]"
+   - Button "Daten jetzt aktualisieren"
