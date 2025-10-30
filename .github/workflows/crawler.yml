@@ -2,26 +2,42 @@ name: Event Crawler
 
 on:
   schedule:
-    - cron: '0 7,19 * * *'  # 2x täglich
-  workflow_dispatch:  # Manueller Start möglich
+    - cron: '0 6,18 * * *'
+  workflow_dispatch:
 
 permissions:
-  contents: write  # erlaubt Auto-Commit
+  contents: write
 
 jobs:
   crawl:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout (full history)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0          # wichtig fürs Pull/Rebase
+          ref: main
 
-      - uses: actions/setup-python@v5
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - run: pip install requests beautifulsoup4 feedparser python-dateutil icalendar
-      - run: python crawler.py
+      - name: Install deps
+        run: pip install requests beautifulsoup4 feedparser python-dateutil icalendar
 
-      - uses: stefanzweifel/git-auto-commit-action@v4
+      - name: Run crawler
+        run: python crawler.py
+
+      # ➜ NEU: Rebase auf aktuellen Remote-Stand, damit der Push nicht scheitert
+      - name: Pull latest (rebase)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main
+
+      - name: Commit changes (if any)
+        uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: 'Update events data'
-          skip_dirty_check: false
+          skip_dirty_check: false   # nur committen, wenn sich was geändert hat
