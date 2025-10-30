@@ -226,7 +226,9 @@ def get_events_from_all_sources() -> list[dict]:
     # RSS
     for url in cfg.get("rss", []):
         try:
-            events.extend(harvest_rss(url))
+            chunk = harvest_rss(url)
+            print(f"RSS OK: {url} → {len(chunk)} Events")     # <- Änderung #4: Logging
+            events.extend(chunk)
         except Exception as e:
             logging.error(f"RSS-Fehler {url}: {e}")
         ratelimit_sleep()
@@ -237,7 +239,9 @@ def get_events_from_all_sources() -> list[dict]:
             url = item["url"]
             selector = item["selector"]
             date_selector = item.get("date_selector")
-            events.extend(harvest_html(url, selector, date_selector))
+            chunk = harvest_html(url, selector, date_selector)
+            print(f"HTML OK: {url} → {len(chunk)} Events")    # <- Änderung #4: Logging
+            events.extend(chunk)
         except Exception as e:
             logging.error(f"HTML-Fehler {item}: {e}")
         ratelimit_sleep()
@@ -245,7 +249,9 @@ def get_events_from_all_sources() -> list[dict]:
     # iCal
     for url in cfg.get("ical", []):
         try:
-            events.extend(harvest_ical(url))
+            chunk = harvest_ical(url)
+            print(f"ICAL OK: {url} → {len(chunk)} Events")    # <- Änderung #4: Logging
+            events.extend(chunk)
         except Exception as e:
             logging.error(f"ICAL-Fehler {url}: {e}")
         ratelimit_sleep()
@@ -266,14 +272,19 @@ def main():
     except Exception:
         data = {"locations": [], "events": []}
 
-    data["events"] = sorted(events, key=lambda e: (e["date"], e["name"]))
+    # -------- Änderung #2: Nur überschreiben, wenn Events vorhanden --------
+    if events:
+        data["events"] = sorted(events, key=lambda e: (e["date"], e["name"]))
+        data["totalEvents"] = len(events)
+        print(f"✅ {len(events)} Events gespeichert")
+    else:
+        print("⚠️ 0 Events gefunden – behalte bestehende data.json bei")
+
+    # lastCrawled immer aktualisieren, damit sichtbar ist, dass der Job lief
     data["lastCrawled"] = now_iso()
-    data["totalEvents"] = len(events)
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
-
-    print(f"✅ {len(events)} Events gespeichert")
 
 if __name__ == "__main__":
     main()
