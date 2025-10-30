@@ -1,8 +1,16 @@
 {
-  "url": "https://www.muenchen.de/veranstaltungen/event/kinder",
-  "selector": "div.list-item",                   
-  "date_selector": "time[datetime]",              
-  "title_selector": "a.headline",                
-  "link_selector": "a.headline",                 
-  "desc_selector": null                           
+  "rss": [
+    "https://hnrss.org/frontpage"
+  ],
+  "html": [
+    {
+      "url": "https://www.muenchen.de/veranstaltungen/event/kinder",
+      "selector": "article, .teaser, .event, .list-item",
+      "date_selector": "time[datetime]",
+      "title_selector": null,
+      "link_selector": null,
+      "desc_selector": null
+    }
+  ],
+  "ical": []
 }
