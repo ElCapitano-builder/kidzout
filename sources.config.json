@@ -1,20 +1,517 @@
 {
-  "rss": [],
   "html": [
     {
-      "url": "https://www.muenchen.de/veranstaltungen/event/kinder",
-      "selector": "article.m-teaser, .m-event-teaser, .teaser",
-      "date_selector": ".m-teaser__date, time, .date",
-      "title_selector": ".m-teaser__headline, h2, h3",
-      "desc_selector": ".m-teaser__text, .description, p"
+      "url": "https://spielplatztreff.de/muenchen",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
     },
     {
-      "url": "https://www.muenchen.de/freizeit/veranstaltungen/kinderveranstaltungen",
-      "selector": ".event-item, article, .list-item",
-      "date_selector": "time, .event-date",
-      "title_selector": "h3, .title",
-      "desc_selector": ".teaser-text, p"
+      "url": "https://www.kindaling.de/halloween/kids-halloween-breakfast-at-the-hard-rock-cafe-muenchen-altstadt-lehel/muenchen-altstadt-lehel",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.allianzarena.com/de/events",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://muenchenmitkind.de/veranstaltungskalender/kleine-klanglichter-2025-10-30/",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://muenchenmitkind.de/veranstaltungskalender/familienfuehrung-durch-die-pumuckl-ausstellung-2025-10-30/",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.landkreis-ffb.de/aktuelles/veranstaltungen/",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.pullach.de/veranstaltungen/",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.boulderwelt-muenchen.de/kids",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.pomki.de/veranstaltungen",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.tierpark-hellabrunn.de/aktuelles",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.garching.de/veranstaltungen",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.kimapa.de/muenchen",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "http://www.muema-theater.de/",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://eso.org/public/germany/venues/visit/eso-supernova/",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.schauburg.net",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.kindaling.de/kreatives/offenes-atelier-feierwerk-funkstation/muenchen-schwabing-freimann",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.kindaling.de/muenchen",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.airbnb.de/experiences/online?location=Munich",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.walderlebniszentrum-gruenwald.de",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.lk-starnberg.de/Veranstaltungen",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.feierwerk.de/kinder-jugend-familie/dschungelpalast/",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.muenchenticket.de/guide/kinder",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.muenchner-stadtbibliothek.de/veranstaltungen",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.olympiapark.de/de/veranstaltungen",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.wildpark-poing.de",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.mtfk.de",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.muenchen.de/freizeit/orte/langwieder-see.html",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.muenchen.de/freizeit/orte/lerchenauer-see.html",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.muenchenticket.de/event/der-froschkoenig-33811/",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.flughafen-muenchen.de/besucherpark",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.kindaling.de/sonstige-veranstaltungen/stadtfuehrungen-fuer-kinder-in-muenchen/muenchen-altstadt-lehel",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.eventbrite.de/d/germany--munich/kids/",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.starnbergammersee.de/veranstaltungen",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.muenchen.de/freizeit/orte/isarboulevard.html",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://muenchenmitkind.de/veranstaltungskalender",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.getyourguide.de/muenchen-l26/",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.gauting.de/veranstaltungen/",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.neubiberg.de/veranstaltungskalender",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.lesefuechse.org/aktuelles/",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.muenchen.de/veranstaltungen/kinder",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.musenkuss-muenchen.de/angebote/open-haus-frei-rein-fein-raus",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.viator.com/de-DE/Munich/d487-ttd",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.muenchen.de/freizeit/orte/westpark.html",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.unterhaching.de/veranstaltungen",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.muenchenticket.de/event/ali-baba-und-die-40-raeuber-29587/",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.muenchen.de/freizeit/orte/feringasee.html",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.muenchen.de/freizeit/orte/englischer-garten.html",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.kindermuseum-muenchen.de",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.schauburg.net/spielplan",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.mtfk.de/spielplan/",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "http://www.mamilade.de/bayern/muenchen",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.ismaning.de/kultur-bildung/veranstaltungen/",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.kindaling.de/kino/pumuckl-und-das-grosse-missverstaendnis/muenchen-neuhausen-nymphenburg",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.planegg.de/Veranstaltungen",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.musenkuss-muenchen.de/angebote/iz-art-kunstatelier-schwabing",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.musenkuss-muenchen.de/angebote/familien",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://famizeit.de/muenchen",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.freising.de/veranstaltungen",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.bmw-welt.com/de/events/junior.html",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.ferien-muenchen.de",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://muenchenmitkind.de/veranstaltungskalender/erde-geburt-eines-planeten-2025-10-30/",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.erding.de/veranstaltungen",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.ichspringimdreieck.de/veranstaltungen",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.kindaling.de/kreatives/mini-musikwerkstatt/muenchen-thalk-obers-fuerst-forst-solln",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.muenchenticket.de/event/pettersson-feiert-weihnachten-19471/",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.bavaria-filmstadt.de",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.sealife.de/muenchen",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.lra-dah.bayern.de/Buergerservice/Kultur-Bildung/Veranstaltungen.php",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.ottobrunn.de/veranstaltungen",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://muenchenmitkind.de/veranstaltungskalender/familien-fruehstueck-2025-10-30/",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.deutsches-museum.de/kids",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.kinderkunsthaus.de/programm",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
+    },
+    {
+      "url": "https://www.lra-ebe.de/veranstaltungen/",
+      "selector": "article, .event, .teaser, .list-item, .card",
+      "date_selector": "time, .date, .datum, .termin",
+      "title_selector": "h1, h2, h3, .title, .headline",
+      "desc_selector": "p, .description, .text, .teaser"
     }
   ],
+  "rss": [],
   "ical": []
 }
