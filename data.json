@@ -1,24 +1,203 @@
 {
   "locations": [],
-  "events": [],
-  "lastCrawled": "2025-10-31T20:44:01.144593+00:00",
+  "events": [
+    {
+      "id": "ev-173bfe1ff88b8444",
+      "name": "1 - 100 von 420 Veranstaltungen",
+      "date": "2025-10-31",
+      "endDate": null,
+      "time": null,
+      "category": "museum",
+      "description": "1 - 100 von 420 Veranstaltungen 31 Okt. bis 21 Juni Kindheit am Nil - Aufwachsen im Alten Ägypten Fr.           31.10.2025           10:00 - 18:00 Uhr Museum Ägyptischer Kunst 31 Okt. bis 15 Febr. Seth's SPIEL(T)RÄUME Fr.           31.10.2025           10:00 - 18:00 Uhr KUNSTLABOR 2 31 Okt. bis 23 Nov. Bau mit! München baut Fr.           31.10.2025           14:00 - 19:00 Uhr Kindermuseum München 31 Okt. bis 19 Dez. Wow! Nachrichten aus dem All Fr.           31.10.2025           15:00 - 16:30 Uh",
+      "city": "München",
+      "region": "BY",
+      "country": "DE",
+      "bookingRequired": false,
+      "bookingUrl": null,
+      "price": {
+        "kids": null,
+        "adults": null,
+        "family": null,
+        "note": "Preis auf Webseite prüfen"
+      },
+      "source": "https://www.muenchen.de/veranstaltungen/kinder",
+      "link": "https://www.muenchen.de/veranstaltungen/ausstellungen/kinder/kindheit-am-nil-%C3%A4gyptisches-museum",
+      "lastUpdated": "2025-10-31T21:05:15.164360+00:00",
+      "nameKids": "🏛️ 1 - 100 von 420 Veranstaltungen",
+      "ageGroups": [
+        "3-6",
+        "6-9"
+      ],
+      "parentTips": [
+        "Rechtzeitig da sein - beliebte Events sind schnell voll",
+        "Snacks und Getränke mitbringen",
+        "Mit Öffis anreisen wenn möglich"
+      ],
+      "weatherDependent": "indoor",
+      "energyLevel": "moderat"
+    },
+    {
+      "id": "ev-fa2729af76d847d4",
+      "name": "Ausstellungen",
+      "date": "2025-10-31",
+      "endDate": null,
+      "time": null,
+      "category": "theater",
+      "description": "Kategorie Ausstellungen Ballet Basketball Blues Bob- & Schlittensport Chanson Zirkus Kongresse Country Electronic Experimentelles Theater Folk Fußball Freizeitsport Funk / Soul / Jazz Gospel House / Electro / Techno Independent Latin Laufen Liedermacher Marionettentheater Märkte Vermischtes Münchner Philharmoniker Silvesterparty Philharmoniker Punk Reggae Rock / Indie / Alternative Seminare Soul UEFA Champions League Finale UEFA Champions League Finale 2025 Varieté / Revue Ball / Gala Brauchtum",
+      "city": "München",
+      "region": "BY",
+      "country": "DE",
+      "bookingRequired": false,
+      "bookingUrl": null,
+      "price": {
+        "kids": null,
+        "adults": null,
+        "family": null,
+        "note": "Preis auf Webseite prüfen"
+      },
+      "source": "https://www.muenchen.de/veranstaltungen/kinder",
+      "link": "https://www.muenchen.de/veranstaltungen/kinder",
+      "lastUpdated": "2025-10-31T21:05:15.167528+00:00",
+      "nameKids": "🎭 Ausstellungen",
+      "ageGroups": [
+        "3-6",
+        "6-9"
+      ],
+      "parentTips": [
+        "Rechtzeitig da sein - beliebte Events sind schnell voll",
+        "Snacks und Getränke mitbringen",
+        "Mit Öffis anreisen wenn möglich"
+      ],
+      "weatherDependent": "indoor",
+      "energyLevel": "aktiv"
+    },
+    {
+      "id": "ev-eae81860186b03b1",
+      "name": "Kindheit am Nil - Aufwachsen im Alten Ägypten",
+      "date": "2025-10-31",
+      "endDate": null,
+      "time": null,
+      "category": "museum",
+      "description": "Kindheit am Nil - Aufwachsen im Alten Ägypten Fr.           31.10.2025           10:00 - 18:00 Uhr Museum Ägyptischer Kunst",
+      "city": "München",
+      "region": "BY",
+      "country": "DE",
+      "bookingRequired": false,
+      "bookingUrl": null,
+      "price": {
+        "kids": null,
+        "adults": null,
+        "family": null,
+        "note": "Preis auf Webseite prüfen"
+      },
+      "source": "https://www.muenchen.de/veranstaltungen/kinder",
+      "link": "https://www.muenchen.de/veranstaltungen/ausstellungen/kinder/kindheit-am-nil-%C3%A4gyptisches-museum",
+      "lastUpdated": "2025-10-31T21:05:15.167860+00:00",
+      "nameKids": "🏛️ Kindheit am Nil - Aufwachsen im Alten Ägypten",
+      "ageGroups": [
+        "3-6",
+        "6-9"
+      ],
+      "parentTips": [
+        "Rechtzeitig da sein - beliebte Events sind schnell voll",
+        "Snacks und Getränke mitbringen",
+        "Mit Öffis anreisen wenn möglich"
+      ],
+      "weatherDependent": "indoor",
+      "energyLevel": "moderat"
+    },
+    {
+      "id": "ev-3e511bccbf576c60",
+      "name": "Seth's SPIEL(T)RÄUME",
+      "date": "2025-10-31",
+      "endDate": null,
+      "time": null,
+      "category": "museum",
+      "description": "31 Okt. bis 15 Febr. Seth's SPIEL(T)RÄUME Fr.           31.10.2025           10:00 - 18:00 Uhr KUNSTLABOR 2",
+      "city": "München",
+      "region": "BY",
+      "country": "DE",
+      "bookingRequired": false,
+      "bookingUrl": null,
+      "price": {
+        "kids": null,
+        "adults": null,
+        "family": null,
+        "note": "Preis auf Webseite prüfen"
+      },
+      "source": "https://www.muenchen.de/veranstaltungen/kinder",
+      "link": "https://www.muenchen.de/veranstaltungen/ausstellungen/kinder/seths-spieltraeume",
+      "lastUpdated": "2025-10-31T21:05:15.168374+00:00",
+      "nameKids": "🎉 Seth's SPIEL(T)RÄUME",
+      "ageGroups": [
+        "3-6",
+        "6-9"
+      ],
+      "parentTips": [
+        "Rechtzeitig da sein - beliebte Events sind schnell voll",
+        "Snacks und Getränke mitbringen",
+        "Mit Öffis anreisen wenn möglich"
+      ],
+      "weatherDependent": "any",
+      "energyLevel": "moderat"
+    },
+    {
+      "id": "ev-e5c9c71f3ca309fd",
+      "name": "Veranstaltungskalender für Kinder in München",
+      "date": "2025-10-31",
+      "endDate": null,
+      "time": null,
+      "category": "theater",
+      "description": "Veranstaltungskalender für Kinder in München Zeitraum von Datum Zeitraum bis Datum Kategorie Ausstellungen Ballet Basketball Blues Bob- & Schlittensport Chanson Zirkus Kongresse Country Electronic Experimentelles Theater Folk Fußball Freizeitsport Funk / Soul / Jazz Gospel House / Electro / Techno Independent Latin Laufen Liedermacher Marionettentheater Märkte Vermischtes Münchner Philharmoniker Silvesterparty Philharmoniker Punk Reggae Rock / Indie / Alternative Seminare Soul UEFA Champions Lea",
+      "city": "München",
+      "region": "BY",
+      "country": "DE",
+      "bookingRequired": false,
+      "bookingUrl": null,
+      "price": {
+        "kids": null,
+        "adults": null,
+        "family": null,
+        "note": "Preis auf Webseite prüfen"
+      },
+      "source": "https://www.muenchen.de/veranstaltungen/kinder",
+      "link": "https://www.muenchen.de/veranstaltungen/kinder",
+      "lastUpdated": "2025-10-31T21:05:15.162141+00:00",
+      "nameKids": "🎭 Veranstaltungskalender für Kinder in München",
+      "ageGroups": [
+        "3-6",
+        "6-9"
+      ],
+      "parentTips": [
+        "Rechtzeitig da sein - beliebte Events sind schnell voll",
+        "Snacks und Getränke mitbringen",
+        "Mit Öffis anreisen wenn möglich"
+      ],
+      "weatherDependent": "indoor",
+      "energyLevel": "aktiv"
+    }
+  ],
+  "lastCrawled": "2025-10-31T21:05:16.157539+00:00",
   "metadata": {
     "version": "1.0",
-    "lastCrawled": "2025-10-31T20:44:01.144614+00:00",
+    "lastCrawled": "2025-10-31T21:05:16.157553+00:00",
     "totalLocations": 0,
-    "totalEvents": 0,
+    "totalEvents": 5,
     "sources": {
-      "rss": [],
+      "rss": [
+        "https://www.muenchen.de/system/feeds/veranstaltungen/kinder.rss"
+      ],
       "html": [
         {
-          "url": "https://www.muenchen.de/veranstaltungen/event/kinder",
-          "selector": "article, .event-item, .teaser",
+          "url": "https://www.muenchen.de/veranstaltungen/kinder",
+          "selector": "article, .m-teaser, .event",
           "date_selector": "time, .date",
-          "title_selector": "h2, h3, .title",
-          "desc_selector": "p, .description"
+          "title_selector": "h2, h3, .m-teaser__headline",
+          "desc_selector": "p, .m-teaser__text"
         }
       ],
       "ical": []
     }
-  }
+  },
+  "totalEvents": 5
 }
