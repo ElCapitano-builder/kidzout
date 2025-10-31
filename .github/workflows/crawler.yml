@@ -2,51 +2,40 @@ name: Event Crawler
 
 on:
   schedule:
-    - cron: '0 6,18 * * *'   # 06:00 & 18:00 UTC
+    - cron: '0 6,18 * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
 
-concurrency:
-  group: kidzout-crawler
-  cancel-in-progress: true
-
 jobs:
   crawl:
     runs-on: ubuntu-latest
-
+    
     steps:
-      - name: Checkout (full history)
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
           ref: main
-
+      
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
+      
       - name: Install deps
-        run: pip install requests beautifulsoup4 feedparser python-dateutil icalendar
-
+        run: pip install requests beautifulsoup4 feedparser python-dateutil
+      
       - name: Run crawler
+        env:
+          EVENTBRITE_TOKEN: ${{ secrets.EVENTBRITE_TOKEN }}  # NEU!
         run: python crawler.py
-
-      # WICHTIG: erst committen, dann rebasen, dann pushen
-      - name: Commit & push changes (with rebase)
+      
+      - name: Commit changes
         run: |
-          set -e
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          # Dateien zum Commit vormerken; wenn nichts geändert, macht commit keinen Fehler
-          git add data.json || true
-          git commit -m "Update events data" || echo "No changes to commit"
-
-          # Rebase auf aktuellem Remote-Stand (verhindert non-fast-forward)
-          git pull --rebase origin main || true
-
-          # Pushen (funktioniert auch, wenn es nichts Neues gab)
-          git push origin HEAD:main
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data.json
+          git commit -m "Update events data" || echo "No changes"
+          git pull --rebase origin main
+          git push
