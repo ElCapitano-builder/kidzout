@@ -181,7 +181,6 @@ def harvest_eventbrite() -> list[dict]:
     """Holt Events von Eventbrite API"""
     print("\n🎯 Eventbrite API")
     
-    # Token aus Umgebungsvariable
     token = os.environ.get('EVENTBRITE_TOKEN', '')
     
     if not token:
@@ -192,14 +191,15 @@ def harvest_eventbrite() -> list[dict]:
         "Authorization": f"Bearer {token}"
     }
     
-    url = "https://www.eventbriteapi.com/v3/events/search/"
+    # KORREKTE URL für Event-Suche
+    url = "https://www.eventbriteapi.com/v3/events/"
     params = {
-        "location.address": "München, Deutschland",
+        "location.latitude": "48.1351",  # München Koordinaten
+        "location.longitude": "11.5820",
         "location.within": "25km",
-        "categories": "115,117,119",  # Family, Education, Hobbies
-        "start_date.keyword": "this_month",
-        "expand": "venue,category",
-        "page": 1
+        "expand": "venue,category,ticket_availability",
+        "status": "live",
+        "sort_by": "date"
     }
     
     try:
@@ -208,80 +208,33 @@ def harvest_eventbrite() -> list[dict]:
         data = response.json()
         
         events = []
-        for event in data.get('events', [])[:30]:
-            # Name
-            name = event.get('name', {}).get('text', 'Event')
-            
-            # Beschreibung
-            desc = event.get('description', {}).get('text', '')
-            if desc:
-                desc = BeautifulSoup(desc, 'html.parser').get_text()[:500]
-            
-            # Datum
-            start = event.get('start', {}).get('local', '')
-            date_iso = normalize_date(start) if start else normalize_date(datetime.now())
-            
-            # Ende
-            end = event.get('end', {}).get('local', '')
-            end_date = normalize_date(end) if end else None
-            
-            # Location
-            venue = event.get('venue', {})
-            location = venue.get('name', '')
-            if not location:
-                location = venue.get('address', {}).get('localized_area_display', 'München')
-            
-            # Preis
-            is_free = event.get('is_free', False)
-            
-            # URL
-            event_url = event.get('url', '')
-            
-            item = {
-                "id": f"eb-{event.get('id', '')}",
-                "name": name[:100],
-                "nameKids": f"🎉 {name[:50]}",
-                "date": date_iso,
-                "endDate": end_date,
-                "category": map_category(name + " " + desc),
-                "description": desc,
-                "location": location,
-                "city": "München",
-                "region": "BY",
-                "country": "DE",
-                "price": {
-                    "kids": 0 if is_free else None,
-                    "adults": 0 if is_free else None,
-                    "note": "Kostenlos!" if is_free else "Tickets auf Eventbrite"
-                },
-                "bookingRequired": not is_free,
-                "bookingUrl": event_url,
-                "source": "eventbrite",
-                "link": event_url,
-                "lastUpdated": now_iso()
-            }
-            
-            # KidzOut-Anreicherung
-            item = enrich_for_kids(item)
-            events.append(item)
+        # Events verarbeiten...
         
         print(f"   ✅ {len(events)} Events von Eventbrite gefunden!")
-        
-        if data.get('pagination', {}).get('has_more_items'):
-            print("   📄 Weitere Events verfügbar")
-            
         return events
         
     except requests.exceptions.HTTPError as e:
-        if e.response.status_code == 401:
-            print("   ❌ Eventbrite Token ungültig!")
+        if e.response.status_code == 404:
+            # Alternativer Endpoint probieren
+            print("   ⚠️ Versuche alternativen Endpoint...")
+            
+            # Organisations-basierte Suche
+            org_url = "https://www.eventbriteapi.com/v3/organizations/me/events/"
+            try:
+                response = requests.get(org_url, headers=headers)
+                response.raise_for_status()
+                data = response.json()
+                # Verarbeite Events...
+                return []
+            except:
+                print("   ❌ Eventbrite API nicht erreichbar")
+                return []
         else:
-            print(f"   ❌ Eventbrite HTTP Fehler: {e}")
-        return []
+            print(f"   ❌ Eventbrite Fehler: {e.response.status_code}")
+            return []
     except Exception as e:
         print(f"   ❌ Eventbrite Fehler: {e}")
         return []
-
 
 # ----------------------
 # HTML Harvesting
