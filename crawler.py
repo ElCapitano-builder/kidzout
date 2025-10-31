@@ -2,6 +2,7 @@ import json
 import time
 import hashlib
 import logging
+import os
 from random import uniform
 from datetime import datetime, timezone
 from urllib.parse import urlparse, urljoin
@@ -19,7 +20,7 @@ CITY_DEFAULT = {"city": "München", "region": "BY", "country": "DE"}
 OUTPUT_FILE = "data.json"
 CONFIG_FILE = "sources_config.json"
 REQUEST_TIMEOUT = 20
-RATELIMIT_RANGE = (0.5, 1.0)   # Schneller
+RATELIMIT_RANGE = (0.5, 1.0)
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
 
@@ -42,9 +43,8 @@ def normalize_date(value) -> str:
         dt = value
     else:
         try:
-            # Deutsche Datumsformate verstehen
             date_str = str(value)
-            # Ersetze deutsche Monatsnamen
+            # Deutsche Monatsnamen ersetzen
             replacements = {
                 'Januar': 'January', 'Februar': 'February', 'März': 'March',
                 'April': 'April', 'Mai': 'May', 'Juni': 'June',
@@ -124,7 +124,6 @@ def enrich_for_kids(item):
         age_groups.append("9-12")
     
     if not age_groups:
-        # Standard basierend auf Kategorie
         if item['category'] in ['theater', 'museum']:
             age_groups = ["3-6", "6-9"]
         elif item['category'] in ['sport', 'kreativ']:
@@ -176,7 +175,116 @@ def enrich_for_kids(item):
 
 
 # ----------------------
-# Verbesserte HTML-Harvest Funktion
+# Eventbrite API
+# ----------------------
+def harvest_eventbrite() -> list[dict]:
+    """Holt Events von Eventbrite API"""
+    print("\n🎯 Eventbrite API")
+    
+    # Token aus Umgebungsvariable
+    token = os.environ.get('EVENTBRITE_TOKEN', '')
+    
+    if not token:
+        print("   ⚠️ Kein Eventbrite Token gefunden")
+        return []
+    
+    headers = {
+        "Authorization": f"Bearer {token}"
+    }
+    
+    url = "https://www.eventbriteapi.com/v3/events/search/"
+    params = {
+        "location.address": "München, Deutschland",
+        "location.within": "25km",
+        "categories": "115,117,119",  # Family, Education, Hobbies
+        "start_date.keyword": "this_month",
+        "expand": "venue,category",
+        "page": 1
+    }
+    
+    try:
+        response = requests.get(url, headers=headers, params=params)
+        response.raise_for_status()
+        data = response.json()
+        
+        events = []
+        for event in data.get('events', [])[:30]:
+            # Name
+            name = event.get('name', {}).get('text', 'Event')
+            
+            # Beschreibung
+            desc = event.get('description', {}).get('text', '')
+            if desc:
+                desc = BeautifulSoup(desc, 'html.parser').get_text()[:500]
+            
+            # Datum
+            start = event.get('start', {}).get('local', '')
+            date_iso = normalize_date(start) if start else normalize_date(datetime.now())
+            
+            # Ende
+            end = event.get('end', {}).get('local', '')
+            end_date = normalize_date(end) if end else None
+            
+            # Location
+            venue = event.get('venue', {})
+            location = venue.get('name', '')
+            if not location:
+                location = venue.get('address', {}).get('localized_area_display', 'München')
+            
+            # Preis
+            is_free = event.get('is_free', False)
+            
+            # URL
+            event_url = event.get('url', '')
+            
+            item = {
+                "id": f"eb-{event.get('id', '')}",
+                "name": name[:100],
+                "nameKids": f"🎉 {name[:50]}",
+                "date": date_iso,
+                "endDate": end_date,
+                "category": map_category(name + " " + desc),
+                "description": desc,
+                "location": location,
+                "city": "München",
+                "region": "BY",
+                "country": "DE",
+                "price": {
+                    "kids": 0 if is_free else None,
+                    "adults": 0 if is_free else None,
+                    "note": "Kostenlos!" if is_free else "Tickets auf Eventbrite"
+                },
+                "bookingRequired": not is_free,
+                "bookingUrl": event_url,
+                "source": "eventbrite",
+                "link": event_url,
+                "lastUpdated": now_iso()
+            }
+            
+            # KidzOut-Anreicherung
+            item = enrich_for_kids(item)
+            events.append(item)
+        
+        print(f"   ✅ {len(events)} Events von Eventbrite gefunden!")
+        
+        if data.get('pagination', {}).get('has_more_items'):
+            print("   📄 Weitere Events verfügbar")
+            
+        return events
+        
+    except requests.exceptions.HTTPError as e:
+        if e.response.status_code == 401:
+            print("   ❌ Eventbrite Token ungültig!")
+        else:
+            print(f"   ❌ Eventbrite HTTP Fehler: {e}")
+        return []
+    except Exception as e:
+        print(f"   ❌ Eventbrite Fehler: {e}")
+        return []
+
+
+# ----------------------
+# HTML Harvesting
 # ----------------------
 def harvest_html(url: str, selector: str, date_selector: str | None = None, 
                  title_selector: str | None = None, desc_selector: str | None = None) -> list[dict]:
@@ -192,35 +300,21 @@ def harvest_html(url: str, selector: str, date_selector: str | None = None,
         if page_title:
             print(f"   Seite: {page_title.text[:50]}")
         
-        # Erweiterte Selektoren für bessere Trefferquote
+        # Erweiterte Selektoren
         selectors_to_try = [
-            # Original
             selector,
-            # Allgemeine Event-Selektoren
             "div[class*='event']",
             "div[class*='veranstaltung']",
             "article[class*='event']",
             "article[class*='teaser']",
             "div[class*='teaser']",
             "div[class*='item']",
-            "div[class*='entry']",
             "div[class*='card']",
             "li[class*='event']",
-            "section[class*='event']",
-            # München.de spezifisch
-            "div.m-teaser",
-            "article.m-teaser",
-            ".event-list-item",
-            # Kindaling spezifisch  
+            ".m-teaser",
             ".event-card",
-            ".activity-card",
-            # Allgemeine Container
-            ".row .col",
             ".list-item",
-            ".post",
-            # Links zu Events
-            "a[href*='/event']",
-            "a[href*='/veranstaltung']"
+            "a[href*='/event']"
         ]
         
         found_elements = []
@@ -229,7 +323,7 @@ def harvest_html(url: str, selector: str, date_selector: str | None = None,
                 elements = soup.select(sel)
                 if elements:
                     print(f"   ✓ Gefunden mit '{sel}': {len(elements)} Elemente")
-                    found_elements.extend(elements[:10])  # Max 10 pro Selektor
+                    found_elements.extend(elements[:10])
                     if len(found_elements) > 30:
                         break
             except Exception:
@@ -244,69 +338,47 @@ def harvest_html(url: str, selector: str, date_selector: str | None = None,
                 seen.add(elem_text)
                 unique_elements.append(elem)
         
-        print(f"   📊 {len(unique_elements)} unique Elemente nach Deduplizierung")
+        print(f"   📊 {len(unique_elements)} unique Elemente")
         
-        # Fallback: Wenn nichts gefunden, suche alle Links mit relevanten Keywords
+        # Fallback
         if not unique_elements:
-            print("   ⚠️ Keine Elemente mit Selektoren gefunden, verwende Fallback...")
+            print("   ⚠️ Fallback: Suche Links mit Keywords")
             all_links = soup.find_all('a', href=True)
             for link in all_links:
                 text = link.get_text(strip=True)
-                href = link.get('href', '')
-                if any(keyword in text.lower() for keyword in ['kind', 'familie', 'event', 'workshop', 'kurs', 'theater', 'museum']):
-                    if len(text) > 20 and len(text) < 200:
+                if any(keyword in text.lower() for keyword in ['kind', 'familie', 'event', 'workshop']):
+                    if 20 < len(text) < 200:
                         unique_elements.append(link)
                         if len(unique_elements) >= 20:
                             break
-            print(f"   📊 {len(unique_elements)} Links mit Keywords gefunden")
         
-        # Extrahiere Events
+        # Events extrahieren
         events = []
         for elem in unique_elements[:30]:
             try:
-                # Titel finden - verschiedene Strategien
+                # Titel
                 title = ""
-                
-                # Strategie 1: Spezifische Title-Selektoren
                 if title_selector:
                     title_elem = elem.select_one(title_selector)
                     if title_elem:
                         title = title_elem.get_text(strip=True)
                 
-                # Strategie 2: Überschriften suchen
                 if not title:
-                    for tag in ['h1', 'h2', 'h3', 'h4', 'h5']:
+                    for tag in ['h1', 'h2', 'h3', 'h4']:
                         heading = elem.find(tag)
                         if heading:
                             title = heading.get_text(strip=True)
                             break
                 
-                # Strategie 3: Links mit Text
                 if not title:
                     link = elem.find('a')
                     if link:
                         title = link.get_text(strip=True)
                 
-                # Strategie 4: Klassen-basiert
-                if not title:
-                    for class_name in ['title', 'headline', 'name', 'event-title']:
-                        title_elem = elem.find(class_=lambda x: x and class_name in x)
-                        if title_elem:
-                            title = title_elem.get_text(strip=True)
-                            break
-                
-                # Strategie 5: Erster sinnvoller Text
-                if not title:
-                    texts = elem.stripped_strings
-                    for text in texts:
-                        if len(text) > 10 and len(text) < 100:
-                            title = text
-                            break
-                
                 if not title or len(title) < 5:
                     continue
                 
-                # Beschreibung finden
+                # Beschreibung
                 desc = ""
                 if desc_selector:
                     desc_elem = elem.select_one(desc_selector)
@@ -314,10 +386,9 @@ def harvest_html(url: str, selector: str, date_selector: str | None = None,
                         desc = desc_elem.get_text(strip=True)
                 
                 if not desc:
-                    all_text = elem.get_text(' ', strip=True)
-                    desc = all_text[:500]
+                    desc = elem.get_text(' ', strip=True)[:500]
                 
-                # Datum finden
+                # Datum
                 date_iso = None
                 if date_selector:
                     date_elem = elem.select_one(date_selector)
@@ -326,12 +397,11 @@ def harvest_html(url: str, selector: str, date_selector: str | None = None,
                         date_iso = normalize_date(date_text)
                 
                 if not date_iso:
-                    # Suche nach Datums-Patterns im Text
                     import re
                     date_patterns = [
-                        r'\d{1,2}\.\d{1,2}\.\d{2,4}',  # DD.MM.YYYY
+                        r'\d{1,2}\.\d{1,2}\.\d{2,4}',
                         r'\d{1,2}\.\s*(Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember)',
-                        r'\d{4}-\d{2}-\d{2}'  # YYYY-MM-DD
+                        r'\d{4}-\d{2}-\d{2}'
                     ]
                     
                     all_text = elem.get_text()
@@ -344,37 +414,31 @@ def harvest_html(url: str, selector: str, date_selector: str | None = None,
                 if not date_iso:
                     date_iso = normalize_date(datetime.now())
                 
-                # Link finden
+                # Link
                 link_elem = elem.find('a', href=True)
                 if link_elem:
                     link = urljoin(url, link_elem['href'])
                 else:
                     link = url
                 
-                # Event erstellen
                 event = {
                     "id": stable_id(title, date_iso, link),
                     "name": title[:200],
                     "date": date_iso,
-                    "endDate": None,
-                    "time": None,
                     "category": map_category(title + " " + desc),
                     "description": short(desc, 500),
                     **CITY_DEFAULT,
-                    "bookingRequired": False,
-                    "bookingUrl": None,
-                    "price": {"kids": None, "adults": None, "family": None, "note": "Preis auf Webseite prüfen"},
+                    "price": {"kids": None, "adults": None, "note": "Siehe Webseite"},
                     "source": url,
                     "link": link,
                     "lastUpdated": now_iso(),
                 }
                 
-                # KidzOut-Anreicherung
                 event = enrich_for_kids(event)
                 events.append(event)
                 
             except Exception as e:
-                logging.debug(f"Fehler beim Parsen eines Elements: {e}")
+                logging.debug(f"Parse-Fehler: {e}")
                 continue
         
         print(f"   ✅ {len(events)} Events extrahiert")
@@ -386,7 +450,7 @@ def harvest_html(url: str, selector: str, date_selector: str | None = None,
 
 
 # ----------------------
-# RSS Handler (funktioniert besser!)
+# RSS Handler
 # ----------------------
 def harvest_rss(url: str) -> list[dict]:
     print(f"\n📡 RSS Feed: {url}")
@@ -394,11 +458,10 @@ def harvest_rss(url: str) -> list[dict]:
         feed = feedparser.parse(url, request_headers={"User-Agent": USER_AGENT})
         items = []
         
-        for entry in feed.entries[:50]:  # Max 50 Items
+        for entry in feed.entries[:50]:
             title = entry.get("title", "Ohne Titel").strip()
             link = entry.get("link", "").strip()
             
-            # Datum
             dt = entry.get("published") or entry.get("updated")
             if not dt and hasattr(entry, "published_parsed"):
                 dt = datetime(*entry.published_parsed[:6], tzinfo=timezone.utc)
@@ -429,6 +492,61 @@ def harvest_rss(url: str) -> list[dict]:
 
 
 # ----------------------
+# iCal Handler
+# ----------------------
+def harvest_ical(url: str) -> list[dict]:
+    print(f"\n📅 iCal: {url}")
+    try:
+        import icalendar
+    except:
+        print("   ⚠️ icalendar nicht installiert")
+        return []
+    
+    try:
+        resp = http_get(url)
+        cal = icalendar.Calendar.from_ical(resp.content)
+        out = []
+        
+        for comp in cal.subcomponents:
+            if comp.name != "VEVENT":
+                continue
+                
+            title = str(comp.get("summary", "Ohne Titel"))
+            dtstart = comp.get("dtstart").dt if comp.get("dtstart") else datetime.now(timezone.utc)
+            dtend = comp.get("dtend").dt if comp.get("dtend") else None
+            link = str(comp.get("url") or "")
+            desc = str(comp.get("description") or "")
+            location = str(comp.get("location") or "")
+            
+            date_iso = normalize_date(dtstart)
+            end_date = normalize_date(dtend) if dtend else None
+            
+            item = {
+                "id": stable_id(title, date_iso, link or url),
+                "name": title,
+                "date": date_iso,
+                "endDate": end_date,
+                "location": location,
+                "category": map_category(title + " " + desc),
+                "description": short(desc, 600),
+                **CITY_DEFAULT,
+                "source": url,
+                "link": link or url,
+                "lastUpdated": now_iso(),
+            }
+            
+            item = enrich_for_kids(item)
+            out.append(item)
+        
+        print(f"   ✅ {len(out)} Events aus iCal")
+        return out
+        
+    except Exception as e:
+        print(f"   ❌ iCal Fehler: {e}")
+        return []
+
+
+# ----------------------
 # Config laden
 # ----------------------
 def load_config() -> dict:
@@ -436,18 +554,15 @@ def load_config() -> dict:
         with open(CONFIG_FILE, "r", encoding="utf-8") as f:
             return json.load(f)
     except Exception:
-        # Fallback Config mit funktionierenden Quellen
         return {
-            "rss": [
-                "https://www.muenchen.de/system/feeds/veranstaltungen/kinder.rss"
-            ],
+            "rss": [],
             "html": [
                 {
                     "url": "https://www.muenchen.de/veranstaltungen/kinder",
-                    "selector": "article, .m-teaser, .event",
-                    "date_selector": "time, .date",
-                    "title_selector": "h2, h3, .m-teaser__headline",
-                    "desc_selector": "p, .m-teaser__text"
+                    "selector": "article, .m-teaser",
+                    "date_selector": "time",
+                    "title_selector": "h3",
+                    "desc_selector": "p"
                 }
             ],
             "ical": []
@@ -462,11 +577,16 @@ def get_events_from_all_sources() -> list[dict]:
     events = []
     
     print("\n" + "="*50)
-    print("🚀 KidzOut Crawler gestartet!")
+    print("🚀 KidzOut Crawler v2.1")
     print(f"📋 Config: {len(cfg.get('rss', []))} RSS, {len(cfg.get('html', []))} HTML, {len(cfg.get('ical', []))} iCal")
     print("="*50)
-
-    # RSS (funktioniert am besten)
+    
+    # EVENTBRITE zuerst (beste Quelle!)
+    eventbrite_events = harvest_eventbrite()
+    events.extend(eventbrite_events)
+    ratelimit_sleep()
+    
+    # RSS
     for url in cfg.get("rss", []):
         try:
             chunk = harvest_rss(url)
@@ -474,13 +594,13 @@ def get_events_from_all_sources() -> list[dict]:
         except Exception as e:
             logging.error(f"RSS-Fehler {url}: {e}")
         ratelimit_sleep()
-
+    
     # HTML
     for item in cfg.get("html", []):
         try:
             if isinstance(item, dict):
                 url = item["url"]
-                selector = item.get("selector", "article, .event, .teaser")
+                selector = item.get("selector", "article, .event")
                 date_selector = item.get("date_selector")
                 title_selector = item.get("title_selector")
                 desc_selector = item.get("desc_selector")
@@ -492,11 +612,19 @@ def get_events_from_all_sources() -> list[dict]:
         except Exception as e:
             logging.error(f"HTML-Fehler {item}: {e}")
         ratelimit_sleep()
-
+    
+    # iCal
+    for url in cfg.get("ical", []):
+        try:
+            chunk = harvest_ical(url)
+            events.extend(chunk)
+        except Exception as e:
+            logging.error(f"iCal-Fehler {url}: {e}")
+        ratelimit_sleep()
+    
     # Deduplizierung
     dedup = {}
     for ev in events:
-        # Verbesserte Deduplizierung - basierend auf Titel + Datum
         dedup_key = f"{ev['name'][:30]}_{ev['date']}"
         dedup[dedup_key] = ev
     
@@ -510,43 +638,60 @@ def get_events_from_all_sources() -> list[dict]:
 
 
 def main():
-    print("\n🎯 KidzOut Crawler v2.0")
-    events = get_events_from_all_sources()
-
+    print("\n🎯 KidzOut Crawler v2.1 mit Eventbrite")
+    
+    # Versuche manuelle Events falls vorhanden
+    try:
+        with open('manual_events.json', 'r', encoding='utf-8') as f:
+            manual = json.load(f)
+            manual_events = manual.get('events', [])
+            print(f"📋 {len(manual_events)} manuelle Events gefunden")
+    except:
+        manual_events = []
+    
+    # Crawle neue Events
+    crawled_events = get_events_from_all_sources()
+    
+    # Kombiniere
+    all_events = manual_events + crawled_events
+    
     # Lade bestehende Daten
     try:
         with open(OUTPUT_FILE, "r", encoding="utf-8") as f:
             data = json.load(f)
     except Exception:
         data = {"locations": [], "events": []}
-
+    
     # Update
-    if events:
-        data["events"] = sorted(events, key=lambda e: (e["date"], e["name"]))
-        data["totalEvents"] = len(events)
-        print(f"\n✅ {len(events)} Events gespeichert in data.json")
+    if all_events:
+        data["events"] = sorted(all_events, key=lambda e: (e["date"], e["name"]))
+        data["totalEvents"] = len(all_events)
+        print(f"\n✅ {len(all_events)} Events gespeichert in data.json")
     else:
         print("\n⚠️ Keine Events gefunden")
-
+    
     # Metadata
     data["lastCrawled"] = now_iso()
     data["metadata"] = {
         "version": "1.0",
         "lastCrawled": now_iso(),
         "totalLocations": len(data.get("locations", [])),
-        "totalEvents": len(events),
+        "totalEvents": len(all_events),
         "sources": load_config()
     }
-
+    
     # Speichern
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
     
-    # Zeige erste 3 Events als Beispiel
-    if events and len(events) > 0:
-        print("\n📅 Beispiel-Events:")
-        for ev in events[:3]:
+    # Beispiel-Events anzeigen
+    if all_events and len(all_events) > 0:
+        print("\n📅 Erste 3 Events:")
+        for ev in all_events[:3]:
             print(f"  - {ev['name'][:50]} ({ev['date']})")
+    
+    print("\n✨ Fertig!")
+
 
 if __name__ == "__main__":
     main()
