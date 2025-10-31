@@ -187,51 +187,32 @@ def harvest_eventbrite() -> list[dict]:
         print("   ⚠️ Kein Eventbrite Token gefunden")
         return []
     
-    headers = {
-        "Authorization": f"Bearer {token}"
-    }
-    
-    # KORREKTE URL für Event-Suche
-    url = "https://www.eventbriteapi.com/v3/events/"
+    # KEINE Headers, Token als Parameter!
+    url = "https://www.eventbriteapi.com/v3/events/search/"
     params = {
-        "location.latitude": "48.1351",  # München Koordinaten
-        "location.longitude": "11.5820",
-        "location.within": "25km",
-        "expand": "venue,category,ticket_availability",
-        "status": "live",
-        "sort_by": "date"
+        "token": token,  # TOKEN ALS PARAMETER!
+        "location.address": "München",
+        "location.within": "50km",
+        "expand": "venue,category",
+        "sort_by": "date",
+        "categories": "115"  # Family & Education
     }
     
     try:
-        response = requests.get(url, headers=headers, params=params)
+        # KEIN Authorization Header!
+        response = requests.get(url, params=params)
         response.raise_for_status()
         data = response.json()
         
         events = []
-        # Events verarbeiten...
-        
-        print(f"   ✅ {len(events)} Events von Eventbrite gefunden!")
+        for event in data.get('events', [])[:30]:
+            # Event processing...
+            name = event.get('name', {}).get('text', 'Event')
+            # etc...
+            
+        print(f"   ✅ {len(events)} Events von Eventbrite")
         return events
         
-    except requests.exceptions.HTTPError as e:
-        if e.response.status_code == 404:
-            # Alternativer Endpoint probieren
-            print("   ⚠️ Versuche alternativen Endpoint...")
-            
-            # Organisations-basierte Suche
-            org_url = "https://www.eventbriteapi.com/v3/organizations/me/events/"
-            try:
-                response = requests.get(org_url, headers=headers)
-                response.raise_for_status()
-                data = response.json()
-                # Verarbeite Events...
-                return []
-            except:
-                print("   ❌ Eventbrite API nicht erreichbar")
-                return []
-        else:
-            print(f"   ❌ Eventbrite Fehler: {e.response.status_code}")
-            return []
     except Exception as e:
         print(f"   ❌ Eventbrite Fehler: {e}")
         return []
