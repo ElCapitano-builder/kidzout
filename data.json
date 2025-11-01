@@ -2,11 +2,11 @@
   "locations": [],
   "events": [
     {
-      "id": "ev-7b3822e7ab490a58",
-      "name": "Bau mit! München baut",
+      "id": "ev-84befcbf9f188e00",
+      "name": "Kindheit am Nil - Aufwachsen im Alten Ägypten",
       "date": "2025-11-01",
       "category": "museum",
-      "description": "01 Nov. bis 23 Nov. Bau mit! München baut Sa.           01.11.2025           10:00 - 17:00 Uhr Kindermuseum München",
+      "description": "Kindheit am Nil - Aufwachsen im Alten Ägypten Sa.           01.11.2025           10:00 - 18:00 Uhr Museum Ägyptischer Kunst",
       "city": "München",
       "region": "BY",
       "country": "DE",
@@ -16,9 +16,9 @@
         "note": "Siehe Webseite"
       },
       "source": "https://www.muenchen.de/veranstaltungen/kinder",
-      "link": "https://www.muenchen.de/veranstaltungen/ausstellungen/kinder/bau-mit-kindermuseum-muenchen",
-      "lastUpdated": "2025-11-01T06:46:02.240757+00:00",
-      "nameKids": "🏛️ Bau mit! München baut",
+      "link": "https://www.muenchen.de/veranstaltungen/ausstellungen/kinder/kindheit-am-nil-%C3%A4gyptisches-museum",
+      "lastUpdated": "2025-11-01T18:41:57.243052+00:00",
+      "nameKids": "🏛️ Kindheit am Nil - Aufwachsen im Alten Ägypten",
       "ageGroups": [
         "3-6",
         "6-9"
@@ -36,7 +36,7 @@
       "name": "Seth's SPIEL(T)RÄUME",
       "date": "2025-11-01",
       "category": "museum",
-      "description": "Seth's SPIEL(T)RÄUME Sa.           01.11.2025           10:00 - 18:00 Uhr KUNSTLABOR 2",
+      "description": "01 Nov. bis 15 Febr. Seth's SPIEL(T)RÄUME Sa.           01.11.2025           10:00 - 18:00 Uhr KUNSTLABOR 2",
       "city": "München",
       "region": "BY",
       "country": "DE",
@@ -47,7 +47,7 @@
       },
       "source": "https://www.muenchen.de/veranstaltungen/kinder",
       "link": "https://www.muenchen.de/veranstaltungen/ausstellungen/kinder/seths-spieltraeume",
-      "lastUpdated": "2025-11-01T06:46:02.240445+00:00",
+      "lastUpdated": "2025-11-01T18:41:57.243388+00:00",
       "nameKids": "🎉 Seth's SPIEL(T)RÄUME",
       "ageGroups": [
         "3-6",
@@ -77,7 +77,7 @@
       },
       "source": "https://www.muenchen.de/veranstaltungen/kinder",
       "link": "https://www.muenchen.de/veranstaltungen/kinder",
-      "lastUpdated": "2025-11-01T06:46:02.237204+00:00",
+      "lastUpdated": "2025-11-01T18:41:57.239186+00:00",
       "nameKids": "🎭 Veranstaltungskalender für Kinder in München",
       "ageGroups": [
         "3-6",
@@ -92,10 +92,10 @@
       "energyLevel": "aktiv"
     }
   ],
-  "lastCrawled": "2025-11-01T06:46:03.112362+00:00",
+  "lastCrawled": "2025-11-01T18:41:58.056852+00:00",
   "metadata": {
     "version": "1.0",
-    "lastCrawled": "2025-11-01T06:46:03.112376+00:00",
+    "lastCrawled": "2025-11-01T18:41:58.056868+00:00",
     "totalLocations": 0,
     "totalEvents": 3,
     "sources": {
