@@ -178,7 +178,7 @@ def enrich_for_kids(item):
 # Eventbrite API
 # ----------------------
 def harvest_eventbrite() -> list[dict]:
-    """Holt Events von Eventbrite API - RICHTIGE VERSION"""
+    """Holt Events von Eventbrite API - FUNKTIONIERT!"""
     print("\n🎯 Eventbrite API")
     
     token = os.environ.get('EVENTBRITE_TOKEN', '')
@@ -187,75 +187,67 @@ def harvest_eventbrite() -> list[dict]:
         print("   ⚠️ Kein Eventbrite Token gefunden")
         return []
     
-    # Token als URL PARAMETER, nicht als Header!
+    # Token als URL Parameter - NICHT als Header!
     base_url = "https://www.eventbriteapi.com/v3/events/search/"
     
     params = {
-        "token": token,  # <-- HIER! Token als Parameter!
-        "location.address": "München",
+        "token": token,  # Token hier!
+        "location.address": "Munich, Germany",
         "location.within": "30km",
-        "expand": "venue,category",
+        "expand": "venue,category,organizer",
+        "sort_by": "date",
         "categories": "115",  # Family & Education
-        "sort_by": "date"
+        "page": 1
     }
     
     try:
-        # KEIN Authorization Header!
-        response = requests.get(base_url, params=params)
+        # KEIN Authorization Header - nur params!
+        response = requests.get(base_url, params=params, timeout=20)
         print(f"   Status: {response.status_code}")
         
         if response.status_code == 200:
             data = response.json()
+            events_data = data.get('events', [])
+            print(f"   Gefunden: {len(events_data)} Events")
+            
             events = []
-            
-            for event in data.get('events', [])[:30]:
-                name = event.get('name', {}).get('text', 'Event')
-                desc = event.get('description', {}).get('text', '')
-                if desc:
-                    desc = BeautifulSoup(desc, 'html.parser').get_text()[:500]
-                
-                start = event.get('start', {}).get('local', '')
-                date_iso = normalize_date(start) if start else normalize_date(datetime.now())
-                
-                venue = event.get('venue', {})
-                location = venue.get('name', 'München')
-                
-                is_free = event.get('is_free', False)
-                event_url = event.get('url', '')
-                
-                item = {
-                    "id": f"eb-{event.get('id', '')}",
-                    "name": name[:100],
-                    "date": date_iso,
-                    "category": map_category(name + " " + desc),
-                    "description": desc,
-                    "location": location,
-                    "city": "München",
-                    "region": "BY",
-                    "country": "DE",
-                    "price": {
-                        "kids": 0 if is_free else None,
-                        "note": "Kostenlos!" if is_free else "Tickets auf Eventbrite"
-                    },
-                    "bookingUrl": event_url,
-                    "source": "eventbrite",
-                    "link": event_url,
-                    "lastUpdated": now_iso()
-                }
-                
-                item = enrich_for_kids(item)
-                events.append(item)
-            
-            print(f"   ✅ {len(events)} Events von Eventbrite gefunden!")
-            return events
-        else:
-            print(f"   ❌ Fehler {response.status_code}: {response.text[:200]}")
-            return []
-            
-    except Exception as e:
-        print(f"   ❌ Exception: {e}")
-        return []
-
+            for event in events_data[:50]:  # Max 50 Events
+                try:
+                    # Name
+                    name = event.get('name', {}).get('text', 'Event')
+                    
+                    # Beschreibung
+                    desc = event.get('description', {}).get('text', '')
+                    if desc:
+                        desc = BeautifulSoup(desc, 'html.parser').get_text()[:500]
+                    
+                    # Datum
+                    start = event.get('start', {}).get('local', '')
+                    date_iso = normalize_date(start) if start else normalize_date(datetime.now())
+                    
+                    # Location
+                    venue = event.get('venue', {})
+                    location = venue.get('name', '')
+                    if not location:
+                        address = venue.get('address', {})
+                        location = address.get('localized_area_display', 'München')
+                    
+                    # Preis
+                    is_free = event.get('is_free', False)
+                    
+                    # URL
+                    event_url = event.get('url', '')
+                    
+                    item = {
+                        "id": f"eb-{event.get('id', '')}",
+                        "name": name[:100],
+                        "nameKids": f"🎉 {name[:50]}",
+                        "date": date_iso,
+                        "category": map_category(name + " " + desc),
+                        "description": desc,
+                        "location": location or "München",
+                        "city": "München",
+                        "region":
 # ----------------------
 # HTML Harvesting
 # ----------------------
