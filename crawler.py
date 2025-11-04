@@ -9,7 +9,12 @@ from urllib.parse import urlparse, urljoin
 
 import requests
 from bs4 import BeautifulSoup
-import feedparser
+try:
+    import feedparser
+    HAS_FEEDPARSER = True
+except ImportError:
+    HAS_FEEDPARSER = False
+    logging.warning("feedparser nicht installiert - RSS-Feeds werden übersprungen")
 from dateutil import parser as dateparser
 
 # ----------------------
@@ -247,7 +252,33 @@ def harvest_eventbrite() -> list[dict]:
                         "description": desc,
                         "location": location or "München",
                         "city": "München",
-                        "region":
+                        "region": "BY",
+                        "country": "DE",
+                        "price": {"kids": None, "adults": None, "note": "Kostenlos" if is_free else "Siehe Eventbrite"},
+                        "source": "Eventbrite",
+                        "link": event_url,
+                        "lastUpdated": now_iso(),
+                    }
+
+                    item = enrich_for_kids(item)
+                    events.append(item)
+
+                except Exception as e:
+                    logging.debug(f"Event parse error: {e}")
+                    continue
+
+            print(f"   ✅ {len(events)} Events von Eventbrite")
+            return events
+        else:
+            print(f"   ❌ API Fehler: {response.status_code}")
+            print(f"   Response: {response.text[:200]}")
+            return []
+
+    except Exception as e:
+        print(f"   ❌ Eventbrite Fehler: {e}")
+        return []
+
+
 # ----------------------
 # HTML Harvesting
 # ----------------------
@@ -419,6 +450,9 @@ def harvest_html(url: str, selector: str, date_selector: str | None = None,
 # ----------------------
 def harvest_rss(url: str) -> list[dict]:
     print(f"\n📡 RSS Feed: {url}")
+    if not HAS_FEEDPARSER:
+        print("   ⚠️ feedparser nicht installiert")
+        return []
     try:
         feed = feedparser.parse(url, request_headers={"User-Agent": USER_AGENT})
         items = []
