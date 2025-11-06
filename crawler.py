@@ -187,27 +187,28 @@ def harvest_eventbrite() -> list[dict]:
     print("\n🎯 Eventbrite API")
     
     token = os.environ.get('EVENTBRITE_TOKEN', '')
-    
+
     if not token:
         print("   ⚠️ Kein Eventbrite Token gefunden")
         return []
-    
-    # Token als URL Parameter - NICHT als Header!
+
+    # Eventbrite API v3 - Token im Authorization Header
     base_url = "https://www.eventbriteapi.com/v3/events/search/"
-    
+
+    headers = {
+        "Authorization": f"Bearer {token}",
+        "Content-Type": "application/json"
+    }
+
     params = {
-        "token": token,  # Token hier!
         "location.address": "Munich, Germany",
         "location.within": "30km",
-        "expand": "venue,category,organizer",
-        "sort_by": "date",
-        "categories": "115",  # Family & Education
-        "page": 1
+        "expand": "venue,category",
+        "sort_by": "date"
     }
-    
+
     try:
-        # KEIN Authorization Header - nur params!
-        response = requests.get(base_url, params=params, timeout=20)
+        response = requests.get(base_url, headers=headers, params=params, timeout=20)
         print(f"   Status: {response.status_code}")
         
         if response.status_code == 200:
