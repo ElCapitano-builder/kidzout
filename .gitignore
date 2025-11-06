@@ -5,6 +5,9 @@ __pycache__/
 *.so
 .Python
 
+# Crawler stats (generated at runtime)
+crawler_stats.json
+
 # Virtual environments
 venv/
 env/
