@@ -1,0 +1,111 @@
+{
+  "working": [],
+  "blocked": [
+    {
+      "url": "https://spielplatztreff.de/muenchen",
+      "domain": "spielplatztreff.de"
+    },
+    {
+      "url": "https://www.kindaling.de/halloween/kids-halloween-breakfast-at-the-hard-rock-cafe-muenchen-altstadt-lehel/muenchen-altstadt-lehel",
+      "domain": "www.kindaling.de"
+    },
+    {
+      "url": "https://www.allianzarena.com/de/events",
+      "domain": "www.allianzarena.com"
+    },
+    {
+      "url": "https://muenchenmitkind.de/veranstaltungskalender/kleine-klanglichter-2025-10-30/",
+      "domain": "muenchenmitkind.de"
+    },
+    {
+      "url": "https://muenchenmitkind.de/veranstaltungskalender/familienfuehrung-durch-die-pumuckl-ausstellung-2025-10-30/",
+      "domain": "muenchenmitkind.de"
+    },
+    {
+      "url": "https://www.landkreis-ffb.de/aktuelles/veranstaltungen/",
+      "domain": "www.landkreis-ffb.de"
+    },
+    {
+      "url": "https://www.pullach.de/veranstaltungen/",
+      "domain": "www.pullach.de"
+    },
+    {
+      "url": "https://www.boulderwelt-muenchen.de/kids",
+      "domain": "www.boulderwelt-muenchen.de"
+    },
+    {
+      "url": "https://www.pomki.de/veranstaltungen",
+      "domain": "www.pomki.de"
+    },
+    {
+      "url": "https://www.tierpark-hellabrunn.de/aktuelles",
+      "domain": "www.tierpark-hellabrunn.de"
+    },
+    {
+      "url": "https://www.garching.de/veranstaltungen",
+      "domain": "www.garching.de"
+    },
+    {
+      "url": "https://www.kimapa.de/muenchen",
+      "domain": "www.kimapa.de"
+    },
+    {
+      "url": "http://www.muema-theater.de/",
+      "domain": "www.muema-theater.de"
+    },
+    {
+      "url": "https://eso.org/public/germany/venues/visit/eso-supernova/",
+      "domain": "eso.org"
+    },
+    {
+      "url": "https://www.schauburg.net",
+      "domain": "www.schauburg.net"
+    },
+    {
+      "url": "https://www.kindaling.de/kreatives/offenes-atelier-feierwerk-funkstation/muenchen-schwabing-freimann",
+      "domain": "www.kindaling.de"
+    },
+    {
+      "url": "https://www.kindaling.de/muenchen",
+      "domain": "www.kindaling.de"
+    },
+    {
+      "url": "https://www.airbnb.de/experiences/online?location=Munich",
+      "domain": "www.airbnb.de"
+    },
+    {
+      "url": "https://www.walderlebniszentrum-gruenwald.de",
+      "domain": "www.walderlebniszentrum-gruenwald.de"
+    },
+    {
+      "url": "https://www.lk-starnberg.de/Veranstaltungen",
+      "domain": "www.lk-starnberg.de"
+    },
+    {
+      "url": "https://www.muenchen.de/veranstaltungen.rss",
+      "domain": "www.muenchen.de",
+      "type": "rss"
+    },
+    {
+      "url": "https://www.kindermuseum-muenchen.de/feed/",
+      "domain": "www.kindermuseum-muenchen.de",
+      "type": "rss"
+    },
+    {
+      "url": "https://www.schauburg.net/feed/",
+      "domain": "www.schauburg.net",
+      "type": "rss"
+    },
+    {
+      "url": "https://www.feierwerk.de/feed/",
+      "domain": "www.feierwerk.de",
+      "type": "rss"
+    },
+    {
+      "url": "https://www.muenchen.de/veranstaltungen/events.ics",
+      "domain": "www.muenchen.de",
+      "type": "ical"
+    }
+  ],
+  "error": []
+}
