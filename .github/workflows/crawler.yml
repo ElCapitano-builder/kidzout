@@ -2,7 +2,7 @@ name: Event Crawler
 
 on:
   schedule:
-    - cron: '0 6,18 * * *'
+    - cron: '0 6,10,14,18 * * *'  # 4x täglich: 07/11/15/19 Uhr MEZ (Winter) | 08/12/16/20 Uhr MESZ (Sommer)
   workflow_dispatch:
 
 permissions:
@@ -33,7 +33,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data.json
-          git commit -m "Update events data" || echo "No changes"
+          git add data.json geocode_cache.json
+          git commit -m "Update events & locations data" || echo "No changes"
           git pull --rebase origin main
           git push
