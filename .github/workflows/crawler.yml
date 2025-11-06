@@ -24,11 +24,9 @@ jobs:
           python-version: '3.11'
       
       - name: Install deps
-        run: pip install requests beautifulsoup4 feedparser python-dateutil
-      
+        run: pip install requests beautifulsoup4 python-dateutil
+
       - name: Run crawler
-        env:
-          EVENTBRITE_TOKEN: ${{ secrets.EVENTBRITE_TOKEN }}  # NEU!
         run: python crawler.py
       
       - name: Commit changes

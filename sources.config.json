@@ -219,10 +219,10 @@
     },
     {
       "url": "https://www.eventbrite.de/d/germany--munich/kids/",
-      "selector": "article, .event, .teaser, .list-item, .card",
-      "date_selector": "time, .date, .datum, .termin",
-      "title_selector": "h1, h2, h3, .title, .headline",
-      "desc_selector": "p, .description, .text, .teaser"
+      "selector": "[data-event-id], .eds-event-card, .discover-search-desktop-card, .event-card, article",
+      "date_selector": ".eds-event-card-content__sub-title, time, [datetime], .event-card__date",
+      "title_selector": ".eds-event-card__formatted-name, .eds-event-card-content__title, h2, h3",
+      "desc_selector": ".eds-event-card-content__sub, .eds-text-bm, .event-card__description, p"
     },
     {
       "url": "https://www.starnbergammersee.de/veranstaltungen",
@@ -512,6 +512,13 @@
       "desc_selector": "p, .description, .text, .teaser"
     }
   ],
-  "rss": [],
-  "ical": []
+  "rss": [
+    "https://www.muenchen.de/veranstaltungen.rss",
+    "https://www.kindermuseum-muenchen.de/feed/",
+    "https://www.schauburg.net/feed/",
+    "https://www.feierwerk.de/feed/"
+  ],
+  "ical": [
+    "https://www.muenchen.de/veranstaltungen/events.ics"
+  ]
 }
