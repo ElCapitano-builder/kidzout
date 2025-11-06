@@ -42,7 +42,7 @@ from dateutil import parser as dateparser
 # ----------------------
 CITY_DEFAULT = {"city": "München", "region": "BY", "country": "DE"}
 OUTPUT_FILE = "data.json"
-CONFIG_FILE = "sources_config.json"
+CONFIG_FILE = "sources.config.json"
 STATS_FILE = "crawler_stats.json"
 GEOCODE_CACHE_FILE = "geocode_cache.json"
 
@@ -50,7 +50,7 @@ REQUEST_TIMEOUT = 30
 MAX_RETRIES = 3
 RETRY_BACKOFF = [2, 5, 10]  # Sekunden
 MAX_WORKERS = 5  # Parallel threads
-RATE_LIMIT_DEFAULT = 2.0  # Sekunden zwischen Requests pro Domain
+RATE_LIMIT_DEFAULT = 4.0  # Sekunden zwischen Requests pro Domain (erhöht gegen Bot-Detection)
 
 # Geocoding
 NOMINATIM_BASE_URL = "https://nominatim.openstreetmap.org/search"
@@ -99,6 +99,10 @@ class SmartRateLimiter:
         failure_multiplier = 1 + (self.failure_count[domain] * 0.5)
         limit = min(base_limit * failure_multiplier, 10.0)
 
+        # Add random jitter (±20%) to look more human
+        jitter = random.uniform(0.8, 1.2)
+        limit = limit * jitter
+
         if domain in self.last_request:
             elapsed = time.time() - self.last_request[domain]
             if elapsed < limit:
@@ -126,12 +130,17 @@ class SessionManager:
     def __init__(self):
         self.session = requests.Session()
         self.session.headers.update({
-            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-            'Accept-Language': 'de-DE,de;q=0.9,en;q=0.8',
-            'Accept-Encoding': 'gzip, deflate',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+            'Accept-Language': 'de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7',
+            'Accept-Encoding': 'gzip, deflate, br',
+            'Cache-Control': 'max-age=0',
             'DNT': '1',
             'Connection': 'keep-alive',
-            'Upgrade-Insecure-Requests': '1'
+            'Upgrade-Insecure-Requests': '1',
+            'Sec-Fetch-Dest': 'document',
+            'Sec-Fetch-Mode': 'navigate',
+            'Sec-Fetch-Site': 'none',
+            'Sec-Fetch-User': '?1'
         })
         self.rate_limiter = SmartRateLimiter()
 
@@ -139,9 +148,13 @@ class SessionManager:
         """GET mit Retry-Logik"""
         self.rate_limiter.wait(url)
 
-        # Random User-Agent
+        # Random User-Agent + Referer
         headers = kwargs.get('headers', {})
         headers['User-Agent'] = random.choice(USER_AGENTS)
+        # Add referer from same domain to look more realistic
+        from urllib.parse import urlparse
+        parsed = urlparse(url)
+        headers['Referer'] = f"{parsed.scheme}://{parsed.netloc}/"
         kwargs['headers'] = headers
         kwargs['timeout'] = kwargs.get('timeout', REQUEST_TIMEOUT)
         kwargs['verify'] = kwargs.get('verify', False)
@@ -1099,24 +1112,53 @@ def harvest_html(url: str, selector: str, date_selector: str | None = None,
 # RSS Handler
 # ----------------------
 def harvest_rss(url: str, session: SessionManager = None) -> list[dict]:
-    if not HAS_FEEDPARSER:
-        return []
-
+    """Parse RSS/Atom feeds with BeautifulSoup (no feedparser needed)"""
     logger.info(f"📡 RSS Feed: {url}")
     try:
-        feed = feedparser.parse(url, request_headers={"User-Agent": random.choice(USER_AGENTS)})
+        # Fetch RSS content
+        if session:
+            resp = session.get(url)
+        else:
+            resp = requests.get(url, timeout=REQUEST_TIMEOUT, verify=False,
+                              headers={"User-Agent": random.choice(USER_AGENTS)})
+
+        if not resp or resp.status_code != 200:
+            logger.warning(f"   ⚠️ RSS fetch failed: {url}")
+            return []
+
+        # Parse XML with BeautifulSoup
+        soup = BeautifulSoup(resp.content, 'xml')
         items = []
 
-        for entry in feed.entries[:50]:
-            title = entry.get("title", "Ohne Titel").strip()
-            link = entry.get("link", "").strip()
+        # Try RSS 2.0 format first
+        entries = soup.find_all('item')
+        if not entries:
+            # Try Atom format
+            entries = soup.find_all('entry')
 
-            dt = entry.get("published") or entry.get("updated")
-            if not dt and hasattr(entry, "published_parsed"):
-                dt = datetime(*entry.published_parsed[:6], tzinfo=timezone.utc)
-            date_iso = normalize_date(dt or datetime.now())
+        for entry in entries[:50]:  # Limit to 50 entries
+            # Extract title
+            title_tag = entry.find('title')
+            title = title_tag.text.strip() if title_tag else "Ohne Titel"
 
-            desc = entry.get("summary") or entry.get("description") or ""
+            # Extract link
+            link_tag = entry.find('link')
+            if link_tag:
+                # Atom format: <link href="..."/>
+                link = link_tag.get('href') or link_tag.text.strip()
+            else:
+                link = ""
+
+            # Extract date (pubDate for RSS, published/updated for Atom)
+            date_tag = entry.find('pubDate') or entry.find('published') or entry.find('updated')
+            if date_tag:
+                date_iso = normalize_date(date_tag.text.strip())
+            else:
+                date_iso = normalize_date(datetime.now())
+
+            # Extract description
+            desc_tag = entry.find('description') or entry.find('summary') or entry.find('content')
+            desc = desc_tag.text.strip() if desc_tag else ""
 
             item = {
                 "id": stable_id(title, date_iso, link or url),
