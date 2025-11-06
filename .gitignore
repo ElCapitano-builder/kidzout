@@ -7,6 +7,7 @@ __pycache__/
 
 # Crawler stats (generated at runtime)
 crawler_stats.json
+geocode_cache.json
 
 # Virtual environments
 venv/

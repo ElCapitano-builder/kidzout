@@ -520,5 +520,42 @@
   ],
   "ical": [
     "https://www.muenchen.de/veranstaltungen/events.ics"
+  ],
+  "locations": [
+    {
+      "url": "https://www.kindermuseum-muenchen.de",
+      "selector": ".location, article, div[class*='info']",
+      "name_selector": "h1, h2, .title",
+      "address_selector": ".address, [class*='adresse']",
+      "desc_selector": ".description, p"
+    },
+    {
+      "url": "https://www.tierpark-hellabrunn.de",
+      "selector": ".info, article",
+      "name_selector": "h1, h2",
+      "address_selector": ".address",
+      "desc_selector": "p"
+    },
+    {
+      "url": "https://spielplatztreff.de/muenchen",
+      "selector": ".spielplatz, .location, article",
+      "name_selector": "h2, h3, .name",
+      "address_selector": ".address, .ort",
+      "desc_selector": ".description, p"
+    },
+    {
+      "url": "https://www.schauburg.net",
+      "selector": ".venue-info, article",
+      "name_selector": "h1",
+      "address_selector": ".address",
+      "desc_selector": ".about, p"
+    },
+    {
+      "url": "https://www.mtfk.de",
+      "selector": ".location-info, article",
+      "name_selector": "h1",
+      "address_selector": ".address",
+      "desc_selector": "p"
+    }
   ]
 }

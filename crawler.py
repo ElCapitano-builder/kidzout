@@ -1,6 +1,6 @@
 """
-KidzOut Event Crawler v4.0 - Enterprise Edition
-=============================================
+KidzOut Event & Location Crawler v4.1 - Enterprise Edition
+===========================================================
 Features:
 - Smart Rate Limiting mit per-domain tracking
 - User-Agent Rotation
@@ -10,6 +10,9 @@ Features:
 - Source Quality Tracking
 - Advanced HTML Parsing
 - Session Management
+- 🆕 Location Harvesting (Spielplätze, Museen, etc.)
+- 🆕 Geocoding mit OpenStreetMap Nominatim
+- 🆕 Opening Hours Parser
 """
 
 import json
@@ -41,12 +44,17 @@ CITY_DEFAULT = {"city": "München", "region": "BY", "country": "DE"}
 OUTPUT_FILE = "data.json"
 CONFIG_FILE = "sources_config.json"
 STATS_FILE = "crawler_stats.json"
+GEOCODE_CACHE_FILE = "geocode_cache.json"
 
 REQUEST_TIMEOUT = 30
 MAX_RETRIES = 3
 RETRY_BACKOFF = [2, 5, 10]  # Sekunden
 MAX_WORKERS = 5  # Parallel threads
 RATE_LIMIT_DEFAULT = 2.0  # Sekunden zwischen Requests pro Domain
+
+# Geocoding
+NOMINATIM_BASE_URL = "https://nominatim.openstreetmap.org/search"
+NOMINATIM_USER_AGENT = "KidzOut-Crawler/4.1 (+https://github.com/ElCapitano-builder/kidzout)"
 
 # Logging Setup
 logging.basicConfig(
@@ -285,6 +293,130 @@ class SourceQualityTracker:
 
 
 # ----------------------
+# Geocoder (OpenStreetMap Nominatim)
+# ----------------------
+class Geocoder:
+    """Geocoding mit OpenStreetMap Nominatim + Caching"""
+
+    def __init__(self):
+        self.cache = self.load_cache()
+        self.session = requests.Session()
+        self.session.headers.update({'User-Agent': NOMINATIM_USER_AGENT})
+        self.last_request_time = 0
+
+    def load_cache(self) -> dict:
+        try:
+            with open(GEOCODE_CACHE_FILE, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        except:
+            return {}
+
+    def save_cache(self):
+        with open(GEOCODE_CACHE_FILE, 'w', encoding='utf-8') as f:
+            json.dump(self.cache, f, indent=2, ensure_ascii=False)
+
+    def geocode(self, address: str, city: str = "München") -> Optional[Tuple[float, float]]:
+        """Gibt (lat, lon) zurück oder None"""
+        full_address = f"{address}, {city}, Germany"
+        cache_key = full_address.lower().strip()
+
+        # Cache lookup
+        if cache_key in self.cache:
+            cached = self.cache[cache_key]
+            if cached:  # nicht None
+                return tuple(cached)
+            return None
+
+        # Rate limiting (1 req/sec für Nominatim)
+        elapsed = time.time() - self.last_request_time
+        if elapsed < 1.0:
+            time.sleep(1.0 - elapsed)
+
+        try:
+            params = {
+                'q': full_address,
+                'format': 'json',
+                'limit': 1,
+                'addressdetails': 1
+            }
+
+            response = self.session.get(
+                NOMINATIM_BASE_URL,
+                params=params,
+                timeout=10
+            )
+            self.last_request_time = time.time()
+
+            if response.status_code == 200:
+                data = response.json()
+                if data and len(data) > 0:
+                    lat = float(data[0]['lat'])
+                    lon = float(data[0]['lon'])
+                    self.cache[cache_key] = [lat, lon]
+                    self.save_cache()
+                    logger.debug(f"   📍 Geocoded: {address} → ({lat}, {lon})")
+                    return (lat, lon)
+
+            # Not found
+            self.cache[cache_key] = None
+            self.save_cache()
+            return None
+
+        except Exception as e:
+            logger.debug(f"Geocoding error for {address}: {e}")
+            return None
+
+
+# ----------------------
+# Opening Hours Parser
+# ----------------------
+class OpeningHoursParser:
+    """Parst Öffnungszeiten aus Text"""
+
+    WEEKDAYS_DE = ['montag', 'dienstag', 'mittwoch', 'donnerstag', 'freitag', 'samstag', 'sonntag']
+    WEEKDAYS_SHORT = ['mo', 'di', 'mi', 'do', 'fr', 'sa', 'so']
+
+    @staticmethod
+    def parse(text: str) -> Dict[str, str]:
+        """
+        Versucht Öffnungszeiten zu parsen.
+        Returns: {"monday": "10:00-18:00", "tuesday": "10:00-18:00", ...}
+        """
+        if not text:
+            return {}
+
+        text = text.lower()
+        hours = {}
+
+        # Pattern: "Mo-Fr 10:00-18:00"
+        pattern = r'(mo|di|mi|do|fr|sa|so)(?:\s*-\s*(mo|di|mi|do|fr|sa|so))?\s*:?\s*(\d{1,2}:\d{2})\s*-\s*(\d{1,2}:\d{2})'
+        matches = re.finditer(pattern, text)
+
+        weekday_map = {
+            'mo': 'monday', 'di': 'tuesday', 'mi': 'wednesday',
+            'do': 'thursday', 'fr': 'friday', 'sa': 'saturday', 'so': 'sunday'
+        }
+
+        for match in matches:
+            start_day = match.group(1)
+            end_day = match.group(2) or start_day
+            open_time = match.group(3)
+            close_time = match.group(4)
+
+            time_str = f"{open_time}-{close_time}"
+
+            # Range (Mo-Fr)
+            start_idx = OpeningHoursParser.WEEKDAYS_SHORT.index(start_day)
+            end_idx = OpeningHoursParser.WEEKDAYS_SHORT.index(end_day)
+
+            for i in range(start_idx, end_idx + 1):
+                day_key = weekday_map[OpeningHoursParser.WEEKDAYS_SHORT[i]]
+                hours[day_key] = time_str
+
+        return hours
+
+
+# ----------------------
 # Utils
 # ----------------------
 def now_iso() -> str:
@@ -416,6 +548,370 @@ def enrich_for_kids(item):
         item['energyLevel'] = 'moderat'
 
     return item
+
+
+def enrich_location(item, geocoder: Geocoder = None):
+    """Macht Locations kinderfreundlich und fügt KidzOut-spezifische Felder hinzu"""
+    text = (item.get('name', '') + ' ' + item.get('description', '')).lower()
+
+    # Altersgruppen
+    age_groups = []
+    if any(word in text for word in ['baby', 'kleinkind', '0-3', 'u3', 'krabbelgruppe']):
+        age_groups.append("0-3")
+    if any(word in text for word in ['kindergarten', '3-6', 'vorschule', 'kita']):
+        age_groups.append("3-6")
+    if any(word in text for word in ['grundschule', '6-9', 'schulkind']):
+        age_groups.append("6-9")
+    if any(word in text for word in ['ab 9', 'ab 10', '9-12', 'teenager']):
+        age_groups.append("9-12")
+
+    if not age_groups:
+        category = item.get('category', '')
+        if category in ['spielplatz', 'outdoor']:
+            age_groups = ["3-6", "6-9"]
+        elif category in ['museum', 'indoor']:
+            age_groups = ["6-9", "9-12"]
+        else:
+            age_groups = ["3-6", "6-9", "9-12"]
+
+    # Name Kids
+    name = item.get('name', '')
+    category = item.get('category', '')
+
+    if 'spielplatz' in text or category == 'spielplatz':
+        item['nameKids'] = f"🏞️ {name[:50]}"
+    elif 'museum' in text or category == 'museum':
+        item['nameKids'] = f"🏛️ {name[:50]}"
+    elif 'indoor' in text or 'halle' in text:
+        item['nameKids'] = f"🏠 {name[:50]}"
+    elif 'schwimm' in text or 'bad' in text:
+        item['nameKids'] = f"🏊 {name[:50]}"
+    elif 'tier' in text or 'zoo' in text:
+        item['nameKids'] = f"🦁 {name[:50]}"
+    else:
+        item['nameKids'] = f"🎯 {name[:50]}"
+
+    item['ageGroups'] = age_groups
+
+    # Descriptions (altersgerecht)
+    base_desc = item.get('description', '')
+    item['content'] = {
+        "3-6": f"Ein toller Ort für kleine Entdecker! {base_desc[:150]}",
+        "6-9": f"Spannend für Schulkinder! {base_desc[:150]}",
+        "9-12": f"Perfekt für ältere Kinder! {base_desc[:150]}"
+    }
+
+    # Wetterabhängigkeit
+    if any(word in text for word in ['outdoor', 'draußen', 'park', 'spielplatz', 'garten']):
+        item['weatherSuitable'] = 'good-weather'
+    elif any(word in text for word in ['indoor', 'drinnen', 'halle', 'museum']):
+        item['weatherSuitable'] = 'indoor'
+    else:
+        item['weatherSuitable'] = 'any'
+
+    # Energie-Level
+    if any(word in text for word in ['sport', 'klettern', 'toben', 'action', 'spielplatz']):
+        item['energyLevel'] = 'high'
+    elif any(word in text for word in ['basteln', 'malen', 'lesen', 'museum']):
+        item['energyLevel'] = 'low'
+    else:
+        item['energyLevel'] = 'medium'
+
+    # Duration (geschätzt)
+    if 'museum' in text:
+        item['duration'] = '2-3 Stunden'
+    elif 'spielplatz' in text:
+        item['duration'] = '1-2 Stunden'
+    else:
+        item['duration'] = '2-4 Stunden'
+
+    # Parent Tips
+    tips = ["Wasser und Snacks nicht vergessen"]
+    if item['weatherSuitable'] == 'good-weather':
+        tips.append("Sonnenschutz und wetterfeste Kleidung einpacken")
+    if item['weatherSuitable'] == 'indoor':
+        tips.append("Wechselkleidung kann hilfreich sein")
+    if 'spielplatz' in text:
+        tips.append("Erste-Hilfe-Set griffbereit haben")
+
+    item['parentTips'] = tips
+
+    # Highlights (optional)
+    highlights = []
+    if 'kostenlos' in text or 'frei' in text:
+        highlights.append("Kostenloser Eintritt")
+    if 'parkplatz' in text or 'parken' in text:
+        highlights.append("Parkplätze vorhanden")
+    if 'öpnv' in text or 'u-bahn' in text or 'bus' in text:
+        highlights.append("Gut mit Öffis erreichbar")
+
+    if highlights:
+        item['highlights'] = highlights
+
+    # Amenities
+    amenities = []
+    if 'wickel' in text:
+        amenities.append("Wickelraum")
+    if 'wc' in text or 'toilette' in text:
+        amenities.append("WC")
+    if 'parkplatz' in text:
+        amenities.append("Parkplatz")
+    if 'rollstuhl' in text or 'barrierefrei' in text:
+        amenities.append("Rollstuhlgerecht")
+
+    if amenities:
+        item['amenities'] = amenities
+
+    # Geocoding
+    if geocoder and 'address' in item:
+        coords = geocoder.geocode(item['address'], item.get('city', 'München'))
+        if coords:
+            item['lat'], item['lon'] = coords
+
+    return item
+
+
+# ----------------------
+# Location Harvesting
+# ----------------------
+def harvest_locations(url: str, selector: str,
+                     name_selector: str | None = None,
+                     address_selector: str | None = None,
+                     desc_selector: str | None = None,
+                     session: SessionManager = None,
+                     quality_tracker: SourceQualityTracker = None,
+                     geocoder: Geocoder = None) -> list[dict]:
+    """Crawlt dauerhafte Locations (Spielplätze, Museen, etc.)"""
+
+    if quality_tracker and quality_tracker.should_skip(url):
+        logger.info(f"⏭️  Skipping low-quality source: {url}")
+        return []
+
+    logger.info(f"🗺️  Crawling Locations: {url}")
+
+    try:
+        resp = session.get(url) if session else requests.get(url, timeout=REQUEST_TIMEOUT, verify=False)
+        if not resp:
+            if quality_tracker:
+                quality_tracker.record(url, False, 0)
+            return []
+
+        soup = BeautifulSoup(resp.text, "html.parser")
+
+        # Try structured data first (JSON-LD Place/LocalBusiness)
+        locations = []
+        scripts = soup.find_all('script', type='application/ld+json')
+
+        for script in scripts:
+            try:
+                data = json.loads(script.string)
+                if isinstance(data, dict):
+                    if data.get('@type') in ['Place', 'LocalBusiness', 'TouristAttraction']:
+                        loc = parse_json_ld_location(data, url)
+                        if loc:
+                            locations.append(loc)
+                elif isinstance(data, list):
+                    for item in data:
+                        if isinstance(item, dict) and item.get('@type') in ['Place', 'LocalBusiness']:
+                            loc = parse_json_ld_location(item, url)
+                            if loc:
+                                locations.append(loc)
+            except:
+                continue
+
+        if locations:
+            logger.info(f"   ✨ Found {len(locations)} locations via JSON-LD")
+            for loc in locations:
+                enrich_location(loc, geocoder)
+            if quality_tracker:
+                quality_tracker.record(url, True, len(locations))
+            return locations
+
+        # Fallback: Traditional HTML parsing
+        selectors_to_try = [
+            selector,
+            "div[class*='location']",
+            "div[class*='place']",
+            "article[class*='location']",
+            "div[class*='item']",
+            ".location-card",
+            ".place-item"
+        ]
+
+        found_elements = []
+        for sel in selectors_to_try:
+            try:
+                elements = soup.select(sel)
+                if elements:
+                    logger.debug(f"   ✓ Found with '{sel}': {len(elements)} elements")
+                    found_elements.extend(elements[:20])
+                    if len(found_elements) >= 30:
+                        break
+            except:
+                continue
+
+        # Deduplicate
+        seen = set()
+        unique_elements = []
+        for elem in found_elements:
+            elem_text = elem.get_text(strip=True)[:100]
+            if elem_text not in seen and len(elem_text) > 15:
+                seen.add(elem_text)
+                unique_elements.append(elem)
+
+        logger.debug(f"   📊 {len(unique_elements)} unique elements")
+
+        # Extract locations
+        for elem in unique_elements[:30]:
+            try:
+                # Name
+                name = ""
+                if name_selector:
+                    name_elem = elem.select_one(name_selector)
+                    if name_elem:
+                        name = name_elem.get_text(strip=True)
+
+                if not name:
+                    for tag in ['h1', 'h2', 'h3', 'h4']:
+                        heading = elem.find(tag)
+                        if heading:
+                            name = heading.get_text(strip=True)
+                            break
+
+                if not name:
+                    link = elem.find('a')
+                    if link:
+                        name = link.get_text(strip=True)
+
+                if not name or len(name) < 3:
+                    continue
+
+                # Address
+                address = ""
+                if address_selector:
+                    addr_elem = elem.select_one(address_selector)
+                    if addr_elem:
+                        address = addr_elem.get_text(strip=True)
+
+                # Description
+                desc = ""
+                if desc_selector:
+                    desc_elem = elem.select_one(desc_selector)
+                    if desc_elem:
+                        desc = desc_elem.get_text(strip=True)
+
+                if not desc:
+                    desc = elem.get_text(' ', strip=True)[:500]
+
+                # Link
+                link_elem = elem.find('a', href=True)
+                if link_elem:
+                    link = urljoin(url, link_elem['href'])
+                else:
+                    link = url
+
+                # Category (geschätzt)
+                text_lower = (name + " " + desc).lower()
+                category = 'location'
+                if 'spielplatz' in text_lower:
+                    category = 'spielplatz'
+                elif 'museum' in text_lower:
+                    category = 'museum'
+                elif 'indoor' in text_lower or 'halle' in text_lower:
+                    category = 'indoor'
+                elif 'schwimm' in text_lower or 'bad' in text_lower:
+                    category = 'schwimmbad'
+                elif 'tier' in text_lower or 'zoo' in text_lower:
+                    category = 'tierpark'
+
+                location = {
+                    "id": "loc-" + sha1_16(f"{name}|{address}|{link}"),
+                    "name": name[:200],
+                    "address": address,
+                    "category": category,
+                    "description": desc[:500],
+                    **CITY_DEFAULT,
+                    "source": url,
+                    "link": link,
+                    "lastUpdated": now_iso(),
+                }
+
+                location = enrich_location(location, geocoder)
+                locations.append(location)
+
+            except Exception as e:
+                logger.debug(f"Parse error: {e}")
+                continue
+
+        logger.info(f"   ✅ {len(locations)} locations extracted")
+
+        if quality_tracker:
+            quality_tracker.record(url, len(locations) > 0, len(locations))
+
+        return locations
+
+    except Exception as e:
+        logger.error(f"   ❌ Error: {e}")
+        if quality_tracker:
+            quality_tracker.record(url, False, 0)
+        return []
+
+
+def parse_json_ld_location(data: dict, source_url: str) -> Optional[dict]:
+    """Parst JSON-LD Place/LocalBusiness"""
+    try:
+        name = data.get('name', '')
+        if not name:
+            return None
+
+        address_data = data.get('address', {})
+        if isinstance(address_data, dict):
+            street = address_data.get('streetAddress', '')
+            postal = address_data.get('postalCode', '')
+            city = address_data.get('addressLocality', 'München')
+            address = f"{street}, {postal} {city}" if street else city
+        else:
+            address = str(address_data) if address_data else ""
+
+        desc = data.get('description', '')
+        link = data.get('url', source_url)
+
+        # Geo coordinates (if available)
+        lat, lon = None, None
+        geo = data.get('geo', {})
+        if isinstance(geo, dict):
+            lat = geo.get('latitude')
+            lon = geo.get('longitude')
+
+        location = {
+            "id": "loc-" + sha1_16(f"{name}|{address}|{link}"),
+            "name": name[:200],
+            "address": address,
+            "category": "location",
+            "description": desc[:500],
+            **CITY_DEFAULT,
+            "source": source_url,
+            "link": link,
+            "lastUpdated": now_iso(),
+        }
+
+        if lat and lon:
+            location['lat'] = float(lat)
+            location['lon'] = float(lon)
+
+        # Opening hours
+        opening_hours = data.get('openingHours')
+        if opening_hours:
+            parser = OpeningHoursParser()
+            hours = parser.parse(str(opening_hours))
+            if hours:
+                location['openingHours'] = hours
+
+        return location
+
+    except Exception as e:
+        logger.debug(f"JSON-LD location parse error: {e}")
+        return None
 
 
 # ----------------------
@@ -759,7 +1255,7 @@ def get_events_from_all_sources() -> list[dict]:
     cfg = load_config()
 
     logger.info("\n" + "="*70)
-    logger.info("🚀 KidzOut SUPER-CRAWLER v4.0 - Enterprise Edition")
+    logger.info("🚀 KidzOut SUPER-CRAWLER v4.1 - Event Harvesting")
     logger.info(f"📋 Sources: {len(cfg.get('rss', []))} RSS | {len(cfg.get('html', []))} HTML | {len(cfg.get('ical', []))} iCal")
     logger.info(f"⚡ Parallel Workers: {MAX_WORKERS}")
     logger.info("="*70)
@@ -813,8 +1309,64 @@ def get_events_from_all_sources() -> list[dict]:
     return unique_events
 
 
+def get_locations_from_all_sources(geocoder: Geocoder = None) -> list[dict]:
+    """Crawlt alle Locations (Spielplätze, Museen, etc.)"""
+    cfg = load_config()
+
+    logger.info("\n" + "="*70)
+    logger.info("🗺️  KidzOut SUPER-CRAWLER v4.1 - Location Harvesting")
+    logger.info(f"📋 Location Sources: {len(cfg.get('locations', []))}")
+    logger.info(f"⚡ Parallel Workers: {MAX_WORKERS}")
+    logger.info("="*70)
+
+    session = SessionManager()
+    quality_tracker = SourceQualityTracker()
+
+    # Prepare location sources
+    sources = cfg.get("locations", [])
+    logger.info(f"🎯 Total location sources: {len(sources)}")
+
+    all_locations = []
+
+    for item in sources:
+        try:
+            if isinstance(item, dict):
+                url = item["url"]
+                locations = harvest_locations(
+                    url,
+                    item.get("selector", "div"),
+                    item.get("name_selector"),
+                    item.get("address_selector"),
+                    item.get("desc_selector"),
+                    session,
+                    quality_tracker,
+                    geocoder
+                )
+                all_locations.extend(locations)
+            time.sleep(2.0)  # Rate limiting
+        except Exception as e:
+            logger.error(f"Location harvest error: {e}")
+
+    # Deduplizierung
+    dedup = {}
+    for loc in all_locations:
+        dedup_key = f"{loc['name'][:30]}_{loc.get('address', '')[:20]}"
+        if dedup_key not in dedup or len(loc.get('description', '')) > len(dedup[dedup_key].get('description', '')):
+            dedup[dedup_key] = loc
+
+    unique_locations = list(dedup.values())
+
+    quality_tracker.save_stats()
+
+    logger.info("\n" + "="*70)
+    logger.info(f"📊 RESULT: {len(unique_locations)} unique locations | {len(all_locations)} total scraped")
+    logger.info("="*70 + "\n")
+
+    return unique_locations
+
+
 def main():
-    logger.info("\n🎯 KidzOut SUPER-CRAWLER v4.0 starting...")
+    logger.info("\n🎯 KidzOut SUPER-CRAWLER v4.1 starting...")
 
     start_time = time.time()
 
@@ -830,8 +1382,15 @@ def main():
     # Crawl new events
     crawled_events = get_events_from_all_sources()
 
-    # Combine
+    # Combine events
     all_events = manual_events + crawled_events
+
+    # Crawl locations (mit Geocoder!)
+    logger.info("\n" + "="*70)
+    logger.info("🗺️  Starting Location Harvesting...")
+    logger.info("="*70)
+    geocoder = Geocoder()
+    crawled_locations = get_locations_from_all_sources(geocoder)
 
     # Load existing data
     try:
@@ -840,19 +1399,27 @@ def main():
     except Exception:
         data = {"locations": [], "events": []}
 
-    # Update
+    # Update events
     if all_events:
         data["events"] = sorted(all_events, key=lambda e: (e["date"], e["name"]))
         data["totalEvents"] = len(all_events)
-        logger.info(f"\n✅ {len(all_events)} events saved to {OUTPUT_FILE}")
+        logger.info(f"\n✅ {len(all_events)} events saved")
     else:
         logger.warning("\n⚠️ No events found")
+
+    # Update locations
+    if crawled_locations:
+        data["locations"] = sorted(crawled_locations, key=lambda l: l["name"])
+        data["totalLocations"] = len(crawled_locations)
+        logger.info(f"✅ {len(crawled_locations)} locations saved")
+    else:
+        logger.warning("⚠️ No locations found")
 
     # Metadata
     elapsed = time.time() - start_time
     data["lastCrawled"] = now_iso()
     data["metadata"] = {
-        "version": "4.0",
+        "version": "4.1",
         "lastCrawled": now_iso(),
         "totalLocations": len(data.get("locations", [])),
         "totalEvents": len(all_events),
