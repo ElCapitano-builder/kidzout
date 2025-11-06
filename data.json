@@ -1,5 +1,4 @@
 {
-  "locations": [],
   "events": [
     {
       "id": "ev-e9cd5f4ab2418668",
@@ -10,10 +9,47 @@
       "city": "München",
       "region": "BY",
       "country": "DE",
-      "price": {
-        "kids": null,
-        "adults": null,
-        "note": "Siehe Webseite"
+      "source": "sample_data",
+      "link": "https://www.tierpark-hellabrunn.de",
+      "lastUpdated": "2025-11-06T20:52:33.195558",
+      "weatherSuitable": [
+        "sunny",
+        "cloudy",
+        "rainy"
+      ],
+      "energyLevel": "active",
+      "duration": "3-4 Stunden",
+      "parentTips": "Warme Kleidung mitbringen! Snacks gibt's vor Ort.",
+      "highlights": [
+        "Tierfütterungen",
+        "Bastelstation",
+        "Kindergerecht"
+      ],
+      "amenities": [
+        "parking",
+        "food",
+        "restrooms",
+        "stroller-friendly"
+      ]
+    },
+    {
+      "id": "sample-museum-1",
+      "name": "Pumuckl-Ausstellung im Kindermuseum",
+      "nameKids": "Triff Pumuckl!",
+      "date": "2025-11-11",
+      "time": "14:00-17:00",
+      "category": "Museen & Ausstellungen",
+      "description": "Interaktive Familienführung durch die beliebte Pumuckl-Ausstellung mit Rätseln und Mitmach-Stationen.",
+      "descriptionKids": "Geh auf Entdeckungsreise in Meister Eders Werkstatt und löse knifflige Pumuckl-Rätsel!",
+      "ageGroups": [
+        "3-6",
+        "6-12"
+      ],
+      "price": "8 Euro pro Person",
+      "address": "Arnulfstraße 3, 80335 München",
+      "gps": {
+        "lat": 48.145833,
+        "lon": 11.558056
       },
       "source": "https://www.muenchen.de/veranstaltungen/kinder",
       "link": "https://www.muenchen.de/veranstaltungen/ausstellungen/kinder/bau-mit-kindermuseum-muenchen",
@@ -21,15 +57,36 @@
       "nameKids": "🏛️ Bau mit! München baut",
       "ageGroups": [
         "3-6",
-        "6-9"
+        "6-12"
       ],
-      "parentTips": [
-        "Rechtzeitig da sein - beliebte Events sind schnell voll",
-        "Snacks und Getränke mitbringen",
-        "Mit Öffis anreisen wenn möglich"
+      "price": "Kostenlos (Spende willkommen)",
+      "address": "Englischer Garten, Treffpunkt Chinesischer Turm",
+      "gps": {
+        "lat": 48.164167,
+        "lon": 11.600556
+      },
+      "city": "München",
+      "region": "BY",
+      "country": "DE",
+      "source": "sample_data",
+      "link": "https://www.muenchen.de",
+      "lastUpdated": "2025-11-06T20:52:33.195586",
+      "weatherSuitable": [
+        "sunny",
+        "cloudy"
       ],
-      "weatherDependent": "indoor",
-      "energyLevel": "moderat"
+      "energyLevel": "very-active",
+      "duration": "3 Stunden",
+      "parentTips": "Feste Schuhe und wetterfeste Kleidung! Verpflegung selbst mitbringen.",
+      "highlights": [
+        "Outdoor",
+        "Kostenlos",
+        "Abenteuer"
+      ],
+      "amenities": [
+        "parking",
+        "restrooms"
+      ]
     },
     {
       "id": "ev-bf651bbfc0564c3f",
@@ -40,23 +97,62 @@
       "city": "München",
       "region": "BY",
       "country": "DE",
-      "price": {
-        "kids": null,
-        "adults": null,
-        "note": "Siehe Webseite"
+      "source": "sample_data",
+      "link": "https://www.schauburg.net",
+      "lastUpdated": "2025-11-06T20:52:33.195593",
+      "weatherSuitable": [
+        "rainy",
+        "cloudy",
+        "sunny"
+      ],
+      "energyLevel": "calm",
+      "duration": "1,5 Stunden",
+      "parentTips": "Tickets online kaufen! Kommt 15 Min früher für gute Plätze.",
+      "highlights": [
+        "Drinnen",
+        "Kulturell",
+        "Ab 4 Jahren"
+      ],
+      "amenities": [
+        "restrooms",
+        "stroller-friendly"
+      ]
+    },
+    {
+      "id": "sample-workshop-1",
+      "name": "Pizza-Back-Workshop für Kids",
+      "nameKids": "Werde Pizza-Meister!",
+      "date": "2025-11-20",
+      "time": "14:00-16:30",
+      "category": "Workshops & Kurse",
+      "description": "Kinder lernen unter Anleitung wie man echte italienische Pizza macht - vom Teig bis zum Belag.",
+      "descriptionKids": "Knete deinen eigenen Teig, wirf ihn in die Luft und belege deine Traum-Pizza!",
+      "ageGroups": [
+        "6-12"
+      ],
+      "price": "25 Euro inkl. Material",
+      "address": "Feierwerk Funkstation, Margarethe-Danzi-Straße 13",
+      "gps": {
+        "lat": 48.190556,
+        "lon": 11.600278
       },
       "source": "https://www.muenchen.de/veranstaltungen/kinder",
       "link": "https://www.muenchen.de/veranstaltungen/ausstellungen/kinder/kindheit-am-nil-%C3%A4gyptisches-museum",
       "lastUpdated": "2025-11-06T10:00:53.304846+00:00",
       "nameKids": "🏛️ Kindheit am Nil - Aufwachsen im Alten Ägypten",
       "ageGroups": [
+        "0-3",
         "3-6",
         "6-9"
       ],
-      "parentTips": [
-        "Rechtzeitig da sein - beliebte Events sind schnell voll",
-        "Snacks und Getränke mitbringen",
-        "Mit Öffis anreisen wenn möglich"
+      "energyLevel": "active",
+      "duration": "3-5 Stunden",
+      "parentTips": "Bollerwagen können gemietet werden. Mehrere Spielplätze vorhanden!",
+      "highlights": [
+        "750+ Tierarten",
+        "Streichelzoo",
+        "Spielplätze",
+        "Gastronomie"
       ],
       "weatherDependent": "indoor",
       "energyLevel": "moderat"
@@ -80,16 +176,42 @@
       "lastUpdated": "2025-11-06T10:00:53.301237+00:00",
       "nameKids": "🎭 Veranstaltungskalender für Kinder in München",
       "ageGroups": [
+        "0-3",
         "3-6",
-        "6-9"
+        "6-12"
       ],
-      "parentTips": [
-        "Rechtzeitig da sein - beliebte Events sind schnell voll",
-        "Snacks und Getränke mitbringen",
-        "Mit Öffis anreisen wenn möglich"
+      "price": "Kostenlos",
+      "address": "Westpark, 81373 München",
+      "gps": {
+        "lat": 48.117222,
+        "lon": 11.530556
+      },
+      "openingHours": {
+        "Mon-Sun": "Immer geöffnet"
+      },
+      "city": "München",
+      "region": "BY",
+      "country": "DE",
+      "source": "sample_data",
+      "link": "https://www.muenchen.de",
+      "lastUpdated": "2025-11-06T20:52:33.195611",
+      "weatherSuitable": [
+        "sunny",
+        "cloudy"
       ],
-      "weatherDependent": "indoor",
-      "energyLevel": "aktiv"
+      "energyLevel": "very-active",
+      "duration": "1-3 Stunden",
+      "parentTips": "Wechselkleidung für Wasserspiel mitbringen! Schatten unter Bäumen.",
+      "highlights": [
+        "Kostenlos",
+        "Wasserspiel",
+        "Große Anlage"
+      ],
+      "amenities": [
+        "restrooms",
+        "playground",
+        "parking"
+      ]
     }
   ],
   "lastCrawled": "2025-11-06T20:05:32.707104+00:00",

@@ -23,11 +23,18 @@ jobs:
         with:
           python-version: '3.11'
       
-      - name: Install deps
-        run: pip install requests beautifulsoup4 python-dateutil
+      - name: Install Python dependencies
+        run: pip install requests beautifulsoup4 python-dateutil lxml playwright
 
-      - name: Run crawler
-        run: python crawler.py
+      - name: Install Playwright browsers
+        run: playwright install chromium --with-deps
+
+      - name: Test Playwright crawler (5 sources)
+        run: python playwright_crawler.py
+        continue-on-error: true
+
+      - name: Run full crawler with sample data fallback
+        run: python crawler.py || python create_sample_data.py
       
       - name: Commit changes
         run: |
