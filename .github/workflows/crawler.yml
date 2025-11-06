@@ -2,7 +2,7 @@ name: Event Crawler
 
 on:
   schedule:
-    - cron: '0 6,18 * * *'
+    - cron: '0 6,10,14,18 * * *'  # 4x täglich: 07/11/15/19 Uhr MEZ (Winter) | 08/12/16/20 Uhr MESZ (Sommer)
   workflow_dispatch:
 
 permissions:
