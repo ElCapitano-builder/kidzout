@@ -16,7 +16,7 @@
       },
       "source": "https://www.muenchner-stadtbibliothek.de/veranstaltungen",
       "link": "https://www.muenchner-stadtbibliothek.de/veranstaltungen/details/maria-theresia-23-biografie-einer-muenchner-villa-30291",
-      "lastUpdated": "2025-11-07T14:43:20.387038+00:00",
+      "lastUpdated": "2025-11-07T18:49:54.365892+00:00",
       "nameKids": "🎉 Maria Theresia 23. Biografie einer Münchner Villa",
       "ageGroups": [
         "3-6",
@@ -46,7 +46,7 @@
       },
       "source": "https://www.muenchner-stadtbibliothek.de/veranstaltungen",
       "link": "https://www.muenchner-stadtbibliothek.de/veranstaltungen/details/kreuz-quer-36925",
-      "lastUpdated": "2025-11-07T14:43:20.395273+00:00",
+      "lastUpdated": "2025-11-07T18:49:54.373121+00:00",
       "nameKids": "🎉 kreuz & quer",
       "ageGroups": [
         "3-6",
@@ -77,7 +77,7 @@
       },
       "source": "https://www.flughafen-muenchen.de/besucherpark",
       "link": "https://www.flughafen-muenchen.de/presse-drohnensichtung-am-flughafen-muenchen-35699498",
-      "lastUpdated": "2025-11-07T14:43:22.979652+00:00",
+      "lastUpdated": "2025-11-07T18:49:58.562172+00:00",
       "nameKids": "🎉 Presse: Drohnensichtung am  Flughafen München",
       "ageGroups": [
         "0-3"
@@ -106,7 +106,7 @@
       },
       "source": "https://www.muenchner-stadtbibliothek.de/veranstaltungen",
       "link": "https://www.muenchner-stadtbibliothek.de/veranstaltungen/details/tommi-2025-36405",
-      "lastUpdated": "2025-11-07T14:43:20.396787+00:00",
+      "lastUpdated": "2025-11-07T18:49:54.374433+00:00",
       "nameKids": "🎉 TOMMI 2025",
       "ageGroups": [
         "3-6",
@@ -137,7 +137,7 @@
       },
       "source": "https://www.flughafen-muenchen.de/besucherpark",
       "link": "https://www.flughafen-muenchen.de/presse-erneute-drohnensichtung-am-flughafen-muenchen-35718862",
-      "lastUpdated": "2025-11-07T14:43:22.979218+00:00",
+      "lastUpdated": "2025-11-07T18:49:58.561788+00:00",
       "nameKids": "🎉 Presse: Erneute Drohnensichtung am  Flughafen Münc",
       "ageGroups": [
         "3-6",
@@ -168,7 +168,7 @@
       },
       "source": "https://www.flughafen-muenchen.de/besucherpark",
       "link": "https://www.flughafen-muenchen.de/presse-37-000-beschaeftigte-arbeiten-am-flughafen-muenchen-36652130",
-      "lastUpdated": "2025-11-07T14:43:22.975797+00:00",
+      "lastUpdated": "2025-11-07T18:49:58.558754+00:00",
       "nameKids": "🎉 Presse: 37.000 Beschäftigte arbeiten     am Flugha",
       "ageGroups": [
         "3-6",
@@ -199,7 +199,7 @@
       },
       "source": "https://www.unterhaching.de/veranstaltungen",
       "link": "https://www.unterhaching.de/veranstaltungen/veranstaltung?view=publish&item=eventDate&id=2182",
-      "lastUpdated": "2025-11-07T14:43:28.721613+00:00",
+      "lastUpdated": "2025-11-07T18:50:05.865330+00:00",
       "nameKids": "🎉 Silke Kunst: E R H A B E N",
       "ageGroups": [
         "3-6",
@@ -229,7 +229,7 @@
       },
       "source": "https://www.flughafen-muenchen.de/besucherpark",
       "link": "https://www.flughafen-muenchen.de/besucherpark",
-      "lastUpdated": "2025-11-07T14:43:22.974324+00:00",
+      "lastUpdated": "2025-11-07T18:49:58.557450+00:00",
       "nameKids": "🎉 Presse: ​​Festlicher Zauber inmitten Europas größt",
       "ageGroups": [
         "3-6",
@@ -260,216 +260,12 @@
       },
       "source": "https://www.lesefuechse.org/aktuelles/",
       "link": "https://lesefuechse.org/wo-fuchs-und-hase-sich-gute-nacht-sagen/",
-      "lastUpdated": "2025-11-07T14:43:28.818954+00:00",
+      "lastUpdated": "2025-11-07T18:50:08.301559+00:00",
       "nameKids": "🎉 Wo Fuchs und Hase sich gute Nacht sagen",
       "ageGroups": [
         "3-6",
         "6-9",
         "9-12"
-      ],
-      "parentTips": [
-        "Rechtzeitig da sein - beliebte Events sind schnell voll",
-        "Snacks und Getränke mitbringen",
-        "Mit Öffis anreisen wenn möglich"
-      ],
-      "weatherDependent": "any",
-      "energyLevel": "moderat"
-    },
-    {
-      "id": "ev-adb2ca861c3d519b",
-      "name": "17 Ziele für unsere Erde – SDGs erleben",
-      "date": "2025-07-11",
-      "category": "museum",
-      "description": "17 Ziele für unsere Erde – SDGs erleben 15:00 - 16:00 07.11.2025 Führung, Museum ab 8 Jahren Museum Mensch und Natur Familienführung. Bei einem Rundgang im Museum bekommen die Teilnehmenden die Agenda 2030 mit den 17 Nachhaltigkeitszielen (SDGs) veranschaulicht.",
-      "city": "München",
-      "region": "BY",
-      "country": "DE",
-      "price": {
-        "kids": null,
-        "adults": null,
-        "note": "Siehe Webseite"
-      },
-      "source": "https://muenchenmitkind.de/veranstaltungskalender",
-      "link": "https://muenchenmitkind.de/veranstaltungskalender/17-ziele-fuer-unsere-erde-sdgs-erleben/",
-      "lastUpdated": "2025-11-07T14:43:24.978200+00:00",
-      "nameKids": "🏛️ 17 Ziele für unsere Erde – SDGs erleben",
-      "ageGroups": [
-        "6-9"
-      ],
-      "parentTips": [
-        "Rechtzeitig da sein - beliebte Events sind schnell voll",
-        "Snacks und Getränke mitbringen",
-        "Mit Öffis anreisen wenn möglich"
-      ],
-      "weatherDependent": "indoor",
-      "energyLevel": "moderat"
-    },
-    {
-      "id": "ev-00ceac8dafd30b63",
-      "name": "DSCHUNGEL-Festival",
-      "date": "2025-07-11",
-      "category": "theater",
-      "description": "DSCHUNGEL-Festival 14:30 - 18:00 07.11.2025 Bühne, Fest, Kreativ, Musik, Workshop ab 3 Jahren Feierwerk Dschungelpalast Viele tolle Programm- und Mitmachangebote aus den verschiedensten kulturellen Sparten: Vom Kinder-Theater über Mitmach-Zaubershow, Live-Musik und Kreativ-Programm bis zur Halloween-Disco – für jede:n ist etwas dabei.",
-      "city": "München",
-      "region": "BY",
-      "country": "DE",
-      "price": {
-        "kids": null,
-        "adults": null,
-        "note": "Siehe Webseite"
-      },
-      "source": "https://muenchenmitkind.de/veranstaltungskalender",
-      "link": "https://muenchenmitkind.de/veranstaltungskalender/dschungel-festival-2025-11-07/",
-      "lastUpdated": "2025-11-07T14:43:24.977784+00:00",
-      "nameKids": "🎭 DSCHUNGEL-Festival",
-      "ageGroups": [
-        "3-6"
-      ],
-      "parentTips": [
-        "Rechtzeitig da sein - beliebte Events sind schnell voll",
-        "Snacks und Getränke mitbringen",
-        "Mit Öffis anreisen wenn möglich"
-      ],
-      "weatherDependent": "indoor",
-      "energyLevel": "moderat"
-    },
-    {
-      "id": "ev-48b2801950332ad5",
-      "name": "Deine Aufbewahrungsbox für Deine Reiseerinnerungen",
-      "date": "2025-07-11",
-      "category": "museum",
-      "description": "Deine Aufbewahrungsbox für Deine Reiseerinnerungen 13:30 - 16:30 07.11.2025 Ferienkurse, Kreativ, Museum, Umgebung, Workshop für alle Diözesanmuseum Freising Offene Ferienwerkstatt. Lasst euch von der Ausstellung des Malers Valentin Gappnigg (1661/62–1736) inspirieren, der beeindruckende Landschaften in zarten Bildern festgehalten hat.",
-      "city": "München",
-      "region": "BY",
-      "country": "DE",
-      "price": {
-        "kids": null,
-        "adults": null,
-        "note": "Siehe Webseite"
-      },
-      "source": "https://muenchenmitkind.de/veranstaltungskalender",
-      "link": "https://muenchenmitkind.de/veranstaltungskalender/deine-aufbewahrungsbox-fuer-deine-reiseerinnerungen/",
-      "lastUpdated": "2025-11-07T14:43:24.976494+00:00",
-      "nameKids": "🎨 Deine Aufbewahrungsbox für Deine Reiseerinnerungen",
-      "ageGroups": [
-        "3-6",
-        "6-9"
-      ],
-      "parentTips": [
-        "Rechtzeitig da sein - beliebte Events sind schnell voll",
-        "Snacks und Getränke mitbringen",
-        "Mit Öffis anreisen wenn möglich"
-      ],
-      "weatherDependent": "indoor",
-      "energyLevel": "moderat"
-    },
-    {
-      "id": "ev-e2bca17fb1731121",
-      "name": "Eine Tour durch das Sonnensystem",
-      "date": "2025-07-11",
-      "category": "event",
-      "description": "Eine Tour durch das Sonnensystem 11:00 07.11.2025 Planetarium, Umgebung ab 7 Jahren ESO Supernova Planetarium und Besucherzentrum Die Show gibt euch eine Vorstellung von der Lage unseres Zuhauses in Bezug zur ganzen Erde und dann von der Position der Erde im Sonnensystem. Sie vergleicht den Himmel über...",
-      "city": "München",
-      "region": "BY",
-      "country": "DE",
-      "price": {
-        "kids": null,
-        "adults": null,
-        "note": "Siehe Webseite"
-      },
-      "source": "https://muenchenmitkind.de/veranstaltungskalender",
-      "link": "https://muenchenmitkind.de/veranstaltungskalender/eine-tour-durch-das-sonnensystem-2-2025-11-07/",
-      "lastUpdated": "2025-11-07T14:43:24.975220+00:00",
-      "nameKids": "🎉 Eine Tour durch das Sonnensystem",
-      "ageGroups": [
-        "6-9"
-      ],
-      "parentTips": [
-        "Rechtzeitig da sein - beliebte Events sind schnell voll",
-        "Snacks und Getränke mitbringen",
-        "Mit Öffis anreisen wenn möglich"
-      ],
-      "weatherDependent": "any",
-      "energyLevel": "moderat"
-    },
-    {
-      "id": "ev-709f05719fd16f60",
-      "name": "Experimentierwerkstatt",
-      "date": "2025-07-11",
-      "category": "museum",
-      "description": "Experimentierwerkstatt 14:00 - 17:00 07.11.2025 Ferienkurse, Kreativ, Museum, Umgebung ab 7 Jahren Franz Marc Museum Workshop-Programm für Familien und Kinder: Hier darf nach Lust und Laune gemalt, geformt, gekleckst und ausprobiert werden – Kreativität ohne Grenzen!",
-      "city": "München",
-      "region": "BY",
-      "country": "DE",
-      "price": {
-        "kids": null,
-        "adults": null,
-        "note": "Siehe Webseite"
-      },
-      "source": "https://muenchenmitkind.de/veranstaltungskalender",
-      "link": "https://muenchenmitkind.de/veranstaltungskalender/experimentierwerkstatt/",
-      "lastUpdated": "2025-11-07T14:43:24.976938+00:00",
-      "nameKids": "🎨 Experimentierwerkstatt",
-      "ageGroups": [
-        "6-9"
-      ],
-      "parentTips": [
-        "Rechtzeitig da sein - beliebte Events sind schnell voll",
-        "Snacks und Getränke mitbringen",
-        "Mit Öffis anreisen wenn möglich"
-      ],
-      "weatherDependent": "indoor",
-      "energyLevel": "moderat"
-    },
-    {
-      "id": "ev-a5e61e22c47c03e7",
-      "name": "Formularservice",
-      "date": "2025-07-11",
-      "category": "event",
-      "description": "Formularservice 09:00 - 11:00 07.11.2025 Beratung für Eltern Neue Ziegelei Hier wird euch beim Ausfüllen von Anträgen zum Thema Familie (Kinder von 0-6 Jahre) geholfen, etwa Kinderzuschlag, Kindergeld, Krippengeld oder Bildung und Teilhabe.",
-      "city": "München",
-      "region": "BY",
-      "country": "DE",
-      "price": {
-        "kids": null,
-        "adults": null,
-        "note": "Siehe Webseite"
-      },
-      "source": "https://muenchenmitkind.de/veranstaltungskalender",
-      "link": "https://muenchenmitkind.de/veranstaltungskalender/formularservice-2025-11-07/",
-      "lastUpdated": "2025-11-07T14:43:24.971404+00:00",
-      "nameKids": "🎉 Formularservice",
-      "ageGroups": [
-        "0-3"
-      ],
-      "parentTips": [
-        "Rechtzeitig da sein - beliebte Events sind schnell voll",
-        "Snacks und Getränke mitbringen",
-        "Mit Öffis anreisen wenn möglich"
-      ],
-      "weatherDependent": "any",
-      "energyLevel": "moderat"
-    },
-    {
-      "id": "ev-5e83af866c8f9d75",
-      "name": "Großes KinderKino",
-      "date": "2025-07-11",
-      "category": "kino",
-      "description": "Großes KinderKino 15:00 07.11.2025 Kino ab 8 Jahren Stadtbibliothek im HP8 „BFG – Sophie und der Riese“. Die Verfilmung von Roald Dahls Kinderbuch „Sophiechen und der Riese“. Prädikat „Besonders wertvoll“ der Deutschen Film- und Medienbewertung.",
-      "city": "München",
-      "region": "BY",
-      "country": "DE",
-      "price": {
-        "kids": null,
-        "adults": null,
-        "note": "Siehe Webseite"
-      },
-      "source": "https://muenchenmitkind.de/veranstaltungskalender",
-      "link": "https://muenchenmitkind.de/veranstaltungskalender/grosses-kinderkino-34/",
-      "lastUpdated": "2025-11-07T14:43:24.978648+00:00",
-      "nameKids": "🎉 Großes KinderKino",
-      "ageGroups": [
-        "6-9"
       ],
       "parentTips": [
         "Rechtzeitig da sein - beliebte Events sind schnell voll",
@@ -495,7 +291,7 @@
       },
       "source": "https://muenchenmitkind.de/veranstaltungskalender",
       "link": "https://muenchenmitkind.de/veranstaltungskalender/herbst-erlebnisdorf-2025-11-07/",
-      "lastUpdated": "2025-11-07T14:43:24.975646+00:00",
+      "lastUpdated": "2025-11-07T18:50:01.053876+00:00",
       "nameKids": "🎭 Herbst-Erlebnisdorf",
       "ageGroups": [
         "3-6",
@@ -510,42 +306,11 @@
       "energyLevel": "moderat"
     },
     {
-      "id": "ev-b449f08bf874a256",
-      "name": "Herbstolympiade",
-      "date": "2025-07-11",
-      "category": "outdoor",
-      "description": "Herbstolympiade 09:30 - 16:00 07.11.2025 Ferienkurse, Natur, Outdoor, Umgebung von 6-10 Jahre Walderlebniszentrum Grünwald Habt ihr schon einmal an der Walddisziplin Zapfenweitwurf teilgenommen oder euchch mit den Waldtieren beim Weitsprung gemessen? Dann nehmt an der Herbstolympiade teil!",
-      "city": "München",
-      "region": "BY",
-      "country": "DE",
-      "price": {
-        "kids": null,
-        "adults": null,
-        "note": "Siehe Webseite"
-      },
-      "source": "https://muenchenmitkind.de/veranstaltungskalender",
-      "link": "https://muenchenmitkind.de/veranstaltungskalender/herbstolympiade/",
-      "lastUpdated": "2025-11-07T14:43:24.972273+00:00",
-      "nameKids": "🎉 Herbstolympiade",
-      "ageGroups": [
-        "3-6",
-        "6-9",
-        "9-12"
-      ],
-      "parentTips": [
-        "Rechtzeitig da sein - beliebte Events sind schnell voll",
-        "Snacks und Getränke mitbringen",
-        "Mit Öffis anreisen wenn möglich"
-      ],
-      "weatherDependent": "good-weather",
-      "energyLevel": "moderat"
-    },
-    {
-      "id": "ev-1e05f38633870d6c",
-      "name": "Hinterglasmalen und Metallprägen",
+      "id": "ev-111b42892c50890c",
+      "name": "Taschenlampenführung mit Pumuckl",
       "date": "2025-07-11",
       "category": "museum",
-      "description": "Hinterglasmalen und Metallprägen 10:15 - 13:15 07.11.2025 Museum, Ferienkurse, Kreativ, Umgebung ab 6 Jahren Franz Marc Museum Workshop-Programm: Experimente mit Licht, Blattgold und Prägefolie für magische Glitzerwelten.",
+      "description": "Taschenlampenführung mit Pumuckl 19:00 07.11.2025 Ausstellung, Führung, Museum, Umgebung ab 6 Jahren KASiMiRmuseum Tour durchs nächtliche Museum für mutige Kinder.",
       "city": "München",
       "region": "BY",
       "country": "DE",
@@ -555,250 +320,11 @@
         "note": "Siehe Webseite"
       },
       "source": "https://muenchenmitkind.de/veranstaltungskalender",
-      "link": "https://muenchenmitkind.de/veranstaltungskalender/hinterglasmalen-und-metallpraegen/",
-      "lastUpdated": "2025-11-07T14:43:24.974795+00:00",
-      "nameKids": "🎨 Hinterglasmalen und Metallprägen",
+      "link": "https://muenchenmitkind.de/veranstaltungskalender/taschenlampenfuehrung-mit-pumuckl-2025-11-07/",
+      "lastUpdated": "2025-11-07T18:50:01.054275+00:00",
+      "nameKids": "🏛️ Taschenlampenführung mit Pumuckl",
       "ageGroups": [
         "6-9"
-      ],
-      "parentTips": [
-        "Rechtzeitig da sein - beliebte Events sind schnell voll",
-        "Snacks und Getränke mitbringen",
-        "Mit Öffis anreisen wenn möglich"
-      ],
-      "weatherDependent": "indoor",
-      "energyLevel": "ruhig"
-    },
-    {
-      "id": "ev-0ca4d54d37dbd009",
-      "name": "Kindercafé",
-      "date": "2025-07-11",
-      "category": "kreativ",
-      "description": "Kindercafé 14:00 - 16:30 07.11.2025 Treff von 6-12 Jahre SBZ am Hart Toben, spielen, basteln, malen, gemeinsam kochen, Sport treiben ...",
-      "city": "München",
-      "region": "BY",
-      "country": "DE",
-      "price": {
-        "kids": null,
-        "adults": null,
-        "note": "Siehe Webseite"
-      },
-      "source": "https://muenchenmitkind.de/veranstaltungskalender",
-      "link": "https://muenchenmitkind.de/veranstaltungskalender/kindercafe-5-2025-11-07/",
-      "lastUpdated": "2025-11-07T14:43:24.977358+00:00",
-      "nameKids": "🎨 Kindercafé",
-      "ageGroups": [
-        "6-9",
-        "9-12"
-      ],
-      "parentTips": [
-        "Rechtzeitig da sein - beliebte Events sind schnell voll",
-        "Snacks und Getränke mitbringen",
-        "Mit Öffis anreisen wenn möglich"
-      ],
-      "weatherDependent": "any",
-      "energyLevel": "aktiv"
-    },
-    {
-      "id": "ev-ae6b14e255273ea7",
-      "name": "Krone Farm",
-      "date": "2025-07-11",
-      "category": "outdoor",
-      "description": "Krone Farm 10:00 - 18:00 07.11.2025 Führung, Natur, Outdoor, Umgebung für alle Krone Farm Die Seniorenresidenz der Tiere des Circus Krone bietet Unterhaltung für Groß und Klein. Um 14:00 findet eine eineinhalbstündige Führung u.a. mit Raubkatzen-Training statt.",
-      "city": "München",
-      "region": "BY",
-      "country": "DE",
-      "price": {
-        "kids": null,
-        "adults": null,
-        "note": "Siehe Webseite"
-      },
-      "source": "https://muenchenmitkind.de/veranstaltungskalender",
-      "link": "https://muenchenmitkind.de/veranstaltungskalender/krone-farm-2025-11-07/",
-      "lastUpdated": "2025-11-07T14:43:24.972705+00:00",
-      "nameKids": "🎉 Krone Farm",
-      "ageGroups": [
-        "3-6",
-        "6-9",
-        "9-12"
-      ],
-      "parentTips": [
-        "Rechtzeitig da sein - beliebte Events sind schnell voll",
-        "Snacks und Getränke mitbringen",
-        "Mit Öffis anreisen wenn möglich"
-      ],
-      "weatherDependent": "good-weather",
-      "energyLevel": "moderat"
-    },
-    {
-      "id": "ev-761cf728f931584e",
-      "name": "Manga zeichnen",
-      "date": "2025-07-11",
-      "category": "museum",
-      "description": "Manga zeichnen 10:00 - 16:00 07.11.2025 Kreativ, Workshop von 6-10 Jahre Kinderkunsthaus Ferien-Workshop. Ihr lest gerne Mangas und Comics? In diesem Ferienworkshop teilen Manga-Expertinnen ihr Wissen mit euch.",
-      "city": "München",
-      "region": "BY",
-      "country": "DE",
-      "price": {
-        "kids": null,
-        "adults": null,
-        "note": "Siehe Webseite"
-      },
-      "source": "https://muenchenmitkind.de/veranstaltungskalender",
-      "link": "https://muenchenmitkind.de/veranstaltungskalender/manga-zeichnen-2025-11-07/",
-      "lastUpdated": "2025-11-07T14:43:24.973113+00:00",
-      "nameKids": "🎨 Manga zeichnen",
-      "ageGroups": [
-        "3-6",
-        "6-9"
-      ],
-      "parentTips": [
-        "Rechtzeitig da sein - beliebte Events sind schnell voll",
-        "Snacks und Getränke mitbringen",
-        "Mit Öffis anreisen wenn möglich"
-      ],
-      "weatherDependent": "any",
-      "energyLevel": "moderat"
-    },
-    {
-      "id": "ev-5ff94f2448159d85",
-      "name": "Minis im Museum",
-      "date": "2025-07-11",
-      "category": "museum",
-      "description": "Minis im Museum 10:00 - 15:00 07.11.2025 Museum von 1,5-3 Jahre Deutsches Museum Experimentierinseln für Familien mit Kleinkindern. Erlebt gemeinsam an verschiedenen Mitmachstationen, wie Kinder lernen, forschen und sich die Welt erschließen.",
-      "city": "München",
-      "region": "BY",
-      "country": "DE",
-      "price": {
-        "kids": null,
-        "adults": null,
-        "note": "Siehe Webseite"
-      },
-      "source": "https://muenchenmitkind.de/veranstaltungskalender",
-      "link": "https://muenchenmitkind.de/veranstaltungskalender/minis-im-museum-2025-11-07/",
-      "lastUpdated": "2025-11-07T14:43:24.973520+00:00",
-      "nameKids": "🏛️ Minis im Museum",
-      "ageGroups": [
-        "0-3"
-      ],
-      "parentTips": [
-        "Rechtzeitig da sein - beliebte Events sind schnell voll",
-        "Snacks und Getränke mitbringen",
-        "Mit Öffis anreisen wenn möglich"
-      ],
-      "weatherDependent": "indoor",
-      "energyLevel": "moderat"
-    },
-    {
-      "id": "ev-27dd99068cf63489",
-      "name": "SHE.CODES – Programmier-Workshop für Mädchen",
-      "date": "2025-07-11",
-      "category": "kreativ",
-      "description": "SHE.CODES – Programmier-Workshop für Mädchen 10:00 - 15:00 07.11.2025 Technik, Workshop von 10-14 Jahre Feierwerk Funkstation Schreibt euer erstes Computer-Programm!",
-      "city": "München",
-      "region": "BY",
-      "country": "DE",
-      "price": {
-        "kids": null,
-        "adults": null,
-        "note": "Siehe Webseite"
-      },
-      "source": "https://muenchenmitkind.de/veranstaltungskalender",
-      "link": "https://muenchenmitkind.de/veranstaltungskalender/she-codes-programmier-workshop-fuer-maedchen/",
-      "lastUpdated": "2025-11-07T14:43:24.973955+00:00",
-      "nameKids": "🎨 SHE.CODES – Programmier-Workshop für Mädchen",
-      "ageGroups": [
-        "6-9",
-        "9-12"
-      ],
-      "parentTips": [
-        "Rechtzeitig da sein - beliebte Events sind schnell voll",
-        "Snacks und Getränke mitbringen",
-        "Mit Öffis anreisen wenn möglich"
-      ],
-      "weatherDependent": "any",
-      "energyLevel": "moderat"
-    },
-    {
-      "id": "ev-c0aec30c9f89c1f9",
-      "name": "STADL Spiel-Gaudi",
-      "date": "2025-07-11",
-      "category": "kreativ",
-      "description": "STADL Spiel-Gaudi 09:00 - 12:00 07.11.2025 Sport, Treff, Umgebung für Babys und Kleinkinder STADL Bei der Spiel-Gaudi wird der große Kursraum für alle Kinder geöffnet, in dem verschiedene Stationen für jedes Alter aufgebaut sind, sodass euer Kind toben und spielen kann, während ihr Zeit...",
-      "city": "München",
-      "region": "BY",
-      "country": "DE",
-      "price": {
-        "kids": null,
-        "adults": null,
-        "note": "Siehe Webseite"
-      },
-      "source": "https://muenchenmitkind.de/veranstaltungskalender",
-      "link": "https://muenchenmitkind.de/veranstaltungskalender/stadl-spiel-gaudi-am-freitag-2025-11-07/",
-      "lastUpdated": "2025-11-07T14:43:24.971856+00:00",
-      "nameKids": "⚽ STADL Spiel-Gaudi",
-      "ageGroups": [
-        "0-3"
-      ],
-      "parentTips": [
-        "Rechtzeitig da sein - beliebte Events sind schnell voll",
-        "Snacks und Getränke mitbringen",
-        "Mit Öffis anreisen wenn möglich"
-      ],
-      "weatherDependent": "any",
-      "energyLevel": "aktiv"
-    },
-    {
-      "id": "ev-388d4b565aaa9d77",
-      "name": "TOMMI – Kindersoftwarepreis",
-      "date": "2025-07-11",
-      "category": "event",
-      "description": "TOMMI – Kindersoftwarepreis 12:00 - 14:00 07.11.2025 Infoveranstaltung, Treff von 8-16 Jahre Münchner Stadtbibliothek im Motorama Junge Spieletester:innen gesucht: Jedes Jahr werden die besten Games und elektronischen Spielzeuge mit dem begehrten TOMMI Kindersoftwarepreis ausgezeichnet.",
-      "city": "München",
-      "region": "BY",
-      "country": "DE",
-      "price": {
-        "kids": null,
-        "adults": null,
-        "note": "Siehe Webseite"
-      },
-      "source": "https://muenchenmitkind.de/veranstaltungskalender",
-      "link": "https://muenchenmitkind.de/veranstaltungskalender/tommi-kindersoftwarepreis-2025-11-07/",
-      "lastUpdated": "2025-11-07T14:43:24.976074+00:00",
-      "nameKids": "🎉 TOMMI – Kindersoftwarepreis",
-      "ageGroups": [
-        "3-6",
-        "6-9",
-        "9-12"
-      ],
-      "parentTips": [
-        "Rechtzeitig da sein - beliebte Events sind schnell voll",
-        "Snacks und Getränke mitbringen",
-        "Mit Öffis anreisen wenn möglich"
-      ],
-      "weatherDependent": "any",
-      "energyLevel": "moderat"
-    },
-    {
-      "id": "ev-87497dcdabcb17c2",
-      "name": "Viva Wasser",
-      "date": "2025-07-11",
-      "category": "theater",
-      "description": "Viva Wasser 10:00 07.11.2025 Bühne ab 5 Monate Schauburg – Theater für junges Publikum Tanzstück über ein Leben zwischen Wasser und Luft. Vor den Augen des jungen Publikums und ihrer Begleitungen entfaltet sich Stück für Stück die Welt der Bewegung. Die Langsamkeit, die aus...",
-      "city": "München",
-      "region": "BY",
-      "country": "DE",
-      "price": {
-        "kids": null,
-        "adults": null,
-        "note": "Siehe Webseite"
-      },
-      "source": "https://muenchenmitkind.de/veranstaltungskalender",
-      "link": "https://muenchenmitkind.de/veranstaltungskalender/viva-wasser-2025-11-07/",
-      "lastUpdated": "2025-11-07T14:43:24.974362+00:00",
-      "nameKids": "🎭 Viva Wasser",
-      "ageGroups": [
-        "3-6"
       ],
       "parentTips": [
         "Rechtzeitig da sein - beliebte Events sind schnell voll",
@@ -824,7 +350,7 @@
       },
       "source": "https://www.lesefuechse.org/aktuelles/",
       "link": "https://lesefuechse.org/vorlesen-und-vorsingen/",
-      "lastUpdated": "2025-11-07T14:43:28.818434+00:00",
+      "lastUpdated": "2025-11-07T18:50:08.301110+00:00",
       "nameKids": "🎉 Vorlesen und Vorsingen",
       "ageGroups": [
         "3-6",
@@ -855,7 +381,7 @@
       },
       "source": "https://www.muenchner-stadtbibliothek.de/veranstaltungen",
       "link": "https://www.muenchner-stadtbibliothek.de/veranstaltungen/details/windlichter-basteln-37972",
-      "lastUpdated": "2025-11-07T14:43:20.397241+00:00",
+      "lastUpdated": "2025-11-07T18:49:54.374836+00:00",
       "nameKids": "🎨 Windlichter basteln",
       "ageGroups": [
         "6-9",
@@ -885,7 +411,7 @@
       },
       "source": "https://www.musenkuss-muenchen.de/angebote/familien",
       "link": "https://www.musenkuss-muenchen.de/angebote/fuer-kinder-kunstgeschichten-seit-1968",
-      "lastUpdated": "2025-11-07T14:43:38.012329+00:00",
+      "lastUpdated": "2025-11-07T18:50:14.706709+00:00",
       "nameKids": "🎉 Für Kinder. Kunstgeschichten seit 1968",
       "ageGroups": [
         "3-6",
@@ -915,7 +441,7 @@
       },
       "source": "https://www.muenchner-stadtbibliothek.de/veranstaltungen",
       "link": "https://www.muenchner-stadtbibliothek.de/veranstaltungen/details/dein-ort-gemeinsamer-ort-36398",
-      "lastUpdated": "2025-11-07T14:43:20.389313+00:00",
+      "lastUpdated": "2025-11-07T18:49:54.367873+00:00",
       "nameKids": "🎉 Dein Ort – Gemeinsamer Ort",
       "ageGroups": [
         "3-6",
@@ -946,7 +472,7 @@
       },
       "source": "https://www.wildpark-poing.de",
       "link": "https://www.wildpark-poing.de",
-      "lastUpdated": "2025-11-07T14:43:20.068035+00:00",
+      "lastUpdated": "2025-11-07T18:49:55.471522+00:00",
       "nameKids": "🎉 JETZT NEU: Unser Wasserspielplatz hat eröffnet.",
       "ageGroups": [
         "3-6",
@@ -977,7 +503,7 @@
       },
       "source": "https://www.lesefuechse.org/aktuelles/",
       "link": "https://lesefuechse.org/sommerzeit-ist-vorlesezeit-im-freien/",
-      "lastUpdated": "2025-11-07T14:43:28.817938+00:00",
+      "lastUpdated": "2025-11-07T18:50:08.300647+00:00",
       "nameKids": "🎉 Sommerzeit ist Vorle­sezeit im Freien!",
       "ageGroups": [
         "3-6",
@@ -991,6 +517,124 @@
       ],
       "weatherDependent": "good-weather",
       "energyLevel": "ruhig"
+    },
+    {
+      "id": "ev-b9e6e601b52ca034",
+      "name": "Der Karneval der Tiere",
+      "date": "2025-08-11",
+      "category": "museum",
+      "description": "Der Karneval der Tiere 10:15 - 13:15 08.11.2025 Ferienkurse, Kreativ, Museum, Umgebung, Workshop ab 5 Jahren Franz Marc Museum Tiermasken basteln, Musik hören, im Museum Tiere entdecken und am Ende maskiert durch den Park ziehen – mit Erinnerungsfoto!",
+      "city": "München",
+      "region": "BY",
+      "country": "DE",
+      "price": {
+        "kids": null,
+        "adults": null,
+        "note": "Siehe Webseite"
+      },
+      "source": "https://muenchenmitkind.de/veranstaltungskalender",
+      "link": "https://muenchenmitkind.de/veranstaltungskalender/der-karneval-der-tiere/",
+      "lastUpdated": "2025-11-07T18:50:01.059285+00:00",
+      "nameKids": "🎨 Der Karneval der Tiere",
+      "ageGroups": [
+        "3-6"
+      ],
+      "parentTips": [
+        "Rechtzeitig da sein - beliebte Events sind schnell voll",
+        "Snacks und Getränke mitbringen",
+        "Mit Öffis anreisen wenn möglich"
+      ],
+      "weatherDependent": "good-weather",
+      "energyLevel": "ruhig"
+    },
+    {
+      "id": "ev-0d15e09383a463f4",
+      "name": "Eisforscher: Dem Klima auf der Spur",
+      "date": "2025-08-11",
+      "category": "museum",
+      "description": "Eisforscher: Dem Klima auf der Spur 09:00 - 17:00 08.11.2025 Museum, Technik, Workshop ab 8 Jahren Deutsches Museum Verkehrszentrum Kommt mit auf Klima-Expedition: Entdeckt die spannende Welt der Polarforschung! Im wechselnden Programm erwarten euch Workshops, Experimente oder auch mal Führungen zum Forschungsschiff Polarstern und der MOSAiC-Expedition.",
+      "city": "München",
+      "region": "BY",
+      "country": "DE",
+      "price": {
+        "kids": null,
+        "adults": null,
+        "note": "Siehe Webseite"
+      },
+      "source": "https://muenchenmitkind.de/veranstaltungskalender",
+      "link": "https://muenchenmitkind.de/veranstaltungskalender/eisforscher-dem-klima-auf-der-spur-2025-11-08/",
+      "lastUpdated": "2025-11-07T18:50:01.054652+00:00",
+      "nameKids": "🎨 Eisforscher: Dem Klima auf der Spur",
+      "ageGroups": [
+        "6-9"
+      ],
+      "parentTips": [
+        "Rechtzeitig da sein - beliebte Events sind schnell voll",
+        "Snacks und Getränke mitbringen",
+        "Mit Öffis anreisen wenn möglich"
+      ],
+      "weatherDependent": "indoor",
+      "energyLevel": "moderat"
+    },
+    {
+      "id": "ev-ed0a3f829d7ba394",
+      "name": "FamilienCafé – Offener Start ins Wochenende",
+      "date": "2025-08-11",
+      "category": "outdoor",
+      "description": "FamilienCafé – Offener Start ins Wochenende 09:00 - 11:00 08.11.2025 Treff, Umgebung für alle IntegraHaus der Familie Gemeinsam ins Wochenende starten, neue Freunde finden und sich in netter Gesellschaft austauschen. Während die Kinder im Garten oder in der gut ausgestatteten Spielecke unterwegs sind, können Eltern bei einer...",
+      "city": "München",
+      "region": "BY",
+      "country": "DE",
+      "price": {
+        "kids": null,
+        "adults": null,
+        "note": "Siehe Webseite"
+      },
+      "source": "https://muenchenmitkind.de/veranstaltungskalender",
+      "link": "https://muenchenmitkind.de/veranstaltungskalender/familiencafe-offener-start-ins-wochenende-2025-11-08/",
+      "lastUpdated": "2025-11-07T18:50:01.055049+00:00",
+      "nameKids": "🎉 FamilienCafé – Offener Start ins Wochenende",
+      "ageGroups": [
+        "3-6",
+        "6-9",
+        "9-12"
+      ],
+      "parentTips": [
+        "Rechtzeitig da sein - beliebte Events sind schnell voll",
+        "Snacks und Getränke mitbringen",
+        "Mit Öffis anreisen wenn möglich"
+      ],
+      "weatherDependent": "good-weather",
+      "energyLevel": "moderat"
+    },
+    {
+      "id": "ev-e460f2f4fc9b46e6",
+      "name": "Flohmarkt des Kinderhauses St. Markus-Kreuzkirche",
+      "date": "2025-08-11",
+      "category": "festival",
+      "description": "Flohmarkt des Kinderhauses St. Markus-Kreuzkirche 10:00 - 13:00 08.11.2025 Markt für alle Gemeindesaal der Kreuzkirche Verkauft wird eine große Auswahl an Babysachen und -ausstattung, Kinderkleidung, Spielzeug, Bücher, Umstandskleidung und vieles mehr.",
+      "city": "München",
+      "region": "BY",
+      "country": "DE",
+      "price": {
+        "kids": null,
+        "adults": null,
+        "note": "Siehe Webseite"
+      },
+      "source": "https://muenchenmitkind.de/veranstaltungskalender",
+      "link": "https://muenchenmitkind.de/veranstaltungskalender/flohmarkt-des-kinderhauses-st-markus-kreuzkirche/",
+      "lastUpdated": "2025-11-07T18:50:01.056176+00:00",
+      "nameKids": "🎉 Flohmarkt des Kinderhauses St. Markus-Kreuzkirche",
+      "ageGroups": [
+        "0-3"
+      ],
+      "parentTips": [
+        "Rechtzeitig da sein - beliebte Events sind schnell voll",
+        "Snacks und Getränke mitbringen",
+        "Mit Öffis anreisen wenn möglich"
+      ],
+      "weatherDependent": "any",
+      "energyLevel": "moderat"
     },
     {
       "id": "ev-671e9872e5341761",
@@ -1008,7 +652,7 @@
       },
       "source": "https://www.olympiapark.de/de/veranstaltungen",
       "link": "https://www.olympiapark.de/de/veranstaltungen/kalender/",
-      "lastUpdated": "2025-11-07T14:43:20.814279+00:00",
+      "lastUpdated": "2025-11-07T18:49:55.034247+00:00",
       "nameKids": "🎉 Flohmarkt im Olympiapark",
       "ageGroups": [
         "3-6",
@@ -1021,6 +665,363 @@
         "Mit Öffis anreisen wenn möglich"
       ],
       "weatherDependent": "good-weather",
+      "energyLevel": "moderat"
+    },
+    {
+      "id": "ev-9eb83fef4952ef87",
+      "name": "Herzlmarkt",
+      "date": "2025-08-11",
+      "category": "kreativ",
+      "description": "Herzlmarkt 11:00 - 18:00 08.11.2025 Markt für alle Forum der Zukunft Design- und Kreativmarkt für DIY, handmade und Inspirationen. Treffpunkt für Kreative, Designliebhaber und Familien.",
+      "city": "München",
+      "region": "BY",
+      "country": "DE",
+      "price": {
+        "kids": null,
+        "adults": null,
+        "note": "Siehe Webseite"
+      },
+      "source": "https://muenchenmitkind.de/veranstaltungskalender",
+      "link": "https://muenchenmitkind.de/veranstaltungskalender/herzlmarkt-2025-11-08/",
+      "lastUpdated": "2025-11-07T18:50:01.060031+00:00",
+      "nameKids": "🎉 Herzlmarkt",
+      "ageGroups": [
+        "6-9",
+        "9-12"
+      ],
+      "parentTips": [
+        "Rechtzeitig da sein - beliebte Events sind schnell voll",
+        "Snacks und Getränke mitbringen",
+        "Mit Öffis anreisen wenn möglich"
+      ],
+      "weatherDependent": "any",
+      "energyLevel": "moderat"
+    },
+    {
+      "id": "ev-4a957453b773b962",
+      "name": "Isi und die Geheimnisse des Alten Ägypten",
+      "date": "2025-08-11",
+      "category": "museum",
+      "description": "Isi und die Geheimnisse des Alten Ägypten 11:00 - 12:00 08.11.2025 Führung, Museum ab 5 Jahren Staatliches Museum Ägyptischer Kunst Familienführung: Dr. Sylvia Schoske führt in Begleitung von Museumsmaskottchen Isi, der Spitzmaus, durch das Museum und kommt dabei altägyptischen Geheimnissen auf die Spur.",
+      "city": "München",
+      "region": "BY",
+      "country": "DE",
+      "price": {
+        "kids": null,
+        "adults": null,
+        "note": "Siehe Webseite"
+      },
+      "source": "https://muenchenmitkind.de/veranstaltungskalender",
+      "link": "https://muenchenmitkind.de/veranstaltungskalender/isi-und-die-geheimnisse-des-alten-aegypten-2025-11-08/",
+      "lastUpdated": "2025-11-07T18:50:01.060395+00:00",
+      "nameKids": "🏛️ Isi und die Geheimnisse des Alten Ägypten",
+      "ageGroups": [
+        "3-6"
+      ],
+      "parentTips": [
+        "Rechtzeitig da sein - beliebte Events sind schnell voll",
+        "Snacks und Getränke mitbringen",
+        "Mit Öffis anreisen wenn möglich"
+      ],
+      "weatherDependent": "indoor",
+      "energyLevel": "moderat"
+    },
+    {
+      "id": "ev-c66a3f826ac5ce26",
+      "name": "Kamishibai",
+      "date": "2025-08-11",
+      "category": "theater",
+      "description": "Kamishibai 10:30 - 11:30 08.11.2025 Museum, Workshop von 5-10 Jahre Alte Pinakothek Familienworkshop: Wie Bilder erzählen. Mit dem Kamishibai-Papiertheater bringen die Teilnehmenden die Bilder zum Sprechen – und sie haben so viel zu erzählen!",
+      "city": "München",
+      "region": "BY",
+      "country": "DE",
+      "price": {
+        "kids": null,
+        "adults": null,
+        "note": "Siehe Webseite"
+      },
+      "source": "https://muenchenmitkind.de/veranstaltungskalender",
+      "link": "https://muenchenmitkind.de/veranstaltungskalender/kamishibai-2-2025-11-08/",
+      "lastUpdated": "2025-11-07T18:50:01.059648+00:00",
+      "nameKids": "🎭 Kamishibai",
+      "ageGroups": [
+        "3-6",
+        "6-9"
+      ],
+      "parentTips": [
+        "Rechtzeitig da sein - beliebte Events sind schnell voll",
+        "Snacks und Getränke mitbringen",
+        "Mit Öffis anreisen wenn möglich"
+      ],
+      "weatherDependent": "indoor",
+      "energyLevel": "moderat"
+    },
+    {
+      "id": "ev-b4ce24f20b6fe62a",
+      "name": "Kindercafé",
+      "date": "2025-08-11",
+      "category": "sport",
+      "description": "Kindercafé 09:00 - 18:00 08.11.2025 Treff von 0-6 Jahre Zuckertag Spiel, Spaß und Leckereien. Ein Ort, an dem ihr Eltern entspannen und eure Kids nach Herzenslust spielen, klettern und toben können.",
+      "city": "München",
+      "region": "BY",
+      "country": "DE",
+      "price": {
+        "kids": null,
+        "adults": null,
+        "note": "Siehe Webseite"
+      },
+      "source": "https://muenchenmitkind.de/veranstaltungskalender",
+      "link": "https://muenchenmitkind.de/veranstaltungskalender/kindercafe-6-2025-11-08/",
+      "lastUpdated": "2025-11-07T18:50:01.055433+00:00",
+      "nameKids": "🎉 Kindercafé",
+      "ageGroups": [
+        "6-9",
+        "9-12"
+      ],
+      "parentTips": [
+        "Rechtzeitig da sein - beliebte Events sind schnell voll",
+        "Snacks und Getränke mitbringen",
+        "Mit Öffis anreisen wenn möglich"
+      ],
+      "weatherDependent": "any",
+      "energyLevel": "aktiv"
+    },
+    {
+      "id": "ev-8eedbd492f3fc9cb",
+      "name": "Kinderflohmarkt mit Zaubershow",
+      "date": "2025-08-11",
+      "category": "theater",
+      "description": "Kinderflohmarkt mit Zaubershow 09:00 - 13:00 08.11.2025 Bühne, Markt für alle Pineapple Park Münchens größter Nachwuchsflohmarkt mit Kinderprogramm.",
+      "city": "München",
+      "region": "BY",
+      "country": "DE",
+      "price": {
+        "kids": null,
+        "adults": null,
+        "note": "Siehe Webseite"
+      },
+      "source": "https://muenchenmitkind.de/veranstaltungskalender",
+      "link": "https://muenchenmitkind.de/veranstaltungskalender/kinderflohmarkt-indoor-spielplatz-2025-11-08/",
+      "lastUpdated": "2025-11-07T18:50:01.055790+00:00",
+      "nameKids": "🎉 Kinderflohmarkt mit Zaubershow",
+      "ageGroups": [
+        "3-6",
+        "6-9"
+      ],
+      "parentTips": [
+        "Rechtzeitig da sein - beliebte Events sind schnell voll",
+        "Snacks und Getränke mitbringen",
+        "Mit Öffis anreisen wenn möglich"
+      ],
+      "weatherDependent": "good-weather",
+      "energyLevel": "moderat"
+    },
+    {
+      "id": "ev-d498ae92dbed5760",
+      "name": "Krone Farm",
+      "date": "2025-08-11",
+      "category": "outdoor",
+      "description": "Krone Farm 10:00 - 18:00 08.11.2025 Führung, Natur, Outdoor, Umgebung für alle Krone Farm Die Seniorenresidenz der Tiere des Circus Krone bietet Unterhaltung für Groß und Klein. Um 14:00 findet eine eineinhalbstündige Führung u.a. mit Raubkatzen-Training statt.",
+      "city": "München",
+      "region": "BY",
+      "country": "DE",
+      "price": {
+        "kids": null,
+        "adults": null,
+        "note": "Siehe Webseite"
+      },
+      "source": "https://muenchenmitkind.de/veranstaltungskalender",
+      "link": "https://muenchenmitkind.de/veranstaltungskalender/krone-farm-2025-11-08/",
+      "lastUpdated": "2025-11-07T18:50:01.056560+00:00",
+      "nameKids": "🎉 Krone Farm",
+      "ageGroups": [
+        "3-6",
+        "6-9",
+        "9-12"
+      ],
+      "parentTips": [
+        "Rechtzeitig da sein - beliebte Events sind schnell voll",
+        "Snacks und Getränke mitbringen",
+        "Mit Öffis anreisen wenn möglich"
+      ],
+      "weatherDependent": "good-weather",
+      "energyLevel": "moderat"
+    },
+    {
+      "id": "ev-22b3a5be8a6c0de3",
+      "name": "Minis im Museum",
+      "date": "2025-08-11",
+      "category": "museum",
+      "description": "Minis im Museum 10:00 - 15:00 08.11.2025 Museum von 1,5-3 Jahre Deutsches Museum Experimentierinseln für Familien mit Kleinkindern. Erlebt gemeinsam an verschiedenen Mitmachstationen, wie Kinder lernen, forschen und sich die Welt erschließen.",
+      "city": "München",
+      "region": "BY",
+      "country": "DE",
+      "price": {
+        "kids": null,
+        "adults": null,
+        "note": "Siehe Webseite"
+      },
+      "source": "https://muenchenmitkind.de/veranstaltungskalender",
+      "link": "https://muenchenmitkind.de/veranstaltungskalender/minis-im-museum-2025-11-08/",
+      "lastUpdated": "2025-11-07T18:50:01.057041+00:00",
+      "nameKids": "🏛️ Minis im Museum",
+      "ageGroups": [
+        "0-3"
+      ],
+      "parentTips": [
+        "Rechtzeitig da sein - beliebte Events sind schnell voll",
+        "Snacks und Getränke mitbringen",
+        "Mit Öffis anreisen wenn möglich"
+      ],
+      "weatherDependent": "indoor",
+      "energyLevel": "moderat"
+    },
+    {
+      "id": "ev-aab9822917545ac7",
+      "name": "Nussknacker und Mäusekönig",
+      "date": "2025-08-11",
+      "category": "theater",
+      "description": "Nussknacker und Mäusekönig 10:00 08.11.2025 Bühne ab 5 Jahren Münchner Theater für Kinder Nach E.T.A. Hoffmann.",
+      "city": "München",
+      "region": "BY",
+      "country": "DE",
+      "price": {
+        "kids": null,
+        "adults": null,
+        "note": "Siehe Webseite"
+      },
+      "source": "https://muenchenmitkind.de/veranstaltungskalender",
+      "link": "https://muenchenmitkind.de/veranstaltungskalender/nussknacker-und-maeusekoenig-2025-11-08/",
+      "lastUpdated": "2025-11-07T18:50:01.057407+00:00",
+      "nameKids": "🎭 Nussknacker und Mäusekönig",
+      "ageGroups": [
+        "3-6"
+      ],
+      "parentTips": [
+        "Rechtzeitig da sein - beliebte Events sind schnell voll",
+        "Snacks und Getränke mitbringen",
+        "Mit Öffis anreisen wenn möglich"
+      ],
+      "weatherDependent": "indoor",
+      "energyLevel": "moderat"
+    },
+    {
+      "id": "ev-2157493d2e9dd3ce",
+      "name": "Offenes Programm",
+      "date": "2025-08-11",
+      "category": "museum",
+      "description": "Offenes Programm 10:00 - 13:30 08.11.2025 Kreativ von 2-14 Jahre Kinderkunsthaus Das vielseitige Angebot in Kreativwerkstatt und Medienlabor kann von allen Besucher:innen ganz individuell genutzt werden.",
+      "city": "München",
+      "region": "BY",
+      "country": "DE",
+      "price": {
+        "kids": null,
+        "adults": null,
+        "note": "Siehe Webseite"
+      },
+      "source": "https://muenchenmitkind.de/veranstaltungskalender",
+      "link": "https://muenchenmitkind.de/veranstaltungskalender/offenes-programm-10-2025-11-08/",
+      "lastUpdated": "2025-11-07T18:50:01.057767+00:00",
+      "nameKids": "🎉 Offenes Programm",
+      "ageGroups": [
+        "3-6",
+        "6-9"
+      ],
+      "parentTips": [
+        "Rechtzeitig da sein - beliebte Events sind schnell voll",
+        "Snacks und Getränke mitbringen",
+        "Mit Öffis anreisen wenn möglich"
+      ],
+      "weatherDependent": "any",
+      "energyLevel": "moderat"
+    },
+    {
+      "id": "ev-c21721891e5a8bfc",
+      "name": "Papa-Kind-Treff",
+      "date": "2025-08-11",
+      "category": "event",
+      "description": "Papa-Kind-Treff 10:00 - 11:30 08.11.2025 Treff von 1-3 Jahre Neue Ziegelei Für Väter und Männer in Väterrollen die sich mit ihren Kleinkindern austauschen und gemeinsam Zeit verbringen möchten.",
+      "city": "München",
+      "region": "BY",
+      "country": "DE",
+      "price": {
+        "kids": null,
+        "adults": null,
+        "note": "Siehe Webseite"
+      },
+      "source": "https://muenchenmitkind.de/veranstaltungskalender",
+      "link": "https://muenchenmitkind.de/veranstaltungskalender/papa-kind-treff-7-2025-11-08/",
+      "lastUpdated": "2025-11-07T18:50:01.058162+00:00",
+      "nameKids": "🎉 Papa-Kind-Treff",
+      "ageGroups": [
+        "0-3"
+      ],
+      "parentTips": [
+        "Rechtzeitig da sein - beliebte Events sind schnell voll",
+        "Snacks und Getränke mitbringen",
+        "Mit Öffis anreisen wenn möglich"
+      ],
+      "weatherDependent": "any",
+      "energyLevel": "moderat"
+    },
+    {
+      "id": "ev-69b230720cd55842",
+      "name": "Themen- und Familientag",
+      "date": "2025-08-11",
+      "category": "museum",
+      "description": "Themen- und Familientag 10:00 - 18:00 08.11.2025 Museum, Führung, Musik, Workshop für alle Museum Fünf Kontinente Día de Muertos. Auf dem Programm stehen Musik und Tanz, lokale Spezialitäten, spannende Vorträge, Führungen, Filme und Workshops für die ganze Familie.",
+      "city": "München",
+      "region": "BY",
+      "country": "DE",
+      "price": {
+        "kids": null,
+        "adults": null,
+        "note": "Siehe Webseite"
+      },
+      "source": "https://muenchenmitkind.de/veranstaltungskalender",
+      "link": "https://muenchenmitkind.de/veranstaltungskalender/themen-und-familientag/",
+      "lastUpdated": "2025-11-07T18:50:01.058531+00:00",
+      "nameKids": "🎨 Themen- und Familientag",
+      "ageGroups": [
+        "3-6",
+        "6-9"
+      ],
+      "parentTips": [
+        "Rechtzeitig da sein - beliebte Events sind schnell voll",
+        "Snacks und Getränke mitbringen",
+        "Mit Öffis anreisen wenn möglich"
+      ],
+      "weatherDependent": "indoor",
+      "energyLevel": "moderat"
+    },
+    {
+      "id": "ev-3e4a9e9f1971a981",
+      "name": "UniCredit Eröffnungsfest",
+      "date": "2025-08-11",
+      "category": "theater",
+      "description": "UniCredit Eröffnungsfest 10:00 08.11.2025 Bühne, Fest, Führung, Musik für alle Bayerische Staatsoper Zum Beginn der neuen Spielzeit öffnet das Nationaltheater seine Türen und hält zahlreiche Überraschungen für alle bereit.",
+      "city": "München",
+      "region": "BY",
+      "country": "DE",
+      "price": {
+        "kids": null,
+        "adults": null,
+        "note": "Siehe Webseite"
+      },
+      "source": "https://muenchenmitkind.de/veranstaltungskalender",
+      "link": "https://muenchenmitkind.de/veranstaltungskalender/unicredit-eroeffnungsfest/",
+      "lastUpdated": "2025-11-07T18:50:01.058894+00:00",
+      "nameKids": "🎭 UniCredit Eröffnungsfest",
+      "ageGroups": [
+        "3-6",
+        "6-9"
+      ],
+      "parentTips": [
+        "Rechtzeitig da sein - beliebte Events sind schnell voll",
+        "Snacks und Getränke mitbringen",
+        "Mit Öffis anreisen wenn möglich"
+      ],
+      "weatherDependent": "indoor",
       "energyLevel": "moderat"
     },
     {
@@ -1039,7 +1040,7 @@
       },
       "source": "https://www.muenchner-stadtbibliothek.de/veranstaltungen",
       "link": "https://www.muenchner-stadtbibliothek.de/veranstaltungen/details/all-you-need-is-kunst-37462",
-      "lastUpdated": "2025-11-07T14:43:20.395785+00:00",
+      "lastUpdated": "2025-11-07T18:49:54.373552+00:00",
       "nameKids": "🎉 All you need is Kunst",
       "ageGroups": [
         "3-6",
@@ -1069,7 +1070,7 @@
       },
       "source": "https://www.unterhaching.de/veranstaltungen",
       "link": "https://www.unterhaching.de/veranstaltungen/veranstaltung?view=publish&item=eventDate&id=2175",
-      "lastUpdated": "2025-11-07T14:43:28.723946+00:00",
+      "lastUpdated": "2025-11-07T18:50:05.867411+00:00",
       "nameKids": "🎉 Bruckner Akademie Orchester",
       "ageGroups": [
         "3-6",
@@ -1100,7 +1101,7 @@
       },
       "source": "https://www.ferien-muenchen.de",
       "link": "https://www.ferien-muenchen.de",
-      "lastUpdated": "2025-11-07T14:43:34.960007+00:00",
+      "lastUpdated": "2025-11-07T18:50:12.768661+00:00",
       "nameKids": "🎉 Ferienzeiten Bayern",
       "ageGroups": [
         "3-6",
@@ -1131,7 +1132,7 @@
       },
       "source": "https://www.unterhaching.de/veranstaltungen",
       "link": "https://www.unterhaching.de/veranstaltungen/veranstaltung?view=publish&item=eventDate&id=2214",
-      "lastUpdated": "2025-11-07T14:43:28.722665+00:00",
+      "lastUpdated": "2025-11-07T18:50:05.866208+00:00",
       "nameKids": "🎉 Gottesdienst in moderner Atmosphäre",
       "ageGroups": [
         "3-6",
@@ -1162,7 +1163,7 @@
       },
       "source": "https://www.ichspringimdreieck.de/veranstaltungen",
       "link": "https://www.ichspringimdreieck.de/newsletter/",
-      "lastUpdated": "2025-11-07T14:43:37.358795+00:00",
+      "lastUpdated": "2025-11-07T18:50:15.183441+00:00",
       "nameKids": "🎭 Veranstaltungen",
       "ageGroups": [
         "3-6",
@@ -1192,7 +1193,7 @@
       },
       "source": "https://www.lesefuechse.org/aktuelles/",
       "link": "https://lesefuechse.org/der-waldbuchclub-in-milbertshofen/",
-      "lastUpdated": "2025-11-07T14:43:28.817418+00:00",
+      "lastUpdated": "2025-11-07T18:50:08.300203+00:00",
       "nameKids": "🎉 Der Waldbuchclub in Milbertshofen",
       "ageGroups": [
         "3-6",
@@ -1223,7 +1224,7 @@
       },
       "source": "https://www.muenchner-stadtbibliothek.de/veranstaltungen",
       "link": "https://www.muenchner-stadtbibliothek.de/veranstaltungen/details/kreislaufschrank-auf-tour-36756",
-      "lastUpdated": "2025-11-07T14:43:20.389738+00:00",
+      "lastUpdated": "2025-11-07T18:49:54.368234+00:00",
       "nameKids": "🎉 Kreislaufschrank auf Tour",
       "ageGroups": [
         "3-6",
@@ -1254,7 +1255,7 @@
       },
       "source": "https://www.flughafen-muenchen.de/besucherpark",
       "link": "https://www.flughafen-muenchen.de/presse-flughafen-muenchen-eroeffnet-bayerns-groessten-ladepark-fuer...-35255398",
-      "lastUpdated": "2025-11-07T14:43:22.981916+00:00",
+      "lastUpdated": "2025-11-07T18:49:58.564189+00:00",
       "nameKids": "🎉 Presse: Flughafen München eröffnet Bayerns   größt",
       "ageGroups": [
         "3-6",
@@ -1285,7 +1286,7 @@
       },
       "source": "https://www.flughafen-muenchen.de/besucherpark",
       "link": "https://www.flughafen-muenchen.de/presse-trachten-und-musik-fuer-gaeste-aus-aller-welt-35317219",
-      "lastUpdated": "2025-11-07T14:43:22.981286+00:00",
+      "lastUpdated": "2025-11-07T18:49:58.563639+00:00",
       "nameKids": "🎵 Presse: Trachten und Musik für Gäste aus aller Wel",
       "ageGroups": [
         "3-6",
@@ -1316,7 +1317,7 @@
       },
       "source": "https://www.muenchner-stadtbibliothek.de/veranstaltungen",
       "link": "https://www.muenchner-stadtbibliothek.de/veranstaltungen/details/bound-by-earth-37103",
-      "lastUpdated": "2025-11-07T14:43:20.390126+00:00",
+      "lastUpdated": "2025-11-07T18:49:54.368565+00:00",
       "nameKids": "🎉 Bound by earth",
       "ageGroups": [
         "3-6",
@@ -1346,7 +1347,7 @@
       },
       "source": "https://www.flughafen-muenchen.de/besucherpark",
       "link": "https://www.flughafen-muenchen.de/presse-aeroground-und-lufthansa-unterzeichnen-langfristigen-vertrag-35408148",
-      "lastUpdated": "2025-11-07T14:43:22.980681+00:00",
+      "lastUpdated": "2025-11-07T18:49:58.563093+00:00",
       "nameKids": "🎉 Presse: AeroGround und Lufthansa    unterzeichnen ",
       "ageGroups": [
         "3-6",
@@ -1377,7 +1378,7 @@
       },
       "source": "https://www.flughafen-muenchen.de/besucherpark",
       "link": "https://www.flughafen-muenchen.de/presse-immobilienmesse-expo-real-35422364",
-      "lastUpdated": "2025-11-07T14:43:22.980061+00:00",
+      "lastUpdated": "2025-11-07T18:49:58.562537+00:00",
       "nameKids": "🎉 Presse: Immobilienmesse Expo Real",
       "ageGroups": [
         "3-6",
@@ -1408,7 +1409,7 @@
       },
       "source": "https://www.muenchner-stadtbibliothek.de/veranstaltungen",
       "link": "https://www.muenchner-stadtbibliothek.de/veranstaltungen/details/blaues-land-37472",
-      "lastUpdated": "2025-11-07T14:43:20.394750+00:00",
+      "lastUpdated": "2025-11-07T18:49:54.372651+00:00",
       "nameKids": "🎉 Blaues Land",
       "ageGroups": [
         "3-6",
@@ -1438,7 +1439,7 @@
       },
       "source": "https://www.lesefuechse.org/aktuelles/",
       "link": "https://lesefuechse.org/ein-herz-liches-willkommen-am-agilofingerplatz/",
-      "lastUpdated": "2025-11-07T14:43:28.816469+00:00",
+      "lastUpdated": "2025-11-07T18:50:08.299239+00:00",
       "nameKids": "🎉 Ein Herz-liches Willkommen am Agilolfingerplatz!",
       "ageGroups": [
         "3-6",
@@ -1469,7 +1470,7 @@
       },
       "source": "https://www.lesefuechse.org/aktuelles/",
       "link": "https://lesefuechse.org/mit-geschichten-kreuz-und-quer-durch-neuhausen-unterwegs/",
-      "lastUpdated": "2025-11-07T14:43:28.817006+00:00",
+      "lastUpdated": "2025-11-07T18:50:08.299703+00:00",
       "nameKids": "🎉 Mit Geschichten “kreuz und quer” durch Neuhausen u",
       "ageGroups": [
         "3-6",
@@ -1500,7 +1501,7 @@
       },
       "source": "https://www.lesefuechse.org/aktuelles/",
       "link": "https://lesefuechse.org/gemeinsam-lachen/",
-      "lastUpdated": "2025-11-07T14:43:28.815942+00:00",
+      "lastUpdated": "2025-11-07T18:50:08.298768+00:00",
       "nameKids": "🎉 Gemeinsam lachen",
       "ageGroups": [
         "3-6",
@@ -1531,7 +1532,7 @@
       },
       "source": "https://www.musenkuss-muenchen.de/angebote/iz-art-kunstatelier-schwabing",
       "link": "https://www.musenkuss-muenchen.de/angebote/iz-art-kunstatelier-schwabing",
-      "lastUpdated": "2025-11-07T14:43:35.052350+00:00",
+      "lastUpdated": "2025-11-07T18:50:09.948441+00:00",
       "nameKids": "🎉 Oktober",
       "ageGroups": [
         "3-6",
@@ -1562,7 +1563,7 @@
       },
       "source": "https://www.flughafen-muenchen.de/besucherpark",
       "link": "https://www.flughafen-muenchen.de/presse-royal-jordanian-wieder-nonstop-von-muenchen-nach-amman-35917020",
-      "lastUpdated": "2025-11-07T14:43:22.978750+00:00",
+      "lastUpdated": "2025-11-07T18:49:58.561397+00:00",
       "nameKids": "🎉 Presse: Royal Jordanian wieder Nonstop von München",
       "ageGroups": [
         "3-6",
@@ -1593,7 +1594,7 @@
       },
       "source": "https://www.musenkuss-muenchen.de/angebote/iz-art-kunstatelier-schwabing",
       "link": "https://www.musenkuss-muenchen.de/angebote/iz-art-kunstatelier-schwabing#events-full-headline",
-      "lastUpdated": "2025-11-07T14:43:35.049911+00:00",
+      "lastUpdated": "2025-11-07T18:50:09.946190+00:00",
       "nameKids": "🎨 Termine",
       "ageGroups": [
         "6-9",
@@ -1623,7 +1624,7 @@
       },
       "source": "https://www.musenkuss-muenchen.de/angebote/familien",
       "link": "https://www.musenkuss-muenchen.de/angebote/iz-art-kunstatelier-schwabing",
-      "lastUpdated": "2025-11-07T14:43:38.013089+00:00",
+      "lastUpdated": "2025-11-07T18:50:14.707395+00:00",
       "nameKids": "🎉 iz art Kunstatelier in der Parkstadt Schwabing",
       "ageGroups": [
         "3-6",
@@ -1653,7 +1654,7 @@
       },
       "source": "https://www.unterhaching.de/veranstaltungen",
       "link": "https://www.unterhaching.de/veranstaltungen/veranstaltung?view=publish&item=eventDate&id=2254",
-      "lastUpdated": "2025-11-07T14:43:28.724894+00:00",
+      "lastUpdated": "2025-11-07T18:50:05.868326+00:00",
       "nameKids": "🎉 Monatsgespräch",
       "ageGroups": [
         "3-6",
@@ -1684,7 +1685,7 @@
       },
       "source": "https://www.lk-starnberg.de/Veranstaltungen",
       "link": "https://verbraucherzentrale-energieberatung.de/veranstaltungen",
-      "lastUpdated": "2025-11-07T14:43:19.417470+00:00",
+      "lastUpdated": "2025-11-07T18:49:53.132359+00:00",
       "nameKids": "🎉 Online-Vortrag: „Denkmalgerecht sanieren“",
       "ageGroups": [
         "3-6",
@@ -1715,7 +1716,7 @@
       },
       "source": "https://www.lk-starnberg.de/Veranstaltungen",
       "link": "https://www.lk-starnberg.de/index.php?NavID=613.11&object=tx|613.11446.1&ModID=11&FID=2235.1536.1",
-      "lastUpdated": "2025-11-07T14:43:19.415804+00:00",
+      "lastUpdated": "2025-11-07T18:49:53.130839+00:00",
       "nameKids": "🎉 Pflegestützpunkt Starnberg - Außensprechtag in And",
       "ageGroups": [
         "3-6",
@@ -1746,7 +1747,7 @@
       },
       "source": "https://www.lk-starnberg.de/Veranstaltungen",
       "link": "https://www.lk-starnberg.de/index.php?NavID=613.11&object=tx|613.11446.1&ModID=11&FID=613.33770.1",
-      "lastUpdated": "2025-11-07T14:43:19.416692+00:00",
+      "lastUpdated": "2025-11-07T18:49:53.131634+00:00",
       "nameKids": "🎉 Vortrag: Was nicht passt wird passend gemacht? Med",
       "ageGroups": [
         "3-6",
@@ -1777,7 +1778,7 @@
       },
       "source": "https://www.flughafen-muenchen.de/besucherpark",
       "link": "https://www.flughafen-muenchen.de/presse-testpassagiere-fuer-probebetrieb-gesucht-35901554",
-      "lastUpdated": "2025-11-07T14:43:22.978109+00:00",
+      "lastUpdated": "2025-11-07T18:49:58.560818+00:00",
       "nameKids": "🎉 Presse: Testpassagiere für Probebetrieb gesucht",
       "ageGroups": [
         "3-6",
@@ -1808,7 +1809,7 @@
       },
       "source": "https://www.lesefuechse.org/aktuelles/",
       "link": "https://lesefuechse.org/100-jahre-lesen-in-schwabing/",
-      "lastUpdated": "2025-11-07T14:43:28.815409+00:00",
+      "lastUpdated": "2025-11-07T18:50:08.298307+00:00",
       "nameKids": "🎵 100 Jahre lesen in Schwabing",
       "ageGroups": [
         "3-6",
@@ -1839,7 +1840,7 @@
       },
       "source": "https://www.muenchner-stadtbibliothek.de/veranstaltungen",
       "link": "https://www.muenchner-stadtbibliothek.de/veranstaltungen/details/museums-menschen-35838",
-      "lastUpdated": "2025-11-07T14:43:20.396272+00:00",
+      "lastUpdated": "2025-11-07T18:49:54.373987+00:00",
       "nameKids": "🏛️ Museums-Menschen",
       "ageGroups": [
         "3-6",
@@ -1869,7 +1870,7 @@
       },
       "source": "https://www.flughafen-muenchen.de/besucherpark",
       "link": "https://www.flughafen-muenchen.de/presse-starkes-verkehrswachstum-im-sommer-2025-36116179",
-      "lastUpdated": "2025-11-07T14:43:22.977700+00:00",
+      "lastUpdated": "2025-11-07T18:49:58.560454+00:00",
       "nameKids": "⚽ Presse: Starkes Verkehrswachstum      im Sommer 20",
       "ageGroups": [
         "6-9",
@@ -1899,7 +1900,7 @@
       },
       "source": "https://www.lesefuechse.org/aktuelles/",
       "link": "https://lesefuechse.org/lesefuechse-bedanken-sich-in-berg-am-laim-fuer-20-jahre-partnerschaft/",
-      "lastUpdated": "2025-11-07T14:43:28.814882+00:00",
+      "lastUpdated": "2025-11-07T18:50:08.297792+00:00",
       "nameKids": "🎉 Picknick ganz ohne Panne",
       "ageGroups": [
         "3-6",
@@ -1930,7 +1931,7 @@
       },
       "source": "https://www.flughafen-muenchen.de/besucherpark",
       "link": "https://www.flughafen-muenchen.de/presse-muenchner-flughafen-bietet-reisenden-184-ziele-in-aller-welt-36155172",
-      "lastUpdated": "2025-11-07T14:43:22.977070+00:00",
+      "lastUpdated": "2025-11-07T18:49:58.559894+00:00",
       "nameKids": "🎉 Presse: Münchner Flughafen bietet Reisenden  184 Z",
       "ageGroups": [
         "3-6",
@@ -1962,7 +1963,7 @@
       },
       "source": "https://muenchenmitkind.de/veranstaltungskalender/erde-geburt-eines-planeten-2025-10-30/",
       "link": "https://muenchenmitkind.de/veranstaltungskalender/erde-geburt-eines-planeten-2025-10-30/",
-      "lastUpdated": "2025-11-07T14:43:35.480715+00:00",
+      "lastUpdated": "2025-11-07T18:50:13.426374+00:00",
       "nameKids": "🎉 Erde – Geburt eines Planeten",
       "ageGroups": [
         "3-6",
@@ -1994,7 +1995,7 @@
       },
       "source": "https://muenchenmitkind.de/veranstaltungskalender/familien-fruehstueck-2025-10-30/",
       "link": "https://muenchenmitkind.de/veranstaltungskalender/familien-fruehstueck-2025-10-30/",
-      "lastUpdated": "2025-11-07T14:43:39.188134+00:00",
+      "lastUpdated": "2025-11-07T18:50:17.494779+00:00",
       "nameKids": "🎉 Familien-Frühstück",
       "ageGroups": [
         "3-6",
@@ -2026,7 +2027,7 @@
       },
       "source": "https://muenchenmitkind.de/veranstaltungskalender/familienfuehrung-durch-die-pumuckl-ausstellung-2025-10-30/",
       "link": "https://muenchenmitkind.de/veranstaltungskalender/familienfuehrung-durch-die-pumuckl-ausstellung-2025-10-30/",
-      "lastUpdated": "2025-11-07T14:43:16.975107+00:00",
+      "lastUpdated": "2025-11-07T18:49:48.760482+00:00",
       "nameKids": "🎉 Familienführung durch die Pumuckl-Ausstellung",
       "ageGroups": [
         "3-6",
@@ -2057,7 +2058,7 @@
       },
       "source": "https://muenchenmitkind.de/veranstaltungskalender/kleine-klanglichter-2025-10-30/",
       "link": "https://muenchenmitkind.de/veranstaltungskalender/kleine-klanglichter-2025-10-30/",
-      "lastUpdated": "2025-11-07T14:43:12.744295+00:00",
+      "lastUpdated": "2025-11-07T18:49:46.238995+00:00",
       "nameKids": "🎉 Kleine Klangdichter",
       "ageGroups": [
         "3-6",
@@ -2088,7 +2089,7 @@
       },
       "source": "https://www.kindaling.de/halloween/kids-halloween-breakfast-at-the-hard-rock-cafe-muenchen-altstadt-lehel/muenchen-altstadt-lehel",
       "link": "https://shops.link2ticket.nl/13LANr",
-      "lastUpdated": "2025-11-07T14:43:12.975062+00:00",
+      "lastUpdated": "2025-11-07T18:49:46.071460+00:00",
       "nameKids": "🎉 Jetzt buchen*",
       "ageGroups": [
         "3-6",
@@ -2119,7 +2120,7 @@
       },
       "source": "https://www.flughafen-muenchen.de/besucherpark",
       "link": "https://www.flughafen-muenchen.de/besucherpark",
-      "lastUpdated": "2025-11-07T14:43:22.974866+00:00",
+      "lastUpdated": "2025-11-07T18:49:58.557913+00:00",
       "nameKids": "🎉 Presse: Der Winterdienst am Münchner Airport ist s",
       "ageGroups": [
         "3-6",
@@ -2150,7 +2151,7 @@
       },
       "source": "https://www.flughafen-muenchen.de/besucherpark",
       "link": "https://www.flughafen-muenchen.de/besucherpark",
-      "lastUpdated": "2025-11-07T14:43:22.975382+00:00",
+      "lastUpdated": "2025-11-07T18:49:58.558391+00:00",
       "nameKids": "🎉 Presse: Reiseaufkommen in den Herbstferien",
       "ageGroups": [
         "3-6",
@@ -2181,7 +2182,7 @@
       },
       "source": "https://www.kindaling.de/sonstige-veranstaltungen/stadtfuehrungen-fuer-kinder-in-muenchen/muenchen-altstadt-lehel",
       "link": "https://www.stadtdetektive.com/kontakt.html",
-      "lastUpdated": "2025-11-07T14:43:26.592321+00:00",
+      "lastUpdated": "2025-11-07T18:49:59.667837+00:00",
       "nameKids": "🎉 Weiter zum Anbieter",
       "ageGroups": [
         "3-6",
@@ -2212,7 +2213,7 @@
       },
       "source": "https://www.flughafen-muenchen.de/besucherpark",
       "link": "https://www.flughafen-muenchen.de/winter-am-flughafen-muenchen-5494748",
-      "lastUpdated": "2025-11-07T14:43:22.976415+00:00",
+      "lastUpdated": "2025-11-07T18:49:58.559327+00:00",
       "nameKids": "🎉 Winter am Flughafen München",
       "ageGroups": [
         "3-6",
@@ -2243,7 +2244,7 @@
       },
       "source": "https://www.erding.de/veranstaltungen",
       "link": "https://www.erding.de/meldungen-detail/besserer-service-fuer-nutzer-der-stadtbuecherei",
-      "lastUpdated": "2025-11-07T14:43:37.620837+00:00",
+      "lastUpdated": "2025-11-07T18:50:16.061104+00:00",
       "nameKids": "🎉 Besserer Service für Nutzer der Stadtbücherei",
       "ageGroups": [
         "3-6",
@@ -2274,7 +2275,7 @@
       },
       "source": "https://www.erding.de/veranstaltungen",
       "link": "https://www.erding.de/meldungen-detail/christbaum-angekommen",
-      "lastUpdated": "2025-11-07T14:43:37.619929+00:00",
+      "lastUpdated": "2025-11-07T18:50:16.060173+00:00",
       "nameKids": "🎉 Christbaum angekommen",
       "ageGroups": [
         "3-6",
@@ -2305,7 +2306,7 @@
       },
       "source": "https://www.muenchen.de/veranstaltungen/kinder",
       "link": "https://www.muenchen.de/veranstaltungen/ausstellungen/kinder/seths-spieltraeume",
-      "lastUpdated": "2025-11-07T14:43:31.048176+00:00",
+      "lastUpdated": "2025-11-07T18:50:05.355410+00:00",
       "nameKids": "🏛️ 1 - 100 von 428 Veranstaltungen",
       "ageGroups": [
         "3-6",
@@ -2335,7 +2336,7 @@
       },
       "source": "https://www.kindaling.de/muenchen",
       "link": "https://www.kindaling.de/flohmaerkte/flohmarkt-muenchen-daglfing/muenchen-bogenhausen",
-      "lastUpdated": "2025-11-07T14:43:22.530203+00:00",
+      "lastUpdated": "2025-11-07T18:49:54.938675+00:00",
       "nameKids": "🎨 7:00Flohmarkt München DaglfingMünchen Bogenhausen",
       "ageGroups": [
         "3-6",
@@ -2366,7 +2367,7 @@
       },
       "source": "https://muenchenmitkind.de/veranstaltungskalender",
       "link": "https://muenchenmitkind.de/familienleben/diy-selber-machen/adventskalender-naehen/",
-      "lastUpdated": "2025-11-07T14:43:24.967010+00:00",
+      "lastUpdated": "2025-11-07T18:50:01.049789+00:00",
       "nameKids": "🎉 Adventskalender nähen – 24 zauberhafte Säckchen",
       "ageGroups": [
         "3-6",
@@ -2397,7 +2398,7 @@
       },
       "source": "https://www.tierpark-hellabrunn.de/aktuelles",
       "link": "https://www.tierpark-hellabrunn.de/der-tierpark/aktuelles/aktuelle-bauprojekte",
-      "lastUpdated": "2025-11-07T14:43:15.161620+00:00",
+      "lastUpdated": "2025-11-07T18:49:49.477533+00:00",
       "nameKids": "🎉 Aktuelle Bauprojekte",
       "ageGroups": [
         "3-6",
@@ -2428,7 +2429,7 @@
       },
       "source": "https://www.flughafen-muenchen.de/besucherpark",
       "link": "https://www.flughafen-muenchen.de/aktuelle-ziele-ab-muenchen-6670648",
-      "lastUpdated": "2025-11-07T14:43:22.969359+00:00",
+      "lastUpdated": "2025-11-07T18:49:58.553099+00:00",
       "nameKids": "🎉 Alle Ziele auf einen Blick",
       "ageGroups": [
         "3-6",
@@ -2459,7 +2460,7 @@
       },
       "source": "https://www.flughafen-muenchen.de/besucherpark",
       "link": "https://www.flughafen-muenchen.de/an-abreise-89966",
-      "lastUpdated": "2025-11-07T14:43:22.969877+00:00",
+      "lastUpdated": "2025-11-07T18:49:58.553525+00:00",
       "nameKids": "🎉 Anreise",
       "ageGroups": [
         "3-6",
@@ -2490,7 +2491,7 @@
       },
       "source": "https://www.muenchner-stadtbibliothek.de/veranstaltungen",
       "link": "https://www.muenchner-stadtbibliothek.de/ausbildung-karriere",
-      "lastUpdated": "2025-11-07T14:43:20.394213+00:00",
+      "lastUpdated": "2025-11-07T18:49:54.372205+00:00",
       "nameKids": "🎉 Ausbildung & Karriere",
       "ageGroups": [
         "3-6",
@@ -2521,7 +2522,7 @@
       },
       "source": "https://www.muenchen.de/veranstaltungen/kinder",
       "link": "https://www.muenchenticket.de/event/grosses-kinderkino-32539/437244?campaign=muenchen",
-      "lastUpdated": "2025-11-07T14:43:31.053751+00:00",
+      "lastUpdated": "2025-11-07T18:50:05.358773+00:00",
       "nameKids": "🎉 BFG - Sophie und der Riese",
       "ageGroups": [
         "3-6",
@@ -2552,7 +2553,7 @@
       },
       "source": "https://www.muenchen.de/veranstaltungen/kinder",
       "link": "https://www.muenchen.de/veranstaltungen/ausstellungen/kinder/bau-mit-kindermuseum-muenchen",
-      "lastUpdated": "2025-11-07T14:43:31.052712+00:00",
+      "lastUpdated": "2025-11-07T18:50:05.357862+00:00",
       "nameKids": "🏛️ Bau mit! München baut",
       "ageGroups": [
         "3-6",
@@ -2582,7 +2583,7 @@
       },
       "source": "https://www.olympiapark.de/de/veranstaltungen",
       "link": "https://www.olympiapark.de/de/veranstaltungen/calum-scott-n4974",
-      "lastUpdated": "2025-11-07T14:43:20.789026+00:00",
+      "lastUpdated": "2025-11-07T18:49:55.011223+00:00",
       "nameKids": "🎵 Calum Scott",
       "ageGroups": [
         "3-6",
@@ -2596,6 +2597,37 @@
       ],
       "weatherDependent": "any",
       "energyLevel": "moderat"
+    },
+    {
+      "id": "ev-55a0014e7ca03336",
+      "name": "Cathedral of Our Blessed Lady (Frauenkirche)",
+      "date": "2025-11-07",
+      "category": "event",
+      "description": "Attractions Cathedral of Our Blessed Lady (Frauenkirche) From $16",
+      "city": "München",
+      "region": "BY",
+      "country": "DE",
+      "price": {
+        "kids": null,
+        "adults": null,
+        "note": "Siehe Webseite"
+      },
+      "source": "https://www.viator.com/de-DE/Munich/d487-ttd",
+      "link": "https://www.viator.com/Munich-attractions/Cathedral-of-Our-Blessed-Lady-Frauenkirche/d487-a613",
+      "lastUpdated": "2025-11-07T18:50:03.953748+00:00",
+      "nameKids": "🎉 Cathedral of Our Blessed Lady (Frauenkirche)",
+      "ageGroups": [
+        "3-6",
+        "6-9",
+        "9-12"
+      ],
+      "parentTips": [
+        "Rechtzeitig da sein - beliebte Events sind schnell voll",
+        "Snacks und Getränke mitbringen",
+        "Mit Öffis anreisen wenn möglich"
+      ],
+      "weatherDependent": "any",
+      "energyLevel": "aktiv"
     },
     {
       "id": "ev-e059dceccad495fc",
@@ -2613,7 +2645,7 @@
       },
       "source": "https://muenchenmitkind.de/veranstaltungskalender",
       "link": "https://muenchenmitkind.de/familienleben/weihnachten-advent/adventskalender-befuellen-muenchen/",
-      "lastUpdated": "2025-11-07T14:43:24.965947+00:00",
+      "lastUpdated": "2025-11-07T18:50:01.048402+00:00",
       "nameKids": "🎉 Die besten Läden zum Adventskalender-Befüllen",
       "ageGroups": [
         "3-6",
@@ -2644,7 +2676,7 @@
       },
       "source": "https://www.olympiapark.de/de/veranstaltungen",
       "link": "https://www.olympiapark.de/de/veranstaltungen/-electric-callboy-n4716",
-      "lastUpdated": "2025-11-07T14:43:20.796795+00:00",
+      "lastUpdated": "2025-11-07T18:49:55.018072+00:00",
       "nameKids": "🎵 Electric Callboy",
       "ageGroups": [
         "3-6",
@@ -2675,7 +2707,7 @@
       },
       "source": "https://www.flughafen-muenchen.de/besucherpark",
       "link": "https://www.flughafen-muenchen.de/_b/0000000000000035788883bb68e51dd2/deal-of-the-month-oktober-2025-januar-2026.pdf",
-      "lastUpdated": "2025-11-07T14:43:22.973085+00:00",
+      "lastUpdated": "2025-11-07T18:49:58.556354+00:00",
       "nameKids": "🎉 Exklusive Angebote",
       "ageGroups": [
         "3-6",
@@ -2706,7 +2738,7 @@
       },
       "source": "https://www.kindaling.de/halloween/kids-halloween-breakfast-at-the-hard-rock-cafe-muenchen-altstadt-lehel/muenchen-altstadt-lehel",
       "link": "https://www.kindaling.de/ferien/muenchen",
-      "lastUpdated": "2025-11-07T14:43:12.981705+00:00",
+      "lastUpdated": "2025-11-07T18:49:46.077547+00:00",
       "nameKids": "🎨 Ferien",
       "ageGroups": [
         "3-6",
@@ -2737,7 +2769,7 @@
       },
       "source": "https://www.ferien-muenchen.de",
       "link": "https://www.ferien-muenchen.de",
-      "lastUpdated": "2025-11-07T14:43:34.958601+00:00",
+      "lastUpdated": "2025-11-07T18:50:12.767368+00:00",
       "nameKids": "🎉 Ferienfreizeiten",
       "ageGroups": [
         "3-6",
@@ -2768,7 +2800,7 @@
       },
       "source": "https://muenchenmitkind.de/veranstaltungskalender",
       "link": "https://muenchenmitkind.de/termine/monats-highlights/festivals-im-november/",
-      "lastUpdated": "2025-11-07T14:43:24.964313+00:00",
+      "lastUpdated": "2025-11-07T18:50:01.047006+00:00",
       "nameKids": "🎉 Feste und Festivals im November",
       "ageGroups": [
         "3-6",
@@ -2799,7 +2831,7 @@
       },
       "source": "https://www.olympiapark.de/de/veranstaltungen",
       "link": "https://www.olympiapark.de/de/veranstaltungen/flohmarkt-im-olympiapark-n3370",
-      "lastUpdated": "2025-11-07T14:43:20.785873+00:00",
+      "lastUpdated": "2025-11-07T18:49:55.008403+00:00",
       "nameKids": "🎉 Flohmarkt im Olympiapark",
       "ageGroups": [
         "3-6",
@@ -2830,7 +2862,7 @@
       },
       "source": "https://www.musenkuss-muenchen.de/angebote/open-haus-frei-rein-fein-raus",
       "link": "https://www.musenkuss-muenchen.de/fuer-fachpersonal/foerdermoeglichkeiten",
-      "lastUpdated": "2025-11-07T14:43:27.348828+00:00",
+      "lastUpdated": "2025-11-07T18:50:02.448977+00:00",
       "nameKids": "🎉 Fördermöglichkeiten",
       "ageGroups": [
         "3-6",
@@ -2860,7 +2892,7 @@
       },
       "source": "https://www.tierpark-hellabrunn.de/aktuelles",
       "link": "https://www.tierpark-hellabrunn.de/der-tierpark/aktuelles/geburten-in-hellabrunn",
-      "lastUpdated": "2025-11-07T14:43:15.162995+00:00",
+      "lastUpdated": "2025-11-07T18:49:49.478746+00:00",
       "nameKids": "🎉 Geburten in Hellabrunn",
       "ageGroups": [
         "3-6",
@@ -2891,7 +2923,7 @@
       },
       "source": "https://www.musenkuss-muenchen.de/angebote/open-haus-frei-rein-fein-raus",
       "link": "https://www.musenkuss-muenchen.de/angebote/gruppen",
-      "lastUpdated": "2025-11-07T14:43:27.345778+00:00",
+      "lastUpdated": "2025-11-07T18:50:02.446223+00:00",
       "nameKids": "🎉 Gruppen aus Bildungs-, Sozial- und Pflegeeinrichtu",
       "ageGroups": [
         "9-12"
@@ -2920,7 +2952,7 @@
       },
       "source": "https://www.olympiapark.de/de/veranstaltungen",
       "link": "https://www.olympiapark.de/de/veranstaltungen/hauser-n4793",
-      "lastUpdated": "2025-11-07T14:43:20.788182+00:00",
+      "lastUpdated": "2025-11-07T18:49:55.010479+00:00",
       "nameKids": "🎵 Hauser",
       "ageGroups": [
         "3-6",
@@ -2951,7 +2983,7 @@
       },
       "source": "https://www.wildpark-poing.de",
       "link": "https://wildpark-poing-tickets.de/gutschein/",
-      "lastUpdated": "2025-11-07T14:43:20.066994+00:00",
+      "lastUpdated": "2025-11-07T18:49:55.470587+00:00",
       "nameKids": "🎉 Hier geht es zum Gutscheinkauf",
       "ageGroups": [
         "3-6",
@@ -2982,7 +3014,7 @@
       },
       "source": "https://www.wildpark-poing.de",
       "link": "https://wildpark-poing-tickets.de/ticketshop/",
-      "lastUpdated": "2025-11-07T14:43:20.065444+00:00",
+      "lastUpdated": "2025-11-07T18:49:55.469208+00:00",
       "nameKids": "🎉 Hier geht es zum Ticketshop",
       "ageGroups": [
         "3-6",
@@ -3013,7 +3045,7 @@
       },
       "source": "https://www.flughafen-muenchen.de/besucherpark",
       "link": "https://www.flughafen-muenchen.de/home-delivery-5214099",
-      "lastUpdated": "2025-11-07T14:43:22.973769+00:00",
+      "lastUpdated": "2025-11-07T18:49:58.556942+00:00",
       "nameKids": "🎉 Home Delivery",
       "ageGroups": [
         "3-6",
@@ -3044,7 +3076,7 @@
       },
       "source": "https://www.flughafen-muenchen.de/besucherpark",
       "link": "https://www.flughafen-muenchen.de/newsletter",
-      "lastUpdated": "2025-11-07T14:43:22.970366+00:00",
+      "lastUpdated": "2025-11-07T18:49:58.553971+00:00",
       "nameKids": "🎉 Immer gut informiert.",
       "ageGroups": [
         "3-6",
@@ -3075,7 +3107,7 @@
       },
       "source": "https://www.olympiapark.de/de/veranstaltungen",
       "link": "https://www.olympiapark.de/de/veranstaltungen/jurgen-holler-n5421",
-      "lastUpdated": "2025-11-07T14:43:20.798435+00:00",
+      "lastUpdated": "2025-11-07T18:49:55.019528+00:00",
       "nameKids": "🎉 Jürgen Höller",
       "ageGroups": [
         "3-6",
@@ -3106,7 +3138,7 @@
       },
       "source": "https://www.musenkuss-muenchen.de/angebote/open-haus-frei-rein-fein-raus",
       "link": "https://www.musenkuss-muenchen.de/fileadmin/_processed_/2/3/csm_HDK_230127_Open_Haus_c_Maximilian_Geuter__1__2ec56a3b90.jpg",
-      "lastUpdated": "2025-11-07T14:43:27.336295+00:00",
+      "lastUpdated": "2025-11-07T18:50:02.437625+00:00",
       "nameKids": "🎉 Kinder & Familien, Eintritt frei",
       "ageGroups": [
         "3-6",
@@ -3137,7 +3169,7 @@
       },
       "source": "https://www.kindaling.de/halloween/kids-halloween-breakfast-at-the-hard-rock-cafe-muenchen-altstadt-lehel/muenchen-altstadt-lehel",
       "link": "https://www.kindaling.de/kinderkurse/muenchen",
-      "lastUpdated": "2025-11-07T14:43:12.979195+00:00",
+      "lastUpdated": "2025-11-07T18:49:46.075267+00:00",
       "nameKids": "🎭 Kinderkurse",
       "ageGroups": [
         "0-3"
@@ -3166,7 +3198,7 @@
       },
       "source": "https://www.muenchen.de/veranstaltungen/kinder",
       "link": "https://www.muenchen.de/veranstaltungen/ausstellungen/kinder/kindheit-am-nil-%C3%A4gyptisches-museum",
-      "lastUpdated": "2025-11-07T14:43:31.049903+00:00",
+      "lastUpdated": "2025-11-07T18:50:05.356974+00:00",
       "nameKids": "🏛️ Kindheit am Nil - Aufwachsen im Alten Ägypten",
       "ageGroups": [
         "3-6",
@@ -3196,7 +3228,7 @@
       },
       "source": "https://www.ismaning.de/kultur-bildung/veranstaltungen/",
       "link": "https://ismaning.de/kultur-freizeit/",
-      "lastUpdated": "2025-11-07T14:43:33.817531+00:00",
+      "lastUpdated": "2025-11-07T18:50:12.707722+00:00",
       "nameKids": "🎉 Kultur & Freizeit",
       "ageGroups": [
         "3-6",
@@ -3227,7 +3259,7 @@
       },
       "source": "https://www.erding.de/veranstaltungen",
       "link": "https://www.erding.de/meldungen-detail/lese-tipp-5",
-      "lastUpdated": "2025-11-07T14:43:37.619020+00:00",
+      "lastUpdated": "2025-11-07T18:50:16.059322+00:00",
       "nameKids": "🎉 Lese-Tipp",
       "ageGroups": [
         "3-6",
@@ -3241,6 +3273,37 @@
       ],
       "weatherDependent": "any",
       "energyLevel": "moderat"
+    },
+    {
+      "id": "ev-c643f4fdad9fc373",
+      "name": "Linderhof Castle",
+      "date": "2025-11-07",
+      "category": "event",
+      "description": "Attractions Linderhof Castle From $60",
+      "city": "München",
+      "region": "BY",
+      "country": "DE",
+      "price": {
+        "kids": null,
+        "adults": null,
+        "note": "Siehe Webseite"
+      },
+      "source": "https://www.viator.com/de-DE/Munich/d487-ttd",
+      "link": "https://www.viator.com/Munich-attractions/Linderhof-Castle/d487-a607",
+      "lastUpdated": "2025-11-07T18:50:03.952519+00:00",
+      "nameKids": "🎉 Linderhof Castle",
+      "ageGroups": [
+        "3-6",
+        "6-9",
+        "9-12"
+      ],
+      "parentTips": [
+        "Rechtzeitig da sein - beliebte Events sind schnell voll",
+        "Snacks und Getränke mitbringen",
+        "Mit Öffis anreisen wenn möglich"
+      ],
+      "weatherDependent": "any",
+      "energyLevel": "aktiv"
     },
     {
       "id": "ev-f0dd34399eae0d26",
@@ -3258,7 +3321,7 @@
       },
       "source": "https://www.musenkuss-muenchen.de/angebote/open-haus-frei-rein-fein-raus",
       "link": "https://www.musenkuss-muenchen.de/",
-      "lastUpdated": "2025-11-07T14:43:27.341984+00:00",
+      "lastUpdated": "2025-11-07T18:50:02.442781+00:00",
       "nameKids": "🎉 Logo Musenkuss München",
       "ageGroups": [
         "3-6",
@@ -3289,7 +3352,7 @@
       },
       "source": "https://www.olympiapark.de/de/veranstaltungen",
       "link": "https://www.olympiapark.de/de/veranstaltungen/marco-mengoni-n4918",
-      "lastUpdated": "2025-11-07T14:43:20.797628+00:00",
+      "lastUpdated": "2025-11-07T18:49:55.018799+00:00",
       "nameKids": "🎵 Marco Mengoni",
       "ageGroups": [
         "3-6",
@@ -3303,6 +3366,37 @@
       ],
       "weatherDependent": "any",
       "energyLevel": "moderat"
+    },
+    {
+      "id": "ev-e48a0c45f0e40dc0",
+      "name": "Marienplatz",
+      "date": "2025-11-07",
+      "category": "event",
+      "description": "Attractions Marienplatz From $13",
+      "city": "München",
+      "region": "BY",
+      "country": "DE",
+      "price": {
+        "kids": null,
+        "adults": null,
+        "note": "Siehe Webseite"
+      },
+      "source": "https://www.viator.com/de-DE/Munich/d487-ttd",
+      "link": "https://www.viator.com/Munich-attractions/Marienplatz/d487-a617",
+      "lastUpdated": "2025-11-07T18:50:03.954350+00:00",
+      "nameKids": "🎉 Marienplatz",
+      "ageGroups": [
+        "3-6",
+        "6-9",
+        "9-12"
+      ],
+      "parentTips": [
+        "Rechtzeitig da sein - beliebte Events sind schnell voll",
+        "Snacks und Getränke mitbringen",
+        "Mit Öffis anreisen wenn möglich"
+      ],
+      "weatherDependent": "any",
+      "energyLevel": "aktiv"
     },
     {
       "id": "ev-c7dd83565ba4d8d1",
@@ -3320,7 +3414,7 @@
       },
       "source": "https://www.flughafen-muenchen.de/besucherpark",
       "link": "https://www.flughafen-muenchen.de/miles-more-4743850",
-      "lastUpdated": "2025-11-07T14:43:22.971050+00:00",
+      "lastUpdated": "2025-11-07T18:49:58.554573+00:00",
       "nameKids": "🎉 Meilensammeln am Flughafen München",
       "ageGroups": [
         "3-6",
@@ -3351,7 +3445,7 @@
       },
       "source": "https://muenchenmitkind.de/veranstaltungskalender",
       "link": "https://muenchenmitkind.de/termine/mini-tipps/muc-mit-baby-im-november/",
-      "lastUpdated": "2025-11-07T14:43:24.964860+00:00",
+      "lastUpdated": "2025-11-07T18:50:01.047462+00:00",
       "nameKids": "🎉 Mini-Tipps im November",
       "ageGroups": [
         "3-6",
@@ -3382,7 +3476,7 @@
       },
       "source": "https://www.flughafen-muenchen.de/besucherpark",
       "link": "https://www.flughafen-muenchen.de/sharjah",
-      "lastUpdated": "2025-11-07T14:43:22.968859+00:00",
+      "lastUpdated": "2025-11-07T18:49:58.552646+00:00",
       "nameKids": "🎉 Mit Air Arabia nach Sharjah",
       "ageGroups": [
         "3-6",
@@ -3396,6 +3490,68 @@
       ],
       "weatherDependent": "any",
       "energyLevel": "moderat"
+    },
+    {
+      "id": "ev-e448a65fc16fa307",
+      "name": "Mit Liebe zum Detail",
+      "date": "2025-11-07",
+      "category": "event",
+      "description": "Reisen Mit Liebe zum Detail",
+      "city": "München",
+      "region": "BY",
+      "country": "DE",
+      "price": {
+        "kids": null,
+        "adults": null,
+        "note": "Siehe Webseite"
+      },
+      "source": "https://muenchenmitkind.de/veranstaltungskalender",
+      "link": "https://muenchenmitkind.de/familienleben/reisen/mourtzanakis-residence/",
+      "lastUpdated": "2025-11-07T18:50:01.049328+00:00",
+      "nameKids": "🎉 Mit Liebe zum Detail",
+      "ageGroups": [
+        "3-6",
+        "6-9",
+        "9-12"
+      ],
+      "parentTips": [
+        "Rechtzeitig da sein - beliebte Events sind schnell voll",
+        "Snacks und Getränke mitbringen",
+        "Mit Öffis anreisen wenn möglich"
+      ],
+      "weatherDependent": "any",
+      "energyLevel": "moderat"
+    },
+    {
+      "id": "ev-2d290b2cd891303e",
+      "name": "Munich Residence (Residenz München)",
+      "date": "2025-11-07",
+      "category": "event",
+      "description": "Attractions Munich Residence (Residenz München) From $27",
+      "city": "München",
+      "region": "BY",
+      "country": "DE",
+      "price": {
+        "kids": null,
+        "adults": null,
+        "note": "Siehe Webseite"
+      },
+      "source": "https://www.viator.com/de-DE/Munich/d487-ttd",
+      "link": "https://www.viator.com/Munich-attractions/Munich-Residence-Residenz-Munchen/d487-a618",
+      "lastUpdated": "2025-11-07T18:50:03.955546+00:00",
+      "nameKids": "🎉 Munich Residence (Residenz München)",
+      "ageGroups": [
+        "3-6",
+        "6-9",
+        "9-12"
+      ],
+      "parentTips": [
+        "Rechtzeitig da sein - beliebte Events sind schnell voll",
+        "Snacks und Getränke mitbringen",
+        "Mit Öffis anreisen wenn möglich"
+      ],
+      "weatherDependent": "any",
+      "energyLevel": "aktiv"
     },
     {
       "id": "ev-9de137b1726c0ae8",
@@ -3413,7 +3569,7 @@
       },
       "source": "https://muenchenmitkind.de/veranstaltungskalender",
       "link": "https://muenchenmitkind.de/stadtleben/muenchens-beste/musikschulen/",
-      "lastUpdated": "2025-11-07T14:43:24.966469+00:00",
+      "lastUpdated": "2025-11-07T18:50:01.048865+00:00",
       "nameKids": "🎵 Musikschulen für Kinder",
       "ageGroups": [
         "3-6",
@@ -3444,7 +3600,7 @@
       },
       "source": "https://muenchenmitkind.de/veranstaltungskalender",
       "link": "https://muenchenmitkind.de/termine/veranstaltungstipp/weihnachtsmaerkte/",
-      "lastUpdated": "2025-11-07T14:43:24.965377+00:00",
+      "lastUpdated": "2025-11-07T18:50:01.047913+00:00",
       "nameKids": "🎉 Münchens schönste Weihnachtsmärkte",
       "ageGroups": [
         "3-6",
@@ -3475,7 +3631,7 @@
       },
       "source": "https://www.flughafen-muenchen.de/besucherpark",
       "link": "https://www.flughafen-muenchen.de/samsonite-34450411",
-      "lastUpdated": "2025-11-07T14:43:22.972393+00:00",
+      "lastUpdated": "2025-11-07T18:49:58.555762+00:00",
       "nameKids": "🎉 Neueröffnung",
       "ageGroups": [
         "3-6",
@@ -3506,7 +3662,7 @@
       },
       "source": "https://www.tierpark-hellabrunn.de/aktuelles",
       "link": "https://www.tierpark-hellabrunn.de/der-tierpark/aktuelles/neues-aus-hellabrunn",
-      "lastUpdated": "2025-11-07T14:43:15.159274+00:00",
+      "lastUpdated": "2025-11-07T18:49:49.475499+00:00",
       "nameKids": "🎉 Neues aus Hellabrunn",
       "ageGroups": [
         "3-6",
@@ -3520,6 +3676,37 @@
       ],
       "weatherDependent": "any",
       "energyLevel": "moderat"
+    },
+    {
+      "id": "ev-86973bacd17d2de9",
+      "name": "Neuschwanstein Castle",
+      "date": "2025-11-07",
+      "category": "event",
+      "description": "Attractions Neuschwanstein Castle From $20",
+      "city": "München",
+      "region": "BY",
+      "country": "DE",
+      "price": {
+        "kids": null,
+        "adults": null,
+        "note": "Siehe Webseite"
+      },
+      "source": "https://www.viator.com/de-DE/Munich/d487-ttd",
+      "link": "https://www.viator.com/Munich-attractions/Neuschwanstein-Castle/d487-a90",
+      "lastUpdated": "2025-11-07T18:50:03.954943+00:00",
+      "nameKids": "🎉 Neuschwanstein Castle",
+      "ageGroups": [
+        "3-6",
+        "6-9",
+        "9-12"
+      ],
+      "parentTips": [
+        "Rechtzeitig da sein - beliebte Events sind schnell voll",
+        "Snacks und Getränke mitbringen",
+        "Mit Öffis anreisen wenn möglich"
+      ],
+      "weatherDependent": "any",
+      "energyLevel": "aktiv"
     },
     {
       "id": "ev-4a0dfd30d5b57e93",
@@ -3537,7 +3724,7 @@
       },
       "source": "https://www.flughafen-muenchen.de/besucherpark",
       "link": "https://www.flughafen-muenchen.de/bavarian-caps-34737962",
-      "lastUpdated": "2025-11-07T14:43:22.971732+00:00",
+      "lastUpdated": "2025-11-07T18:49:58.555177+00:00",
       "nameKids": "🎉 Nur für kurze Zeit",
       "ageGroups": [
         "3-6",
@@ -3551,6 +3738,37 @@
       ],
       "weatherDependent": "any",
       "energyLevel": "moderat"
+    },
+    {
+      "id": "ev-0bf990809f0071fc",
+      "name": "Odeonsplatz",
+      "date": "2025-11-07",
+      "category": "event",
+      "description": "Attractions Odeonsplatz From $20",
+      "city": "München",
+      "region": "BY",
+      "country": "DE",
+      "price": {
+        "kids": null,
+        "adults": null,
+        "note": "Siehe Webseite"
+      },
+      "source": "https://www.viator.com/de-DE/Munich/d487-ttd",
+      "link": "https://www.viator.com/Munich-attractions/Odeonsplatz/d487-a10913",
+      "lastUpdated": "2025-11-07T18:50:03.953149+00:00",
+      "nameKids": "🎉 Odeonsplatz",
+      "ageGroups": [
+        "3-6",
+        "6-9",
+        "9-12"
+      ],
+      "parentTips": [
+        "Rechtzeitig da sein - beliebte Events sind schnell voll",
+        "Snacks und Getränke mitbringen",
+        "Mit Öffis anreisen wenn möglich"
+      ],
+      "weatherDependent": "any",
+      "energyLevel": "aktiv"
     },
     {
       "id": "ev-5c8b714274e591a1",
@@ -3568,7 +3786,7 @@
       },
       "source": "https://www.musenkuss-muenchen.de/angebote/open-haus-frei-rein-fein-raus",
       "link": "https://www.musenkuss-muenchen.de/anbieter/haus-der-kunst",
-      "lastUpdated": "2025-11-07T14:43:27.334802+00:00",
+      "lastUpdated": "2025-11-07T18:50:02.436255+00:00",
       "nameKids": "🎉 Open Haus — Frei rein, fein raus",
       "ageGroups": [
         "3-6",
@@ -3598,7 +3816,7 @@
       },
       "source": "https://www.kindaling.de/halloween/kids-halloween-breakfast-at-the-hard-rock-cafe-muenchen-altstadt-lehel/muenchen-altstadt-lehel",
       "link": "https://www.kindaling.de/fuer_anbieter",
-      "lastUpdated": "2025-11-07T14:43:12.975906+00:00",
+      "lastUpdated": "2025-11-07T18:49:46.072254+00:00",
       "nameKids": "🎉 Partner-Login",
       "ageGroups": [
         "3-6",
@@ -3629,7 +3847,7 @@
       },
       "source": "https://www.schauburg.net/spielplan",
       "link": "https://www.schauburg.net/spielplan",
-      "lastUpdated": "2025-11-07T14:43:30.465469+00:00",
+      "lastUpdated": "2025-11-07T18:50:08.924143+00:00",
       "nameKids": "🎭 Programm",
       "ageGroups": [
         "3-6",
@@ -3660,7 +3878,7 @@
       },
       "source": "https://www.kindaling.de/kino/pumuckl-und-das-grosse-missverstaendnis/muenchen-neuhausen-nymphenburg",
       "link": "https://www.kindaling.de/kino/pumuckl-und-das-grosse-missverstaendnis/muenchen-neuhausen-nymphenburg",
-      "lastUpdated": "2025-11-07T14:43:32.524790+00:00",
+      "lastUpdated": "2025-11-07T18:50:10.669636+00:00",
       "nameKids": "🎉 Pumuckl und das große Missverständnis",
       "ageGroups": [
         "3-6",
@@ -3691,7 +3909,7 @@
       },
       "source": "https://www.flughafen-muenchen.de/besucherpark",
       "link": "https://www.flughafen-muenchen.de/reiseplanung-leicht-gemacht-los-geht-s-17266079",
-      "lastUpdated": "2025-11-07T14:43:22.967813+00:00",
+      "lastUpdated": "2025-11-07T18:49:58.551717+00:00",
       "nameKids": "🎉 Reiseplanung leicht gemacht",
       "ageGroups": [
         "3-6",
@@ -3722,7 +3940,7 @@
       },
       "source": "https://www.musenkuss-muenchen.de/angebote/open-haus-frei-rein-fein-raus",
       "link": "https://www.google.de/maps/dir//48.14411,11.5861",
-      "lastUpdated": "2025-11-07T14:43:27.351606+00:00",
+      "lastUpdated": "2025-11-07T18:50:02.451510+00:00",
       "nameKids": "🎉 Routenplanung mit Google Maps",
       "ageGroups": [
         "3-6",
@@ -3753,7 +3971,7 @@
       },
       "source": "https://www.kindaling.de/halloween/kids-halloween-breakfast-at-the-hard-rock-cafe-muenchen-altstadt-lehel/muenchen-altstadt-lehel",
       "link": "https://www.kindaling.de/schwangere-eltern/muenchen",
-      "lastUpdated": "2025-11-07T14:43:12.990762+00:00",
+      "lastUpdated": "2025-11-07T18:49:46.085837+00:00",
       "nameKids": "⚽ Schwangere & Eltern",
       "ageGroups": [
         "0-3"
@@ -3782,7 +4000,7 @@
       },
       "source": "https://www.muenchen.de/veranstaltungen/kinder",
       "link": "https://www.muenchen.de/veranstaltungen/ausstellungen/kinder/seths-spieltraeume",
-      "lastUpdated": "2025-11-07T14:43:31.048883+00:00",
+      "lastUpdated": "2025-11-07T18:50:05.356053+00:00",
       "nameKids": "🎉 Seth's SPIEL(T)RÄUME",
       "ageGroups": [
         "3-6",
@@ -3812,7 +4030,7 @@
       },
       "source": "https://www.flughafen-muenchen.de/besucherpark",
       "link": "https://www.flughafen-muenchen.de/sicherheits-und-passkontrolle-3897036",
-      "lastUpdated": "2025-11-07T14:43:22.968336+00:00",
+      "lastUpdated": "2025-11-07T18:49:58.552202+00:00",
       "nameKids": "🎉 Sicherheits- und Passkontrolle",
       "ageGroups": [
         "3-6",
@@ -3843,7 +4061,7 @@
       },
       "source": "https://www.kindaling.de/halloween/kids-halloween-breakfast-at-the-hard-rock-cafe-muenchen-altstadt-lehel/muenchen-altstadt-lehel",
       "link": "https://www.kindaling.de/stadtleben-ausfluege/muenchen",
-      "lastUpdated": "2025-11-07T14:43:12.985954+00:00",
+      "lastUpdated": "2025-11-07T18:49:46.081460+00:00",
       "nameKids": "🎉 Stadtleben & Ausflüge",
       "ageGroups": [
         "3-6"
@@ -3872,7 +4090,7 @@
       },
       "source": "https://www.musenkuss-muenchen.de/angebote/open-haus-frei-rein-fein-raus",
       "link": "https://www.musenkuss-muenchen.de/angebote/open-haus-frei-rein-fein-raus",
-      "lastUpdated": "2025-11-07T14:43:27.337533+00:00",
+      "lastUpdated": "2025-11-07T18:50:02.438730+00:00",
       "nameKids": "🎨 Termine",
       "ageGroups": [
         "0-3",
@@ -3902,7 +4120,7 @@
       },
       "source": "https://www.olympiapark.de/de/veranstaltungen",
       "link": "https://www.olympiapark.de/de/veranstaltungen/the-witcher-in-concert-n4786",
-      "lastUpdated": "2025-11-07T14:43:20.789869+00:00",
+      "lastUpdated": "2025-11-07T18:49:55.011955+00:00",
       "nameKids": "🎵 The Witcher in Concert",
       "ageGroups": [
         "3-6",
@@ -3933,7 +4151,7 @@
       },
       "source": "https://muenchenmitkind.de/veranstaltungskalender",
       "link": "https://muenchenmitkind.de/termine/wochenendtipps/kw-45-mit-kindern/",
-      "lastUpdated": "2025-11-07T14:43:24.963773+00:00",
+      "lastUpdated": "2025-11-07T18:50:01.046505+00:00",
       "nameKids": "🎉 Tipps für die Herbstferienwoche",
       "ageGroups": [
         "3-6",
@@ -3964,7 +4182,7 @@
       },
       "source": "https://www.olympiapark.de/de/veranstaltungen",
       "link": "https://www.olympiapark.de/de/veranstaltungen/tom-odell-n5046",
-      "lastUpdated": "2025-11-07T14:43:20.790715+00:00",
+      "lastUpdated": "2025-11-07T18:49:55.012686+00:00",
       "nameKids": "🎵 Tom Odell",
       "ageGroups": [
         "3-6",
@@ -3995,7 +4213,7 @@
       },
       "source": "https://www.muenchner-stadtbibliothek.de/veranstaltungen",
       "link": "https://blog.muenchner-stadtbibliothek.de/",
-      "lastUpdated": "2025-11-07T14:43:20.393036+00:00",
+      "lastUpdated": "2025-11-07T18:49:54.371237+00:00",
       "nameKids": "🎉 Unser Blog",
       "ageGroups": [
         "3-6",
@@ -4026,7 +4244,7 @@
       },
       "source": "https://www.muenchner-stadtbibliothek.de/veranstaltungen",
       "link": "https://www.muenchner-stadtbibliothek.de/veranstaltungen",
-      "lastUpdated": "2025-11-07T14:43:20.391713+00:00",
+      "lastUpdated": "2025-11-07T18:49:54.370023+00:00",
       "nameKids": "🎉 Unsere Veranstaltungen",
       "ageGroups": [
         "3-6",
@@ -4057,7 +4275,7 @@
       },
       "source": "https://www.kindaling.de/halloween/kids-halloween-breakfast-at-the-hard-rock-cafe-muenchen-altstadt-lehel/muenchen-altstadt-lehel",
       "link": "https://www.kindaling.de/veranstaltungen/muenchen",
-      "lastUpdated": "2025-11-07T14:43:12.987673+00:00",
+      "lastUpdated": "2025-11-07T18:49:46.083030+00:00",
       "nameKids": "🎭 Veranstaltungen",
       "ageGroups": [
         "3-6",
@@ -4087,7 +4305,7 @@
       },
       "source": "https://www.ismaning.de/kultur-bildung/veranstaltungen/",
       "link": "https://ismaning.de/kultur-im-schlosspark",
-      "lastUpdated": "2025-11-07T14:43:33.818129+00:00",
+      "lastUpdated": "2025-11-07T18:50:12.708309+00:00",
       "nameKids": "🎉 Veranstaltungen der Gemeinde",
       "ageGroups": [
         "3-6",
@@ -4118,7 +4336,7 @@
       },
       "source": "https://www.tierpark-hellabrunn.de/aktuelles",
       "link": "https://www.tierpark-hellabrunn.de/der-tierpark/aktuelles/veranstaltungen-in-hellabrunn",
-      "lastUpdated": "2025-11-07T14:43:15.160829+00:00",
+      "lastUpdated": "2025-11-07T18:49:49.476830+00:00",
       "nameKids": "🎉 Veranstaltungen in Hellabrunn",
       "ageGroups": [
         "3-6",
@@ -4149,7 +4367,7 @@
       },
       "source": "https://www.muenchen.de/veranstaltungen/kinder",
       "link": "https://www.muenchen.de/veranstaltungen/kinder",
-      "lastUpdated": "2025-11-07T14:43:31.045494+00:00",
+      "lastUpdated": "2025-11-07T18:50:05.352576+00:00",
       "nameKids": "🎭 Veranstaltungskalender für Kinder in München",
       "ageGroups": [
         "3-6",
@@ -4179,7 +4397,7 @@
       },
       "source": "https://www.tierpark-hellabrunn.de/aktuelles",
       "link": "https://www.tierpark-hellabrunn.de/der-tierpark/aktuelles/video-guides-hfz",
-      "lastUpdated": "2025-11-07T14:43:15.162294+00:00",
+      "lastUpdated": "2025-11-07T18:49:49.478146+00:00",
       "nameKids": "🎉 Video-Guides \"HfZ\"",
       "ageGroups": [
         "3-6",
@@ -4210,7 +4428,7 @@
       },
       "source": "https://www.musenkuss-muenchen.de/angebote/iz-art-kunstatelier-schwabing",
       "link": "https://www.musenkuss-muenchen.de/anbieter/pa-spielkultur",
-      "lastUpdated": "2025-11-07T14:43:35.048345+00:00",
+      "lastUpdated": "2025-11-07T18:50:09.944730+00:00",
       "nameKids": "🎉 iz art Kunstatelier in der Parkstadt Schwabing",
       "ageGroups": [
         "3-6",
@@ -4240,7 +4458,7 @@
       },
       "source": "https://www.musenkuss-muenchen.de/angebote/familien",
       "link": "https://www.musenkuss-muenchen.de/angebote/die-halle-atelier-repaircafe",
-      "lastUpdated": "2025-11-07T14:43:38.014943+00:00",
+      "lastUpdated": "2025-11-07T18:50:14.709970+00:00",
       "nameKids": "🎉 »die h.alle - atelier & repaircafé«",
       "ageGroups": [
         "3-6",
@@ -4271,7 +4489,7 @@
       },
       "source": "https://www.musenkuss-muenchen.de/angebote/open-haus-frei-rein-fein-raus",
       "link": "https://www.musenkuss-muenchen.de/ueber-uns/ueber-musenkuss",
-      "lastUpdated": "2025-11-07T14:43:27.351042+00:00",
+      "lastUpdated": "2025-11-07T18:50:02.451016+00:00",
       "nameKids": "🎉 Über Musenkuss",
       "ageGroups": [
         "3-6",
@@ -4301,7 +4519,7 @@
       },
       "source": "https://www.musenkuss-muenchen.de/angebote/familien",
       "link": "https://www.musenkuss-muenchen.de/angebote/community-dance-im-hp8",
-      "lastUpdated": "2025-11-07T14:43:38.019311+00:00",
+      "lastUpdated": "2025-11-07T18:50:14.713985+00:00",
       "nameKids": "🎉 Community Dance im HP8",
       "ageGroups": [
         "3-6",
@@ -4332,7 +4550,7 @@
       },
       "source": "https://www.olympiapark.de/de/veranstaltungen",
       "link": "https://www.olympiapark.de/de/veranstaltungen/onerepublic-n4718",
-      "lastUpdated": "2025-11-07T14:43:20.787330+00:00",
+      "lastUpdated": "2025-11-07T18:49:55.009721+00:00",
       "nameKids": "🎵 OneRepublic",
       "ageGroups": [
         "3-6",
@@ -4364,7 +4582,7 @@
       },
       "source": "https://www.muenchenticket.de/event/pettersson-feiert-weihnachten-19471/",
       "link": "https://www.muenchenticket.de/event/pettersson-feiert-weihnachten-19471/",
-      "lastUpdated": "2025-11-07T14:43:37.514265+00:00",
+      "lastUpdated": "2025-11-07T18:50:16.556762+00:00",
       "nameKids": "🎉 Pettersson feiert Weihnachten",
       "ageGroups": [
         "3-6"
@@ -4393,7 +4611,7 @@
       },
       "source": "https://www.erding.de/veranstaltungen",
       "link": "https://www.erding.de/veranstaltungen-detail/aktivtreff-die-heilende-wirkung-von-humor",
-      "lastUpdated": "2025-11-07T14:43:37.615996+00:00",
+      "lastUpdated": "2025-11-07T18:50:16.056427+00:00",
       "nameKids": "🏛️ Mehr erfahren über: Aktivtreff: Die heilende Wirku",
       "ageGroups": [
         "3-6",
@@ -4423,7 +4641,7 @@
       },
       "source": "https://www.erding.de/veranstaltungen",
       "link": "https://www.erding.de/veranstaltungen-detail/tobias-haberl-in-der-buecherei",
-      "lastUpdated": "2025-11-07T14:43:37.618101+00:00",
+      "lastUpdated": "2025-11-07T18:50:16.058454+00:00",
       "nameKids": "🎉 Mehr erfahren über: Tobias Haberl in der Bücherei",
       "ageGroups": [
         "3-6",
@@ -4454,7 +4672,7 @@
       },
       "source": "https://www.erding.de/veranstaltungen",
       "link": "https://www.erding.de/veranstaltungen-detail/vortrag-ueber-luftbild-archaeologie",
-      "lastUpdated": "2025-11-07T14:43:37.617054+00:00",
+      "lastUpdated": "2025-11-07T18:50:16.057419+00:00",
       "nameKids": "🏛️ Mehr erfahren über: Vortrag über Luftbild-Archäolo",
       "ageGroups": [
         "3-6",
@@ -4484,7 +4702,7 @@
       },
       "source": "https://www.lk-starnberg.de/Veranstaltungen",
       "link": "https://veranstaltungen.muenchen.de/bauzentrum/",
-      "lastUpdated": "2025-11-07T14:43:19.420746+00:00",
+      "lastUpdated": "2025-11-07T18:49:53.135365+00:00",
       "nameKids": "🎉 Online-Infoabend: „Gesunde Raumluft kann man bauen",
       "ageGroups": [
         "3-6",
@@ -4515,7 +4733,7 @@
       },
       "source": "https://www.lk-starnberg.de/Veranstaltungen",
       "link": "https://www.vhs-starnbergammersee.de/",
-      "lastUpdated": "2025-11-07T14:43:19.422306+00:00",
+      "lastUpdated": "2025-11-07T18:49:53.136749+00:00",
       "nameKids": "🎉 Online-Vortrag: „Balkonkraftwerk - für 7 Cent den ",
       "ageGroups": [
         "3-6",
@@ -4546,7 +4764,7 @@
       },
       "source": "https://www.lk-starnberg.de/Veranstaltungen",
       "link": "https://verbraucherzentrale-energieberatung.de/veranstaltungen",
-      "lastUpdated": "2025-11-07T14:43:19.419959+00:00",
+      "lastUpdated": "2025-11-07T18:49:53.134669+00:00",
       "nameKids": "🎉 Online-Vortrag: „Moderne Heiztechnik – Fokus Optim",
       "ageGroups": [
         "3-6",
@@ -4577,7 +4795,7 @@
       },
       "source": "https://www.lk-starnberg.de/Veranstaltungen",
       "link": "https://www.verbraucherzentrale-bayern.de/veranstaltungen",
-      "lastUpdated": "2025-11-07T14:43:19.421532+00:00",
+      "lastUpdated": "2025-11-07T18:49:53.136068+00:00",
       "nameKids": "🎉 Online-Vortrag: „Wärmepumpe im Altbau - So klappt ",
       "ageGroups": [
         "3-6",
@@ -4608,7 +4826,7 @@
       },
       "source": "https://www.lk-starnberg.de/Veranstaltungen",
       "link": "https://www.carmen-ev.de/termine/veranstaltungskalender/",
-      "lastUpdated": "2025-11-07T14:43:19.418284+00:00",
+      "lastUpdated": "2025-11-07T18:49:53.133188+00:00",
       "nameKids": "🎉 WebKonferenz: „Batteriespeicher in der Landwirtsch",
       "ageGroups": [
         "3-6",
@@ -4639,7 +4857,7 @@
       },
       "source": "https://www.lk-starnberg.de/Veranstaltungen",
       "link": "https://lra-starnberg.webex.com/lra-starnberg-de/j.php?MTID=md043ea5867a77e2961c242c1801de7f0",
-      "lastUpdated": "2025-11-07T14:43:19.419180+00:00",
+      "lastUpdated": "2025-11-07T18:49:53.133988+00:00",
       "nameKids": "🎉 online KINDERSCHUTZ-Sprechstunde",
       "ageGroups": [
         "9-12"
@@ -4669,7 +4887,7 @@
       },
       "source": "https://www.kindaling.de/kreatives/offenes-atelier-feierwerk-funkstation/muenchen-schwabing-freimann",
       "link": "https://www.kindaling.de/kreatives/offenes-atelier-feierwerk-funkstation/muenchen-schwabing-freimann",
-      "lastUpdated": "2025-11-07T14:43:17.739070+00:00",
+      "lastUpdated": "2025-11-07T18:49:51.706404+00:00",
       "nameKids": "🎉 OFFENES ATELIER",
       "ageGroups": [
         "3-6",
@@ -4700,7 +4918,7 @@
       },
       "source": "https://www.musenkuss-muenchen.de/angebote/familien",
       "link": "https://www.musenkuss-muenchen.de/angebote/dackel-in-unbehagen-folge-5-der-widerwille",
-      "lastUpdated": "2025-11-07T14:43:38.023123+00:00",
+      "lastUpdated": "2025-11-07T18:50:14.717518+00:00",
       "nameKids": "🎉 Dackel in Unbehagen - Folge 5: Der Widerwille",
       "ageGroups": [
         "3-6",
@@ -4731,7 +4949,7 @@
       },
       "source": "https://www.lk-starnberg.de/Veranstaltungen",
       "link": "https://www.lk-starnberg.de/index.php?NavID=613.11&object=tx|613.11446.1&ModID=11&FID=613.33680.1",
-      "lastUpdated": "2025-11-07T14:43:19.425648+00:00",
+      "lastUpdated": "2025-11-07T18:49:53.139720+00:00",
       "nameKids": "🎉 Energieberatung in Herrsching",
       "ageGroups": [
         "3-6",
@@ -4762,7 +4980,7 @@
       },
       "source": "https://www.musenkuss-muenchen.de/angebote/familien",
       "link": "https://www.musenkuss-muenchen.de/angebote/farbgeschichten",
-      "lastUpdated": "2025-11-07T14:43:38.021295+00:00",
+      "lastUpdated": "2025-11-07T18:50:14.715844+00:00",
       "nameKids": "🎉 Farbgeschichten",
       "ageGroups": [
         "3-6",
@@ -4794,7 +5012,7 @@
       },
       "source": "https://www.kindaling.de/kreatives/mini-musikwerkstatt/muenchen-thalk-obers-fuerst-forst-solln",
       "link": "https://www.kindaling.de/kreatives/mini-musikwerkstatt/muenchen-thalk-obers-fuerst-forst-solln",
-      "lastUpdated": "2025-11-07T14:43:36.632792+00:00",
+      "lastUpdated": "2025-11-07T18:50:14.796099+00:00",
       "nameKids": "🎵 Mini-Musikwerkstatt",
       "ageGroups": [
         "3-6",
@@ -4825,7 +5043,7 @@
       },
       "source": "https://www.lk-starnberg.de/Veranstaltungen",
       "link": "https://veranstaltungen.muenchen.de/bauzentrum/",
-      "lastUpdated": "2025-11-07T14:43:19.429546+00:00",
+      "lastUpdated": "2025-11-07T18:49:53.143322+00:00",
       "nameKids": "🎉 Online-Infoveranstaltung: „Balkonkraftwerk\"",
       "ageGroups": [
         "3-6",
@@ -4856,7 +5074,7 @@
       },
       "source": "https://www.lk-starnberg.de/Veranstaltungen",
       "link": "https://www.verbraucherzentrale-bayern.de/veranstaltungen",
-      "lastUpdated": "2025-11-07T14:43:19.428803+00:00",
+      "lastUpdated": "2025-11-07T18:49:53.142644+00:00",
       "nameKids": "🎉 Online-Vortrag: „Heizen mit der Klimaanlage!“",
       "ageGroups": [
         "3-6",
@@ -4887,7 +5105,7 @@
       },
       "source": "https://www.lk-starnberg.de/Veranstaltungen",
       "link": "https://www.landschafftenergie.bayern/veranstaltungen/",
-      "lastUpdated": "2025-11-07T14:43:19.428036+00:00",
+      "lastUpdated": "2025-11-07T18:49:53.141849+00:00",
       "nameKids": "🎉 Online-Vortrag: „Mein erstes E-Auto – Neu oder Geb",
       "ageGroups": [
         "3-6",
@@ -4918,7 +5136,7 @@
       },
       "source": "https://www.lk-starnberg.de/Veranstaltungen",
       "link": "https://www.lk-starnberg.de/index.php?NavID=613.11&object=tx|613.11446.1&ModID=11&FID=2235.1562.1",
-      "lastUpdated": "2025-11-07T14:43:19.427265+00:00",
+      "lastUpdated": "2025-11-07T18:49:53.141172+00:00",
       "nameKids": "🎉 Pflegebedürftigkeit: Vom Antrag bis zum Pflegegrad",
       "ageGroups": [
         "3-6",
@@ -4949,7 +5167,7 @@
       },
       "source": "https://www.unterhaching.de/veranstaltungen",
       "link": "https://www.unterhaching.de/veranstaltungen/veranstaltung?view=publish&item=eventDate&id=2110",
-      "lastUpdated": "2025-11-07T14:43:28.727948+00:00",
+      "lastUpdated": "2025-11-07T18:50:05.870962+00:00",
       "nameKids": "🎉 Radl-Ambulanz",
       "ageGroups": [
         "9-12"
@@ -4978,7 +5196,7 @@
       },
       "source": "https://www.unterhaching.de/veranstaltungen",
       "link": "https://www.unterhaching.de/veranstaltungen/veranstaltung?view=publish&item=eventDate&id=2053",
-      "lastUpdated": "2025-11-07T14:43:28.729149+00:00",
+      "lastUpdated": "2025-11-07T18:50:05.872025+00:00",
       "nameKids": "🎉 Strick-, Häkel- und Upcycling-Treff",
       "ageGroups": [
         "3-6",
@@ -5009,7 +5227,7 @@
       },
       "source": "https://www.lk-starnberg.de/Veranstaltungen",
       "link": "https://www.carmen-ev.de/termine/veranstaltungskalender/",
-      "lastUpdated": "2025-11-07T14:43:19.426404+00:00",
+      "lastUpdated": "2025-11-07T18:49:53.140396+00:00",
       "nameKids": "🎉 WebSeminar: „Energiesparen im Unternehmen“",
       "ageGroups": [
         "3-6",
@@ -5040,7 +5258,7 @@
       },
       "source": "https://www.unterhaching.de/veranstaltungen",
       "link": "https://www.unterhaching.de/veranstaltungen/veranstaltung?view=publish&item=eventDate&id=2234",
-      "lastUpdated": "2025-11-07T14:43:28.730166+00:00",
+      "lastUpdated": "2025-11-07T18:50:05.872919+00:00",
       "nameKids": "🎉 Ausstellung \"Rette die Welt... zumindest ein bissc",
       "ageGroups": [
         "3-6",
@@ -5070,7 +5288,7 @@
       },
       "source": "https://www.unterhaching.de/veranstaltungen",
       "link": "https://www.unterhaching.de/veranstaltungen/veranstaltung?view=publish&item=eventDate&id=2178",
-      "lastUpdated": "2025-11-07T14:43:28.731279+00:00",
+      "lastUpdated": "2025-11-07T18:50:05.873899+00:00",
       "nameKids": "🎉 Constanze Lindner: Lindners Lebenslust",
       "ageGroups": [
         "6-9",
@@ -5100,7 +5318,7 @@
       },
       "source": "https://www.lk-starnberg.de/Veranstaltungen",
       "link": "https://www.lk-starnberg.de/index.php?NavID=613.11&object=tx|613.11446.1&ModID=11&FID=613.12794.1",
-      "lastUpdated": "2025-11-07T14:43:19.430216+00:00",
+      "lastUpdated": "2025-11-07T18:49:53.144100+00:00",
       "nameKids": "🎉 Beflaggung des Landratsamtes: Volkstrauertag",
       "ageGroups": [
         "3-6",
@@ -5131,7 +5349,7 @@
       },
       "source": "https://www.unterhaching.de/veranstaltungen",
       "link": "https://www.unterhaching.de/veranstaltungen/veranstaltung?view=publish&item=eventDate&id=2233",
-      "lastUpdated": "2025-11-07T14:43:28.733148+00:00",
+      "lastUpdated": "2025-11-07T18:50:05.875453+00:00",
       "nameKids": "🎉 Cleanup-Aktion",
       "ageGroups": [
         "0-3",
@@ -5161,7 +5379,7 @@
       },
       "source": "https://www.unterhaching.de/veranstaltungen",
       "link": "https://www.unterhaching.de/veranstaltungen/veranstaltung?view=publish&item=eventDate&id=2215",
-      "lastUpdated": "2025-11-07T14:43:28.734081+00:00",
+      "lastUpdated": "2025-11-07T18:50:05.876265+00:00",
       "nameKids": "🎉 Gottesdienst in moderner Atmosphäre",
       "ageGroups": [
         "3-6",
@@ -5192,7 +5410,7 @@
       },
       "source": "https://www.unterhaching.de/veranstaltungen",
       "link": "https://www.unterhaching.de/veranstaltungen/veranstaltung?view=publish&item=eventDate&id=2176",
-      "lastUpdated": "2025-11-07T14:43:28.735235+00:00",
+      "lastUpdated": "2025-11-07T18:50:05.877294+00:00",
       "nameKids": "🎵 Lenbach-Ensemble",
       "ageGroups": [
         "3-6",
@@ -5223,7 +5441,7 @@
       },
       "source": "https://www.unterhaching.de/veranstaltungen",
       "link": "https://www.unterhaching.de/veranstaltungen/veranstaltung?view=publish&item=eventDate&id=1731",
-      "lastUpdated": "2025-11-07T14:43:28.731926+00:00",
+      "lastUpdated": "2025-11-07T18:50:05.874453+00:00",
       "nameKids": "🎉 Volkstrauertag (mit Partnergemeinden und Vereinen)",
       "ageGroups": [
         "3-6",
@@ -5254,7 +5472,7 @@
       },
       "source": "https://www.olympiapark.de/de/veranstaltungen",
       "link": "https://www.olympiapark.de/de/veranstaltungen/wassersportfestival-n5335",
-      "lastUpdated": "2025-11-07T14:43:20.791597+00:00",
+      "lastUpdated": "2025-11-07T18:49:55.013464+00:00",
       "nameKids": "⚽ Wassersportfestival",
       "ageGroups": [
         "3-6",
@@ -5285,7 +5503,7 @@
       },
       "source": "https://www.lk-starnberg.de/Veranstaltungen",
       "link": "https://www.lk-starnberg.de/index.php?NavID=613.11&object=tx|613.11446.1&ModID=11&FID=2153.81.1",
-      "lastUpdated": "2025-11-07T14:43:19.431045+00:00",
+      "lastUpdated": "2025-11-07T18:49:53.144831+00:00",
       "nameKids": "🎉 AusZeit",
       "ageGroups": [
         "3-6",
@@ -5316,7 +5534,7 @@
       },
       "source": "https://www.unterhaching.de/veranstaltungen",
       "link": "https://www.unterhaching.de/veranstaltungen/veranstaltung?view=publish&item=eventDate&id=2226",
-      "lastUpdated": "2025-11-07T14:43:28.737376+00:00",
+      "lastUpdated": "2025-11-07T18:50:05.879207+00:00",
       "nameKids": "🎉 Kino im KUBIZ: Wenn der Herbst naht",
       "ageGroups": [
         "3-6",
@@ -5347,7 +5565,7 @@
       },
       "source": "https://www.olympiapark.de/de/veranstaltungen",
       "link": "https://www.olympiapark.de/de/veranstaltungen/kontra-k--n4192",
-      "lastUpdated": "2025-11-07T14:43:20.792461+00:00",
+      "lastUpdated": "2025-11-07T18:49:55.014243+00:00",
       "nameKids": "🎵 Kontra K",
       "ageGroups": [
         "3-6",
@@ -5378,7 +5596,7 @@
       },
       "source": "https://www.unterhaching.de/veranstaltungen",
       "link": "https://www.unterhaching.de/veranstaltungen/veranstaltung?view=publish&item=eventDate&id=2196",
-      "lastUpdated": "2025-11-07T14:43:28.736272+00:00",
+      "lastUpdated": "2025-11-07T18:50:05.878222+00:00",
       "nameKids": "🎉 Stammtisch des Städte-Partnerschaftskreis Unterhac",
       "ageGroups": [
         "0-3"
@@ -5407,7 +5625,7 @@
       },
       "source": "https://www.unterhaching.de/veranstaltungen",
       "link": "https://www.unterhaching.de/veranstaltungen/veranstaltung?view=publish&item=eventDate&id=2086",
-      "lastUpdated": "2025-11-07T14:43:28.738496+00:00",
+      "lastUpdated": "2025-11-07T18:50:05.880123+00:00",
       "nameKids": "🎉 Repaircafé",
       "ageGroups": [
         "3-6",
@@ -5438,7 +5656,7 @@
       },
       "source": "https://www.unterhaching.de/veranstaltungen",
       "link": "https://www.unterhaching.de/veranstaltungen/veranstaltung?view=publish&item=eventDate&id=2174",
-      "lastUpdated": "2025-11-07T14:43:28.740665+00:00",
+      "lastUpdated": "2025-11-07T18:50:05.882030+00:00",
       "nameKids": "🎭 Die rollende Stadt",
       "ageGroups": [
         "3-6"
@@ -5467,7 +5685,7 @@
       },
       "source": "https://www.unterhaching.de/veranstaltungen",
       "link": "https://www.unterhaching.de/veranstaltungen/veranstaltung?view=publish&item=eventDate&id=2111",
-      "lastUpdated": "2025-11-07T14:43:28.739566+00:00",
+      "lastUpdated": "2025-11-07T18:50:05.881067+00:00",
       "nameKids": "🎉 Radl-Ambulanz",
       "ageGroups": [
         "9-12"
@@ -5496,7 +5714,7 @@
       },
       "source": "https://www.olympiapark.de/de/veranstaltungen",
       "link": "https://www.olympiapark.de/de/veranstaltungen/sabaton-n4702",
-      "lastUpdated": "2025-11-07T14:43:20.793343+00:00",
+      "lastUpdated": "2025-11-07T18:49:55.015011+00:00",
       "nameKids": "🎵 Sabaton",
       "ageGroups": [
         "3-6",
@@ -5527,7 +5745,7 @@
       },
       "source": "https://www.unterhaching.de/veranstaltungen",
       "link": "https://www.unterhaching.de/veranstaltungen/veranstaltung?view=publish&item=eventDate&id=2054",
-      "lastUpdated": "2025-11-07T14:43:28.741820+00:00",
+      "lastUpdated": "2025-11-07T18:50:05.883058+00:00",
       "nameKids": "🎉 Strick-, Häkel- und Upcycling-Treff",
       "ageGroups": [
         "3-6",
@@ -5559,7 +5777,7 @@
       },
       "source": "https://www.muenchenticket.de/event/ali-baba-und-die-40-raeuber-29587/",
       "link": "https://www.muenchenticket.de/event/ali-baba-und-die-40-raeuber-29587/",
-      "lastUpdated": "2025-11-07T14:43:29.401514+00:00",
+      "lastUpdated": "2025-11-07T18:50:07.038056+00:00",
       "nameKids": "🎉 Ali Baba und die 40 Räuber",
       "ageGroups": [
         "6-9"
@@ -5588,7 +5806,7 @@
       },
       "source": "https://www.olympiapark.de/de/veranstaltungen",
       "link": "https://www.olympiapark.de/de/veranstaltungen/lets-dance-n4676",
-      "lastUpdated": "2025-11-07T14:43:20.794231+00:00",
+      "lastUpdated": "2025-11-07T18:49:55.015772+00:00",
       "nameKids": "🎉 Let’s Dance",
       "ageGroups": [
         "3-6",
@@ -5619,7 +5837,7 @@
       },
       "source": "https://www.musenkuss-muenchen.de/angebote/familien",
       "link": "https://www.musenkuss-muenchen.de/angebote/bau-mit-muenchen-baut",
-      "lastUpdated": "2025-11-07T14:43:38.014231+00:00",
+      "lastUpdated": "2025-11-07T18:50:14.709322+00:00",
       "nameKids": "🎉 Bau mit! München baut",
       "ageGroups": [
         "3-6",
@@ -5650,7 +5868,7 @@
       },
       "source": "https://www.olympiapark.de/de/veranstaltungen",
       "link": "https://www.olympiapark.de/de/veranstaltungen/big-time-rush-n4904",
-      "lastUpdated": "2025-11-07T14:43:20.795110+00:00",
+      "lastUpdated": "2025-11-07T18:49:55.016558+00:00",
       "nameKids": "🎵 Big Time Rush",
       "ageGroups": [
         "3-6",
@@ -5681,7 +5899,7 @@
       },
       "source": "https://www.olympiapark.de/de/veranstaltungen",
       "link": "https://www.olympiapark.de/de/veranstaltungen/till-lindemann-n4704",
-      "lastUpdated": "2025-11-07T14:43:20.795952+00:00",
+      "lastUpdated": "2025-11-07T18:49:55.017316+00:00",
       "nameKids": "🎵 Till Lindemann",
       "ageGroups": [
         "3-6",
@@ -5712,7 +5930,7 @@
       },
       "source": "https://www.musenkuss-muenchen.de/angebote/iz-art-kunstatelier-schwabing",
       "link": "https://www.musenkuss-muenchen.de/angebote/iz-art-kunstatelier-schwabing",
-      "lastUpdated": "2025-11-07T14:43:35.052568+00:00",
+      "lastUpdated": "2025-11-07T18:50:09.948628+00:00",
       "nameKids": "🎉 November",
       "ageGroups": [
         "3-6",
@@ -5743,7 +5961,7 @@
       },
       "source": "https://www.olympiapark.de/de/veranstaltungen",
       "link": "https://www.olympiapark.de/de/veranstaltungen/luciano-n4173",
-      "lastUpdated": "2025-11-07T14:43:20.799304+00:00",
+      "lastUpdated": "2025-11-07T18:49:55.020307+00:00",
       "nameKids": "🎵 Luciano",
       "ageGroups": [
         "3-6",
@@ -5774,7 +5992,7 @@
       },
       "source": "https://www.olympiapark.de/de/veranstaltungen",
       "link": "https://www.olympiapark.de/de/veranstaltungen/ed-sheeran-n5252",
-      "lastUpdated": "2025-11-07T14:43:20.800243+00:00",
+      "lastUpdated": "2025-11-07T18:49:55.021146+00:00",
       "nameKids": "🎵 Ed Sheeran",
       "ageGroups": [
         "3-6",
@@ -5805,7 +6023,7 @@
       },
       "source": "https://www.olympiapark.de/de/veranstaltungen",
       "link": "https://www.olympiapark.de/de/veranstaltungen/tream-n4609",
-      "lastUpdated": "2025-11-07T14:43:20.801123+00:00",
+      "lastUpdated": "2025-11-07T18:49:55.021901+00:00",
       "nameKids": "🎵 TREAM",
       "ageGroups": [
         "3-6",
@@ -5836,7 +6054,7 @@
       },
       "source": "https://www.unterhaching.de/veranstaltungen",
       "link": "https://www.unterhaching.de/veranstaltungen/veranstaltung?view=publish&item=eventDate&id=2002",
-      "lastUpdated": "2025-11-07T14:43:28.725761+00:00",
+      "lastUpdated": "2025-11-07T18:50:05.869096+00:00",
       "nameKids": "🎉 AWO Kaffee-Nachmittag",
       "ageGroups": [
         "3-6",
@@ -5867,7 +6085,7 @@
       },
       "source": "https://www.lk-starnberg.de/Veranstaltungen",
       "link": "https://www.vhs-starnbergammersee.de/",
-      "lastUpdated": "2025-11-07T14:43:19.424847+00:00",
+      "lastUpdated": "2025-11-07T18:49:53.139011+00:00",
       "nameKids": "🎉 Online-Vortrag: „E-Auto - Ist das die Zukunft und ",
       "ageGroups": [
         "3-6",
@@ -5898,7 +6116,7 @@
       },
       "source": "https://www.lk-starnberg.de/Veranstaltungen",
       "link": "https://verbraucherzentrale-energieberatung.de/veranstaltungen",
-      "lastUpdated": "2025-11-07T14:43:19.424086+00:00",
+      "lastUpdated": "2025-11-07T18:49:53.138323+00:00",
       "nameKids": "🎉 Online-Vortrag: „Energetisch sanieren – vom Keller",
       "ageGroups": [
         "3-6",
@@ -5929,7 +6147,7 @@
       },
       "source": "https://www.lk-starnberg.de/Veranstaltungen",
       "link": "https://www.lk-starnberg.de/index.php?NavID=613.11&object=tx|613.11446.1&ModID=11&FID=2235.1544.1",
-      "lastUpdated": "2025-11-07T14:43:19.423295+00:00",
+      "lastUpdated": "2025-11-07T18:49:53.137629+00:00",
       "nameKids": "🎉 Pflegestützpunkt Starnberg - Außensprechtag in Ber",
       "ageGroups": [
         "3-6",
@@ -5960,7 +6178,7 @@
       },
       "source": "https://www.unterhaching.de/veranstaltungen",
       "link": "https://www.unterhaching.de/veranstaltungen/veranstaltung?view=publish&item=eventDate&id=2085",
-      "lastUpdated": "2025-11-07T14:43:28.726794+00:00",
+      "lastUpdated": "2025-11-07T18:50:05.870016+00:00",
       "nameKids": "🎉 Repaircafé",
       "ageGroups": [
         "3-6",
@@ -5991,7 +6209,7 @@
       },
       "source": "https://www.musenkuss-muenchen.de/angebote/iz-art-kunstatelier-schwabing",
       "link": "https://www.musenkuss-muenchen.de/angebote/iz-art-kunstatelier-schwabing",
-      "lastUpdated": "2025-11-07T14:43:35.052802+00:00",
+      "lastUpdated": "2025-11-07T18:50:09.948874+00:00",
       "nameKids": "🎉 Dezember",
       "ageGroups": [
         "3-6",
@@ -6023,7 +6241,7 @@
       },
       "source": "https://www.muenchenticket.de/event/der-froschkoenig-33811/",
       "link": "https://www.muenchenticket.de/event/der-froschkoenig-33811/",
-      "lastUpdated": "2025-11-07T14:43:23.605011+00:00",
+      "lastUpdated": "2025-11-07T18:50:00.635638+00:00",
       "nameKids": "🎉 Der Froschkönig",
       "ageGroups": [
         "3-6"
@@ -6037,13 +6255,13 @@
       "energyLevel": "moderat"
     }
   ],
-  "lastCrawled": "2025-11-07T14:45:03.865877+00:00",
+  "lastCrawled": "2025-11-07T18:51:38.554607+00:00",
   "metadata": {
     "version": "4.1",
-    "lastCrawled": "2025-11-07T14:45:03.865888+00:00",
+    "lastCrawled": "2025-11-07T18:51:38.554619+00:00",
     "totalLocations": 6,
-    "totalEvents": 197,
-    "crawlDurationSeconds": 112.58,
+    "totalEvents": 204,
+    "crawlDurationSeconds": 114.49,
     "sources": {
       "html": [
         {
@@ -6606,7 +6824,7 @@
       ]
     }
   },
-  "totalEvents": 197,
+  "totalEvents": 204,
   "locations": [
     {
       "id": "loc-7de41c570234da40",
@@ -6619,7 +6837,7 @@
       "country": "DE",
       "source": "https://www.tierpark-hellabrunn.de",
       "link": "https://www.tierpark-hellabrunn.de/newsdetailseite/neue-mia-san-tier-folge-schrecken-im-schildkroetenhaus",
-      "lastUpdated": "2025-11-07T14:44:52.935994+00:00",
+      "lastUpdated": "2025-11-07T18:51:27.073896+00:00",
       "nameKids": "🦁 Neue \"Mia san Tier\" Folge: \"Schrecken\" im Schildkr",
       "ageGroups": [
         "3-6",
@@ -6651,7 +6869,7 @@
       "country": "DE",
       "source": "https://www.tierpark-hellabrunn.de",
       "link": "https://www.tierpark-hellabrunn.de/newsdetailseite/neue-maeuse-wg-in-hellabrunn",
-      "lastUpdated": "2025-11-07T14:44:52.935642+00:00",
+      "lastUpdated": "2025-11-07T18:51:27.073579+00:00",
       "nameKids": "🎯 Neugestaltetes Maushaus zeigt drei neue Arten",
       "ageGroups": [
         "3-6",
@@ -6683,7 +6901,7 @@
       "country": "DE",
       "source": "https://www.tierpark-hellabrunn.de",
       "link": "https://www.tierpark-hellabrunn.de/newsdetailseite/pfeilgiftfroesche-harlekinkroeten-in-hellabrunn",
-      "lastUpdated": "2025-11-07T14:44:52.935247+00:00",
+      "lastUpdated": "2025-11-07T18:51:27.073210+00:00",
       "nameKids": "🦁 Pfeilgiftfrösche & Harlekinkröten im Tierpark Hell",
       "ageGroups": [
         "3-6",
@@ -6716,7 +6934,7 @@
       "country": "DE",
       "source": "https://www.schauburg.net",
       "link": "https://www.schauburg.net",
-      "lastUpdated": "2025-11-07T14:44:59.392713+00:00",
+      "lastUpdated": "2025-11-07T18:51:33.844760+00:00",
       "nameKids": "🎯 Sprachcafe im",
       "ageGroups": [
         "3-6",
@@ -6748,7 +6966,7 @@
       "country": "DE",
       "source": "https://www.schauburg.net",
       "link": "https://www.schauburg.net/de/spielplan",
-      "lastUpdated": "2025-11-07T14:44:59.392176+00:00",
+      "lastUpdated": "2025-11-07T18:51:33.844300+00:00",
       "nameKids": "🎯 Vorverkauf für Dezember & Januar",
       "ageGroups": [
         "3-6",
@@ -6780,7 +6998,7 @@
       "country": "DE",
       "source": "https://www.schauburg.net",
       "link": "https://www.schauburg.net/sites/default/files/Das-erste-Mal-Theater.pdf",
-      "lastUpdated": "2025-11-07T14:44:59.392478+00:00",
+      "lastUpdated": "2025-11-07T18:51:33.844570+00:00",
       "nameKids": "🎯 hier einenLeitfaden",
       "ageGroups": [
         "3-6"
