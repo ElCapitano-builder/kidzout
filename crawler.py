@@ -497,9 +497,228 @@ def short(text: str, limit: int = 300) -> str:
     text = (text or "").strip().replace("\r", " ").replace("\n", " ")
     return text if len(text) <= limit else text[: limit - 1] + "…"
 
+def calculate_event_quality_score(item):
+    """
+    Bewertet Event-Qualität und Relevanz für Kinder
+    Returns: score (0-100), higher is better
+    """
+    score = 50  # Base score
+    text = (item.get('name', '') + ' ' + item.get('description', '')).lower()
+
+    # NEGATIVE indicators (irrelevant events)
+    bad_patterns = [
+        'pressemitteilung', 'pressetermin', 'akkreditierung', 'anmeldung erforderlich nur für presse',
+        'nur für mitglieder', 'geschlossene veranstaltung', 'interne veranstaltung',
+        'fortbildung für', 'lehrerfortbildung', 'pädagogische fachkräfte',
+        'konferenz', 'tagung', 'symposium', 'fachvortrag',
+        'ausstellungseröffnung nur für geladene gäste', 'vernissage',
+        'board meeting', 'meeting', 'sitzung'
+    ]
+
+    for pattern in bad_patterns:
+        if pattern in text:
+            score -= 30
+
+    # Check for very short/empty descriptions (low quality)
+    desc = item.get('description', '')
+    if len(desc) < 30:
+        score -= 20
+    elif len(desc) < 50:
+        score -= 10
+
+    # POSITIVE indicators (kid-friendly events)
+    good_patterns = [
+        'kinder', 'familien', 'kids', 'family', 'spielen', 'spaß',
+        'workshop', 'basteln', 'mitmachen', 'entdecken', 'abenteuer',
+        'märchen', 'theater', 'kindertheater', 'puppentheater',
+        'museum', 'ausstellung', 'führung für kinder',
+        'sport', 'bewegung', 'turnen', 'tanzen',
+        'kreativ', 'malen', 'zeichnen', 'gestalten',
+        'natur', 'tiere', 'zoo', 'tierpark',
+        'musik', 'konzert für kinder', 'mitmachkonzert',
+        'vorlesen', 'lesestunde', 'bilderbuch'
+    ]
+
+    for pattern in good_patterns:
+        if pattern in text:
+            score += 5
+
+    # Check for age information (good sign)
+    age_patterns = ['ab ', 'jahre', 'alter', 'für kinder', 'kindergarten', 'grundschule']
+    if any(pattern in text for pattern in age_patterns):
+        score += 10
+
+    # Check for practical info (time, price)
+    if item.get('time') or 'uhr' in text:
+        score += 5
+    if item.get('price') or 'euro' in text or 'kostenlos' in text or 'frei' in text:
+        score += 5
+
+    return max(0, min(100, score))  # Clamp between 0-100
+
+
+def generate_kids_description(item):
+    """
+    Generiert eine kinderfreundliche Beschreibung aus dem Event
+    Dies ist eine regelbasierte "AI"-Approximation für das MVP
+    """
+    name = item.get('name', '')
+    desc = item.get('description', '')
+    text = (name + ' ' + desc).lower()
+    category = item.get('category', '')
+
+    # Extract key exciting words/phrases
+    exciting_words = []
+
+    # Activity-based excitement
+    activities = {
+        'basteln': 'Bastle und gestalte',
+        'malen': 'Male bunte Bilder',
+        'bauen': 'Baue tolle Sachen',
+        'spielen': 'Spiele mit',
+        'entdecken': 'Entdecke',
+        'erforschen': 'Erforsche',
+        'lernen': 'Lerne',
+        'ausprobieren': 'Probiere aus',
+        'mitmachen': 'Mach mit',
+        'theater': 'Erlebe ein tolles Theater-Stück',
+        'musik': 'Höre tolle Musik',
+        'tanzen': 'Tanze mit',
+        'singen': 'Singe mit',
+        'sport': 'Bewege dich',
+        'klettern': 'Klettere',
+        'springen': 'Spring und hüpf',
+        'rennen': 'Lauf und renn',
+        'schwimmen': 'Schwimme',
+        'tiere': 'Besuche die Tiere',
+        'zoo': 'Schau dir Tiere an',
+        'museum': 'Entdecke im Museum',
+        'ausstellung': 'Schau dir tolle Sachen an',
+        'führung': 'Geh auf Entdeckungstour',
+        'workshop': 'Lerne was Neues',
+        'kurs': 'Probiere was Neues',
+        'lesen': 'Höre spannende Geschichten',
+        'märchen': 'Erlebe ein Märchen',
+        'abenteuer': 'Erlebe ein Abenteuer',
+        'schatzsuche': 'Geh auf Schatzsuche',
+        'rätsel': 'Löse spannende Rätsel'
+    }
+
+    # Find matching activities
+    intro = None
+    for keyword, action in activities.items():
+        if keyword in text:
+            intro = action
+            break
+
+    # Extract topic/subject if possible
+    topics = {
+        'dinosaurier': 'Dinosaurier',
+        'weltraum': 'Weltraum und Sterne',
+        'planeten': 'Planeten',
+        'roboter': 'Roboter',
+        'piraten': 'Piraten',
+        'prinzessin': 'Prinzessinnen',
+        'ritter': 'Ritter und Burgen',
+        'natur': 'die Natur',
+        'pflanzen': 'Pflanzen',
+        'experimente': 'spannende Experimente',
+        'tiere': 'Tiere',
+        'wald': 'den Wald',
+        'wasser': 'das Wasser',
+        'kunst': 'Kunst',
+        'farben': 'bunte Farben',
+        'essen': 'leckeres Essen',
+        'kochen': 'Kochen und Backen',
+        'pizza': 'Pizza',
+        'kuchen': 'Kuchen',
+        'winter': 'den Winter',
+        'sommer': 'den Sommer',
+        'weihnachten': 'Weihnachten',
+        'ostern': 'Ostern',
+        'halloween': 'Halloween',
+        'fasching': 'Fasching',
+        'geburtstag': 'Geburtstage'
+    }
+
+    topic = None
+    for keyword, topic_name in topics.items():
+        if keyword in text:
+            topic = topic_name
+            break
+
+    # Generate description based on category and found elements
+    if intro and topic:
+        kids_desc = f"{intro} {topic}!"
+    elif intro:
+        kids_desc = f"{intro}!"
+    else:
+        # Fallback based on category
+        category_templates = {
+            'theater': 'Schau dir ein spannendes Theater-Stück an!',
+            'museum': 'Entdecke tolle Sachen im Museum!',
+            'sport': 'Beweg dich und hab Spaß!',
+            'kreativ': 'Sei kreativ und gestalte was Tolles!',
+            'outdoor': 'Erlebe ein Abenteuer draußen!',
+            'musik': 'Höre tolle Musik und mach mit!',
+            'workshop': 'Lerne was Neues und probiere es selbst aus!',
+            'natur': 'Entdecke die Natur!'
+        }
+        kids_desc = category_templates.get(category, 'Komm vorbei und hab Spaß!')
+
+    # Try to extract one interesting detail from description
+    interesting_details = []
+
+    # Look for specific named things (proper nouns, animals, characters)
+    detail_patterns = {
+        'pumuckl': 'Triff Pumuckl!',
+        'grüffelo': 'Triff den Grüffelo!',
+        'räuber': 'Triff echte Räuber!',
+        'elefant': 'Schau dir Elefanten an!',
+        'pinguin': 'Besuch die Pinguine!',
+        'löwe': 'Sieh die Löwen!',
+        'affen': 'Beobachte lustige Affen!',
+        'schmetterlinge': 'Entdecke bunte Schmetterlinge!',
+        'fische': 'Schau dir Fische an!',
+        'sterne': 'Betrachte die Sterne!',
+        'lagerfeuer': 'Sitz am Lagerfeuer!',
+        'schatzsuche': 'Such einen Schatz!',
+        'fütterung': 'Schau bei der Fütterung zu!',
+        'führung': 'Geh auf Entdeckungstour!',
+        'kostüm': 'Verkleid dich!',
+        'basteln': 'Bastle was Schönes!',
+        'malen': 'Male bunte Bilder!',
+        'spielen': 'Spiel mit anderen Kindern!'
+    }
+
+    for pattern, detail in detail_patterns.items():
+        if pattern in text and detail not in kids_desc:
+            interesting_details.append(detail)
+            break
+
+    # Combine
+    if interesting_details:
+        kids_desc = f"{kids_desc} {interesting_details[0]}"
+
+    # Make sure it's not too long
+    if len(kids_desc) > 200:
+        kids_desc = kids_desc[:197] + "..."
+
+    return kids_desc
+
+
 def enrich_for_kids(item):
     """Macht Events kinderfreundlich und fügt KidzOut-spezifische Felder hinzu"""
     text = (item.get('name', '') + ' ' + item.get('description', '')).lower()
+
+    # QUALITY CHECK FIRST - skip low-quality events
+    quality_score = calculate_event_quality_score(item)
+    item['_qualityScore'] = quality_score  # Internal field for debugging
+
+    if quality_score < 30:
+        # Event is likely irrelevant (press release, admin, etc.)
+        item['_skipReason'] = 'Low quality score'
+        return None  # Signal to skip this event
 
     # Altersgruppen-Erkennung
     age_groups = []
@@ -537,12 +756,36 @@ def enrich_for_kids(item):
 
     item['ageGroups'] = age_groups
 
-    # Eltern-Tipps
-    item['parentTips'] = [
-        "Rechtzeitig da sein - beliebte Events sind schnell voll",
-        "Snacks und Getränke mitbringen",
-        "Mit Öffis anreisen wenn möglich"
-    ]
+    # *** NEW: Generate kid-friendly description ***
+    item['descriptionKids'] = generate_kids_description(item)
+
+    # Eltern-Tipps (make them more contextual)
+    tips = []
+
+    # Always useful
+    tips.append("Rechtzeitig da sein - beliebte Events sind schnell voll")
+
+    # Context-specific tips
+    if 'museum' in text or 'ausstellung' in text:
+        tips.append("Online-Tickets vorab buchen spart Wartezeit")
+
+    if 'outdoor' in text or 'draußen' in text or 'park' in text:
+        tips.append("Wetterfeste Kleidung und Sonnenschutz nicht vergessen")
+        tips.append("Wasser und Snacks mitbringen")
+    elif 'indoor' in text or 'drinnen' in text:
+        tips.append("Wechselkleidung kann hilfreich sein")
+
+    if 'basteln' in text or 'workshop' in text or 'malen' in text:
+        tips.append("Kleidung anziehen die dreckig werden darf")
+
+    if 'sport' in text or 'bewegung' in text or 'klettern' in text:
+        tips.append("Bequeme Sportkleidung und feste Schuhe mitbringen")
+
+    # Add generic tip if we have less than 3
+    if len(tips) < 3:
+        tips.append("Mit Öffis anreisen wenn möglich - entspannter für alle")
+
+    item['parentTips'] = tips[:4]  # Max 4 tips
 
     # Wetterabhängigkeit
     if any(word in text for word in ['draußen', 'outdoor', 'garten', 'park', 'spielplatz', 'wandern']):
@@ -959,7 +1202,8 @@ def harvest_html(url: str, selector: str, date_selector: str | None = None,
             event = extractor.parse_event(event_data, url)
             if event:
                 event = enrich_for_kids(event)
-                events.append(event)
+                if event:  # Check if event passed quality filter
+                    events.append(event)
 
         if events:
             logger.info(f"   ✨ Found {len(events)} events via JSON-LD")
@@ -1088,7 +1332,8 @@ def harvest_html(url: str, selector: str, date_selector: str | None = None,
                 }
 
                 event = enrich_for_kids(event)
-                events.append(event)
+                if event:  # Check if event passed quality filter
+                    events.append(event)
 
             except Exception as e:
                 logger.debug(f"Parse error: {e}")
@@ -1173,7 +1418,8 @@ def harvest_rss(url: str, session: SessionManager = None) -> list[dict]:
             }
 
             item = enrich_for_kids(item)
-            items.append(item)
+            if item:  # Check if event passed quality filter
+                items.append(item)
 
         logger.info(f"   ✅ {len(items)} events from RSS")
         return items
@@ -1230,7 +1476,8 @@ def harvest_ical(url: str, session: SessionManager = None) -> list[dict]:
             }
 
             item = enrich_for_kids(item)
-            out.append(item)
+            if item:  # Check if event passed quality filter
+                out.append(item)
 
         logger.info(f"   ✅ {len(out)} events from iCal")
         return out
