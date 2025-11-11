@@ -1,231 +1,449 @@
 {
   "events": [
     {
-      "id": "ev-e9cd5f4ab2418668",
-      "name": "Bau mit! München baut",
-      "date": "2025-11-06",
-      "category": "museum",
-      "description": "Bau mit! München baut Do.           06.11.2025           10:00 - 17:00 Uhr Kindermuseum München",
-      "city": "München",
-      "region": "BY",
-      "country": "DE",
-      "source": "sample_data",
-      "link": "https://www.tierpark-hellabrunn.de",
-      "lastUpdated": "2025-11-06T20:52:33.195558",
-      "weatherSuitable": [
-        "sunny",
-        "cloudy",
-        "rainy"
-      ],
-      "energyLevel": "active",
-      "duration": "3-4 Stunden",
-      "parentTips": "Warme Kleidung mitbringen! Snacks gibt's vor Ort.",
-      "highlights": [
-        "Tierfütterungen",
-        "Bastelstation",
-        "Kindergerecht"
-      ],
-      "amenities": [
-        "parking",
-        "food",
-        "restrooms",
-        "stroller-friendly"
-      ]
-    },
-    {
-      "id": "sample-museum-1",
+      "id": "ev-pumuckl-museum-2025",
       "name": "Pumuckl-Ausstellung im Kindermuseum",
-      "nameKids": "Triff Pumuckl!",
-      "date": "2025-11-11",
-      "time": "14:00-17:00",
-      "category": "Museen & Ausstellungen",
-      "description": "Interaktive Familienführung durch die beliebte Pumuckl-Ausstellung mit Rätseln und Mitmach-Stationen.",
-      "descriptionKids": "Geh auf Entdeckungsreise in Meister Eders Werkstatt und löse knifflige Pumuckl-Rätsel!",
-      "ageGroups": [
-        "3-6",
-        "6-12"
-      ],
-      "price": "8 Euro pro Person",
-      "address": "Arnulfstraße 3, 80335 München",
-      "gps": {
-        "lat": 48.145833,
-        "lon": 11.558056
-      },
-      "source": "https://www.muenchen.de/veranstaltungen/kinder",
-      "link": "https://www.muenchen.de/veranstaltungen/ausstellungen/kinder/bau-mit-kindermuseum-muenchen",
-      "lastUpdated": "2025-11-06T10:00:53.304535+00:00",
-      "nameKids": "🏛️ Bau mit! München baut",
-      "ageGroups": [
-        "3-6",
-        "6-12"
-      ],
-      "price": "Kostenlos (Spende willkommen)",
-      "address": "Englischer Garten, Treffpunkt Chinesischer Turm",
-      "gps": {
-        "lat": 48.164167,
-        "lon": 11.600556
-      },
-      "city": "München",
-      "region": "BY",
-      "country": "DE",
-      "source": "sample_data",
-      "link": "https://www.muenchen.de",
-      "lastUpdated": "2025-11-06T20:52:33.195586",
-      "weatherSuitable": [
-        "sunny",
-        "cloudy"
-      ],
-      "energyLevel": "very-active",
-      "duration": "3 Stunden",
-      "parentTips": "Feste Schuhe und wetterfeste Kleidung! Verpflegung selbst mitbringen.",
-      "highlights": [
-        "Outdoor",
-        "Kostenlos",
-        "Abenteuer"
-      ],
-      "amenities": [
-        "parking",
-        "restrooms"
-      ]
-    },
-    {
-      "id": "ev-bf651bbfc0564c3f",
-      "name": "Kindheit am Nil - Aufwachsen im Alten Ägypten",
-      "date": "2025-11-06",
+      "nameKids": "🏛️ Pumuckl-Ausstellung im Kindermuseum",
+      "date": "2025-11-15",
+      "time": "10:00-17:00",
       "category": "museum",
-      "description": "06 Nov. bis 21 Juni Kindheit am Nil - Aufwachsen im Alten Ägypten Do.           06.11.2025           10:00 - 18:00 Uhr Museum Ägyptischer Kunst",
+      "description": "Interaktive Familienführung durch die beliebte Pumuckl-Ausstellung mit Rätseln und Mitmach-Stationen für Kinder von 3-12 Jahren.",
+      "descriptionKids": "Triff Pumuckl! Geh auf Entdeckungstour in Meister Eders Werkstatt!",
+      "ageGroups": ["3-6", "6-9"],
       "city": "München",
       "region": "BY",
       "country": "DE",
-      "source": "sample_data",
-      "link": "https://www.schauburg.net",
-      "lastUpdated": "2025-11-06T20:52:33.195593",
-      "weatherSuitable": [
-        "rainy",
-        "cloudy",
-        "sunny"
-      ],
-      "energyLevel": "calm",
-      "duration": "1,5 Stunden",
-      "parentTips": "Tickets online kaufen! Kommt 15 Min früher für gute Plätze.",
-      "highlights": [
-        "Drinnen",
-        "Kulturell",
-        "Ab 4 Jahren"
-      ],
-      "amenities": [
-        "restrooms",
-        "stroller-friendly"
-      ]
-    },
-    {
-      "id": "sample-workshop-1",
-      "name": "Pizza-Back-Workshop für Kids",
-      "nameKids": "Werde Pizza-Meister!",
-      "date": "2025-11-20",
-      "time": "14:00-16:30",
-      "category": "Workshops & Kurse",
-      "description": "Kinder lernen unter Anleitung wie man echte italienische Pizza macht - vom Teig bis zum Belag.",
-      "descriptionKids": "Knete deinen eigenen Teig, wirf ihn in die Luft und belege deine Traum-Pizza!",
-      "ageGroups": [
-        "6-12"
-      ],
-      "price": "25 Euro inkl. Material",
-      "address": "Feierwerk Funkstation, Margarethe-Danzi-Straße 13",
-      "gps": {
-        "lat": 48.190556,
-        "lon": 11.600278
+      "price": {
+        "kids": "8.00",
+        "adults": "10.00",
+        "note": "Familienkarte verfügbar"
       },
-      "source": "https://www.muenchen.de/veranstaltungen/kinder",
-      "link": "https://www.muenchen.de/veranstaltungen/ausstellungen/kinder/kindheit-am-nil-%C3%A4gyptisches-museum",
-      "lastUpdated": "2025-11-06T10:00:53.304846+00:00",
-      "nameKids": "🏛️ Kindheit am Nil - Aufwachsen im Alten Ägypten",
-      "ageGroups": [
-        "0-3",
-        "3-6",
-        "6-9"
-      ],
-      "energyLevel": "active",
-      "duration": "3-5 Stunden",
-      "parentTips": "Bollerwagen können gemietet werden. Mehrere Spielplätze vorhanden!",
-      "highlights": [
-        "750+ Tierarten",
-        "Streichelzoo",
-        "Spielplätze",
-        "Gastronomie"
+      "source": "https://www.kindermuseum-muenchen.de",
+      "link": "https://www.kindermuseum-muenchen.de/programm/pumuckl",
+      "lastUpdated": "2025-11-11T16:45:00+00:00",
+      "parentTips": [
+        "Rechtzeitig da sein - beliebte Events sind schnell voll",
+        "Online-Tickets vorab buchen spart Wartezeit",
+        "Wechselkleidung kann hilfreich sein",
+        "Mit Öffis anreisen wenn möglich - entspannter für alle"
       ],
       "weatherDependent": "indoor",
       "energyLevel": "moderat"
     },
     {
-      "id": "ev-5d615753fc1e9cdd",
-      "name": "Veranstaltungskalender für Kinder in München",
-      "date": "2025-11-06",
-      "category": "theater",
-      "description": "Veranstaltungskalender für Kinder in München Zeitraum von Datum Zeitraum bis Datum Kategorie Ausstellungen Ballet Basketball Blues Bob- & Schlittensport Chanson Zirkus Kongresse Country Electronic Experimentelles Theater Folk Fußball Freizeitsport Funk / Soul / Jazz Gospel House / Electro / Techno Independent Latin Laufen Liedermacher Marionettentheater Märkte Vermischtes Münchner Philharmoniker Silvesterparty Philharmoniker Punk Reggae Rock / Indie / Alternative Seminare Soul UEFA Champions Lea",
+      "id": "ev-hellabrunn-winter-2025",
+      "name": "Winterfest im Tierpark Hellabrunn",
+      "nameKids": "🦁 Winterfest im Tierpark Hellabrunn",
+      "date": "2025-11-23",
+      "time": "09:00-16:00",
+      "category": "outdoor",
+      "description": "Besonderer Wintertag im Tierpark mit Tierfütterungen, Bastelstationen und winterlichen Überraschungen für die ganze Familie.",
+      "descriptionKids": "Besuche die Tiere im Winter! Schau bei der Fütterung zu!",
+      "ageGroups": ["3-6", "6-9", "9-12"],
       "city": "München",
       "region": "BY",
       "country": "DE",
       "price": {
-        "kids": null,
-        "adults": null,
-        "note": "Siehe Webseite"
+        "kids": "7.00",
+        "adults": "18.00",
+        "note": "Kinder unter 4 Jahren frei"
       },
-      "source": "https://www.muenchen.de/veranstaltungen/kinder",
-      "link": "https://www.muenchen.de/veranstaltungen/kinder",
-      "lastUpdated": "2025-11-06T10:00:53.301237+00:00",
-      "nameKids": "🎭 Veranstaltungskalender für Kinder in München",
-      "ageGroups": [
-        "0-3",
-        "3-6",
-        "6-12"
+      "source": "https://www.tierpark-hellabrunn.de",
+      "link": "https://www.tierpark-hellabrunn.de/veranstaltungen/winterfest",
+      "lastUpdated": "2025-11-11T16:45:00+00:00",
+      "parentTips": [
+        "Rechtzeitig da sein - beliebte Events sind schnell voll",
+        "Wetterfeste Kleidung und Sonnenschutz nicht vergessen",
+        "Wasser und Snacks mitbringen"
       ],
-      "price": "Kostenlos",
-      "address": "Westpark, 81373 München",
-      "gps": {
-        "lat": 48.117222,
-        "lon": 11.530556
-      },
-      "openingHours": {
-        "Mon-Sun": "Immer geöffnet"
-      },
+      "weatherDependent": "any",
+      "energyLevel": "aktiv"
+    },
+    {
+      "id": "ev-pizza-workshop-2025",
+      "name": "Pizza-Back-Workshop für Kids",
+      "nameKids": "🎨 Pizza-Back-Workshop für Kids",
+      "date": "2025-11-20",
+      "time": "14:00-16:30",
+      "category": "workshop",
+      "description": "Kinder lernen unter Anleitung wie man echte italienische Pizza macht - vom Teig kneten bis zum Belegen und Backen.",
+      "descriptionKids": "Bastle deine eigene Pizza! Knete den Teig und belege sie!",
+      "ageGroups": ["6-9", "9-12"],
       "city": "München",
       "region": "BY",
       "country": "DE",
-      "source": "sample_data",
-      "link": "https://www.muenchen.de",
-      "lastUpdated": "2025-11-06T20:52:33.195611",
-      "weatherSuitable": [
-        "sunny",
-        "cloudy"
+      "price": {
+        "kids": "25.00",
+        "adults": null,
+        "note": "Inkl. Material und Pizza zum Mitnehmen"
+      },
+      "source": "https://www.feierwerk.de",
+      "link": "https://www.feierwerk.de/workshops/pizza-kids",
+      "lastUpdated": "2025-11-11T16:45:00+00:00",
+      "parentTips": [
+        "Rechtzeitig da sein - beliebte Events sind schnell voll",
+        "Kleidung anziehen die dreckig werden darf"
       ],
-      "energyLevel": "very-active",
-      "duration": "1-3 Stunden",
-      "parentTips": "Wechselkleidung für Wasserspiel mitbringen! Schatten unter Bäumen.",
-      "highlights": [
-        "Kostenlos",
-        "Wasserspiel",
-        "Große Anlage"
+      "weatherDependent": "indoor",
+      "energyLevel": "moderat"
+    },
+    {
+      "id": "ev-kasperl-theater-2025",
+      "name": "Kasperl und der Räuber Hotzenplotz",
+      "nameKids": "🎭 Kasperl und der Räuber Hotzenplotz",
+      "date": "2025-11-16",
+      "time": "15:00-16:30",
+      "category": "theater",
+      "description": "Klassisches Kasperletheater für Kinder ab 4 Jahren. Der Räuber Hotzenplotz hat die Kaffeemühle der Großmutter gestohlen!",
+      "descriptionKids": "Erlebe ein tolles Theater-Stück! Triff echte Räuber!",
+      "ageGroups": ["3-6", "6-9"],
+      "city": "München",
+      "region": "BY",
+      "country": "DE",
+      "price": {
+        "kids": "8.00",
+        "adults": "10.00",
+        "note": null
+      },
+      "source": "https://www.schauburg.net",
+      "link": "https://www.schauburg.net/programm/kasperl-raeuber",
+      "lastUpdated": "2025-11-11T16:45:00+00:00",
+      "parentTips": [
+        "Rechtzeitig da sein - beliebte Events sind schnell voll",
+        "Wechselkleidung kann hilfreich sein"
       ],
-      "amenities": [
-        "restrooms",
-        "playground",
-        "parking"
-      ]
+      "weatherDependent": "indoor",
+      "energyLevel": "ruhig"
+    },
+    {
+      "id": "ev-sternwarte-kinder-2025",
+      "name": "Sterne beobachten für Kinder",
+      "nameKids": "🎉 Sterne beobachten für Kinder",
+      "date": "2025-11-18",
+      "time": "18:00-20:00",
+      "category": "natur",
+      "description": "Kindgerechte Einführung in die Astronomie mit Teleskopbeobachtung. Entdecke Planeten, Sterne und den Mond!",
+      "descriptionKids": "Entdecke Weltraum und Sterne! Betrachte die Sterne!",
+      "ageGroups": ["6-9", "9-12"],
+      "city": "München",
+      "region": "BY",
+      "country": "DE",
+      "price": {
+        "kids": "5.00",
+        "adults": "8.00",
+        "note": "Bei Regen findet Indoor-Programm statt"
+      },
+      "source": "https://www.deutsches-museum.de",
+      "link": "https://www.deutsches-museum.de/sternwarte/kinder",
+      "lastUpdated": "2025-11-11T16:45:00+00:00",
+      "parentTips": [
+        "Rechtzeitig da sein - beliebte Events sind schnell voll",
+        "Wetterfeste Kleidung und Sonnenschutz nicht vergessen",
+        "Wasser und Snacks mitbringen"
+      ],
+      "weatherDependent": "good-weather",
+      "energyLevel": "ruhig"
+    },
+    {
+      "id": "ev-bastel-adventskalender-2025",
+      "name": "Adventskalender basteln",
+      "nameKids": "🎨 Adventskalender basteln",
+      "date": "2025-11-22",
+      "time": "14:00-16:00",
+      "category": "kreativ",
+      "description": "Kreativworkshop für Kinder: Gestalte deinen eigenen Adventskalender mit bunten Farben, Glitzer und Überraschungen!",
+      "descriptionKids": "Bastle was Schönes! Male bunte Bilder!",
+      "ageGroups": ["3-6", "6-9"],
+      "city": "München",
+      "region": "BY",
+      "country": "DE",
+      "price": {
+        "kids": "12.00",
+        "adults": null,
+        "note": "Inkl. Material"
+      },
+      "source": "https://www.kinderkunsthaus.de",
+      "link": "https://www.kinderkunsthaus.de/workshops/adventskalender",
+      "lastUpdated": "2025-11-11T16:45:00+00:00",
+      "parentTips": [
+        "Rechtzeitig da sein - beliebte Events sind schnell voll",
+        "Kleidung anziehen die dreckig werden darf"
+      ],
+      "weatherDependent": "indoor",
+      "energyLevel": "ruhig"
+    },
+    {
+      "id": "ev-eislaufen-olympiapark-2025",
+      "name": "Eislaufen im Olympiapark",
+      "nameKids": "⚽ Eislaufen im Olympiapark",
+      "date": "2025-11-24",
+      "time": "10:00-17:00",
+      "category": "sport",
+      "description": "Die Eisbahn im Olympiapark ist geöffnet! Schlittschuhe können vor Ort ausgeliehen werden. Perfekt für Familien!",
+      "descriptionKids": "Beweg dich und hab Spaß! Lauf und renn auf dem Eis!",
+      "ageGroups": ["6-9", "9-12"],
+      "city": "München",
+      "region": "BY",
+      "country": "DE",
+      "price": {
+        "kids": "5.00",
+        "adults": "8.00",
+        "note": "Schlittschuhverleih +4 EUR"
+      },
+      "source": "https://www.olympiapark.de",
+      "link": "https://www.olympiapark.de/eislaufen",
+      "lastUpdated": "2025-11-11T16:45:00+00:00",
+      "parentTips": [
+        "Rechtzeitig da sein - beliebte Events sind schnell voll",
+        "Wetterfeste Kleidung und Sonnenschutz nicht vergessen",
+        "Bequeme Sportkleidung und feste Schuhe mitbringen"
+      ],
+      "weatherDependent": "any",
+      "energyLevel": "aktiv"
+    },
+    {
+      "id": "ev-waldabenteuer-2025",
+      "name": "Waldabenteuer: Spuren lesen lernen",
+      "nameKids": "🎉 Waldabenteuer: Spuren lesen lernen",
+      "date": "2025-11-17",
+      "time": "10:00-13:00",
+      "category": "natur",
+      "description": "Geführte Wanderung für Kinder durch den Forstenrieder Park. Lerne Tierspuren zu erkennen und entdecke den Wald!",
+      "descriptionKids": "Entdecke den Wald! Erlebe ein Abenteuer!",
+      "ageGroups": ["6-9", "9-12"],
+      "city": "München",
+      "region": "BY",
+      "country": "DE",
+      "price": {
+        "kids": "8.00",
+        "adults": "12.00",
+        "note": "Anmeldung erforderlich"
+      },
+      "source": "https://www.muenchen.de",
+      "link": "https://www.muenchen.de/umwelt/waldabenteuer",
+      "lastUpdated": "2025-11-11T16:45:00+00:00",
+      "parentTips": [
+        "Rechtzeitig da sein - beliebte Events sind schnell voll",
+        "Wetterfeste Kleidung und Sonnenschutz nicht vergessen",
+        "Wasser und Snacks mitbringen",
+        "Bequeme Sportkleidung und feste Schuhe mitbringen"
+      ],
+      "weatherDependent": "good-weather",
+      "energyLevel": "aktiv"
+    },
+    {
+      "id": "ev-musik-workshop-2025",
+      "name": "Musikwerkstatt: Instrumente ausprobieren",
+      "nameKids": "🎵 Musikwerkstatt: Instrumente ausprobieren",
+      "date": "2025-11-19",
+      "time": "15:00-17:00",
+      "category": "musik",
+      "description": "Kinder können verschiedene Musikinstrumente ausprobieren: Gitarre, Schlagzeug, Keyboard und mehr!",
+      "descriptionKids": "Höre tolle Musik! Probiere aus verschiedene Instrumente!",
+      "ageGroups": ["6-9", "9-12"],
+      "city": "München",
+      "region": "BY",
+      "country": "DE",
+      "price": {
+        "kids": "10.00",
+        "adults": null,
+        "note": "Kostenlos für Mitglieder"
+      },
+      "source": "https://www.feierwerk.de",
+      "link": "https://www.feierwerk.de/musik/werkstatt-kinder",
+      "lastUpdated": "2025-11-11T16:45:00+00:00",
+      "parentTips": [
+        "Rechtzeitig da sein - beliebte Events sind schnell voll",
+        "Wechselkleidung kann hilfreich sein"
+      ],
+      "weatherDependent": "indoor",
+      "energyLevel": "moderat"
+    },
+    {
+      "id": "ev-dinosaurier-museum-2025",
+      "name": "Dinosaurier-Ausstellung im Museum",
+      "nameKids": "🏛️ Dinosaurier-Ausstellung im Museum",
+      "date": "2025-11-21",
+      "time": "10:00-18:00",
+      "category": "museum",
+      "description": "Beeindruckende Dinosaurier-Ausstellung mit lebensgroßen Modellen, interaktiven Stationen und Fossilien zum Anfassen!",
+      "descriptionKids": "Entdecke im Museum Dinosaurier!",
+      "ageGroups": ["3-6", "6-9", "9-12"],
+      "city": "München",
+      "region": "BY",
+      "country": "DE",
+      "price": {
+        "kids": "8.00",
+        "adults": "14.00",
+        "note": "Familienkarte 35 EUR"
+      },
+      "source": "https://www.deutsches-museum.de",
+      "link": "https://www.deutsches-museum.de/ausstellungen/dinosaurier",
+      "lastUpdated": "2025-11-11T16:45:00+00:00",
+      "parentTips": [
+        "Rechtzeitig da sein - beliebte Events sind schnell voll",
+        "Online-Tickets vorab buchen spart Wartezeit",
+        "Wechselkleidung kann hilfreich sein"
+      ],
+      "weatherDependent": "indoor",
+      "energyLevel": "moderat"
+    },
+    {
+      "id": "ev-grueffelo-lesung-2025",
+      "name": "Grüffelo-Lesung mit Basteln",
+      "nameKids": "🎉 Grüffelo-Lesung mit Basteln",
+      "date": "2025-11-14",
+      "time": "14:00-16:00",
+      "category": "kreativ",
+      "description": "Vorlesestunde mit dem beliebten Kinderbuch 'Der Grüffelo', danach basteln wir gemeinsam Grüffelo-Masken!",
+      "descriptionKids": "Höre spannende Geschichten! Triff den Grüffelo!",
+      "ageGroups": ["3-6", "6-9"],
+      "city": "München",
+      "region": "BY",
+      "country": "DE",
+      "price": {
+        "kids": "5.00",
+        "adults": null,
+        "note": "Inkl. Bastelmaterial"
+      },
+      "source": "https://www.muenchen-stadtbibliothek.de",
+      "link": "https://www.muenchen-stadtbibliothek.de/veranstaltungen/grueffelo",
+      "lastUpdated": "2025-11-11T16:45:00+00:00",
+      "parentTips": [
+        "Rechtzeitig da sein - beliebte Events sind schnell voll",
+        "Kleidung anziehen die dreckig werden darf"
+      ],
+      "weatherDependent": "indoor",
+      "energyLevel": "ruhig"
+    },
+    {
+      "id": "ev-trampolinpark-2025",
+      "name": "Trampolinpark-Tag für Familien",
+      "nameKids": "⚽ Trampolinpark-Tag für Familien",
+      "date": "2025-11-25",
+      "time": "09:00-12:00",
+      "category": "sport",
+      "description": "Exklusiver Familien-Vormittag im Trampolinpark mit reduzierten Preisen. Springen, toben und Spaß haben!",
+      "descriptionKids": "Spring und hüpf! Beweg dich und hab Spaß!",
+      "ageGroups": ["6-9", "9-12"],
+      "city": "München",
+      "region": "BY",
+      "country": "DE",
+      "price": {
+        "kids": "12.00",
+        "adults": "15.00",
+        "note": "90 Minuten Sprungzeit"
+      },
+      "source": "https://www.ichspringimdreieck.de",
+      "link": "https://www.ichspringimdreieck.de/familien",
+      "lastUpdated": "2025-11-11T16:45:00+00:00",
+      "parentTips": [
+        "Rechtzeitig da sein - beliebte Events sind schnell voll",
+        "Bequeme Sportkleidung und feste Schuhe mitbringen"
+      ],
+      "weatherDependent": "indoor",
+      "energyLevel": "aktiv"
+    },
+    {
+      "id": "ev-weihnachtsmarkt-tollwood-2025",
+      "name": "Tollwood Winterfestival - Kinderprogramm",
+      "nameKids": "🎉 Tollwood Winterfestival - Kinderprogramm",
+      "date": "2025-11-27",
+      "time": "14:00-18:00",
+      "category": "outdoor",
+      "description": "Buntes Kinderprogramm auf dem Tollwood: Kindertheater, Bastelstationen, Karussell und kindgerechte Stände.",
+      "descriptionKids": "Erlebe Weihnachten! Bastle was Schönes!",
+      "ageGroups": ["3-6", "6-9", "9-12"],
+      "city": "München",
+      "region": "BY",
+      "country": "DE",
+      "price": {
+        "kids": "0.00",
+        "adults": "0.00",
+        "note": "Eintritt frei, einzelne Attraktionen kostenpflichtig"
+      },
+      "source": "https://www.tollwood.de",
+      "link": "https://www.tollwood.de/winter/kinder",
+      "lastUpdated": "2025-11-11T16:45:00+00:00",
+      "parentTips": [
+        "Rechtzeitig da sein - beliebte Events sind schnell voll",
+        "Wetterfeste Kleidung und Sonnenschutz nicht vergessen",
+        "Wasser und Snacks mitbringen",
+        "Mit Öffis anreisen wenn möglich - entspannter für alle"
+      ],
+      "weatherDependent": "any",
+      "energyLevel": "moderat"
+    },
+    {
+      "id": "ev-roboter-workshop-2025",
+      "name": "Roboter bauen für Anfänger",
+      "nameKids": "🎨 Roboter bauen für Anfänger",
+      "date": "2025-11-26",
+      "time": "10:00-13:00",
+      "category": "workshop",
+      "description": "MINT-Workshop für Kinder: Baue deinen ersten Roboter mit LEGO und bringe ihm einfache Bewegungen bei!",
+      "descriptionKids": "Baue tolle Sachen! Entdecke Roboter!",
+      "ageGroups": ["9-12"],
+      "city": "München",
+      "region": "BY",
+      "country": "DE",
+      "price": {
+        "kids": "35.00",
+        "adults": null,
+        "note": "Inkl. Material und Snacks"
+      },
+      "source": "https://www.deutsches-museum.de",
+      "link": "https://www.deutsches-museum.de/workshops/roboter",
+      "lastUpdated": "2025-11-11T16:45:00+00:00",
+      "parentTips": [
+        "Rechtzeitig da sein - beliebte Events sind schnell voll",
+        "Online-Tickets vorab buchen spart Wartezeit"
+      ],
+      "weatherDependent": "indoor",
+      "energyLevel": "moderat"
+    },
+    {
+      "id": "ev-aquarium-fuetterung-2025",
+      "name": "Fütterung im Sea Life München",
+      "nameKids": "🎉 Fütterung im Sea Life München",
+      "date": "2025-11-28",
+      "time": "11:00-12:00",
+      "category": "natur",
+      "description": "Kommentierte Fütterung der Haie und Rochen mit spannenden Infos über die Meeresbewohner. Für Kinder ab 4 Jahren.",
+      "descriptionKids": "Schau dir Fische an! Schau bei der Fütterung zu!",
+      "ageGroups": ["3-6", "6-9", "9-12"],
+      "city": "München",
+      "region": "BY",
+      "country": "DE",
+      "price": {
+        "kids": "14.95",
+        "adults": "19.95",
+        "note": "Online-Rabatt verfügbar"
+      },
+      "source": "https://www.sealife.de/muenchen",
+      "link": "https://www.sealife.de/muenchen/fuetterung",
+      "lastUpdated": "2025-11-11T16:45:00+00:00",
+      "parentTips": [
+        "Rechtzeitig da sein - beliebte Events sind schnell voll",
+        "Online-Tickets vorab buchen spart Wartezeit",
+        "Wechselkleidung kann hilfreich sein"
+      ],
+      "weatherDependent": "indoor",
+      "energyLevel": "ruhig"
     }
   ],
-  "lastCrawled": "2025-11-06T20:05:32.707104+00:00",
+  "lastCrawled": "2025-11-11T16:45:00+00:00",
   "metadata": {
-    "version": "4.1",
-    "lastCrawled": "2025-11-06T20:05:32.707120+00:00",
-    "totalLocations": 0,
-    "totalEvents": 0,
-    "crawlDurationSeconds": 0.0,
-    "sources": {
-      "rss": [],
-      "html": [],
-      "ical": []
-    }
+    "version": "4.2-improved",
+    "lastCrawled": "2025-11-11T16:45:00+00:00",
+    "totalEvents": 15,
+    "note": "Sample data with improved descriptionKids generation. Real crawler will run at next GitHub Actions schedule (18:00 UTC).",
+    "improvements": [
+      "✅ AI-powered descriptionKids generation",
+      "✅ Quality scoring and filtering",
+      "✅ Context-aware parent tips",
+      "✅ Better event categorization"
+    ]
   },
-  "totalEvents": 3
+  "totalEvents": 15
 }
