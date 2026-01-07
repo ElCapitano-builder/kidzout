@@ -17,7 +17,7 @@
       },
       "source": "https://www.kindaling.de/kreatives/offenes-atelier-feierwerk-funkstation/muenchen-schwabing-freimann",
       "link": "https://www.kindaling.de/kreatives/offenes-atelier-feierwerk-funkstation/muenchen-schwabing-freimann",
-      "lastUpdated": "2026-01-07T10:29:17.508015+00:00",
+      "lastUpdated": "2026-01-07T14:28:42.662112+00:00",
       "nameKids": "🎉 OFFENES ATELIER",
       "ageGroups": [
         "3-6",
@@ -48,7 +48,7 @@
       },
       "source": "https://www.kindaling.de/kreatives/mini-musikwerkstatt/muenchen-thalk-obers-fuerst-forst-solln",
       "link": "https://www.kindaling.de/kreatives/mini-musikwerkstatt/muenchen-thalk-obers-fuerst-forst-solln",
-      "lastUpdated": "2026-01-07T10:29:46.386419+00:00",
+      "lastUpdated": "2026-01-07T14:29:08.999826+00:00",
       "nameKids": "🎵 Mini-Musikwerkstatt",
       "ageGroups": [
         "3-6",
@@ -79,7 +79,7 @@
       },
       "source": "https://www.muenchner-stadtbibliothek.de/veranstaltungen",
       "link": "https://www.muenchner-stadtbibliothek.de/veranstaltungen/details/maria-theresia-23-biografie-einer-muenchner-villa-30291",
-      "lastUpdated": "2026-01-07T10:29:22.053283+00:00",
+      "lastUpdated": "2026-01-07T14:28:46.315531+00:00",
       "nameKids": "🎉 Maria Theresia 23. Biografie einer Münchner Villa",
       "ageGroups": [
         "3-6",
@@ -109,73 +109,11 @@
       },
       "source": "https://www.unterhaching.de/veranstaltungen",
       "link": "https://www.unterhaching.de/veranstaltungen/veranstaltung?view=publish&item=eventDate&id=2183",
-      "lastUpdated": "2026-01-07T10:29:37.408169+00:00",
+      "lastUpdated": "2026-01-07T14:28:57.098349+00:00",
       "nameKids": "🎉 Zwischen Welten: Die Kunst der Abstraktion und des",
       "ageGroups": [
         "3-6",
         "6-9"
-      ],
-      "parentTips": [
-        "Rechtzeitig da sein - beliebte Events sind schnell voll",
-        "Snacks und Getränke mitbringen",
-        "Mit Öffis anreisen wenn möglich"
-      ],
-      "weatherDependent": "any",
-      "energyLevel": "moderat"
-    },
-    {
-      "id": "ev-d5b6be9404207255",
-      "name": "Presse: Unterstützung für Passagiere mit nicht sichtbaren Einschränkungen",
-      "date": "2025-03-12",
-      "category": "event",
-      "description": "Der Flughafen München und Lufthansa sind ab sofort Teil der internationalen Sunflower Initiative des Vereins Hidden Disabilities, die 2016 am britischen Flughafen Gatwick gestartet wurde.",
-      "city": "München",
-      "region": "BY",
-      "country": "DE",
-      "price": {
-        "kids": null,
-        "adults": null,
-        "note": "Siehe Webseite"
-      },
-      "source": "https://www.flughafen-muenchen.de/besucherpark",
-      "link": "https://www.flughafen-muenchen.de/presse-unterstuetzung-fuer-passagiere-mit-nicht-sichtbaren...-37309981",
-      "lastUpdated": "2026-01-07T10:29:27.781155+00:00",
-      "nameKids": "🎉 Presse: Unterstützung für Passagiere mit nicht sic",
-      "ageGroups": [
-        "3-6",
-        "6-9",
-        "9-12"
-      ],
-      "parentTips": [
-        "Rechtzeitig da sein - beliebte Events sind schnell voll",
-        "Snacks und Getränke mitbringen",
-        "Mit Öffis anreisen wenn möglich"
-      ],
-      "weatherDependent": "any",
-      "energyLevel": "moderat"
-    },
-    {
-      "id": "ev-d094dc9839dde9cc",
-      "name": "Presse: 37.000 Beschäftigte arbeiten     am Flughafen München",
-      "date": "2025-05-11",
-      "category": "event",
-      "description": "Der Münchner Flughafen gewinnt als Beschäftigungsmotor weiter an Bedeutung: Wie aus der neuen Wirtschaftsstudie der Flughafen München GmbH (FMG) hervorgeht, wurden Ende 2024 insgesamt annähernd 37.000 Mitarbeiterinnen und Mitarbeiter auf dem Flughafencampus gezählt.",
-      "city": "München",
-      "region": "BY",
-      "country": "DE",
-      "price": {
-        "kids": null,
-        "adults": null,
-        "note": "Siehe Webseite"
-      },
-      "source": "https://www.flughafen-muenchen.de/besucherpark",
-      "link": "https://www.flughafen-muenchen.de/presse-37-000-beschaeftigte-arbeiten-am-flughafen-muenchen-36652130",
-      "lastUpdated": "2026-01-07T10:29:27.785614+00:00",
-      "nameKids": "🎉 Presse: 37.000 Beschäftigte arbeiten     am Flugha",
-      "ageGroups": [
-        "3-6",
-        "6-9",
-        "9-12"
       ],
       "parentTips": [
         "Rechtzeitig da sein - beliebte Events sind schnell voll",
@@ -201,39 +139,8 @@
       },
       "source": "https://www.olympiapark.de/de/veranstaltungen",
       "link": "https://www.olympiapark.de/de/veranstaltungen/jordan-b-peterson-n4809",
-      "lastUpdated": "2026-01-07T10:29:23.473937+00:00",
+      "lastUpdated": "2026-01-07T14:28:48.229826+00:00",
       "nameKids": "🎉 Jordan B. Peterson",
-      "ageGroups": [
-        "3-6",
-        "6-9",
-        "9-12"
-      ],
-      "parentTips": [
-        "Rechtzeitig da sein - beliebte Events sind schnell voll",
-        "Snacks und Getränke mitbringen",
-        "Mit Öffis anreisen wenn möglich"
-      ],
-      "weatherDependent": "any",
-      "energyLevel": "moderat"
-    },
-    {
-      "id": "ev-eefc315fb36015c6",
-      "name": "Presse: ​​Festlicher Zauber inmitten Europas größter überdachter Freifläche​",
-      "date": "2025-06-11",
-      "category": "festival",
-      "description": "Der Flughafen München verwandelt sich in diesem Jahr bereits zum 25. Mal in ein winterliches Wunderland: Am Freitag, den 14. November eröffnet der längst zur Tradition gewordene Weihnachts- und Wintermarkt im München Airport Center (MAC) und lädt Reisende aus aller Welt, Besucherinnen und Besucher sowie Mitarbeitende bis einschließlich 28. Dezember 2025 zum Verweilen, Genießen und Staunen ein.",
-      "city": "München",
-      "region": "BY",
-      "country": "DE",
-      "price": {
-        "kids": null,
-        "adults": null,
-        "note": "Siehe Webseite"
-      },
-      "source": "https://www.flughafen-muenchen.de/besucherpark",
-      "link": "https://www.flughafen-muenchen.de/presse-festlicher-zauber-inmitten-europas-groesster-ueberdachter...-36637241",
-      "lastUpdated": "2026-01-07T10:29:27.785182+00:00",
-      "nameKids": "🎉 Presse: ​​Festlicher Zauber inmitten Europas größt",
       "ageGroups": [
         "3-6",
         "6-9",
@@ -263,7 +170,7 @@
       },
       "source": "https://www.muenchner-stadtbibliothek.de/veranstaltungen",
       "link": "https://www.muenchner-stadtbibliothek.de/veranstaltungen/details/all-you-need-is-kunst-37462",
-      "lastUpdated": "2026-01-07T10:29:22.056192+00:00",
+      "lastUpdated": "2026-01-07T14:28:46.318608+00:00",
       "nameKids": "🎉 All you need is Kunst",
       "ageGroups": [
         "3-6",
@@ -293,7 +200,7 @@
       },
       "source": "https://www.muenchner-stadtbibliothek.de/veranstaltungen",
       "link": "https://www.muenchner-stadtbibliothek.de/veranstaltungen/details/kreislaufschrank-auf-tour-36756",
-      "lastUpdated": "2026-01-07T10:29:22.055437+00:00",
+      "lastUpdated": "2026-01-07T14:28:46.317805+00:00",
       "nameKids": "🎉 Kreislaufschrank auf Tour",
       "ageGroups": [
         "3-6",
@@ -324,7 +231,7 @@
       },
       "source": "https://www.muenchner-stadtbibliothek.de/veranstaltungen",
       "link": "https://www.muenchner-stadtbibliothek.de/veranstaltungen/details/blaues-land-37472",
-      "lastUpdated": "2026-01-07T10:29:22.055819+00:00",
+      "lastUpdated": "2026-01-07T14:28:46.318203+00:00",
       "nameKids": "🎉 Blaues Land",
       "ageGroups": [
         "3-6",
@@ -354,7 +261,7 @@
       },
       "source": "https://www.lesefuechse.org/aktuelles/",
       "link": "https://lesefuechse.org/ein-herz-liches-willkommen-am-agilofingerplatz/",
-      "lastUpdated": "2026-01-07T10:29:35.772606+00:00",
+      "lastUpdated": "2026-01-07T14:29:01.502366+00:00",
       "nameKids": "🎉 Ein Herz-liches Willkommen am Agilolfingerplatz!",
       "ageGroups": [
         "3-6",
@@ -385,7 +292,7 @@
       },
       "source": "https://www.lesefuechse.org/aktuelles/",
       "link": "https://lesefuechse.org/gemeinsam-lachen/",
-      "lastUpdated": "2026-01-07T10:29:35.772083+00:00",
+      "lastUpdated": "2026-01-07T14:29:01.501860+00:00",
       "nameKids": "🎉 Gemeinsam lachen",
       "ageGroups": [
         "3-6",
@@ -416,7 +323,7 @@
       },
       "source": "https://www.lesefuechse.org/aktuelles/",
       "link": "https://lesefuechse.org/100-jahre-lesen-in-schwabing/",
-      "lastUpdated": "2026-01-07T10:29:35.771576+00:00",
+      "lastUpdated": "2026-01-07T14:29:01.501329+00:00",
       "nameKids": "🎵 100 Jahre lesen in Schwabing",
       "ageGroups": [
         "3-6",
@@ -447,7 +354,7 @@
       },
       "source": "https://www.lesefuechse.org/aktuelles/",
       "link": "https://lesefuechse.org/lesefuechse-bedanken-sich-in-berg-am-laim-fuer-20-jahre-partnerschaft/",
-      "lastUpdated": "2026-01-07T10:29:35.770987+00:00",
+      "lastUpdated": "2026-01-07T14:29:01.500824+00:00",
       "nameKids": "🎉 Picknick ganz ohne Panne",
       "ageGroups": [
         "3-6",
@@ -479,7 +386,7 @@
       },
       "source": "https://muenchenmitkind.de/veranstaltungskalender/erde-geburt-eines-planeten-2025-10-30/",
       "link": "https://muenchenmitkind.de/veranstaltungskalender/erde-geburt-eines-planeten-2025-10-30/",
-      "lastUpdated": "2026-01-07T10:29:45.216023+00:00",
+      "lastUpdated": "2026-01-07T14:29:07.672864+00:00",
       "nameKids": "🎉 Erde – Geburt eines Planeten",
       "ageGroups": [
         "3-6",
@@ -511,7 +418,7 @@
       },
       "source": "https://muenchenmitkind.de/veranstaltungskalender/familien-fruehstueck-2025-10-30/",
       "link": "https://muenchenmitkind.de/veranstaltungskalender/familien-fruehstueck-2025-10-30/",
-      "lastUpdated": "2026-01-07T10:29:49.874545+00:00",
+      "lastUpdated": "2026-01-07T14:29:11.900469+00:00",
       "nameKids": "🎉 Familien-Frühstück",
       "ageGroups": [
         "3-6",
@@ -543,7 +450,7 @@
       },
       "source": "https://muenchenmitkind.de/veranstaltungskalender/familienfuehrung-durch-die-pumuckl-ausstellung-2025-10-30/",
       "link": "https://muenchenmitkind.de/veranstaltungskalender/familienfuehrung-durch-die-pumuckl-ausstellung-2025-10-30/",
-      "lastUpdated": "2026-01-07T10:29:14.747329+00:00",
+      "lastUpdated": "2026-01-07T14:28:40.156753+00:00",
       "nameKids": "🎉 Familienführung durch die Pumuckl-Ausstellung",
       "ageGroups": [
         "3-6",
@@ -574,7 +481,7 @@
       },
       "source": "https://muenchenmitkind.de/veranstaltungskalender/kleine-klanglichter-2025-10-30/",
       "link": "https://muenchenmitkind.de/veranstaltungskalender/kleine-klanglichter-2025-10-30/",
-      "lastUpdated": "2026-01-07T10:29:10.765492+00:00",
+      "lastUpdated": "2026-01-07T14:28:36.968847+00:00",
       "nameKids": "🎉 Kleine Klangdichter",
       "ageGroups": [
         "3-6",
@@ -605,70 +512,8 @@
       },
       "source": "https://www.kindaling.de/halloween/kids-halloween-breakfast-at-the-hard-rock-cafe-muenchen-altstadt-lehel/muenchen-altstadt-lehel",
       "link": "https://shops.link2ticket.nl/13LANr",
-      "lastUpdated": "2026-01-07T10:29:10.694867+00:00",
+      "lastUpdated": "2026-01-07T14:28:37.294608+00:00",
       "nameKids": "🎉 Jetzt buchen*",
-      "ageGroups": [
-        "3-6",
-        "6-9",
-        "9-12"
-      ],
-      "parentTips": [
-        "Rechtzeitig da sein - beliebte Events sind schnell voll",
-        "Snacks und Getränke mitbringen",
-        "Mit Öffis anreisen wenn möglich"
-      ],
-      "weatherDependent": "any",
-      "energyLevel": "moderat"
-    },
-    {
-      "id": "ev-0925952913923300",
-      "name": "Presse: Der Winterdienst am Münchner Airport ist startklar",
-      "date": "2025-10-31",
-      "category": "outdoor",
-      "description": "Um auch unter winterlichen Witterungsbedingungen rund um die Uhr einen sicheren Betrieb zu gewährleisten, steht am Münchner Airport von Anfang November bis Mitte April der Winterdienst bereit. Bei Eis und Schnee rückt die Winterdienst-Kolonne am Airport aus. Sie umfasst 184 Fahrzeuge, 152 davon zum Räumen und Enteisen der Flugbetriebsflächen und 32 für Straßen, Wege und Parkflächen im öffentlichen Bereich. 71 der Fahrzeuge sind Traktoren aus der Flughafenregion.",
-      "city": "München",
-      "region": "BY",
-      "country": "DE",
-      "price": {
-        "kids": null,
-        "adults": null,
-        "note": "Siehe Webseite"
-      },
-      "source": "https://www.flughafen-muenchen.de/besucherpark",
-      "link": "https://www.flughafen-muenchen.de/presse-der-winterdienst-am-muenchner-airport-ist-startklar-36595790",
-      "lastUpdated": "2026-01-07T10:29:27.786225+00:00",
-      "nameKids": "🎉 Presse: Der Winterdienst am Münchner Airport ist s",
-      "ageGroups": [
-        "3-6",
-        "6-9",
-        "9-12"
-      ],
-      "parentTips": [
-        "Rechtzeitig da sein - beliebte Events sind schnell voll",
-        "Snacks und Getränke mitbringen",
-        "Mit Öffis anreisen wenn möglich"
-      ],
-      "weatherDependent": "good-weather",
-      "energyLevel": "moderat"
-    },
-    {
-      "id": "ev-721437262ed7ee61",
-      "name": "Presse: Reiseaufkommen in den Herbstferien",
-      "date": "2025-10-31",
-      "category": "event",
-      "description": "1,2 Millionen Passagiere am Flughafen München erwartet",
-      "city": "München",
-      "region": "BY",
-      "country": "DE",
-      "price": {
-        "kids": null,
-        "adults": null,
-        "note": "Siehe Webseite"
-      },
-      "source": "https://www.flughafen-muenchen.de/besucherpark",
-      "link": "https://www.flughafen-muenchen.de/presse-reiseaufkommen-in-den-herbstferien-36449453",
-      "lastUpdated": "2026-01-07T10:29:27.786833+00:00",
-      "nameKids": "🎉 Presse: Reiseaufkommen in den Herbstferien",
       "ageGroups": [
         "3-6",
         "6-9",
@@ -698,7 +543,7 @@
       },
       "source": "https://www.kindaling.de/sonstige-veranstaltungen/stadtfuehrungen-fuer-kinder-in-muenchen/muenchen-altstadt-lehel",
       "link": "https://www.stadtdetektive.com/kontakt.html",
-      "lastUpdated": "2026-01-07T10:29:28.827388+00:00",
+      "lastUpdated": "2026-01-07T14:28:51.405175+00:00",
       "nameKids": "🎉 Weiter zum Anbieter",
       "ageGroups": [
         "3-6",
@@ -729,101 +574,8 @@
       },
       "source": "https://www.lesefuechse.org/aktuelles/",
       "link": "https://lesefuechse.org/vorleserinnen-in-pasing-gesucht/",
-      "lastUpdated": "2026-01-07T10:29:35.770475+00:00",
+      "lastUpdated": "2026-01-07T14:29:01.500255+00:00",
       "nameKids": "🎉 Vorleser*innen in Pasing gesucht",
-      "ageGroups": [
-        "3-6",
-        "6-9",
-        "9-12"
-      ],
-      "parentTips": [
-        "Rechtzeitig da sein - beliebte Events sind schnell voll",
-        "Snacks und Getränke mitbringen",
-        "Mit Öffis anreisen wenn möglich"
-      ],
-      "weatherDependent": "any",
-      "energyLevel": "moderat"
-    },
-    {
-      "id": "ev-7e8e4a900af628d5",
-      "name": "Presse: ​​Flughafen München gewinnt Red Dot Award und German Design Award",
-      "date": "2025-11-11",
-      "category": "event",
-      "description": "Das weiterentwickelte Corporate Design des Münchner Flughafens erhält branchenübergreifend Anerkennung: Innerhalb weniger Wochen wurde der Markenauftritt gleich zwei Mal prämiert. Im September 2025 zeichnete die Jury des Red Dot Awards das neue Design in der Kategorie „Brands & Communication Design“ aus, das zu den weltweit renommiertesten Qualitätssiegeln für Gestaltung zählt.",
-      "city": "München",
-      "region": "BY",
-      "country": "DE",
-      "price": {
-        "kids": null,
-        "adults": null,
-        "note": "Siehe Webseite"
-      },
-      "source": "https://www.flughafen-muenchen.de/besucherpark",
-      "link": "https://www.flughafen-muenchen.de/presse-flughafen-muenchen-gewinnt-red-dot-award-und-german-design...-36738424",
-      "lastUpdated": "2026-01-07T10:29:27.784562+00:00",
-      "nameKids": "🎉 Presse: ​​Flughafen München gewinnt Red Dot Award ",
-      "ageGroups": [
-        "3-6",
-        "6-9",
-        "9-12"
-      ],
-      "parentTips": [
-        "Rechtzeitig da sein - beliebte Events sind schnell voll",
-        "Snacks und Getränke mitbringen",
-        "Mit Öffis anreisen wenn möglich"
-      ],
-      "weatherDependent": "any",
-      "energyLevel": "moderat"
-    },
-    {
-      "id": "ev-36b2710cb8ac2801",
-      "name": "Presse: AirportAcademy unterzeichnet Absichts-erklärung mit Schulungszentrum in Peking",
-      "date": "2025-11-13",
-      "category": "event",
-      "description": "Die Munich AirportAcademy, das Aus- und Weiterbildungszentrum des Münchner Flughafens, wird zukünftig mit der Capital Airports Management Academy (CAMA) Beijing kooperieren. Die CAMA ist die renommierte Schulungsabteilung der Capital Airports Holding Company, einer der größten Flughafenkonzerne Chinas.",
-      "city": "München",
-      "region": "BY",
-      "country": "DE",
-      "price": {
-        "kids": null,
-        "adults": null,
-        "note": "Siehe Webseite"
-      },
-      "source": "https://www.flughafen-muenchen.de/besucherpark",
-      "link": "https://www.flughafen-muenchen.de/presse-airportacademy-unterzeichnet-absichts-erklaerung-mit...-36788057",
-      "lastUpdated": "2026-01-07T10:29:27.784126+00:00",
-      "nameKids": "🎉 Presse: AirportAcademy unterzeichnet Absichts-erkl",
-      "ageGroups": [
-        "3-6",
-        "6-9",
-        "9-12"
-      ],
-      "parentTips": [
-        "Rechtzeitig da sein - beliebte Events sind schnell voll",
-        "Snacks und Getränke mitbringen",
-        "Mit Öffis anreisen wenn möglich"
-      ],
-      "weatherDependent": "any",
-      "energyLevel": "moderat"
-    },
-    {
-      "id": "ev-9120597ad9e6d9db",
-      "name": "Presse: Erneute Auszeichnung für Naturschutz-Engagement",
-      "date": "2025-11-18",
-      "category": "outdoor",
-      "description": "Die erneute Auszeichnung unterstreicht das langjährige Engagement des Münchner Flughafens für die Förderung von Artenvielfalt und Lebensräumen für Insekten: von den ökologisch sehr wertvollen Magerwiesen mit ihrer bunten Vielfalt rund um die Start- und Landebahnen bis hin zu verschiedenen Naturschutz- und Biodiversitätsprojekten.",
-      "city": "München",
-      "region": "BY",
-      "country": "DE",
-      "price": {
-        "kids": null,
-        "adults": null,
-        "note": "Siehe Webseite"
-      },
-      "source": "https://www.flughafen-muenchen.de/besucherpark",
-      "link": "https://www.flughafen-muenchen.de/presse-erneute-auszeichnung-fuer-naturschutz-engagement-36867254",
-      "lastUpdated": "2026-01-07T10:29:27.783715+00:00",
-      "nameKids": "🎉 Presse: Erneute Auszeichnung für Naturschutz-Engag",
       "ageGroups": [
         "3-6",
         "6-9",
@@ -853,42 +605,11 @@
       },
       "source": "https://www.muenchner-stadtbibliothek.de/veranstaltungen",
       "link": "https://www.muenchner-stadtbibliothek.de/veranstaltungen/details/zwischen-den-zeilen-38214",
-      "lastUpdated": "2026-01-07T10:29:22.060722+00:00",
+      "lastUpdated": "2026-01-07T14:28:46.323240+00:00",
       "nameKids": "🎉 Zwischen den Zeilen",
       "ageGroups": [
         "3-6",
         "6-9"
-      ],
-      "parentTips": [
-        "Rechtzeitig da sein - beliebte Events sind schnell voll",
-        "Snacks und Getränke mitbringen",
-        "Mit Öffis anreisen wenn möglich"
-      ],
-      "weatherDependent": "any",
-      "energyLevel": "moderat"
-    },
-    {
-      "id": "ev-77e8a054b353f8b2",
-      "name": "Presse: Ehrenamtliches Engagement im Mittelpunkt beim  Regionalempfang",
-      "date": "2025-11-24",
-      "category": "event",
-      "description": "Im Rahmen des Regionalempfangs 2025, beim dem dieses Jahr das Ehrenamt im Mittelpunkt stand, hat die Flughafen München GmbH (FMG) ehrenamtliches Engagement in der Region ausgezeichnet und die Gewinner des diesjährigen Projektwettbewerbs geehrt. Vor über 100 Vertreterinnen und Vertretern aus gemeinnützigen Vereinen und Institutionen aus der Region wurden die Siegerprojekte präsentiert.",
-      "city": "München",
-      "region": "BY",
-      "country": "DE",
-      "price": {
-        "kids": null,
-        "adults": null,
-        "note": "Siehe Webseite"
-      },
-      "source": "https://www.flughafen-muenchen.de/besucherpark",
-      "link": "https://www.flughafen-muenchen.de/presse-ehrenamtliches-engagement-im-mittelpunkt-beim-regionalempfang-37002411",
-      "lastUpdated": "2026-01-07T10:29:27.783085+00:00",
-      "nameKids": "🎉 Presse: Ehrenamtliches Engagement im Mittelpunkt b",
-      "ageGroups": [
-        "3-6",
-        "6-9",
-        "9-12"
       ],
       "parentTips": [
         "Rechtzeitig da sein - beliebte Events sind schnell voll",
@@ -914,39 +635,8 @@
       },
       "source": "https://www.lesefuechse.org/aktuelles/",
       "link": "https://lesefuechse.org/tatue-tataa-lesefuechse-und-die-feuerwehr/",
-      "lastUpdated": "2026-01-07T10:29:35.769899+00:00",
+      "lastUpdated": "2026-01-07T14:29:01.499539+00:00",
       "nameKids": "🎉 Tatü tataa, Lesefüchse und die Feuerwehr",
-      "ageGroups": [
-        "3-6",
-        "6-9",
-        "9-12"
-      ],
-      "parentTips": [
-        "Rechtzeitig da sein - beliebte Events sind schnell voll",
-        "Snacks und Getränke mitbringen",
-        "Mit Öffis anreisen wenn möglich"
-      ],
-      "weatherDependent": "any",
-      "energyLevel": "moderat"
-    },
-    {
-      "id": "ev-601fae5f116a2308",
-      "name": "Presse: Flughafen München erhält  Exzellenz-Siegel für Gesundheitsmanagement",
-      "date": "2025-11-27",
-      "category": "event",
-      "description": "Die Flughafen München GmbH (FMG) ist am 25. November 2025 in Bonn mit dem Corporate Health Award ausgezeichnet worden. Mit diesem Preis würdigen EUPD Research Sustainable Management und die Handelsblatt Media Group Unternehmen, die ein strategisches Betriebliches Gesundheitsmanagement und eine belastbare Gesundheitskultur etablieren.",
-      "city": "München",
-      "region": "BY",
-      "country": "DE",
-      "price": {
-        "kids": null,
-        "adults": null,
-        "note": "Siehe Webseite"
-      },
-      "source": "https://www.flughafen-muenchen.de/besucherpark",
-      "link": "https://www.flughafen-muenchen.de/presse-flughafen-muenchen-erhaelt-exzellenz-siegel-fuer...-37049725",
-      "lastUpdated": "2026-01-07T10:29:27.782470+00:00",
-      "nameKids": "🎉 Presse: Flughafen München erhält  Exzellenz-Siegel",
       "ageGroups": [
         "3-6",
         "6-9",
@@ -976,132 +666,8 @@
       },
       "source": "https://www.lesefuechse.org/aktuelles/",
       "link": "https://lesefuechse.org/buchgeschenk-aus-dem-landtag/",
-      "lastUpdated": "2026-01-07T10:29:35.769393+00:00",
+      "lastUpdated": "2026-01-07T14:29:01.499025+00:00",
       "nameKids": "🎉 Buchge­schenk aus dem Landtag",
-      "ageGroups": [
-        "3-6",
-        "6-9",
-        "9-12"
-      ],
-      "parentTips": [
-        "Rechtzeitig da sein - beliebte Events sind schnell voll",
-        "Snacks und Getränke mitbringen",
-        "Mit Öffis anreisen wenn möglich"
-      ],
-      "weatherDependent": "any",
-      "energyLevel": "moderat"
-    },
-    {
-      "id": "ev-db304747e634dda0",
-      "name": "Presse:   Christbaum erstrahlt an der  Zentralallee am Münchner Airport",
-      "date": "2025-11-28",
-      "category": "event",
-      "description": "Er ist das weihnachtliche Wahrzeichen des Münchner Airports: Pünktlich zu Beginn der Adventszeit erstrahlt wieder der Christbaum an der Zentralallee und versetzt Fluggäste, Airport-Beschäftigte und Besucher aus Nah und Fern in weihnachtliche Stimmung.",
-      "city": "München",
-      "region": "BY",
-      "country": "DE",
-      "price": {
-        "kids": null,
-        "adults": null,
-        "note": "Siehe Webseite"
-      },
-      "source": "https://www.flughafen-muenchen.de/besucherpark",
-      "link": "https://www.flughafen-muenchen.de/presse-christbaum-erstrahlt-an-der-zentralallee-am-muenchner-airport-37054055",
-      "lastUpdated": "2026-01-07T10:29:27.781793+00:00",
-      "nameKids": "🎉 Presse:   Christbaum erstrahlt an der  Zentralalle",
-      "ageGroups": [
-        "3-6",
-        "6-9",
-        "9-12"
-      ],
-      "parentTips": [
-        "Rechtzeitig da sein - beliebte Events sind schnell voll",
-        "Snacks und Getränke mitbringen",
-        "Mit Öffis anreisen wenn möglich"
-      ],
-      "weatherDependent": "any",
-      "energyLevel": "moderat"
-    },
-    {
-      "id": "ev-b45c81fb4a097ae1",
-      "name": "Presse: Flughafen München zum \"Airport of    the Year\" ausgezeichnet",
-      "date": "2025-12-12",
-      "category": "event",
-      "description": "Der Flughafen München wurde im Rahmen der 51. ATW Annual Airline Industry Achievement Awards in Lissabon als “Airport of the Year 2026” ausgezeichnet. Mit der Ehrung wird der Flughafen für seine Vorbildfunktion in den Bereichen Airline-Partnerschaft, Innovation, Wachstum und Nachhaltigkeit gewürdigt.",
-      "city": "München",
-      "region": "BY",
-      "country": "DE",
-      "price": {
-        "kids": null,
-        "adults": null,
-        "note": "Siehe Webseite"
-      },
-      "source": "https://www.flughafen-muenchen.de/besucherpark",
-      "link": "https://www.flughafen-muenchen.de/presse-flughafen-muenchen-zum-airport-of-the-year-ausgezeichnet-37455863",
-      "lastUpdated": "2026-01-07T10:29:27.780538+00:00",
-      "nameKids": "🎉 Presse: Flughafen München zum \"Airport of    the Y",
-      "ageGroups": [
-        "3-6",
-        "6-9",
-        "9-12"
-      ],
-      "parentTips": [
-        "Rechtzeitig da sein - beliebte Events sind schnell voll",
-        "Snacks und Getränke mitbringen",
-        "Mit Öffis anreisen wenn möglich"
-      ],
-      "weatherDependent": "any",
-      "energyLevel": "moderat"
-    },
-    {
-      "id": "ev-0b9ccafa60660e81",
-      "name": "Presse: Air Arabia verbindet Flughafen  München mit Sharjah",
-      "date": "2025-12-15",
-      "category": "event",
-      "description": "Mit dem Erstflug von Air Arabia am 15. Dezember 2025 begrüßt der Flughafen München eine neue Airline am bayerischen Drehkreuz. Die panarabische Fluggesellschaft verbindet den Münchner Airport künftig täglich mit Sharjah in den Vereinigten Arabischen Emiraten (VAE).",
-      "city": "München",
-      "region": "BY",
-      "country": "DE",
-      "price": {
-        "kids": null,
-        "adults": null,
-        "note": "Siehe Webseite"
-      },
-      "source": "https://www.flughafen-muenchen.de/besucherpark",
-      "link": "https://www.flughafen-muenchen.de/presse-air-arabia-verbindet-flughafen-muenchen-mit-sharjah-37481938",
-      "lastUpdated": "2026-01-07T10:29:27.780091+00:00",
-      "nameKids": "🎉 Presse: Air Arabia verbindet Flughafen  München mi",
-      "ageGroups": [
-        "3-6",
-        "6-9",
-        "9-12"
-      ],
-      "parentTips": [
-        "Rechtzeitig da sein - beliebte Events sind schnell voll",
-        "Snacks und Getränke mitbringen",
-        "Mit Öffis anreisen wenn möglich"
-      ],
-      "weatherDependent": "any",
-      "energyLevel": "moderat"
-    },
-    {
-      "id": "ev-01d300f135b6c7a4",
-      "name": "Presse: Flughafen München rechnet      mit fast zwei Millionen Reisenden",
-      "date": "2025-12-16",
-      "category": "festival",
-      "description": "Zwischen dem 19. Dezember 2025 und dem 6. Januar 2026 werden rund zwei Millionen Passagiere erwartet, was einem Plus von fast acht Prozent im Vergleich zum Vorjahr entspricht. Nach den aktuellen Planungen werden rund 13.000 Flüge abgefertigt. Die Verbindungen umfassen mehr als 170 Ziele weltweit für all jene, die über die Feiertage ihre Familien besuchen oder in anderen Regionen verweilen möchten.",
-      "city": "München",
-      "region": "BY",
-      "country": "DE",
-      "price": {
-        "kids": null,
-        "adults": null,
-        "note": "Siehe Webseite"
-      },
-      "source": "https://www.flughafen-muenchen.de/besucherpark",
-      "link": "https://www.flughafen-muenchen.de/presse-flughafen-muenchen-rechnet-mit-fast-zwei-millionen-reisenden-37530424",
-      "lastUpdated": "2026-01-07T10:29:27.779441+00:00",
-      "nameKids": "🎉 Presse: Flughafen München rechnet      mit fast zw",
       "ageGroups": [
         "3-6",
         "6-9",
@@ -1131,7 +697,7 @@
       },
       "source": "https://www.lesefuechse.org/aktuelles/",
       "link": "https://lesefuechse.org/ein-leuchtturm-der-seit-20-jahren-unermuedlich-strahlt/",
-      "lastUpdated": "2026-01-07T10:29:35.768323+00:00",
+      "lastUpdated": "2026-01-07T14:29:01.497916+00:00",
       "nameKids": "🎉 Ein Leuchtturm, der seit 20 Jahren unermüdlich str",
       "ageGroups": [
         "3-6",
@@ -1162,39 +728,8 @@
       },
       "source": "https://www.lesefuechse.org/aktuelles/",
       "link": "https://lesefuechse.org/zeit-und-geld-fuer-lesefuechse/",
-      "lastUpdated": "2026-01-07T10:29:35.768860+00:00",
+      "lastUpdated": "2026-01-07T14:29:01.498444+00:00",
       "nameKids": "🎉 Zeit und Geld für Lesefüchse",
-      "ageGroups": [
-        "3-6",
-        "6-9",
-        "9-12"
-      ],
-      "parentTips": [
-        "Rechtzeitig da sein - beliebte Events sind schnell voll",
-        "Snacks und Getränke mitbringen",
-        "Mit Öffis anreisen wenn möglich"
-      ],
-      "weatherDependent": "any",
-      "energyLevel": "moderat"
-    },
-    {
-      "id": "ev-4883e8909f561ce2",
-      "name": "Presse: Etihad Airways erweitert Angebot ab München",
-      "date": "2025-12-18",
-      "category": "festival",
-      "description": "Zwischen dem 19. Dezember 2025 und dem 6. Januar 2026 werden rund zwei Millionen Passagiere erwartet, was einem Plus von fast acht Prozent im Vergleich zum Vorjahr entspricht. Nach den aktuellen Planungen werden rund 13.000 Flüge abgefertigt. Die Verbindungen umfassen mehr als 170 Ziele weltweit für all jene, die über die Feiertage ihre Familien besuchen oder in anderen Regionen verweilen möchten.",
-      "city": "München",
-      "region": "BY",
-      "country": "DE",
-      "price": {
-        "kids": null,
-        "adults": null,
-        "note": "Siehe Webseite"
-      },
-      "source": "https://www.flughafen-muenchen.de/besucherpark",
-      "link": "https://www.flughafen-muenchen.de/presse-etihad-airways-erweitert-angebot-ab-muenchen-37552860",
-      "lastUpdated": "2026-01-07T10:29:27.778772+00:00",
-      "nameKids": "🎉 Presse: Etihad Airways erweitert Angebot ab Münche",
       "ageGroups": [
         "3-6",
         "6-9",
@@ -1224,7 +759,7 @@
       },
       "source": "https://www.kindaling.de/kino/pumuckl-und-das-grosse-missverstaendnis/muenchen-neuhausen-nymphenburg",
       "link": "https://neues-maxim.de/specials/kinder",
-      "lastUpdated": "2026-01-07T10:29:41.194735+00:00",
+      "lastUpdated": "2026-01-07T14:29:02.521271+00:00",
       "nameKids": "🎉 Jetzt buchen*",
       "ageGroups": [
         "3-6",
@@ -1255,7 +790,7 @@
       },
       "source": "https://www.ichspringimdreieck.de/veranstaltungen",
       "link": "https://www.ichspringimdreieck.de/newsletter/",
-      "lastUpdated": "2026-01-07T10:29:46.840738+00:00",
+      "lastUpdated": "2026-01-07T14:29:08.471800+00:00",
       "nameKids": "🎭 Veranstaltungen",
       "ageGroups": [
         "3-6",
@@ -1285,7 +820,7 @@
       },
       "source": "https://www.erding.de/veranstaltungen",
       "link": "https://www.erding.de/meldungen-detail/lese-tipp-6",
-      "lastUpdated": "2026-01-07T10:29:46.773063+00:00",
+      "lastUpdated": "2026-01-07T14:29:09.816215+00:00",
       "nameKids": "🎉 Lese-Tipp",
       "ageGroups": [
         "3-6",
@@ -1316,7 +851,7 @@
       },
       "source": "https://www.erding.de/veranstaltungen",
       "link": "https://www.erding.de/meldungen-detail/schoene-buecher-sehen",
-      "lastUpdated": "2026-01-07T10:29:46.766764+00:00",
+      "lastUpdated": "2026-01-07T14:29:09.815287+00:00",
       "nameKids": "🎉 Schöne Bücher sehen",
       "ageGroups": [
         "3-6",
@@ -1346,7 +881,7 @@
       },
       "source": "https://www.muenchen.de/veranstaltungen/kinder",
       "link": "https://www.muenchen.de/veranstaltungen/ausstellungen/kinder/kindheit-am-nil-%C3%A4gyptisches-museum",
-      "lastUpdated": "2026-01-07T10:29:37.015671+00:00",
+      "lastUpdated": "2026-01-07T14:28:58.366152+00:00",
       "nameKids": "🏛️ 1 - 100 von 312 Veranstaltungen",
       "ageGroups": [
         "3-6",
@@ -1376,7 +911,7 @@
       },
       "source": "https://www.kindaling.de/muenchen",
       "link": "https://www.kindaling.de/kreatives/offenes-atelier-feierwerk-funkstation/muenchen-schwabing-freimann",
-      "lastUpdated": "2026-01-07T10:29:20.932671+00:00",
+      "lastUpdated": "2026-01-07T14:28:46.486720+00:00",
       "nameKids": "🎭 16:30OFFENES ATELIERMünchen Schwabing-Freimann",
       "ageGroups": [
         "3-6",
@@ -1388,68 +923,6 @@
         "Mit Öffis anreisen wenn möglich"
       ],
       "weatherDependent": "indoor",
-      "energyLevel": "moderat"
-    },
-    {
-      "id": "ev-c37fee219c0d21d3",
-      "name": "Alle Ziele auf einen Blick",
-      "date": "2026-01-07",
-      "category": "event",
-      "description": "Alle Ziele auf einen Blick Von München in die Welt",
-      "city": "München",
-      "region": "BY",
-      "country": "DE",
-      "price": {
-        "kids": null,
-        "adults": null,
-        "note": "Siehe Webseite"
-      },
-      "source": "https://www.flughafen-muenchen.de/besucherpark",
-      "link": "https://www.flughafen-muenchen.de/aktuelle-ziele-ab-muenchen-6670648",
-      "lastUpdated": "2026-01-07T10:29:27.771675+00:00",
-      "nameKids": "🎉 Alle Ziele auf einen Blick",
-      "ageGroups": [
-        "3-6",
-        "6-9",
-        "9-12"
-      ],
-      "parentTips": [
-        "Rechtzeitig da sein - beliebte Events sind schnell voll",
-        "Snacks und Getränke mitbringen",
-        "Mit Öffis anreisen wenn möglich"
-      ],
-      "weatherDependent": "any",
-      "energyLevel": "moderat"
-    },
-    {
-      "id": "ev-4aa3e29fbacba949",
-      "name": "Anreise",
-      "date": "2026-01-07",
-      "category": "event",
-      "description": "Anreise So kommen Sie zum Flughafen",
-      "city": "München",
-      "region": "BY",
-      "country": "DE",
-      "price": {
-        "kids": null,
-        "adults": null,
-        "note": "Siehe Webseite"
-      },
-      "source": "https://www.flughafen-muenchen.de/besucherpark",
-      "link": "https://www.flughafen-muenchen.de/an-abreise-89966",
-      "lastUpdated": "2026-01-07T10:29:27.772178+00:00",
-      "nameKids": "🎉 Anreise",
-      "ageGroups": [
-        "3-6",
-        "6-9",
-        "9-12"
-      ],
-      "parentTips": [
-        "Rechtzeitig da sein - beliebte Events sind schnell voll",
-        "Snacks und Getränke mitbringen",
-        "Mit Öffis anreisen wenn möglich"
-      ],
-      "weatherDependent": "any",
       "energyLevel": "moderat"
     },
     {
@@ -1468,7 +941,7 @@
       },
       "source": "https://www.musenkuss-muenchen.de/angebote/familien",
       "link": "https://www.musenkuss-muenchen.de/angebote/atelier-fuer-alle",
-      "lastUpdated": "2026-01-07T10:29:46.047011+00:00",
+      "lastUpdated": "2026-01-07T14:29:06.493227+00:00",
       "nameKids": "🎉 Atelier für ALLE - Alle Generationen MACHEN",
       "ageGroups": [
         "3-6",
@@ -1499,7 +972,7 @@
       },
       "source": "https://www.muenchner-stadtbibliothek.de/veranstaltungen",
       "link": "https://www.muenchner-stadtbibliothek.de/ausbildung-karriere",
-      "lastUpdated": "2026-01-07T10:29:22.060232+00:00",
+      "lastUpdated": "2026-01-07T14:28:46.322737+00:00",
       "nameKids": "🎉 Ausbildung & Karriere",
       "ageGroups": [
         "3-6",
@@ -1530,7 +1003,7 @@
       },
       "source": "https://www.lk-starnberg.de/Veranstaltungen",
       "link": "https://www.lk-starnberg.de/index.php?NavID=613.11&object=tx|613.11446.1&ModID=11&FID=2235.1604.1",
-      "lastUpdated": "2026-01-07T10:29:21.972075+00:00",
+      "lastUpdated": "2026-01-07T14:28:46.239907+00:00",
       "nameKids": "🎉 Außensprechstunden des Pflegestützpunktes im Janua",
       "ageGroups": [
         "3-6",
@@ -1561,7 +1034,7 @@
       },
       "source": "https://muenchenmitkind.de/veranstaltungskalender",
       "link": "https://muenchenmitkind.de/familienleben/diy-selber-machen/babyjacke/",
-      "lastUpdated": "2026-01-07T10:29:30.953902+00:00",
+      "lastUpdated": "2026-01-07T14:28:52.967147+00:00",
       "nameKids": "🎉 Babyjacke stricken",
       "ageGroups": [
         "0-3"
@@ -1590,7 +1063,7 @@
       },
       "source": "https://muenchenmitkind.de/veranstaltungskalender",
       "link": "https://muenchenmitkind.de/familienleben/weihnachten-advent/christbaum-schlagen/",
-      "lastUpdated": "2026-01-07T10:29:30.951781+00:00",
+      "lastUpdated": "2026-01-07T14:28:52.965554+00:00",
       "nameKids": "🎉 Den eigenen Christbaum schlagen",
       "ageGroups": [
         "3-6",
@@ -1621,7 +1094,7 @@
       },
       "source": "https://www.olympiapark.de/de/veranstaltungen",
       "link": "https://www.olympiapark.de/de/veranstaltungen/ehrlich-brothers-n4940",
-      "lastUpdated": "2026-01-07T10:29:23.483286+00:00",
+      "lastUpdated": "2026-01-07T14:28:48.239320+00:00",
       "nameKids": "🎉 Ehrlich Brothers",
       "ageGroups": [
         "3-6",
@@ -1652,7 +1125,7 @@
       },
       "source": "https://www.olympiapark.de/de/veranstaltungen",
       "link": "https://www.olympiapark.de/de/veranstaltungen/eros-ramazzotti-n4981",
-      "lastUpdated": "2026-01-07T10:29:23.481602+00:00",
+      "lastUpdated": "2026-01-07T14:28:48.237664+00:00",
       "nameKids": "🎵 Eros Ramazzotti",
       "ageGroups": [
         "3-6",
@@ -1683,7 +1156,7 @@
       },
       "source": "https://www.kindaling.de/halloween/kids-halloween-breakfast-at-the-hard-rock-cafe-muenchen-altstadt-lehel/muenchen-altstadt-lehel",
       "link": "https://www.kindaling.de/ferien/muenchen",
-      "lastUpdated": "2026-01-07T10:29:10.702172+00:00",
+      "lastUpdated": "2026-01-07T14:28:37.301657+00:00",
       "nameKids": "🎨 Ferien",
       "ageGroups": [
         "3-6",
@@ -1714,7 +1187,7 @@
       },
       "source": "https://www.ferien-muenchen.de",
       "link": "https://www.ferien-muenchen.de",
-      "lastUpdated": "2026-01-07T10:29:43.927408+00:00",
+      "lastUpdated": "2026-01-07T14:29:06.724563+00:00",
       "nameKids": "🎉 Ferienfreizeiten",
       "ageGroups": [
         "3-6",
@@ -1745,7 +1218,7 @@
       },
       "source": "https://www.eventbrite.de/d/germany--munich/kids/",
       "link": "https://www.eventbrite.de/e/ferienkurs-machine-learning-for-kids-ki-fur-kinder-und-jugendliche-tickets-1617639586549?aff=ebdssbdestsearch",
-      "lastUpdated": "2026-01-07T10:29:29.798052+00:00",
+      "lastUpdated": "2026-01-07T14:28:52.296746+00:00",
       "nameKids": "🎉 Ferienkurs: Machine Learning for Kids - KI für Kin",
       "ageGroups": [
         "9-12"
@@ -1774,7 +1247,7 @@
       },
       "source": "https://www.olympiapark.de/de/veranstaltungen",
       "link": "https://www.olympiapark.de/de/veranstaltungen/feuerwerk-der-turnkunst-n5014",
-      "lastUpdated": "2026-01-07T10:29:23.471174+00:00",
+      "lastUpdated": "2026-01-07T14:28:48.224944+00:00",
       "nameKids": "🎉 Feuerwerk der Turnkunst",
       "ageGroups": [
         "3-6",
@@ -1804,7 +1277,7 @@
       },
       "source": "https://www.olympiapark.de/de/veranstaltungen",
       "link": "https://www.olympiapark.de/de/veranstaltungen/florence-the-machine-n5244",
-      "lastUpdated": "2026-01-07T10:29:23.484955+00:00",
+      "lastUpdated": "2026-01-07T14:28:48.241024+00:00",
       "nameKids": "🎵 Florence + the Machine",
       "ageGroups": [
         "3-6",
@@ -1835,41 +1308,10 @@
       },
       "source": "https://www.musenkuss-muenchen.de/angebote/open-haus-frei-rein-fein-raus",
       "link": "https://www.musenkuss-muenchen.de/fuer-fachpersonal/foerdermoeglichkeiten",
-      "lastUpdated": "2026-01-07T10:29:33.396725+00:00",
+      "lastUpdated": "2026-01-07T14:28:55.258729+00:00",
       "nameKids": "🎉 Fördermöglichkeiten",
       "ageGroups": [
         "3-6",
-        "9-12"
-      ],
-      "parentTips": [
-        "Rechtzeitig da sein - beliebte Events sind schnell voll",
-        "Snacks und Getränke mitbringen",
-        "Mit Öffis anreisen wenn möglich"
-      ],
-      "weatherDependent": "any",
-      "energyLevel": "moderat"
-    },
-    {
-      "id": "ev-7e4a717c6da71cd7",
-      "name": "Für Christkindlmarkt und Altstadtfest bewerben",
-      "date": "2026-01-07",
-      "category": "festival",
-      "description": "Bewerbungsfrist läuft bis Ende Januar.",
-      "city": "München",
-      "region": "BY",
-      "country": "DE",
-      "price": {
-        "kids": null,
-        "adults": null,
-        "note": "Siehe Webseite"
-      },
-      "source": "https://www.erding.de/veranstaltungen",
-      "link": "https://www.erding.de/meldungen-detail/fuer-christkindlmarkt-und-altstadtfest-bewerben-2",
-      "lastUpdated": "2026-01-07T10:29:46.774008+00:00",
-      "nameKids": "🎉 Für Christkindlmarkt und Altstadtfest bewerben",
-      "ageGroups": [
-        "3-6",
-        "6-9",
         "9-12"
       ],
       "parentTips": [
@@ -1896,7 +1338,7 @@
       },
       "source": "https://www.musenkuss-muenchen.de/angebote/open-haus-frei-rein-fein-raus",
       "link": "https://www.musenkuss-muenchen.de/angebote/gruppen",
-      "lastUpdated": "2026-01-07T10:29:33.393686+00:00",
+      "lastUpdated": "2026-01-07T14:28:55.255670+00:00",
       "nameKids": "🎉 Gruppen aus Bildungs-, Sozial- und Pflegeeinrichtu",
       "ageGroups": [
         "9-12"
@@ -1925,7 +1367,7 @@
       },
       "source": "https://www.olympiapark.de/de/veranstaltungen",
       "link": "https://www.olympiapark.de/de/veranstaltungen/herbert-gronemeyer-n5395",
-      "lastUpdated": "2026-01-07T10:29:23.477808+00:00",
+      "lastUpdated": "2026-01-07T14:28:48.233801+00:00",
       "nameKids": "🎵 Herbert Grönemeyer",
       "ageGroups": [
         "3-6",
@@ -1956,7 +1398,7 @@
       },
       "source": "https://www.wildpark-poing.de",
       "link": "https://wildpark-poing-tickets.de/gutschein/",
-      "lastUpdated": "2026-01-07T10:29:29.851300+00:00",
+      "lastUpdated": "2026-01-07T14:28:48.227849+00:00",
       "nameKids": "🎉 Hier geht es zum Gutscheinkauf",
       "ageGroups": [
         "3-6",
@@ -1987,7 +1429,7 @@
       },
       "source": "https://www.wildpark-poing.de",
       "link": "https://wildpark-poing-tickets.de/ticketshop/",
-      "lastUpdated": "2026-01-07T10:29:29.849735+00:00",
+      "lastUpdated": "2026-01-07T14:28:48.221146+00:00",
       "nameKids": "🎉 Hier geht es zum Ticketshop",
       "ageGroups": [
         "3-6",
@@ -2003,11 +1445,11 @@
       "energyLevel": "moderat"
     },
     {
-      "id": "ev-6e119b1e212a2cc7",
-      "name": "Home Delivery",
+      "id": "ev-717cb49d670bfee6",
+      "name": "Indoorspielplätze in und um München",
       "date": "2026-01-07",
-      "category": "event",
-      "description": "Home Delivery Der deutschlandweite Lieferservice",
+      "category": "indoor",
+      "description": "Münchens Beste Indoorspielplätze in und um München",
       "city": "München",
       "region": "BY",
       "country": "DE",
@@ -2016,10 +1458,10 @@
         "adults": null,
         "note": "Siehe Webseite"
       },
-      "source": "https://www.flughafen-muenchen.de/besucherpark",
-      "link": "https://www.flughafen-muenchen.de/home-delivery-5214099",
-      "lastUpdated": "2026-01-07T10:29:27.778105+00:00",
-      "nameKids": "🎉 Home Delivery",
+      "source": "https://muenchenmitkind.de/veranstaltungskalender",
+      "link": "https://muenchenmitkind.de/stadtleben/muenchens-beste/indoorspielplaetze/",
+      "lastUpdated": "2026-01-07T14:28:52.965037+00:00",
+      "nameKids": "🎉 Indoorspielplätze in und um München",
       "ageGroups": [
         "3-6",
         "6-9",
@@ -2030,38 +1472,7 @@
         "Snacks und Getränke mitbringen",
         "Mit Öffis anreisen wenn möglich"
       ],
-      "weatherDependent": "any",
-      "energyLevel": "moderat"
-    },
-    {
-      "id": "ev-a5b19091721cc360",
-      "name": "Immer gut informiert.",
-      "date": "2026-01-07",
-      "category": "event",
-      "description": "Immer gut informiert. Hier zum Newsletter anmelden",
-      "city": "München",
-      "region": "BY",
-      "country": "DE",
-      "price": {
-        "kids": null,
-        "adults": null,
-        "note": "Siehe Webseite"
-      },
-      "source": "https://www.flughafen-muenchen.de/besucherpark",
-      "link": "https://www.flughafen-muenchen.de/newsletter",
-      "lastUpdated": "2026-01-07T10:29:27.772694+00:00",
-      "nameKids": "🎉 Immer gut informiert.",
-      "ageGroups": [
-        "3-6",
-        "6-9",
-        "9-12"
-      ],
-      "parentTips": [
-        "Rechtzeitig da sein - beliebte Events sind schnell voll",
-        "Snacks und Getränke mitbringen",
-        "Mit Öffis anreisen wenn möglich"
-      ],
-      "weatherDependent": "any",
+      "weatherDependent": "indoor",
       "energyLevel": "moderat"
     },
     {
@@ -2080,39 +1491,8 @@
       },
       "source": "https://www.olympiapark.de/de/veranstaltungen",
       "link": "https://www.olympiapark.de/de/veranstaltungen/jason-derulo-n5021",
-      "lastUpdated": "2026-01-07T10:29:23.482440+00:00",
+      "lastUpdated": "2026-01-07T14:28:48.238485+00:00",
       "nameKids": "🎵 Jason Derulo",
-      "ageGroups": [
-        "3-6",
-        "6-9",
-        "9-12"
-      ],
-      "parentTips": [
-        "Rechtzeitig da sein - beliebte Events sind schnell voll",
-        "Snacks und Getränke mitbringen",
-        "Mit Öffis anreisen wenn möglich"
-      ],
-      "weatherDependent": "any",
-      "energyLevel": "moderat"
-    },
-    {
-      "id": "ev-e082e2137d8eb9ef",
-      "name": "Jetzt auch bei den Gates H",
-      "date": "2026-01-07",
-      "category": "event",
-      "description": "Jetzt auch bei den Gates H Marc O'Polo",
-      "city": "München",
-      "region": "BY",
-      "country": "DE",
-      "price": {
-        "kids": null,
-        "adults": null,
-        "note": "Siehe Webseite"
-      },
-      "source": "https://www.flughafen-muenchen.de/besucherpark",
-      "link": "https://www.flughafen-muenchen.de/marc-o-polo-486084",
-      "lastUpdated": "2026-01-07T10:29:27.777444+00:00",
-      "nameKids": "🎉 Jetzt auch bei den Gates H",
       "ageGroups": [
         "3-6",
         "6-9",
@@ -2142,7 +1522,7 @@
       },
       "source": "https://www.musenkuss-muenchen.de/angebote/open-haus-frei-rein-fein-raus",
       "link": "https://www.musenkuss-muenchen.de/fileadmin/_processed_/2/3/csm_HDK_230127_Open_Haus_c_Maximilian_Geuter__1__2ec56a3b90.jpg",
-      "lastUpdated": "2026-01-07T10:29:33.384221+00:00",
+      "lastUpdated": "2026-01-07T14:28:55.246183+00:00",
       "nameKids": "🎉 Kinder & Familien, Eintritt frei",
       "ageGroups": [
         "3-6",
@@ -2173,7 +1553,7 @@
       },
       "source": "https://www.kindaling.de/halloween/kids-halloween-breakfast-at-the-hard-rock-cafe-muenchen-altstadt-lehel/muenchen-altstadt-lehel",
       "link": "https://www.kindaling.de/kinderkurse/muenchen",
-      "lastUpdated": "2026-01-07T10:29:10.699320+00:00",
+      "lastUpdated": "2026-01-07T14:28:37.298760+00:00",
       "nameKids": "🎭 Kinderkurse",
       "ageGroups": [
         "0-3"
@@ -2202,7 +1582,7 @@
       },
       "source": "https://www.muenchen.de/veranstaltungen/kinder",
       "link": "https://www.muenchen.de/veranstaltungen/ausstellungen/kinder/kindheit-am-nil-%C3%A4gyptisches-museum",
-      "lastUpdated": "2026-01-07T10:29:37.016356+00:00",
+      "lastUpdated": "2026-01-07T14:28:58.366856+00:00",
       "nameKids": "🏛️ Kindheit am Nil - Aufwachsen im Alten Ägypten",
       "ageGroups": [
         "3-6",
@@ -2232,7 +1612,7 @@
       },
       "source": "https://www.olympiapark.de/de/veranstaltungen",
       "link": "https://www.olympiapark.de/de/veranstaltungen/kraftklub-n5069",
-      "lastUpdated": "2026-01-07T10:29:23.485798+00:00",
+      "lastUpdated": "2026-01-07T14:28:48.241874+00:00",
       "nameKids": "🎵 Kraftklub",
       "ageGroups": [
         "3-6",
@@ -2263,7 +1643,7 @@
       },
       "source": "https://www.ismaning.de/kultur-bildung/veranstaltungen/",
       "link": "https://ismaning.de/kultur-freizeit/",
-      "lastUpdated": "2026-01-07T10:29:42.369935+00:00",
+      "lastUpdated": "2026-01-07T14:29:08.675321+00:00",
       "nameKids": "🎉 Kultur & Freizeit",
       "ageGroups": [
         "3-6",
@@ -2294,39 +1674,8 @@
       },
       "source": "https://www.musenkuss-muenchen.de/angebote/open-haus-frei-rein-fein-raus",
       "link": "https://www.musenkuss-muenchen.de/",
-      "lastUpdated": "2026-01-07T10:29:33.389890+00:00",
+      "lastUpdated": "2026-01-07T14:28:55.251879+00:00",
       "nameKids": "🎉 Logo Musenkuss München",
-      "ageGroups": [
-        "3-6",
-        "6-9",
-        "9-12"
-      ],
-      "parentTips": [
-        "Rechtzeitig da sein - beliebte Events sind schnell voll",
-        "Snacks und Getränke mitbringen",
-        "Mit Öffis anreisen wenn möglich"
-      ],
-      "weatherDependent": "any",
-      "energyLevel": "moderat"
-    },
-    {
-      "id": "ev-9d4cf40397b5d472",
-      "name": "Meilensammeln am Flughafen München",
-      "date": "2026-01-07",
-      "category": "event",
-      "description": "Meilensammeln am Flughafen München Teilnehmende Shops",
-      "city": "München",
-      "region": "BY",
-      "country": "DE",
-      "price": {
-        "kids": null,
-        "adults": null,
-        "note": "Siehe Webseite"
-      },
-      "source": "https://www.flughafen-muenchen.de/besucherpark",
-      "link": "https://www.flughafen-muenchen.de/miles-more-4743850",
-      "lastUpdated": "2026-01-07T10:29:27.773380+00:00",
-      "nameKids": "🎉 Meilensammeln am Flughafen München",
       "ageGroups": [
         "3-6",
         "6-9",
@@ -2356,7 +1705,7 @@
       },
       "source": "https://muenchenmitkind.de/veranstaltungskalender",
       "link": "https://muenchenmitkind.de/termine/mini-tipps/mini-tipps-im-januar/",
-      "lastUpdated": "2026-01-07T10:29:30.951265+00:00",
+      "lastUpdated": "2026-01-07T14:28:52.964507+00:00",
       "nameKids": "🎉 Mini-Tipps im Januar",
       "ageGroups": [
         "3-6",
@@ -2387,7 +1736,7 @@
       },
       "source": "https://muenchenmitkind.de/veranstaltungskalender",
       "link": "https://muenchenmitkind.de/stadtleben/muenchens-beste/musikschulen/",
-      "lastUpdated": "2026-01-07T10:29:30.950708+00:00",
+      "lastUpdated": "2026-01-07T14:28:52.963989+00:00",
       "nameKids": "🎵 Musikschulen für Kinder",
       "ageGroups": [
         "3-6",
@@ -2418,7 +1767,7 @@
       },
       "source": "https://muenchenmitkind.de/veranstaltungskalender",
       "link": "https://muenchenmitkind.de/termine/veranstaltungstipp/weihnachtsmaerkte/",
-      "lastUpdated": "2026-01-07T10:29:30.952328+00:00",
+      "lastUpdated": "2026-01-07T14:28:52.966097+00:00",
       "nameKids": "🎉 Münchens schönste Weihnachtsmärkte",
       "ageGroups": [
         "3-6",
@@ -2449,70 +1798,8 @@
       },
       "source": "https://muenchenmitkind.de/veranstaltungskalender",
       "link": "https://muenchenmitkind.de/familienleben/gesundheit/nahrung-als-powerquelle/",
-      "lastUpdated": "2026-01-07T10:29:30.953387+00:00",
+      "lastUpdated": "2026-01-07T14:28:52.966627+00:00",
       "nameKids": "🎉 Nahrung als Powerquelle",
-      "ageGroups": [
-        "3-6",
-        "6-9",
-        "9-12"
-      ],
-      "parentTips": [
-        "Rechtzeitig da sein - beliebte Events sind schnell voll",
-        "Snacks und Getränke mitbringen",
-        "Mit Öffis anreisen wenn möglich"
-      ],
-      "weatherDependent": "any",
-      "energyLevel": "moderat"
-    },
-    {
-      "id": "ev-693a87f1fdc15b40",
-      "name": "Neueröffnung im Terminal 2",
-      "date": "2026-01-07",
-      "category": "event",
-      "description": "Neueröffnung im Terminal 2 4 FOOD Street Kitchen",
-      "city": "München",
-      "region": "BY",
-      "country": "DE",
-      "price": {
-        "kids": null,
-        "adults": null,
-        "note": "Siehe Webseite"
-      },
-      "source": "https://www.flughafen-muenchen.de/besucherpark",
-      "link": "https://www.flughafen-muenchen.de/4-food-street-kitchen-1026257",
-      "lastUpdated": "2026-01-07T10:29:27.776074+00:00",
-      "nameKids": "🎉 Neueröffnung im Terminal 2",
-      "ageGroups": [
-        "3-6",
-        "6-9",
-        "9-12"
-      ],
-      "parentTips": [
-        "Rechtzeitig da sein - beliebte Events sind schnell voll",
-        "Snacks und Getränke mitbringen",
-        "Mit Öffis anreisen wenn möglich"
-      ],
-      "weatherDependent": "any",
-      "energyLevel": "moderat"
-    },
-    {
-      "id": "ev-b593350df3778d97",
-      "name": "Neueröffnung in Terminal 2",
-      "date": "2026-01-07",
-      "category": "event",
-      "description": "Neueröffnung in Terminal 2 Luxury Sunglasses",
-      "city": "München",
-      "region": "BY",
-      "country": "DE",
-      "price": {
-        "kids": null,
-        "adults": null,
-        "note": "Siehe Webseite"
-      },
-      "source": "https://www.flughafen-muenchen.de/besucherpark",
-      "link": "https://www.flughafen-muenchen.de/luxury-sunglasses-37016994",
-      "lastUpdated": "2026-01-07T10:29:27.775401+00:00",
-      "nameKids": "🎉 Neueröffnung in Terminal 2",
       "ageGroups": [
         "3-6",
         "6-9",
@@ -2542,7 +1829,7 @@
       },
       "source": "https://www.olympiapark.de/de/veranstaltungen",
       "link": "https://www.olympiapark.de/de/veranstaltungen/night-of-freestyle-n4781",
-      "lastUpdated": "2026-01-07T10:29:23.472015+00:00",
+      "lastUpdated": "2026-01-07T14:28:48.225848+00:00",
       "nameKids": "🎉 Night of Freestyle",
       "ageGroups": [
         "3-6",
@@ -2573,7 +1860,7 @@
       },
       "source": "https://www.musenkuss-muenchen.de/angebote/open-haus-frei-rein-fein-raus",
       "link": "https://www.musenkuss-muenchen.de/anbieter/haus-der-kunst",
-      "lastUpdated": "2026-01-07T10:29:33.382706+00:00",
+      "lastUpdated": "2026-01-07T14:28:55.244670+00:00",
       "nameKids": "🎉 Open Haus — Frei rein, fein raus",
       "ageGroups": [
         "3-6",
@@ -2603,7 +1890,7 @@
       },
       "source": "https://www.eventbrite.de/d/germany--munich/kids/",
       "link": "https://www.eventbrite.de/d/germany--munich/kids/",
-      "lastUpdated": "2026-01-07T10:29:29.769311+00:00",
+      "lastUpdated": "2026-01-07T14:28:52.270024+00:00",
       "nameKids": "🎵 PIANOBABYS & KIDS - Das Familienkonzert mit einem ",
       "ageGroups": [
         "0-3"
@@ -2632,7 +1919,7 @@
       },
       "source": "https://www.kindaling.de/halloween/kids-halloween-breakfast-at-the-hard-rock-cafe-muenchen-altstadt-lehel/muenchen-altstadt-lehel",
       "link": "https://www.kindaling.de/fuer_anbieter",
-      "lastUpdated": "2026-01-07T10:29:10.695872+00:00",
+      "lastUpdated": "2026-01-07T14:28:37.295449+00:00",
       "nameKids": "🎉 Partner-Login",
       "ageGroups": [
         "3-6",
@@ -2663,7 +1950,7 @@
       },
       "source": "https://www.schauburg.net/spielplan",
       "link": "https://www.schauburg.net/spielplan",
-      "lastUpdated": "2026-01-07T10:29:38.545371+00:00",
+      "lastUpdated": "2026-01-07T14:28:59.606473+00:00",
       "nameKids": "🎭 Programm",
       "ageGroups": [
         "3-6",
@@ -2675,37 +1962,6 @@
         "Mit Öffis anreisen wenn möglich"
       ],
       "weatherDependent": "indoor",
-      "energyLevel": "moderat"
-    },
-    {
-      "id": "ev-3e72386b1090b7d7",
-      "name": "Reiseplanung leicht gemacht",
-      "date": "2026-01-07",
-      "category": "event",
-      "description": "Tipps, Infos und Angebote für ein gelungenes Reiseerlebnis",
-      "city": "München",
-      "region": "BY",
-      "country": "DE",
-      "price": {
-        "kids": null,
-        "adults": null,
-        "note": "Siehe Webseite"
-      },
-      "source": "https://www.flughafen-muenchen.de/besucherpark",
-      "link": "https://www.flughafen-muenchen.de/reiseplanung-leicht-gemacht-los-geht-s-17266079",
-      "lastUpdated": "2026-01-07T10:29:27.770061+00:00",
-      "nameKids": "🎉 Reiseplanung leicht gemacht",
-      "ageGroups": [
-        "3-6",
-        "6-9",
-        "9-12"
-      ],
-      "parentTips": [
-        "Rechtzeitig da sein - beliebte Events sind schnell voll",
-        "Snacks und Getränke mitbringen",
-        "Mit Öffis anreisen wenn möglich"
-      ],
-      "weatherDependent": "any",
       "energyLevel": "moderat"
     },
     {
@@ -2724,7 +1980,7 @@
       },
       "source": "https://www.musenkuss-muenchen.de/angebote/open-haus-frei-rein-fein-raus",
       "link": "https://www.google.de/maps/dir//48.14411,11.5861",
-      "lastUpdated": "2026-01-07T10:29:33.399534+00:00",
+      "lastUpdated": "2026-01-07T14:28:55.261536+00:00",
       "nameKids": "🎉 Routenplanung mit Google Maps",
       "ageGroups": [
         "3-6",
@@ -2755,7 +2011,7 @@
       },
       "source": "https://www.kindaling.de/halloween/kids-halloween-breakfast-at-the-hard-rock-cafe-muenchen-altstadt-lehel/muenchen-altstadt-lehel",
       "link": "https://www.kindaling.de/schwangere-eltern/muenchen",
-      "lastUpdated": "2026-01-07T10:29:10.710918+00:00",
+      "lastUpdated": "2026-01-07T14:28:37.310134+00:00",
       "nameKids": "⚽ Schwangere & Eltern",
       "ageGroups": [
         "0-3"
@@ -2784,7 +2040,7 @@
       },
       "source": "https://www.olympiapark.de/de/veranstaltungen",
       "link": "https://www.olympiapark.de/de/veranstaltungen/sean-paul-n5460",
-      "lastUpdated": "2026-01-07T10:29:23.484114+00:00",
+      "lastUpdated": "2026-01-07T14:28:48.240174+00:00",
       "nameKids": "🎵 Sean Paul",
       "ageGroups": [
         "3-6",
@@ -2815,7 +2071,7 @@
       },
       "source": "https://www.eventbrite.de/d/germany--munich/kids/",
       "link": "https://www.eventbrite.de/d/germany--munich/kids/",
-      "lastUpdated": "2026-01-07T10:29:29.767520+00:00",
+      "lastUpdated": "2026-01-07T14:28:52.268254+00:00",
       "nameKids": "🎉 Selbstbehauptungskurs „Mental starke Kids“ (5,5-11",
       "ageGroups": [
         "6-9",
@@ -2845,7 +2101,7 @@
       },
       "source": "https://www.muenchen.de/veranstaltungen/kinder",
       "link": "https://www.muenchen.de/veranstaltungen/ausstellungen/kinder/seths-spieltraeume",
-      "lastUpdated": "2026-01-07T10:29:37.021063+00:00",
+      "lastUpdated": "2026-01-07T14:28:58.371623+00:00",
       "nameKids": "🎉 Seth's SPIEL(T)RÄUME",
       "ageGroups": [
         "3-6",
@@ -2860,11 +2116,11 @@
       "energyLevel": "moderat"
     },
     {
-      "id": "ev-2ce1c81f80710e74",
-      "name": "Sicherheits- und Passkontrolle",
+      "id": "ev-5a6c2ab0801bc929",
+      "name": "Stadt vergibt Ausbildungspreis",
       "date": "2026-01-07",
       "category": "event",
-      "description": "Sicherheits- und Passkontrolle Ihr Weg durch die Kontrollstellen",
+      "description": "Bewerbungsfrist läuft bis Freitag, 13. Februar.",
       "city": "München",
       "region": "BY",
       "country": "DE",
@@ -2873,10 +2129,10 @@
         "adults": null,
         "note": "Siehe Webseite"
       },
-      "source": "https://www.flughafen-muenchen.de/besucherpark",
-      "link": "https://www.flughafen-muenchen.de/sicherheits-und-passkontrolle-3897036",
-      "lastUpdated": "2026-01-07T10:29:27.770629+00:00",
-      "nameKids": "🎉 Sicherheits- und Passkontrolle",
+      "source": "https://www.erding.de/veranstaltungen",
+      "link": "https://www.erding.de/meldungen-detail/stadt-vergibt-ausbildungspreis",
+      "lastUpdated": "2026-01-07T14:29:09.814363+00:00",
+      "nameKids": "🎉 Stadt vergibt Ausbildungspreis",
       "ageGroups": [
         "3-6",
         "6-9",
@@ -2906,7 +2162,7 @@
       },
       "source": "https://www.kindaling.de/halloween/kids-halloween-breakfast-at-the-hard-rock-cafe-muenchen-altstadt-lehel/muenchen-altstadt-lehel",
       "link": "https://www.kindaling.de/stadtleben-ausfluege/muenchen",
-      "lastUpdated": "2026-01-07T10:29:10.706016+00:00",
+      "lastUpdated": "2026-01-07T14:28:37.305400+00:00",
       "nameKids": "🎭 Stadtleben & Ausflüge",
       "ageGroups": [
         "3-6",
@@ -2936,7 +2192,7 @@
       },
       "source": "https://www.musenkuss-muenchen.de/angebote/open-haus-frei-rein-fein-raus",
       "link": "https://www.musenkuss-muenchen.de/angebote/open-haus-frei-rein-fein-raus",
-      "lastUpdated": "2026-01-07T10:29:33.385451+00:00",
+      "lastUpdated": "2026-01-07T14:28:55.247407+00:00",
       "nameKids": "🎨 Termine",
       "ageGroups": [
         "0-3",
@@ -2966,7 +2222,7 @@
       },
       "source": "https://www.muenchner-stadtbibliothek.de/veranstaltungen",
       "link": "https://blog.muenchner-stadtbibliothek.de/",
-      "lastUpdated": "2026-01-07T10:29:22.059130+00:00",
+      "lastUpdated": "2026-01-07T14:28:46.321517+00:00",
       "nameKids": "🎉 Unser Blog",
       "ageGroups": [
         "3-6",
@@ -2997,7 +2253,7 @@
       },
       "source": "https://www.muenchner-stadtbibliothek.de/veranstaltungen",
       "link": "https://www.muenchner-stadtbibliothek.de/veranstaltungen",
-      "lastUpdated": "2026-01-07T10:29:22.057814+00:00",
+      "lastUpdated": "2026-01-07T14:28:46.320206+00:00",
       "nameKids": "🎉 Unsere Veranstaltungen",
       "ageGroups": [
         "3-6",
@@ -3028,7 +2284,7 @@
       },
       "source": "https://www.kindaling.de/halloween/kids-halloween-breakfast-at-the-hard-rock-cafe-muenchen-altstadt-lehel/muenchen-altstadt-lehel",
       "link": "https://www.kindaling.de/veranstaltungen/muenchen",
-      "lastUpdated": "2026-01-07T10:29:10.707635+00:00",
+      "lastUpdated": "2026-01-07T14:28:37.307030+00:00",
       "nameKids": "🎭 Veranstaltungen",
       "ageGroups": [
         "3-6",
@@ -3058,7 +2314,7 @@
       },
       "source": "https://www.ismaning.de/kultur-bildung/veranstaltungen/",
       "link": "https://ismaning.de/kultur-im-schlosspark",
-      "lastUpdated": "2026-01-07T10:29:42.370530+00:00",
+      "lastUpdated": "2026-01-07T14:29:08.675982+00:00",
       "nameKids": "🎉 Veranstaltungen der Gemeinde",
       "ageGroups": [
         "3-6",
@@ -3089,7 +2345,7 @@
       },
       "source": "https://www.muenchen.de/veranstaltungen/kinder",
       "link": "https://www.muenchen.de/veranstaltungen/kinder",
-      "lastUpdated": "2026-01-07T10:29:37.013096+00:00",
+      "lastUpdated": "2026-01-07T14:28:58.363628+00:00",
       "nameKids": "🎭 Veranstaltungskalender für Kinder in München",
       "ageGroups": [
         "3-6",
@@ -3102,68 +2358,6 @@
       ],
       "weatherDependent": "indoor",
       "energyLevel": "aktiv"
-    },
-    {
-      "id": "ev-c183e4884e0a01e5",
-      "name": "Weihnachtsmärkte im Umland von München",
-      "date": "2026-01-07",
-      "category": "event",
-      "description": "Winter Weihnachtsmärkte im Umland von München",
-      "city": "München",
-      "region": "BY",
-      "country": "DE",
-      "price": {
-        "kids": null,
-        "adults": null,
-        "note": "Siehe Webseite"
-      },
-      "source": "https://muenchenmitkind.de/veranstaltungskalender",
-      "link": "https://muenchenmitkind.de/familienleben/weihnachten-advent/weihnachtsmarkt-im-umland/",
-      "lastUpdated": "2026-01-07T10:29:30.952861+00:00",
-      "nameKids": "🎉 Weihnachtsmärkte im Umland von München",
-      "ageGroups": [
-        "3-6",
-        "6-9",
-        "9-12"
-      ],
-      "parentTips": [
-        "Rechtzeitig da sein - beliebte Events sind schnell voll",
-        "Snacks und Getränke mitbringen",
-        "Mit Öffis anreisen wenn möglich"
-      ],
-      "weatherDependent": "any",
-      "energyLevel": "moderat"
-    },
-    {
-      "id": "ev-b572ba986d65b7a1",
-      "name": "Winterabenteuer in Tromsø",
-      "date": "2026-01-07",
-      "category": "event",
-      "description": "Winterabenteuer in Tromsø Mit Norwegian in die arktische Hauptstadt",
-      "city": "München",
-      "region": "BY",
-      "country": "DE",
-      "price": {
-        "kids": null,
-        "adults": null,
-        "note": "Siehe Webseite"
-      },
-      "source": "https://www.flughafen-muenchen.de/besucherpark",
-      "link": "https://www.flughafen-muenchen.de/tromsoe",
-      "lastUpdated": "2026-01-07T10:29:27.771147+00:00",
-      "nameKids": "🎉 Winterabenteuer in Tromsø",
-      "ageGroups": [
-        "3-6",
-        "6-9",
-        "9-12"
-      ],
-      "parentTips": [
-        "Rechtzeitig da sein - beliebte Events sind schnell voll",
-        "Snacks und Getränke mitbringen",
-        "Mit Öffis anreisen wenn möglich"
-      ],
-      "weatherDependent": "any",
-      "energyLevel": "moderat"
     },
     {
       "id": "ev-a4e0596ba71cc8a5",
@@ -3181,7 +2375,7 @@
       },
       "source": "https://www.olympiapark.de/de/veranstaltungen",
       "link": "https://www.olympiapark.de/de/veranstaltungen/xavier-naidoo-n5163",
-      "lastUpdated": "2026-01-07T10:29:23.470327+00:00",
+      "lastUpdated": "2026-01-07T14:28:48.224089+00:00",
       "nameKids": "🎵 Xavier Naidoo",
       "ageGroups": [
         "3-6",
@@ -3212,7 +2406,7 @@
       },
       "source": "https://www.musenkuss-muenchen.de/angebote/iz-art-kunstatelier-schwabing",
       "link": "https://www.musenkuss-muenchen.de/anbieter/pa-spielkultur",
-      "lastUpdated": "2026-01-07T10:29:45.072092+00:00",
+      "lastUpdated": "2026-01-07T14:29:06.203820+00:00",
       "nameKids": "🎉 iz art Kunstatelier in der Parkstadt Schwabing",
       "ageGroups": [
         "3-6",
@@ -3242,7 +2436,7 @@
       },
       "source": "https://www.musenkuss-muenchen.de/angebote/familien",
       "link": "https://www.musenkuss-muenchen.de/angebote/die-halle-atelier-repaircafe",
-      "lastUpdated": "2026-01-07T10:29:46.047706+00:00",
+      "lastUpdated": "2026-01-07T14:29:06.493950+00:00",
       "nameKids": "🎉 »die h.alle – atelier & repaircafé«",
       "ageGroups": [
         "3-6",
@@ -3273,7 +2467,7 @@
       },
       "source": "https://www.musenkuss-muenchen.de/angebote/open-haus-frei-rein-fein-raus",
       "link": "https://www.musenkuss-muenchen.de/ueber-uns/ueber-musenkuss",
-      "lastUpdated": "2026-01-07T10:29:33.398956+00:00",
+      "lastUpdated": "2026-01-07T14:28:55.260975+00:00",
       "nameKids": "🎉 Über Musenkuss",
       "ageGroups": [
         "3-6",
@@ -3304,7 +2498,7 @@
       },
       "source": "https://www.muenchenticket.de/event/pettersson-feiert-weihnachten-19471/",
       "link": "https://www.muenchenticket.de/event/pettersson-feiert-weihnachten-19471/",
-      "lastUpdated": "2026-01-07T10:29:46.866940+00:00",
+      "lastUpdated": "2026-01-07T14:29:09.331203+00:00",
       "nameKids": "🎉 Pettersson feiert Weihnachten",
       "ageGroups": [
         "3-6"
@@ -3333,7 +2527,7 @@
       },
       "source": "https://www.muenchen.de/veranstaltungen/kinder",
       "link": "https://www.muenchen.de/veranstaltungen/ausstellungen/kinder/seths-spieltraeume",
-      "lastUpdated": "2026-01-07T10:29:37.019506+00:00",
+      "lastUpdated": "2026-01-07T14:28:58.370078+00:00",
       "nameKids": "🎉 Seth's SPIEL(T)RÄUME",
       "ageGroups": [
         "3-6",
@@ -3363,7 +2557,7 @@
       },
       "source": "https://www.musenkuss-muenchen.de/angebote/familien",
       "link": "https://www.musenkuss-muenchen.de/angebote/profis-zum-anfassen",
-      "lastUpdated": "2026-01-07T10:29:46.054475+00:00",
+      "lastUpdated": "2026-01-07T14:29:06.500913+00:00",
       "nameKids": "🎉 Profis zum Anfassen",
       "ageGroups": [
         "3-6",
@@ -3394,7 +2588,7 @@
       },
       "source": "https://www.musenkuss-muenchen.de/angebote/familien",
       "link": "https://www.musenkuss-muenchen.de/angebote/das-kleine-atelier-sumi-e-japanische-tuschmalerei-fuer-kinder-und-erwachsene-3",
-      "lastUpdated": "2026-01-07T10:29:46.048746+00:00",
+      "lastUpdated": "2026-01-07T14:29:06.495064+00:00",
       "nameKids": "🎉 Sumi-e | Japanische Tuschmalerei für Kinder und Er",
       "ageGroups": [
         "6-9",
@@ -3409,11 +2603,11 @@
       "energyLevel": "moderat"
     },
     {
-      "id": "ev-7a5e9b0be443e5ec",
-      "name": "Mehr erfahren über: SEA-Sitzung",
-      "date": "2026-01-13",
+      "id": "ev-c6d9f3faab2db048",
+      "name": "Mehr erfahren über: Historischer Vortrag im Aktivtreff",
+      "date": "2026-01-12",
       "category": "event",
-      "description": "Mehr erfahren über: SEA-Sitzung 13 Jan 2026 Ort: Rathaus, Sitzungssaal SEA-Sitzung Mehr erfahren über SEA-Sitzung 13.01.2026, 17:45 Mehr erfahren über: PBA-Sitzung 20 Jan 2026 Ort: Rathaus, Sitzungssaal PBA-Sitzung Mehr erfahren über PBA-Sitzung 20.01.2026, 17:45 Mehr erfahren über: VFA-Sitzung 22 Jan 2026 Ort: Rathaus, Sitzungssaal VFA-Sitzung Mehr erfahren über VFA-Sitzung 22.01.2026, 17:45",
+      "description": "Mehr erfahren über: Historischer Vortrag im Aktivtreff 12 Jan 2026 Ort: Haus der Begegnung Historischer Vortrag im Aktivtreff Mehr erfahren über Historischer Vortrag im Aktivtreff 12.01.2026, 11:00 Mehr erfahren über: PBA-Sitzung 20 Jan 2026 Ort: Rathaus, Sitzungssaal PBA-Sitzung Mehr erfahren über PBA-Sitzung 20.01.2026, 17:45 Mehr erfahren über: VFA-Sitzung 22 Jan 2026 Ort: Rathaus, Sitzungssaal VFA-Sitzung Mehr erfahren über VFA-Sitzung 22.01.2026, 17:45",
       "city": "München",
       "region": "BY",
       "country": "DE",
@@ -3423,9 +2617,9 @@
         "note": "Siehe Webseite"
       },
       "source": "https://www.erding.de/veranstaltungen",
-      "link": "https://www.erding.de/veranstaltungen-detail/stadtratssitzung-kopie",
-      "lastUpdated": "2026-01-07T10:29:46.763689+00:00",
-      "nameKids": "🎉 Mehr erfahren über: SEA-Sitzung",
+      "link": "https://www.erding.de/veranstaltungen-detail/historischer-vortrag-im-aktivtreff",
+      "lastUpdated": "2026-01-07T14:29:09.811286+00:00",
+      "nameKids": "🎉 Mehr erfahren über: Historischer Vortrag im Aktivt",
       "ageGroups": [
         "3-6",
         "6-9",
@@ -3455,7 +2649,7 @@
       },
       "source": "https://www.lk-starnberg.de/Veranstaltungen",
       "link": "https://www.verbraucherzentrale-bayern.de/veranstaltungen",
-      "lastUpdated": "2026-01-07T10:29:21.981623+00:00",
+      "lastUpdated": "2026-01-07T14:28:46.249250+00:00",
       "nameKids": "🎉 Online-Vortrag: „Der individuelle Sanierungsfahrpl",
       "ageGroups": [
         "3-6",
@@ -3486,7 +2680,7 @@
       },
       "source": "https://www.lk-starnberg.de/Veranstaltungen",
       "link": "https://www.landschafftenergie.bayern/veranstaltungen/",
-      "lastUpdated": "2026-01-07T10:29:21.984710+00:00",
+      "lastUpdated": "2026-01-07T14:28:46.251671+00:00",
       "nameKids": "🎉 Online-Vortrag: „Kaminofenseminar – weniger Holz u",
       "ageGroups": [
         "3-6",
@@ -3517,7 +2711,7 @@
       },
       "source": "https://www.lk-starnberg.de/Veranstaltungen",
       "link": "https://verbraucherzentrale-energieberatung.de/veranstaltungen",
-      "lastUpdated": "2026-01-07T10:29:21.983923+00:00",
+      "lastUpdated": "2026-01-07T14:28:46.250857+00:00",
       "nameKids": "🎉 Online-Vortrag: „Welche Heizung passt zu meinem Ha",
       "ageGroups": [
         "3-6",
@@ -3548,7 +2742,7 @@
       },
       "source": "https://www.unterhaching.de/veranstaltungen",
       "link": "https://www.unterhaching.de/veranstaltungen/veranstaltung?view=publish&item=eventDate&id=2311",
-      "lastUpdated": "2026-01-07T10:29:37.412238+00:00",
+      "lastUpdated": "2026-01-07T14:28:57.101664+00:00",
       "nameKids": "🎉 Repaircafé",
       "ageGroups": [
         "3-6",
@@ -3579,7 +2773,7 @@
       },
       "source": "https://www.lk-starnberg.de/Veranstaltungen",
       "link": "https://www.carmen-ev.de/termine/veranstaltungskalender/",
-      "lastUpdated": "2026-01-07T10:29:21.983143+00:00",
+      "lastUpdated": "2026-01-07T14:28:46.250084+00:00",
       "nameKids": "🎉 WebSeminar: „Energiesparen – Praktische Tipps für ",
       "ageGroups": [
         "6-9",
@@ -3609,7 +2803,7 @@
       },
       "source": "https://www.lk-starnberg.de/Veranstaltungen",
       "link": "https://www.lk-starnberg.de/index.php?NavID=613.11&object=tx|613.11446.1&ModID=11&FID=613.33550.1",
-      "lastUpdated": "2026-01-07T10:29:21.985476+00:00",
+      "lastUpdated": "2026-01-07T14:28:46.252429+00:00",
       "nameKids": "🎉 Online Fortbildung: Dokumentation im Kinderschutz",
       "ageGroups": [
         "3-6",
@@ -3640,7 +2834,7 @@
       },
       "source": "https://www.lk-starnberg.de/Veranstaltungen",
       "link": "https://www.sfv.de/aktuelles/termine",
-      "lastUpdated": "2026-01-07T10:29:21.992436+00:00",
+      "lastUpdated": "2026-01-07T14:28:46.259407+00:00",
       "nameKids": "🎉 Online-Fortbildung: „Wärmepumpen-Botschafter/-in w",
       "ageGroups": [
         "3-6",
@@ -3671,7 +2865,7 @@
       },
       "source": "https://www.lk-starnberg.de/Veranstaltungen",
       "link": "https://www.verbraucherzentrale-bayern.de/veranstaltungen",
-      "lastUpdated": "2026-01-07T10:29:21.993224+00:00",
+      "lastUpdated": "2026-01-07T14:28:46.260185+00:00",
       "nameKids": "🎉 Online-Vortrag: „Aus Alt mach Neu - Wie richtig sa",
       "ageGroups": [
         "3-6",
@@ -3702,7 +2896,7 @@
       },
       "source": "https://www.lk-starnberg.de/Veranstaltungen",
       "link": "https://verbraucherzentrale-energieberatung.de/veranstaltungen",
-      "lastUpdated": "2026-01-07T10:29:21.991399+00:00",
+      "lastUpdated": "2026-01-07T14:28:46.253207+00:00",
       "nameKids": "🎉 Online-Vortrag: „Sonnenstrom vom Dach“",
       "ageGroups": [
         "3-6",
@@ -3733,7 +2927,7 @@
       },
       "source": "https://www.unterhaching.de/veranstaltungen",
       "link": "https://www.unterhaching.de/veranstaltungen/veranstaltung?view=publish&item=eventDate&id=2327",
-      "lastUpdated": "2026-01-07T10:29:37.413332+00:00",
+      "lastUpdated": "2026-01-07T14:28:57.102768+00:00",
       "nameKids": "🎉 Radl-Ambulanz",
       "ageGroups": [
         "9-12"
@@ -3762,7 +2956,7 @@
       },
       "source": "https://www.unterhaching.de/veranstaltungen",
       "link": "https://www.unterhaching.de/veranstaltungen/veranstaltung?view=publish&item=eventDate&id=2342",
-      "lastUpdated": "2026-01-07T10:29:37.414537+00:00",
+      "lastUpdated": "2026-01-07T14:28:57.103993+00:00",
       "nameKids": "🎉 Strick-, Häkel- und Upcycling-Treff",
       "ageGroups": [
         "3-6",
@@ -3793,7 +2987,7 @@
       },
       "source": "https://www.unterhaching.de/veranstaltungen",
       "link": "https://www.unterhaching.de/veranstaltungen/veranstaltung?view=publish&item=eventDate&id=2162",
-      "lastUpdated": "2026-01-07T10:29:37.415674+00:00",
+      "lastUpdated": "2026-01-07T14:28:57.105118+00:00",
       "nameKids": "🎉 Cinderella",
       "ageGroups": [
         "6-9",
@@ -3823,7 +3017,7 @@
       },
       "source": "https://www.musenkuss-muenchen.de/angebote/familien",
       "link": "https://www.musenkuss-muenchen.de/angebote/kinderkonzerte",
-      "lastUpdated": "2026-01-07T10:29:46.056397+00:00",
+      "lastUpdated": "2026-01-07T14:29:06.502901+00:00",
       "nameKids": "🎵 Kinderkonzerte mit den Münchner Philharmonikern",
       "ageGroups": [
         "3-6",
@@ -3854,7 +3048,7 @@
       },
       "source": "https://www.musenkuss-muenchen.de/angebote/iz-art-kunstatelier-schwabing",
       "link": "https://www.musenkuss-muenchen.de/angebote/iz-art-kunstatelier-schwabing#events-full-headline",
-      "lastUpdated": "2026-01-07T10:29:45.073778+00:00",
+      "lastUpdated": "2026-01-07T14:29:06.205339+00:00",
       "nameKids": "🎨 Termine",
       "ageGroups": [
         "6-9",
@@ -3884,7 +3078,7 @@
       },
       "source": "https://www.musenkuss-muenchen.de/angebote/familien",
       "link": "https://www.musenkuss-muenchen.de/angebote/iz-art-kunstatelier-schwabing",
-      "lastUpdated": "2026-01-07T10:29:46.058191+00:00",
+      "lastUpdated": "2026-01-07T14:29:06.504763+00:00",
       "nameKids": "🎉 iz art Kunstatelier in der Parkstadt Schwabing",
       "ageGroups": [
         "3-6",
@@ -3915,7 +3109,7 @@
       },
       "source": "https://www.muenchenticket.de/event/ali-baba-und-die-40-raeuber-29587/",
       "link": "https://www.muenchenticket.de/event/ali-baba-und-die-40-raeuber-29587/",
-      "lastUpdated": "2026-01-07T10:29:36.485489+00:00",
+      "lastUpdated": "2026-01-07T14:28:57.532966+00:00",
       "nameKids": "🎉 Ali Baba und die 40 Räuber",
       "ageGroups": [
         "6-9"
@@ -3944,7 +3138,7 @@
       },
       "source": "https://www.olympiapark.de/de/veranstaltungen",
       "link": "https://www.olympiapark.de/de/veranstaltungen/hot-wheels-monster-trucks-live-n5195",
-      "lastUpdated": "2026-01-07T10:29:23.472952+00:00",
+      "lastUpdated": "2026-01-07T14:28:48.226853+00:00",
       "nameKids": "🎉 Hot Wheels Monster Trucks Live™",
       "ageGroups": [
         "3-6",
@@ -3975,7 +3169,7 @@
       },
       "source": "https://www.lk-starnberg.de/Veranstaltungen",
       "link": "https://www.sfv.de/aktuelles/termine",
-      "lastUpdated": "2026-01-07T10:29:21.993970+00:00",
+      "lastUpdated": "2026-01-07T14:28:46.260947+00:00",
       "nameKids": "🎉 Online-Vortrag: „Neue Steckersolar-Norm“",
       "ageGroups": [
         "3-6",
@@ -4006,7 +3200,7 @@
       },
       "source": "https://www.unterhaching.de/veranstaltungen",
       "link": "https://www.unterhaching.de/veranstaltungen/veranstaltung?view=publish&item=eventDate&id=2269",
-      "lastUpdated": "2026-01-07T10:29:37.417981+00:00",
+      "lastUpdated": "2026-01-07T14:28:57.107450+00:00",
       "nameKids": "🎉 Kino im KUBIZ: Stiller",
       "ageGroups": [
         "3-6",
@@ -4037,7 +3231,7 @@
       },
       "source": "https://www.erding.de/veranstaltungen",
       "link": "https://www.erding.de/veranstaltungen-detail/stadtratssitzung",
-      "lastUpdated": "2026-01-07T10:29:46.764771+00:00",
+      "lastUpdated": "2026-01-07T14:29:09.812375+00:00",
       "nameKids": "🎉 Mehr erfahren über: PBA-Sitzung",
       "ageGroups": [
         "3-6",
@@ -4068,7 +3262,7 @@
       },
       "source": "https://www.unterhaching.de/veranstaltungen",
       "link": "https://www.unterhaching.de/veranstaltungen/veranstaltung?view=publish&item=eventDate&id=2261",
-      "lastUpdated": "2026-01-07T10:29:37.416744+00:00",
+      "lastUpdated": "2026-01-07T14:28:57.106204+00:00",
       "nameKids": "🎉 Stammtisch des Städte-Partnerschaftskreis Unterhac",
       "ageGroups": [
         "0-3"
@@ -4097,7 +3291,7 @@
       },
       "source": "https://www.lk-starnberg.de/Veranstaltungen",
       "link": "https://lra-starnberg.webex.com/lra-starnberg-de/j.php?MTID=md043ea5867a77e2961c242c1801de7f0",
-      "lastUpdated": "2026-01-07T10:29:21.994825+00:00",
+      "lastUpdated": "2026-01-07T14:28:46.261847+00:00",
       "nameKids": "🎉 online KINDERSCHUTZ-Sprechstunde",
       "ageGroups": [
         "9-12"
@@ -4126,7 +3320,7 @@
       },
       "source": "https://www.unterhaching.de/veranstaltungen",
       "link": "https://www.unterhaching.de/veranstaltungen/veranstaltung?view=publish&item=eventDate&id=2312",
-      "lastUpdated": "2026-01-07T10:29:37.419041+00:00",
+      "lastUpdated": "2026-01-07T14:28:57.108513+00:00",
       "nameKids": "🎉 Repaircafé",
       "ageGroups": [
         "3-6",
@@ -4157,7 +3351,7 @@
       },
       "source": "https://www.olympiapark.de/de/veranstaltungen",
       "link": "https://www.olympiapark.de/de/veranstaltungen/bushido-n4471",
-      "lastUpdated": "2026-01-07T10:29:23.474832+00:00",
+      "lastUpdated": "2026-01-07T14:28:48.230741+00:00",
       "nameKids": "🎵 Bushido",
       "ageGroups": [
         "3-6",
@@ -4188,8 +3382,39 @@
       },
       "source": "https://www.erding.de/veranstaltungen",
       "link": "https://www.erding.de/veranstaltungen-detail/verwaltungs-und-finanzausschuss",
-      "lastUpdated": "2026-01-07T10:29:46.765832+00:00",
+      "lastUpdated": "2026-01-07T14:29:09.813422+00:00",
       "nameKids": "🎉 Mehr erfahren über: VFA-Sitzung",
+      "ageGroups": [
+        "3-6",
+        "6-9",
+        "9-12"
+      ],
+      "parentTips": [
+        "Rechtzeitig da sein - beliebte Events sind schnell voll",
+        "Snacks und Getränke mitbringen",
+        "Mit Öffis anreisen wenn möglich"
+      ],
+      "weatherDependent": "any",
+      "energyLevel": "moderat"
+    },
+    {
+      "id": "ev-4cd42024b395c644",
+      "name": "Online-Fragestunde: „Ein E-Auto neu oder gebraucht kaufen?“",
+      "date": "2026-01-22",
+      "category": "festival",
+      "description": "22.01.2026 19:00  bis    20:00    Uhr Online-Fragestunde: „Ein E-Auto neu oder gebraucht kaufen?“ Textanriss überspringen Beim Umstieg auf ein E-Auto müssen sich Autofahrer mit verschiedenen Fragen auseinandersetzen: Soll es ein Neuwagen werden? Welche Angebote gibt es auf dem Gebrauchtmarkt? Welche Batteriegröße passt zur Fahrzeugnutzung und wie funktioniert das Laden? Wie viel kostet ein E-Auto im Unterhalt? Zwei Experten, Ihre Fragen, kostenlos und produktneutral! www.landschafftenergie.bayer",
+      "city": "München",
+      "region": "BY",
+      "country": "DE",
+      "price": {
+        "kids": null,
+        "adults": null,
+        "note": "Siehe Webseite"
+      },
+      "source": "https://www.lk-starnberg.de/Veranstaltungen",
+      "link": "https://www.landschafftenergie.bayern/veranstaltungen/",
+      "lastUpdated": "2026-01-07T14:28:46.262623+00:00",
+      "nameKids": "🎉 Online-Fragestunde: „Ein E-Auto neu oder gebraucht",
       "ageGroups": [
         "3-6",
         "6-9",
@@ -4219,7 +3444,7 @@
       },
       "source": "https://www.lk-starnberg.de/Veranstaltungen",
       "link": "https://www.verbraucherzentrale-bayern.de/veranstaltungen",
-      "lastUpdated": "2026-01-07T10:29:21.995586+00:00",
+      "lastUpdated": "2026-01-07T14:28:46.263379+00:00",
       "nameKids": "🎉 Online-Vortrag: „Bauen mit Holz - Nachhaltiger Roh",
       "ageGroups": [
         "3-6",
@@ -4250,7 +3475,7 @@
       },
       "source": "https://www.unterhaching.de/veranstaltungen",
       "link": "https://www.unterhaching.de/veranstaltungen/veranstaltung?view=publish&item=eventDate&id=2328",
-      "lastUpdated": "2026-01-07T10:29:37.420149+00:00",
+      "lastUpdated": "2026-01-07T14:28:57.109607+00:00",
       "nameKids": "🎉 Radl-Ambulanz",
       "ageGroups": [
         "9-12"
@@ -4279,7 +3504,7 @@
       },
       "source": "https://www.unterhaching.de/veranstaltungen",
       "link": "https://www.unterhaching.de/veranstaltungen/veranstaltung?view=publish&item=eventDate&id=2343",
-      "lastUpdated": "2026-01-07T10:29:37.421350+00:00",
+      "lastUpdated": "2026-01-07T14:28:57.110847+00:00",
       "nameKids": "🎉 Strick-, Häkel- und Upcycling-Treff",
       "ageGroups": [
         "3-6",
@@ -4310,7 +3535,7 @@
       },
       "source": "https://www.lk-starnberg.de/Veranstaltungen",
       "link": "https://www.verbraucherzentrale-bayern.de/veranstaltungen",
-      "lastUpdated": "2026-01-07T10:29:22.001466+00:00",
+      "lastUpdated": "2026-01-07T14:28:46.269448+00:00",
       "nameKids": "🎉 Online-Vortrag: „Heizungserneuerung - Wie packt ma",
       "ageGroups": [
         "3-6",
@@ -4341,7 +3566,7 @@
       },
       "source": "https://www.unterhaching.de/veranstaltungen",
       "link": "https://www.unterhaching.de/veranstaltungen/veranstaltung?view=publish&item=eventDate&id=2305",
-      "lastUpdated": "2026-01-07T10:29:37.422404+00:00",
+      "lastUpdated": "2026-01-07T14:28:57.111878+00:00",
       "nameKids": "🎉 Schäfflertanz",
       "ageGroups": [
         "6-9",
@@ -4371,7 +3596,7 @@
       },
       "source": "https://www.unterhaching.de/veranstaltungen",
       "link": "https://www.unterhaching.de/veranstaltungen/veranstaltung?view=publish&item=eventDate&id=2361",
-      "lastUpdated": "2026-01-07T10:29:37.423577+00:00",
+      "lastUpdated": "2026-01-07T14:28:57.113026+00:00",
       "nameKids": "🎉 Bobbycar Vorlesekino",
       "ageGroups": [
         "3-6",
@@ -4401,7 +3626,7 @@
       },
       "source": "https://www.olympiapark.de/de/veranstaltungen",
       "link": "https://www.olympiapark.de/de/veranstaltungen/reezy-n4760",
-      "lastUpdated": "2026-01-07T10:29:23.475727+00:00",
+      "lastUpdated": "2026-01-07T14:28:48.231634+00:00",
       "nameKids": "🎵 Reezy",
       "ageGroups": [
         "3-6",
@@ -4433,7 +3658,7 @@
       },
       "source": "https://www.muenchenticket.de/event/der-froschkoenig-33811/",
       "link": "https://www.muenchenticket.de/event/der-froschkoenig-33811/",
-      "lastUpdated": "2026-01-07T10:29:25.854609+00:00",
+      "lastUpdated": "2026-01-07T14:28:50.371190+00:00",
       "nameKids": "🎉 Der Froschkönig",
       "ageGroups": [
         "3-6"
@@ -4462,7 +3687,7 @@
       },
       "source": "https://www.unterhaching.de/veranstaltungen",
       "link": "https://www.unterhaching.de/veranstaltungen/veranstaltung?view=publish&item=eventDate&id=2161",
-      "lastUpdated": "2026-01-07T10:29:37.424704+00:00",
+      "lastUpdated": "2026-01-07T14:28:57.114144+00:00",
       "nameKids": "🎉 Ensemble Allegra Nürnberg",
       "ageGroups": [
         "6-9",
@@ -4492,7 +3717,7 @@
       },
       "source": "https://www.unterhaching.de/veranstaltungen",
       "link": "https://www.unterhaching.de/veranstaltungen/veranstaltung?view=publish&item=eventDate&id=2243",
-      "lastUpdated": "2026-01-07T10:29:37.425639+00:00",
+      "lastUpdated": "2026-01-07T14:28:57.115084+00:00",
       "nameKids": "🎉 Pflegeberatung",
       "ageGroups": [
         "3-6",
@@ -4523,7 +3748,7 @@
       },
       "source": "https://www.lk-starnberg.de/Veranstaltungen",
       "link": "https://www.lk-starnberg.de/index.php?NavID=613.11&object=tx|613.11446.1&ModID=11&FID=613.33794.1",
-      "lastUpdated": "2026-01-07T10:29:22.002359+00:00",
+      "lastUpdated": "2026-01-07T14:28:46.270155+00:00",
       "nameKids": "🎉 Beflaggung des Landratsamtes: Tag des Gedenkens an",
       "ageGroups": [
         "3-6",
@@ -4554,7 +3779,7 @@
       },
       "source": "https://www.lk-starnberg.de/Veranstaltungen",
       "link": "https://www.carmen-ev.de/termine/veranstaltungskalender/",
-      "lastUpdated": "2026-01-07T10:29:22.003136+00:00",
+      "lastUpdated": "2026-01-07T14:28:46.270905+00:00",
       "nameKids": "🎉 WebSeminar: »Energetische Gebäudemodernisierung - ",
       "ageGroups": [
         "3-6",
@@ -4585,39 +3810,8 @@
       },
       "source": "https://www.unterhaching.de/veranstaltungen",
       "link": "https://www.unterhaching.de/veranstaltungen/veranstaltung?view=publish&item=eventDate&id=2313",
-      "lastUpdated": "2026-01-07T10:29:37.426690+00:00",
+      "lastUpdated": "2026-01-07T14:28:57.116167+00:00",
       "nameKids": "🎉 Repaircafé",
-      "ageGroups": [
-        "3-6",
-        "6-9",
-        "9-12"
-      ],
-      "parentTips": [
-        "Rechtzeitig da sein - beliebte Events sind schnell voll",
-        "Snacks und Getränke mitbringen",
-        "Mit Öffis anreisen wenn möglich"
-      ],
-      "weatherDependent": "any",
-      "energyLevel": "moderat"
-    },
-    {
-      "id": "ev-14fa162cba8cf140",
-      "name": "WebSeminar: „Energetische Gebäudemodernisierung – Heizen mit Holz und Wärmepumpe“",
-      "date": "2026-01-28",
-      "category": "event",
-      "description": "28.01.2026 17:00  bis    19:00    Uhr WebSeminar: „Energetische Gebäudemodernisierung – Heizen mit Holz und Wärmepumpe“ Textanriss überspringen Der 2. Teil der CARMEN-Inforeihe zur Gebäudemodernisierung informiert über Holzheizungen und Wärmepumpen. Es werden auch hybride Heizsysteme beleuchtet, denn eine Kombination mit Solarthermie oder einer PV-Anlage mit eigenem Strom vom Dach bringt in vielen Fällen Vorteile mit sich. www.carmen-ev.de/termine/veranstaltungskalender",
-      "city": "München",
-      "region": "BY",
-      "country": "DE",
-      "price": {
-        "kids": null,
-        "adults": null,
-        "note": "Siehe Webseite"
-      },
-      "source": "https://www.lk-starnberg.de/Veranstaltungen",
-      "link": "https://www.carmen-ev.de/termine/veranstaltungskalender/",
-      "lastUpdated": "2026-01-07T10:29:22.003926+00:00",
-      "nameKids": "🎉 WebSeminar: „Energetische Gebäudemodernisierung – ",
       "ageGroups": [
         "3-6",
         "6-9",
@@ -4647,7 +3841,7 @@
       },
       "source": "https://www.unterhaching.de/veranstaltungen",
       "link": "https://www.unterhaching.de/veranstaltungen/veranstaltung?view=publish&item=eventDate&id=2306",
-      "lastUpdated": "2026-01-07T10:29:37.427798+00:00",
+      "lastUpdated": "2026-01-07T14:28:57.117280+00:00",
       "nameKids": "🎉 Chaos und Formen",
       "ageGroups": [
         "3-6",
@@ -4677,7 +3871,7 @@
       },
       "source": "https://www.unterhaching.de/veranstaltungen",
       "link": "https://www.unterhaching.de/veranstaltungen/veranstaltung?view=publish&item=eventDate&id=2329",
-      "lastUpdated": "2026-01-07T10:29:37.428873+00:00",
+      "lastUpdated": "2026-01-07T14:28:57.118353+00:00",
       "nameKids": "🎉 Radl-Ambulanz",
       "ageGroups": [
         "9-12"
@@ -4706,7 +3900,7 @@
       },
       "source": "https://www.unterhaching.de/veranstaltungen",
       "link": "https://www.unterhaching.de/veranstaltungen/veranstaltung?view=publish&item=eventDate&id=2344",
-      "lastUpdated": "2026-01-07T10:29:37.430075+00:00",
+      "lastUpdated": "2026-01-07T14:28:57.119540+00:00",
       "nameKids": "🎉 Strick-, Häkel- und Upcycling-Treff",
       "ageGroups": [
         "3-6",
@@ -4737,7 +3931,7 @@
       },
       "source": "https://www.olympiapark.de/de/veranstaltungen",
       "link": "https://www.olympiapark.de/de/veranstaltungen/we-love-mma-85-n4937",
-      "lastUpdated": "2026-01-07T10:29:23.476897+00:00",
+      "lastUpdated": "2026-01-07T14:28:48.232857+00:00",
       "nameKids": "⚽ We Love MMA 85",
       "ageGroups": [
         "6-9",
@@ -4767,7 +3961,7 @@
       },
       "source": "https://www.olympiapark.de/de/veranstaltungen",
       "link": "https://www.olympiapark.de/de/veranstaltungen/der-konig-der-lowen-n5156",
-      "lastUpdated": "2026-01-07T10:29:23.479810+00:00",
+      "lastUpdated": "2026-01-07T14:28:48.235855+00:00",
       "nameKids": "🎵 Der König der Löwen",
       "ageGroups": [
         "3-6",
@@ -4798,7 +3992,7 @@
       },
       "source": "https://www.olympiapark.de/de/veranstaltungen",
       "link": "https://www.olympiapark.de/de/veranstaltungen/cavalluna-n4800",
-      "lastUpdated": "2026-01-07T10:29:23.478925+00:00",
+      "lastUpdated": "2026-01-07T14:28:48.234919+00:00",
       "nameKids": "🎉 Cavalluna",
       "ageGroups": [
         "3-6",
@@ -4829,7 +4023,7 @@
       },
       "source": "https://www.olympiapark.de/de/veranstaltungen",
       "link": "https://www.olympiapark.de/de/veranstaltungen/das-phantom-der-oper-n5115",
-      "lastUpdated": "2026-01-07T10:29:23.480686+00:00",
+      "lastUpdated": "2026-01-07T14:28:48.236755+00:00",
       "nameKids": "🎵 Das Phantom der Oper",
       "ageGroups": [
         "3-6",
@@ -4859,7 +4053,7 @@
       },
       "source": "https://www.ferien-muenchen.de",
       "link": "https://www.ferien-muenchen.de",
-      "lastUpdated": "2026-01-07T10:29:43.928811+00:00",
+      "lastUpdated": "2026-01-07T14:29:06.725995+00:00",
       "nameKids": "🎉 Ferienzeiten Bayern",
       "ageGroups": [
         "3-6",
@@ -4890,7 +4084,7 @@
       },
       "source": "https://muenchenmitkind.de/veranstaltungskalender",
       "link": "https://muenchenmitkind.de/veranstaltungskalender/zauberhafter-winterwald-2026-01-07/",
-      "lastUpdated": "2026-01-07T10:29:30.959337+00:00",
+      "lastUpdated": "2026-01-07T14:28:52.970739+00:00",
       "nameKids": "🎨 Bastelkiste",
       "ageGroups": [
         "3-6"
@@ -4919,7 +4113,7 @@
       },
       "source": "https://muenchenmitkind.de/veranstaltungskalender",
       "link": "https://muenchenmitkind.de/veranstaltungskalender/cafe-und-spielzeit-2026-01-07/",
-      "lastUpdated": "2026-01-07T10:29:30.960608+00:00",
+      "lastUpdated": "2026-01-07T14:28:52.972055+00:00",
       "nameKids": "🎉 Café- und Spielzeit",
       "ageGroups": [
         "3-6",
@@ -4950,7 +4144,7 @@
       },
       "source": "https://muenchenmitkind.de/veranstaltungskalender",
       "link": "https://muenchenmitkind.de/veranstaltungskalender/die-drei-musketiere-2026-01-07/",
-      "lastUpdated": "2026-01-07T10:29:30.963257+00:00",
+      "lastUpdated": "2026-01-07T14:28:52.974700+00:00",
       "nameKids": "🎭 Die Drei Musketiere",
       "ageGroups": [
         "6-9"
@@ -4979,7 +4173,7 @@
       },
       "source": "https://www.muenchner-stadtbibliothek.de/veranstaltungen",
       "link": "https://www.muenchner-stadtbibliothek.de/veranstaltungen/details/digitale-sprechstunde-37783",
-      "lastUpdated": "2026-01-07T10:29:22.061805+00:00",
+      "lastUpdated": "2026-01-07T14:28:46.324337+00:00",
       "nameKids": "🎉 Digitale Sprechstunde",
       "ageGroups": [
         "3-6",
@@ -5010,7 +4204,7 @@
       },
       "source": "https://muenchenmitkind.de/veranstaltungskalender",
       "link": "https://muenchenmitkind.de/veranstaltungskalender/eltern-werden-viel-zu-wissen-und-zu-erledigen-5-2026-01-07/",
-      "lastUpdated": "2026-01-07T10:29:30.962320+00:00",
+      "lastUpdated": "2026-01-07T14:28:52.973815+00:00",
       "nameKids": "🎉 Eltern werden – viel zu wissen und zu erledigen",
       "ageGroups": [
         "3-6",
@@ -5041,7 +4235,7 @@
       },
       "source": "https://www.muenchner-stadtbibliothek.de/veranstaltungen",
       "link": "https://www.muenchner-stadtbibliothek.de/veranstaltungen/details/engagement-im-ehrenamt-39686",
-      "lastUpdated": "2026-01-07T10:29:22.062349+00:00",
+      "lastUpdated": "2026-01-07T14:28:46.324887+00:00",
       "nameKids": "🎉 Engagement im Ehrenamt",
       "ageGroups": [
         "3-6",
@@ -5057,11 +4251,11 @@
       "energyLevel": "moderat"
     },
     {
-      "id": "ev-88cb6ec8565fabdb",
+      "id": "ev-93b24d43579a14a6",
       "name": "Indoor-Spielplatz",
       "date": "2026-07-01",
       "category": "outdoor",
-      "description": "Indoor-Spielplatz 10:00 - 12:00 07.01.2026 Treff von 0-3 Jahre KiM - Kinder in München Spielen, Toben, Kuscheln oder Lesen mit einem Bereich für Brotzeiten, Wickeln, Stillen und Platz für Kinderwagen.",
+      "description": "Indoor-Spielplatz 14:30 - 16:30 07.01.2026 Treff von 0-3 Jahre KiM - Kinder in München Spielen, Toben, Kuscheln oder Lesen mit einem Bereich für Brotzeiten, Wickeln, Stillen und Platz für Kinderwagen.",
       "city": "München",
       "region": "BY",
       "country": "DE",
@@ -5071,8 +4265,8 @@
         "note": "Siehe Webseite"
       },
       "source": "https://muenchenmitkind.de/veranstaltungskalender",
-      "link": "https://muenchenmitkind.de/veranstaltungskalender/indoor-spielplatz-3-2026-01-07/",
-      "lastUpdated": "2026-01-07T10:29:30.958045+00:00",
+      "link": "https://muenchenmitkind.de/veranstaltungskalender/indoor-spielplatz-4-2026-01-07/",
+      "lastUpdated": "2026-01-07T14:28:52.971161+00:00",
       "nameKids": "🎉 Indoor-Spielplatz",
       "ageGroups": [
         "0-3"
@@ -5101,7 +4295,7 @@
       },
       "source": "https://www.muenchner-stadtbibliothek.de/veranstaltungen",
       "link": "https://www.muenchner-stadtbibliothek.de/veranstaltungen/details/lesefuechse-40079",
-      "lastUpdated": "2026-01-07T10:29:22.061226+00:00",
+      "lastUpdated": "2026-01-07T14:28:46.323767+00:00",
       "nameKids": "🎉 Lesefüchse",
       "ageGroups": [
         "3-6",
@@ -5115,37 +4309,6 @@
       ],
       "weatherDependent": "any",
       "energyLevel": "ruhig"
-    },
-    {
-      "id": "ev-73a7a8b84c123f55",
-      "name": "Maxiclub",
-      "date": "2026-07-01",
-      "category": "musik",
-      "description": "Maxiclub 11:00 - 12:30 07.01.2026 Treff von 1-3 Jahre Fabi Giesing Hier treffen sich Eltern mit Kindern zum Spielen und Singen, außerdem werden Fragen und Erfahrungen aus dem Alltag mit Kindern besprochen.",
-      "city": "München",
-      "region": "BY",
-      "country": "DE",
-      "price": {
-        "kids": null,
-        "adults": null,
-        "note": "Siehe Webseite"
-      },
-      "source": "https://muenchenmitkind.de/veranstaltungskalender",
-      "link": "https://muenchenmitkind.de/veranstaltungskalender/maxiclub-2026-01-07/",
-      "lastUpdated": "2026-01-07T10:29:30.958491+00:00",
-      "nameKids": "🎉 Maxiclub",
-      "ageGroups": [
-        "3-6",
-        "6-9",
-        "9-12"
-      ],
-      "parentTips": [
-        "Rechtzeitig da sein - beliebte Events sind schnell voll",
-        "Snacks und Getränke mitbringen",
-        "Mit Öffis anreisen wenn möglich"
-      ],
-      "weatherDependent": "any",
-      "energyLevel": "moderat"
     },
     {
       "id": "ev-23c63d086c8f649e",
@@ -5163,41 +4326,12 @@
       },
       "source": "https://muenchenmitkind.de/veranstaltungskalender",
       "link": "https://muenchenmitkind.de/veranstaltungskalender/mini-medien-labor-7-2026-01-07/",
-      "lastUpdated": "2026-01-07T10:29:30.961457+00:00",
+      "lastUpdated": "2026-01-07T14:28:52.972934+00:00",
       "nameKids": "🎉 Mini Medien-Labor",
       "ageGroups": [
         "3-6",
         "6-9",
         "9-12"
-      ],
-      "parentTips": [
-        "Rechtzeitig da sein - beliebte Events sind schnell voll",
-        "Snacks und Getränke mitbringen",
-        "Mit Öffis anreisen wenn möglich"
-      ],
-      "weatherDependent": "any",
-      "energyLevel": "moderat"
-    },
-    {
-      "id": "ev-829161ca4c824d9d",
-      "name": "Miniclub",
-      "date": "2026-07-01",
-      "category": "musik",
-      "description": "Miniclub 11:30 - 13:00 07.01.2026 Treff von 1-12 Monate Fabi Neuperlach Hier treffen sich Eltern zum Gespräch und Erfahrungsaustausch. Beim Singen und Spielen erleben die Babys das erste Miteinander.",
-      "city": "München",
-      "region": "BY",
-      "country": "DE",
-      "price": {
-        "kids": null,
-        "adults": null,
-        "note": "Siehe Webseite"
-      },
-      "source": "https://muenchenmitkind.de/veranstaltungskalender",
-      "link": "https://muenchenmitkind.de/veranstaltungskalender/miniclub-2026-01-07/",
-      "lastUpdated": "2026-01-07T10:29:30.958908+00:00",
-      "nameKids": "🎉 Miniclub",
-      "ageGroups": [
-        "0-3"
       ],
       "parentTips": [
         "Rechtzeitig da sein - beliebte Events sind schnell voll",
@@ -5223,7 +4357,7 @@
       },
       "source": "https://muenchenmitkind.de/veranstaltungskalender",
       "link": "https://muenchenmitkind.de/veranstaltungskalender/offener-familientreff-2-2026-01-07/",
-      "lastUpdated": "2026-01-07T10:29:30.960170+00:00",
+      "lastUpdated": "2026-01-07T14:28:52.971607+00:00",
       "nameKids": "🎉 Offener Familientreff",
       "ageGroups": [
         "3-6",
@@ -5254,7 +4388,7 @@
       },
       "source": "https://muenchenmitkind.de/veranstaltungskalender",
       "link": "https://muenchenmitkind.de/veranstaltungskalender/offenes-atelier-5-2026-01-07/",
-      "lastUpdated": "2026-01-07T10:29:30.961873+00:00",
+      "lastUpdated": "2026-01-07T14:28:52.973354+00:00",
       "nameKids": "🎨 Offenes Atelier",
       "ageGroups": [
         "6-9",
@@ -5284,7 +4418,7 @@
       },
       "source": "https://www.lk-starnberg.de/Veranstaltungen",
       "link": "https://verbraucherzentrale-energieberatung.de/veranstaltungen",
-      "lastUpdated": "2026-01-07T10:29:21.973815+00:00",
+      "lastUpdated": "2026-01-07T14:28:46.241516+00:00",
       "nameKids": "🎉 Online-Vortrag: „Dynamische Stromtarife und Smart ",
       "ageGroups": [
         "3-6",
@@ -5315,7 +4449,7 @@
       },
       "source": "https://www.lk-starnberg.de/Veranstaltungen",
       "link": "https://verbraucherzentrale-energieberatung.de/veranstaltungen",
-      "lastUpdated": "2026-01-07T10:29:21.972977+00:00",
+      "lastUpdated": "2026-01-07T14:28:46.240738+00:00",
       "nameKids": "🎉 Online-Vortrag: „Heizkostenrechnung prüfen und ver",
       "ageGroups": [
         "3-6",
@@ -5346,7 +4480,7 @@
       },
       "source": "https://muenchenmitkind.de/veranstaltungskalender",
       "link": "https://muenchenmitkind.de/veranstaltungskalender/spieletreff-im-trafo-2026-01-07/",
-      "lastUpdated": "2026-01-07T10:29:30.962827+00:00",
+      "lastUpdated": "2026-01-07T14:28:52.974263+00:00",
       "nameKids": "🎉 Spieletreff im Trafo",
       "ageGroups": [
         "0-3"
@@ -5360,11 +4494,11 @@
       "energyLevel": "moderat"
     },
     {
-      "id": "ev-3dd16a4c91bc5540",
+      "id": "ev-a81a6a407e4fac3c",
       "name": "Winterspielplatz",
       "date": "2026-07-01",
       "category": "outdoor",
-      "description": "Winterspielplatz 09:30 - 12:00 07.01.2026 Treff von 0-3 Jahre Winterspielplatz Treff- und Austauschpunkt für junge Familien mit Spielstationen, Bällebad, Spielmatten und mehr.",
+      "description": "Winterspielplatz 15:00 - 17:00 07.01.2026 Treff von 0-3 Jahre Winterspielplatz Treff- und Austauschpunkt für junge Familien mit Spielstationen, Bällebad, Spielmatten und mehr.",
       "city": "München",
       "region": "BY",
       "country": "DE",
@@ -5374,8 +4508,8 @@
         "note": "Siehe Webseite"
       },
       "source": "https://muenchenmitkind.de/veranstaltungskalender",
-      "link": "https://muenchenmitkind.de/veranstaltungskalender/winterspielplatz-4-2026-01-07/",
-      "lastUpdated": "2026-01-07T10:29:30.957620+00:00",
+      "link": "https://muenchenmitkind.de/veranstaltungskalender/winterspielplatz-3-2026-01-07/",
+      "lastUpdated": "2026-01-07T14:28:52.972475+00:00",
       "nameKids": "🎉 Winterspielplatz",
       "ageGroups": [
         "0-3"
@@ -5404,11 +4538,40 @@
       },
       "source": "https://www.musenkuss-muenchen.de/angebote/familien",
       "link": "https://www.musenkuss-muenchen.de/angebote/fuer-kinder-kunstgeschichten-seit-1968",
-      "lastUpdated": "2026-01-07T10:29:46.046355+00:00",
+      "lastUpdated": "2026-01-07T14:29:06.492535+00:00",
       "nameKids": "🎉 Für Kinder. Kunstgeschichten seit 1968",
       "ageGroups": [
         "3-6",
         "6-9"
+      ],
+      "parentTips": [
+        "Rechtzeitig da sein - beliebte Events sind schnell voll",
+        "Snacks und Getränke mitbringen",
+        "Mit Öffis anreisen wenn möglich"
+      ],
+      "weatherDependent": "any",
+      "energyLevel": "moderat"
+    },
+    {
+      "id": "ev-55f58f84c62dbee5",
+      "name": "Babycafé",
+      "date": "2026-08-01",
+      "category": "musik",
+      "description": "Babycafé 10:00 - 11:30 08.01.2026 Treff von 0-1 Jahr MVZ Neuhausen Im Vordergrund steht der gemeinsame Austausch! Zeit für euch und eure Babys sowie das Singen und Spielen mit den Babys.",
+      "city": "München",
+      "region": "BY",
+      "country": "DE",
+      "price": {
+        "kids": null,
+        "adults": null,
+        "note": "Siehe Webseite"
+      },
+      "source": "https://muenchenmitkind.de/veranstaltungskalender",
+      "link": "https://muenchenmitkind.de/veranstaltungskalender/babycafe-3-2026-01-08/",
+      "lastUpdated": "2026-01-07T14:28:52.976868+00:00",
+      "nameKids": "🎉 Babycafé",
+      "ageGroups": [
+        "0-3"
       ],
       "parentTips": [
         "Rechtzeitig da sein - beliebte Events sind schnell voll",
@@ -5434,7 +4597,7 @@
       },
       "source": "https://www.lk-starnberg.de/Veranstaltungen",
       "link": "https://www.lk-starnberg.de/index.php?NavID=613.11&object=tx|613.11446.1&ModID=11&FID=613.34196.1",
-      "lastUpdated": "2026-01-07T10:29:21.974661+00:00",
+      "lastUpdated": "2026-01-07T14:28:46.242363+00:00",
       "nameKids": "🎉 Energieberatung am Landratsamt Starnberg",
       "ageGroups": [
         "3-6",
@@ -5465,8 +4628,39 @@
       },
       "source": "https://www.lk-starnberg.de/Veranstaltungen",
       "link": "https://www.lk-starnberg.de/index.php?NavID=613.11&object=tx|613.11446.1&ModID=11&FID=2235.1592.1",
-      "lastUpdated": "2026-01-07T10:29:21.975504+00:00",
+      "lastUpdated": "2026-01-07T14:28:46.248304+00:00",
       "nameKids": "🎉 Energieberatung in Herrsching",
+      "ageGroups": [
+        "3-6",
+        "6-9",
+        "9-12"
+      ],
+      "parentTips": [
+        "Rechtzeitig da sein - beliebte Events sind schnell voll",
+        "Snacks und Getränke mitbringen",
+        "Mit Öffis anreisen wenn möglich"
+      ],
+      "weatherDependent": "any",
+      "energyLevel": "moderat"
+    },
+    {
+      "id": "ev-b0f32adff2a05cad",
+      "name": "Familien-Frühstück",
+      "date": "2026-08-01",
+      "category": "festival",
+      "description": "Familien-Frühstück 10:00 - 12:00 08.01.2026 Treff für alle Feierwerk Funkstation Bei einem gesunden Frühstück kommt ihr im Café mit anderen Familien ins Gespräch und entspannt euch bei einem feinen Kaffee.",
+      "city": "München",
+      "region": "BY",
+      "country": "DE",
+      "price": {
+        "kids": null,
+        "adults": null,
+        "note": "Siehe Webseite"
+      },
+      "source": "https://muenchenmitkind.de/veranstaltungskalender",
+      "link": "https://muenchenmitkind.de/veranstaltungskalender/familien-fruehstueck-2-2026-01-08/",
+      "lastUpdated": "2026-01-07T14:28:52.977289+00:00",
+      "nameKids": "🎉 Familien-Frühstück",
       "ageGroups": [
         "3-6",
         "6-9",
@@ -5496,7 +4690,7 @@
       },
       "source": "https://www.wildpark-poing.de",
       "link": "https://www.wildpark-poing.de",
-      "lastUpdated": "2026-01-07T10:29:29.852335+00:00",
+      "lastUpdated": "2026-01-07T14:28:48.228851+00:00",
       "nameKids": "🎉 JETZT NEU: Unser Wasserspielplatz hat eröffnet.",
       "ageGroups": [
         "3-6",
@@ -5527,7 +4721,7 @@
       },
       "source": "https://muenchenmitkind.de/veranstaltungskalender",
       "link": "https://muenchenmitkind.de/veranstaltungskalender/maxiclub-4-2026-01-08/",
-      "lastUpdated": "2026-01-07T10:29:30.963685+00:00",
+      "lastUpdated": "2026-01-07T14:28:52.975132+00:00",
       "nameKids": "🎉 Maxiclub",
       "ageGroups": [
         "3-6",
@@ -5558,7 +4752,7 @@
       },
       "source": "https://muenchenmitkind.de/veranstaltungskalender",
       "link": "https://muenchenmitkind.de/veranstaltungskalender/miniclub-4-2026-01-08/",
-      "lastUpdated": "2026-01-07T10:29:30.964107+00:00",
+      "lastUpdated": "2026-01-07T14:28:52.975554+00:00",
       "nameKids": "🎉 Miniclub",
       "ageGroups": [
         "0-3"
@@ -5587,12 +4781,41 @@
       },
       "source": "https://muenchenmitkind.de/veranstaltungskalender",
       "link": "https://muenchenmitkind.de/veranstaltungskalender/offener-muettertreff-2026-01-08/",
-      "lastUpdated": "2026-01-07T10:29:30.964547+00:00",
+      "lastUpdated": "2026-01-07T14:28:52.976009+00:00",
       "nameKids": "🎉 Offener Mütter-Kind Treff",
       "ageGroups": [
         "3-6",
         "6-9",
         "9-12"
+      ],
+      "parentTips": [
+        "Rechtzeitig da sein - beliebte Events sind schnell voll",
+        "Snacks und Getränke mitbringen",
+        "Mit Öffis anreisen wenn möglich"
+      ],
+      "weatherDependent": "any",
+      "energyLevel": "moderat"
+    },
+    {
+      "id": "ev-70a53e78c3ba9f21",
+      "name": "Offener Treff in der Elly",
+      "date": "2026-08-01",
+      "category": "event",
+      "description": "Offener Treff in der Elly 10:30 - 12:00 08.01.2026 Treff von 0-3 Jahre Ev. Familienbildungsstätte Elly Heuss Knapp Im gemeinsamen Gespräch mit anderen Eltern erhaltet ihr Anregungen und neue Blickwinkel für den Alltag. Für die Babys-und Kleinkinder werden Spielmöglichkeiten angeboten.",
+      "city": "München",
+      "region": "BY",
+      "country": "DE",
+      "price": {
+        "kids": null,
+        "adults": null,
+        "note": "Siehe Webseite"
+      },
+      "source": "https://muenchenmitkind.de/veranstaltungskalender",
+      "link": "https://muenchenmitkind.de/veranstaltungskalender/offener-treff-in-der-elly-2026-01-08/",
+      "lastUpdated": "2026-01-07T14:28:52.978179+00:00",
+      "nameKids": "🎉 Offener Treff in der Elly",
+      "ageGroups": [
+        "0-3"
       ],
       "parentTips": [
         "Rechtzeitig da sein - beliebte Events sind schnell voll",
@@ -5618,7 +4841,7 @@
       },
       "source": "https://muenchenmitkind.de/veranstaltungskalender",
       "link": "https://muenchenmitkind.de/veranstaltungskalender/winterspielplatz-4-2026-01-08/",
-      "lastUpdated": "2026-01-07T10:29:30.964957+00:00",
+      "lastUpdated": "2026-01-07T14:28:52.976428+00:00",
       "nameKids": "🎉 Winterspielplatz",
       "ageGroups": [
         "0-3"
@@ -5629,6 +4852,37 @@
         "Mit Öffis anreisen wenn möglich"
       ],
       "weatherDependent": "good-weather",
+      "energyLevel": "moderat"
+    },
+    {
+      "id": "ev-3789a78da41c6b7e",
+      "name": "Zurück in den Beruf?",
+      "date": "2026-08-01",
+      "category": "event",
+      "description": "Zurück in den Beruf? 10:00 - 11:30 08.01.2026 Infoveranstaltung für Erwachsene FAM Frauenakademie München e.V. Ihr möchtet nach einer Familienzeit beruflich wieder durchstarten und wünscht euch professionelle Begleitung?",
+      "city": "München",
+      "region": "BY",
+      "country": "DE",
+      "price": {
+        "kids": null,
+        "adults": null,
+        "note": "Siehe Webseite"
+      },
+      "source": "https://muenchenmitkind.de/veranstaltungskalender",
+      "link": "https://muenchenmitkind.de/veranstaltungskalender/zurueck-in-den-beruf-3-2026-01-08/",
+      "lastUpdated": "2026-01-07T14:28:52.977732+00:00",
+      "nameKids": "🎉 Zurück in den Beruf?",
+      "ageGroups": [
+        "3-6",
+        "6-9",
+        "9-12"
+      ],
+      "parentTips": [
+        "Rechtzeitig da sein - beliebte Events sind schnell voll",
+        "Snacks und Getränke mitbringen",
+        "Mit Öffis anreisen wenn möglich"
+      ],
+      "weatherDependent": "any",
       "energyLevel": "moderat"
     },
     {
@@ -5647,7 +4901,7 @@
       },
       "source": "https://www.unterhaching.de/veranstaltungen",
       "link": "https://www.unterhaching.de/veranstaltungen/veranstaltung?view=publish&item=eventDate&id=2360",
-      "lastUpdated": "2026-01-07T10:29:37.409262+00:00",
+      "lastUpdated": "2026-01-07T14:28:57.099445+00:00",
       "nameKids": "🎉 After Silvester Cleanup",
       "ageGroups": [
         "0-3",
@@ -5677,7 +4931,7 @@
       },
       "source": "https://www.unterhaching.de/veranstaltungen",
       "link": "https://www.unterhaching.de/veranstaltungen/veranstaltung?view=publish&item=eventDate&id=2164",
-      "lastUpdated": "2026-01-07T10:29:37.411169+00:00",
+      "lastUpdated": "2026-01-07T14:28:57.100595+00:00",
       "nameKids": "🎵 Fredo und der Drache",
       "ageGroups": [
         "3-6"
@@ -5706,7 +4960,7 @@
       },
       "source": "https://muenchenmitkind.de/veranstaltungskalender",
       "link": "https://muenchenmitkind.de/termine/wochenendtipps/kw-02-mit-kindern/",
-      "lastUpdated": "2026-01-07T10:29:30.950024+00:00",
+      "lastUpdated": "2026-01-07T14:28:52.963404+00:00",
       "nameKids": "🎉 Tipps fürs Wochenende 09.-11.01.2026",
       "ageGroups": [
         "3-6",
@@ -5722,13 +4976,13 @@
       "energyLevel": "moderat"
     }
   ],
-  "lastCrawled": "2026-01-07T10:31:41.063342+00:00",
+  "lastCrawled": "2026-01-07T14:31:04.497964+00:00",
   "metadata": {
     "version": "4.1",
-    "lastCrawled": "2026-01-07T10:31:41.063356+00:00",
+    "lastCrawled": "2026-01-07T14:31:04.497976+00:00",
     "totalLocations": 6,
-    "totalEvents": 187,
-    "crawlDurationSeconds": 152.04,
+    "totalEvents": 163,
+    "crawlDurationSeconds": 149.33,
     "sources": {
       "html": [
         {
@@ -6291,7 +5545,7 @@
       ]
     }
   },
-  "totalEvents": 187,
+  "totalEvents": 163,
   "locations": [
     {
       "id": "loc-76fd9381781eadcd",
@@ -6304,7 +5558,7 @@
       "country": "DE",
       "source": "https://www.tierpark-hellabrunn.de",
       "link": "https://www.tierpark-hellabrunn.de/newsdetailseite/ein-kleiner-grosser-zuchterfolg-nachwuchs-bei-den-bayerischen-kurzohrmaeusen",
-      "lastUpdated": "2026-01-07T10:31:29.787644+00:00",
+      "lastUpdated": "2026-01-07T14:30:53.228398+00:00",
       "nameKids": "🎯 Ein kleiner, großer Zuchterfolg: Nachwuchs bei den",
       "ageGroups": [
         "3-6",
@@ -6336,7 +5590,7 @@
       "country": "DE",
       "source": "https://www.schauburg.net",
       "link": "https://www.schauburg.net/de/minga-music-talks",
-      "lastUpdated": "2026-01-07T10:31:36.487425+00:00",
+      "lastUpdated": "2026-01-07T14:30:59.896089+00:00",
       "nameKids": "🎯 Minga Music Talks",
       "ageGroups": [
         "3-6",
@@ -6368,7 +5622,7 @@
       "country": "DE",
       "source": "https://www.schauburg.net",
       "link": "https://www.schauburg.net",
-      "lastUpdated": "2026-01-07T10:31:36.487231+00:00",
+      "lastUpdated": "2026-01-07T14:30:59.895899+00:00",
       "nameKids": "🎯 Musik &",
       "ageGroups": [
         "3-6",
@@ -6400,7 +5654,7 @@
       "country": "DE",
       "source": "https://www.tierpark-hellabrunn.de",
       "link": "https://www.tierpark-hellabrunn.de/newsdetailseite/natuerliche-beschaeftigung-zur-weihnachtszeit-christbaeume-fuer-die-tiere-in-hellabrunn",
-      "lastUpdated": "2026-01-07T10:31:29.787995+00:00",
+      "lastUpdated": "2026-01-07T14:30:53.228776+00:00",
       "nameKids": "🦁 Natürliche Beschäftigung zur Weihnachtszeit: Chris",
       "ageGroups": [
         "3-6",
@@ -6432,7 +5686,7 @@
       "country": "DE",
       "source": "https://www.tierpark-hellabrunn.de",
       "link": "https://www.tierpark-hellabrunn.de/newsdetailseite/tierpark-hellabrunn-begruesst-boellerverbot-zum-jahreswechsel-2025-2026-dringender-appell-an-die-bevoelkerung-zum-schutz-von-tieren-und-isarauen",
-      "lastUpdated": "2026-01-07T10:31:29.787254+00:00",
+      "lastUpdated": "2026-01-07T14:30:53.227998+00:00",
       "nameKids": "🦁 Tierpark Hellabrunn begrüßt Böllerverbot zum Jahre",
       "ageGroups": [
         "3-6",
@@ -6465,7 +5719,7 @@
       "country": "DE",
       "source": "https://www.schauburg.net",
       "link": "https://www.schauburg.net/sites/default/files/Das-erste-Mal-Theater.pdf",
-      "lastUpdated": "2026-01-07T10:31:36.486978+00:00",
+      "lastUpdated": "2026-01-07T14:30:59.895661+00:00",
       "nameKids": "🎯 hier einenLeitfaden",
       "ageGroups": [
         "3-6"
